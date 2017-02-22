@@ -15,9 +15,9 @@
             include ('../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('../less/logo-manufacturer.less', '../css/logo-manufacturer.css');
+        $less->compileFile('../less/712.less', '../css/712.css');
         ?>
-        <link href="../css/logo-manufacturer.css" rel="stylesheet" type="text/css" />
+        <link href="../css/712.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
         <script src="../js/owl.carousel.js" type="text/javascript"></script>
         <script type="text/javascript" src="../js/script.js"></script>
@@ -26,7 +26,7 @@
     </head>
 
     <body>
-        <div class="type-13">
+        <div class="712">
             <div class="container">
                     <div class="manufacturersCarousel">
                         <div class="mnf-flexisel-container">

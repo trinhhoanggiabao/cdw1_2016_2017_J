@@ -15,7 +15,7 @@
             include ('../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('../less/instagram-feed.less', '../css/instagram-feed.css');
+        $less->compileFile('../less/711.less', '../css/711.css');
         ?>
         <link href="../css/instagram-feed.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
@@ -26,7 +26,7 @@
     </head>
 
     <body>
-        <div class="type-13">
+        <div class="711">
             <div class="container">
                     <div class="instagram-feed">
                         <div class="instafeed-container">
