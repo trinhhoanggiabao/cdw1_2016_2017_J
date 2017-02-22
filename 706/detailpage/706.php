@@ -12,9 +12,9 @@
             include ('../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('../less/thumbs-nail.less', '../css/thumbs-nail.css');
+        $less->compileFile('../less/706.less', '../css/706.css');
         ?>
-        <link href="../css/thumbs-nail.css" rel="stylesheet" type="text/css" />
+        <link href="../css/706.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>        
         <script type="text/javascript" src="../js/script.js"></script>
     </head>

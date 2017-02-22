@@ -8,13 +8,13 @@
         <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         
-        <link href="../css/products-carousel.css" rel="stylesheet" type="text/css" />
+        <link href="../css/708.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
             include ('../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('../less/products-carousel.less', '../css/products-carousel.css');
+        $less->compileFile('../less/708.less', '../css/708.css');
         ?>
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
         <script src="../js/owl.carousel.js" type="text/javascript"></script>
