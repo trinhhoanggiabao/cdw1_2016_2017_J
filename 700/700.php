@@ -10,11 +10,11 @@
             include ('libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/mega-menu.less', 'css/mega-menu.css');
+        $less->compileFile('less/700.less', 'css/700.css');
         ?> 
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/mega-menu.css" rel="stylesheet" type="text/css"/>
+        <link href="css/700.css" rel="stylesheet" type="text/css"/>
     </head> 
 
     <body>                
