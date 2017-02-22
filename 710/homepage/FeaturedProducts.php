@@ -6,7 +6,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/7.css" rel="stylesheet" type="text/css"/>
         <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         
@@ -15,7 +15,7 @@
             include ('../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('../less/featured-products.less', '../css/featured-products.css');
+        $less->compileFile('../less/710.less', '../css/710.css');
         ?>
         <link href="../css/featured-products.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
@@ -29,7 +29,7 @@
         
     
 
-        <div class="type-13">
+        <div class="type-710">
             <div class="container">
                 <div class="productsCarousel">
                     <table class="title-table">
