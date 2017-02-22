@@ -13,9 +13,9 @@
         include('./libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/footer.less', 'css/footer.css');
+    $less->compileFile('less/702.less', 'css/702.css');
     ?>
-    <link href="css/footer.css" rel="stylesheet" type="text/css"/>
+    <link href="css/702.css" rel="stylesheet" type="text/css"/>
     <script language="JavaScript" type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="js/script-dropdown.js"></script>
