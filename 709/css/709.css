@@ -3,6 +3,9 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+.type-13 .banner-carousel-wrap a {
+  text-decoration: none;
+}
 .type-13 .banner-carousel-top {
   position: relative;
   margin: 0;

@@ -15,7 +15,7 @@
             include ('../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('../less/banners-carousel.less', '../css/banners-carousel.css');
+        $less->compileFile('../less/709.less', '../css/709.css');
         ?>
         <link href="../css/banners-carousel.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
