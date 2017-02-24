@@ -1,23 +1,29 @@
 .banner {
+    @banner-feauter_img_color: #e0e0e0;
+    @btn-view_background-color: #7a7975;
+    @btn-view_color: #ffffff;
+    @btn-view_hover: #e17365;
+    @padding: 6px 25px;
+    @font-size: 22px;
 	.banner-feauter {
 		img {
-			border: 1px solid #e0e0e0;
+			border: 1px solid @banner-feauter_img_color;
 		}
 		.btn-view {
 			text-decoration: none;
-			padding: 6px 25px;
-			font-size: 22px;
+			padding: @padding;
+			font-size: @font-size;
 			font-family: Time New Roman;
-			background-color: #7a7975;
+			background-color: @btn-view_background-color;
 			text-transform: uppercase;
-			color: #ffffff;
+			color: @btn-view_color;
 			transition: all .3s ease-in-out;
 			position: absolute;
     		top: 60%;
     		left: 56%;
 		}
 		.btn-view:hover {
-			background-color: #e17365;
+			background-color: @btn-view_hover;
 			transition: all .3s ease-in-out;
 		}
 		.thumbs-banner {
