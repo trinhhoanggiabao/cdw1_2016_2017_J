@@ -42,13 +42,13 @@
                     <div class="tab-title">
                         <ul class="tab">
                             <li><a href="javascript:void(0)" class="tablinks active" onclick="openTab(event, 'more-info')">More info</a></li>
-                            <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'data-sheet')">Data sheet</a></li>
-                            <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'accessories')">Accessories</a></li>
-                            <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'custom-tab')">Custom Tab</a></li>
-                            <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'video')">Video</a></li>
-                            <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'comment')">Comments</a></li>
+                            <li><a href="javascript:void(0)" onclick="openTab(event, 'data-sheet')">Data sheet</a></li>
+                            <li><a href="javascript:void(0)" onclick="openTab(event, 'accessories')">Accessories</a></li>
+                            <li><a href="javascript:void(0)" onclick="openTab(event, 'custom-tab')">Custom Tab</a></li>
+                            <li><a href="javascript:void(0)" onclick="openTab(event, 'video')">Video</a></li>
+                            <li><a href="javascript:void(0)" onclick="openTab(event, 'comment')">Comments</a></li>
                         </ul>
-                        <div id="more-info" class="tabcontent active-section">
+                        <div class="tabcontent active-section">
                             Eorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis leo sit amet diam ullamcorper ullamcorper. In eleifend luctus interdum.
                             Cras vel eleifend neque. Phasellus eget est lacus, et aliquet arcu. Morbi vitae sapien
                             <ul>

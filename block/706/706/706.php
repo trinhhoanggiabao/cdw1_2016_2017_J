@@ -24,17 +24,17 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="product">
                     <div class="items col-md-9">
-                        <img src="../images/moschino-cheap-and-chic-yacht-main.jpg" alt="" id="main_img">
+                        <img src="../images/moschino-cheap-and-chic-yacht-main.jpg">
                     </div>
                     <div class="thumbs-list col-md-3">
-                        <div class="btn-move" id="btn-up" onclick="clickButtonUp()">
+                        <div class="btn-move" onclick="clickButtonUp()">
                             <i class="fa fa-chevron-up"></i>
                         </div>
-                            <img src="../images/moschino-cheap-and-chic-yacht-main.jpg" alt="" class="thumb_nail" id="show">
-                            <img src="../images/moschino-cheap-and-chic-yacht-thumb2.jpg" alt="" class="thumb_nail">
-                            <img src="../images/moschino-cheap-and-chic-yacht-thumb3.jpg" alt="" class="thumb_nail">
-                            <img src="../images/moschino-cheap-and-chic-yacht-thumb4.jpg" alt="" class="thumb_nail">                         
-                            <img src="../images/moschino-cheap-and-chic-yacht-a.jpg" alt="" class="thumb_nail" id="hide">
+                            <img src="../images/moschino-cheap-and-chic-yacht-main.jpg" id="show">
+                            <img src="../images/moschino-cheap-and-chic-yacht-thumb2.jpg">
+                            <img src="../images/moschino-cheap-and-chic-yacht-thumb3.jpg">
+                            <img src="../images/moschino-cheap-and-chic-yacht-thumb4.jpg">                         
+                            <img src="../images/moschino-cheap-and-chic-yacht-a.jpg" id="hide">
                         <div class="btn-move" id="btn-down" onclick="clickButtonDown()">
                             <i class="fa fa-chevron-down"></i>
                         </div>
