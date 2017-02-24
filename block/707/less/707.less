@@ -7,7 +7,8 @@
     @boder2: 1px soid @color3;
     @background: #e17365;
     @background2: #7a7975;
-    
+    @margin: 10px;
+
     .col-md-6 {
         margin-left: -5px;
     }
@@ -53,10 +54,10 @@
             margin-top: 30px;
             .attribute-list {
                 display: inline-block;
-                margin-right: 10px;
+                margin-right: @margin;
             }
             p {
-                margin-top: 10px;
+                margin-top: @margin;
                 padding-bottom: 20px;
             }
             .price {
@@ -96,7 +97,7 @@
         border-top: @boder2;
         padding-top: 10px;    
         .social {
-            margin-left: 10px;
+            margin-left: @margin;
             float: left;
             margin-right: 35px;
         }
@@ -202,7 +203,7 @@
             p {
                 padding-bottom: 10px;
             }
-            margin-top: 10px;
+            margin-top: @margin;
             border-bottom: 1px dotted @color;
         }
     }
