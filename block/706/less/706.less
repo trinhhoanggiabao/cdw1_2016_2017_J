@@ -1,12 +1,15 @@
 .type-706{
-    @boder : 1px solid #e0e0e0;
     @color: #e17365;
+    @color2: #e0e0e0;
+    @boder : 1px solid @color2;
+    @margin-left: -5px;
+    
     
     body {
         background: #f9f9f9;
     }
     .col-md-6 {
-        margin-left: -5px;
+        margin-left: @margin-left;
     }
     .product {
         .items {
