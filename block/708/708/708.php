@@ -26,7 +26,7 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="col-md-12">
                     <h5>Also purchased products</h5>
-                    <div class="purchase-item">
+                    <div class="purchase-item" id="item-product">
                         <div class="thumb-img-carousel">
                             <img src="../images/calvin-klein-white-cap-colorblock111.jpg" alt="">
                         </div>
@@ -55,17 +55,15 @@
                             <img src="../images/dress-tibi-red-rococo-print.jpg" alt="">
                         </div>
                     </div>
-                    <div class="btn-move-left button">
+                    <div class="btn-move-left button btn-prev">
                         <i class="fa fa-chevron-left"></i>
                     </div>
-                    <div class="btn-move-right button">
+                    <div class="btn-move-right button btn-next">
                         <i class="fa fa-chevron-right"></i>
                     </div>
                 </div>
             </div>
         </div>
         </div>
-    </body>
-        
-
+    </body>       
 </html>

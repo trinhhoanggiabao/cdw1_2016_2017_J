@@ -1,3 +1,17 @@
+.type-707 .padding-margin {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.type-707 .a-wishlist {
+  text-decoration: none;
+}
+.type-707 .color-backColor-textTr-transition {
+  text-transform: uppercase;
+  background-color: #7a7975;
+  color: #fff;
+  transition: all .2s ease-in-out;
+}
 .type-707 .col-md-6 {
   margin-left: -5px;
 }
@@ -58,10 +72,10 @@
 }
 .type-707 .product .attributes .price .btn-add {
   text-transform: uppercase;
-  padding: 12px 25px;
   background-color: #7a7975;
   color: #fff;
   transition: all .2s ease-in-out;
+  padding: 12px 25px;
 }
 .type-707 .product .attributes .price .btn-add:hover {
   background-color: #e1423c;
@@ -80,7 +94,7 @@
   border-top: 1px soid #e0e0e0;
   padding-top: 10px;
 }
-.type-707 .box-cart .social {
+.type-707 .box-cart figure {
   margin-left: 10px;
   float: left;
   margin-right: 35px;
@@ -93,9 +107,9 @@
   font-family: LMRomanCaps10-Regular;
 }
 .type-707 ul.tab {
-  list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  list-style: none;
   overflow: hidden;
   border: 1px soid #ccc;
   border-bottom: none;
@@ -146,17 +160,17 @@
   color: #fff;
   padding: 7px 15px;
   margin-top: 15px;
-  transition: 0.5s;
+  transition: all .2s ease-in-out;
 }
 .type-707 #accessories .btn-add-to-cart:hover {
   background: #e17365;
-  transition: 0.5s;
+  transition: all .2s ease-in-out;
 }
 .type-707 #accessories ul {
   display: inline-block;
-  list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  list-style: none;
   margin-bottom: 15px;
 }
 .type-707 #player {
@@ -170,10 +184,10 @@
   margin-left: 170px;
   padding: 7px 15px;
   line-height: 16px;
+  text-transform: uppercase;
   background-color: #7a7975;
   color: #fff;
-  text-transform: uppercase;
-  transition: 0.5s;
+  transition: all .2s ease-in-out;
 }
 .type-707 #comment .thumb-comment a:hover {
   background: #e17365;
@@ -226,10 +240,10 @@
     max-width: 100%;
   }
   #btn-up {
-    display: none;
+    display: ;
   }
   #btn-down {
-    display: none;
+    display: ;
   }
 }
 @media (max-width: 769px) {

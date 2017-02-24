@@ -8,6 +8,32 @@
     @background: #e17365;
     @background2: #7a7975;
     @margin: 10px;
+    @font: LMRoman10Regular;
+    @transition: 0.5s;
+    @display: inline-block;
+    @transition: all .2s ease-in-out;
+    @font-weight:  normal;
+    @border-bottom: none;
+    @float: left;
+    @text-align: center;
+    @margin-bottom: 15px;
+    @display2: none;
+
+    .padding-margin{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    .a-wishlist{
+        text-decoration: none;
+    }
+    .color-backColor-textTr-transition{
+        text-transform: uppercase;
+        background-color: @background2;
+        color: @color2;
+        transition: @transition;
+    }
+
 
     .col-md-6 {
         margin-left: -5px;
@@ -16,7 +42,7 @@
         .title {
             h4 {
                 color: @color;
-                font-family: LMRoman10Regular;
+                font-family: @font;
                 font-size: 25px;
             }
             .color-star {
@@ -40,10 +66,10 @@
                 line-height: 26px;
                 color: #666;
                 background: @color3;
-                display: inline-block;
+                display: @display;
                 font-size: 14px;
                 border: @boder2;
-                border-bottom: none;
+                border-bottom: @border-bottom;
                 margin: 0 2px 0 0;
             }
         }
@@ -53,7 +79,7 @@
         .attributes {
             margin-top: 30px;
             .attribute-list {
-                display: inline-block;
+                display: @display;
                 margin-right: @margin;
             }
             p {
@@ -64,45 +90,43 @@
                 h5 {   
                     font-size: 24px;
                     line-height: 1px;
-                    float: left;
+                    float: @float;
                     color: @color4;
-                    font-weight: normal;
+                    font-weight: @font-weight;
                     margin-right: 20px;
                     font-family: Georgia;
                 }
                 .btn-add {
-                    text-transform: uppercase;
+                    .color-backColor-textTr-transition;
                     padding: 12px 25px;
-                    background-color: @background2;
-                    color: @color2;
-                    transition: all .2s ease-in-out;
+
                 }
                 .btn-add:hover {
                     background-color: #e1423c;
-                    transition: all .2s ease-in-out;
+                    transition: @transition;
                 }
             }
         }
         label {
             margin-right: 5px;
             color: @color;
-            font-weight: normal;
+            font-weight: @font-weight;
         }
         a {
-            text-decoration: none;
+            .a-wishlist;
         }
     }
     .box-cart {
         margin-top: 25px;
         border-top: @boder2;
         padding-top: 10px;    
-        .social {
+        figure{
             margin-left: @margin;
-            float: left;
+            float: @float;
             margin-right: 35px;
         }
         .wishlist {
-            text-decoration: none;
+            .a-wishlist;
             color: @color;
         }
     }
@@ -110,21 +134,19 @@
         font-family: LMRomanCaps10-Regular;   
     }
     ul.tab {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+        .padding-margin;
         overflow: hidden;
         border: @boder;
-        border-bottom: none;
+        border-bottom: @border-bottom;
         background-color: #f1f1f1;
         li {
-            float: left;
+            float: @float;
             a {
-                display: inline-block;
+                display: @display;
                 color: black;
-                text-align: center;
+                text-align: @text-align;
                 padding: 10px 11px;
-                text-decoration: none;            
+                .a-wishlist;            
                 font-size: 1.1em;
             }
         }
@@ -133,7 +155,7 @@
 
     /* Style the tab content */
     .tabcontent {
-        display: none;
+        display: @display2;
         padding: 6px 12px;
         border: @boder;
         border-top: none;
@@ -145,7 +167,7 @@
         }
     }
     #accessories {
-        text-align: center;
+        text-align: @text-align;
         img {
             max-width: 100%;
             border: @boder2;
@@ -157,30 +179,28 @@
         h5 {
             font-size: 18px;
             color: @color4;
-            margin-bottom: 15px;
+            margin-bottom: @margin-bottom;
         }
         .btn-add-to-cart {
             background: @background2;
             color: @color2;
             padding: 7px 15px;
             margin-top: 15px;
-            transition: 0.5s;
+            transition: @transition;
         }
         .btn-add-to-cart:hover {
             background: @background;
-            transition: 0.5s;
+            transition: @transition;
         }
         ul {
-            display: inline-block;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            margin-bottom: 15px;
+            display: @display;
+            .padding-margin;
+            margin-bottom: @margin-bottom;
         }
     }
 
     #player {
-        text-align: center;
+        text-align: @text-align;
     }
 
     #comment {
@@ -189,10 +209,7 @@
                 margin-left: 170px;
                 padding: 7px 15px;
                 line-height: 16px;
-                background-color: @background2;
-                color: @color2;
-                text-transform: uppercase;
-                transition: 0.5s;    
+                .color-backColor-textTr-transition;    
             }
             a:hover {
                 background: @background;
@@ -260,11 +277,11 @@
         }
     }
     #btn-up {
-        display: none;
+        display: @display2;
     }
 
     #btn-down {
-        display: none;
+        display: @display2;
     }
 }
 @media (max-width: 769px) {

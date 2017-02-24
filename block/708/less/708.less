@@ -3,9 +3,10 @@
     @color2: #e17365;
     @color3: #fff;
     @boder: 1px soid @color;
-    .cursor{
-        cursor: pointer;
-    }
+    @position: absolute;
+    @transition: 0.3s;
+    @cursor: pointer;
+    
     body {
         background: #f9f9f9;
     }
@@ -32,11 +33,11 @@
             display: inline-block;
             width: 90%;
             margin-left: 10px;
-            .cursor;
+            cursor: @cursor;
         }
     }
     .button  {
-        position: absolute;
+        position: @position;
         top: 50%;
         left: 2px;
         margin-top: 15px;
@@ -44,8 +45,8 @@
         height: 24px;
         border: @boder;
         box-shadow: 0 0 0 1px @color3, 0 0 0 2px #e6e5e5;
-        transition: 0.3s;
-        .cursor;
+        transition: @transition;
+        cursor: @cursor;
         .fa {
             width: 15px;
             height: 15px;
@@ -59,13 +60,13 @@
         box-shadow: 0 0 0 1px @color2, 0 0 0 2px @color2;
         color: @color3;
         border: 1px solid rgba(255,255,255,0.2);
-        transition: 0.3s;
+        transition: @transition;
     }
     .btn-move-left{
         margin-left: 15px;
     }
     .btn-move-right {
-        position: absolute;
+        position: @position;
         left: 95%;
     }
 }

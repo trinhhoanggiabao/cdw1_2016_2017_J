@@ -1,11 +1,15 @@
 .type-706{
     @color: #e17365;
     @color2: #e0e0e0;
-    @boder : 1px solid @color2;
+    @border : 1px solid @color2;
+    @cursor: pointer;
+    @position: absolute;
     
-    .cursor{
-        cursor: pointer; 
+    .bodder-cursor{
+        border: @border;
+        cursor: @cursor;
     }
+    
     body {
         background: #f9f9f9;
     }
@@ -23,15 +27,14 @@
         .thumbs-list {
             border-right: @boder;
             img {
-                border: @boder;
                 margin-top: 8px;
                 margin-bottom: 7px;
                 max-width: 83%;
-                .cursor;
+                .bodder-cursor;
             }
             #btn-down {
                 opacity: 0;
-                position: absolute;
+                position: @position;
                 top: 605px;
             }
             #hide {
@@ -41,10 +44,9 @@
                 background: #e6e5e5;
                 padding: 5px;
                 border-radius: 50%;
-                position: absolute;
+                position: @position;
                 left: 48px;
-                border: @boder;
-                .cursor;
+                .bodder-cursor;
             }
             .btn-move:hover {
                 color:@color;

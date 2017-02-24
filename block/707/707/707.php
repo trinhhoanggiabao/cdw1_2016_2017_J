@@ -39,7 +39,7 @@
                         Manufacturer: <a href="#" class="name">Nicole Miller</a><br>
                         Condition: New
                     </span>
-                    <div class="tab-title">
+                    <nav class="tab-title">
                         <ul class="tab">
                             <li><a href="javascript:void(0)" class="tablinks active" onclick="openTab(event, 'more-info')">More info</a></li>
                             <li><a href="javascript:void(0)" onclick="openTab(event, 'data-sheet')">Data sheet</a></li>
@@ -72,7 +72,7 @@
                                 </tr>
                             </table>
                         </div>
-                        <div id="accessories" class="tabcontent">
+                        <nav id="accessories" class="tabcontent">
                             <ul>
                                 <li class="col-md-4 col-sm-4">
                                     <img src="../images/dress-nanette-lepore-want-me.jpg">
@@ -93,7 +93,7 @@
                                     <a class="btn-add-to-cart" href="#">Add to cart</a>
                                 </li>
                             </ul>
-                        </div>
+                        </nav>
                         <div id="custom-tab" class="tabcontent">
                             <img src="../images/sizes.jpg">
                         </div>
@@ -128,7 +128,7 @@
                                 <p>hsfd 4387587 dkjhdsa g</p>
                             </div>
                         </div>
-                    </div>
+                    </nav>
                     <div class="attributes">
                         <label> Size: </label>
                         
@@ -163,13 +163,13 @@
                     </div>
                 </div>
                 <div class="box-cart">
-                    <div class="social">
+                    <figure>
                         <img src="../images/social-facebook-box-blue-icon.png" title="Facebook">
                         <img src="../images/twitter-icon.png" title="Twiiter">
                         <img src="../images/icon-print.png" title="Print">
                         <img src="../images/Other-Mail-Metro-icon.png" title="Email">
                         <img src="../images/google-plus-icon.png" title="Google plus">
-                    </div>
+                    </figure>
                     <a href="#" class="wishlist">» Add to my wishlist</a>
                 </div>
                 

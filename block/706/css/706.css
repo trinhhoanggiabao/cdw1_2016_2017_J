@@ -1,4 +1,5 @@
-.type-706 .cursor {
+.type-706 .bodder-cursor {
+  border: 1px solid #e0e0e0;
   cursor: pointer;
 }
 .type-706 body {
@@ -9,17 +10,17 @@
 }
 .type-706 .product .items img {
   max-width: 100%;
-  border: 1px solid #e0e0e0;
+  border: ;
   cursor: crosshair;
 }
 .type-706 .product .thumbs-list {
-  border-right: 1px solid #e0e0e0;
+  border-right: ;
 }
 .type-706 .product .thumbs-list img {
-  border: 1px solid #e0e0e0;
   margin-top: 8px;
   margin-bottom: 7px;
   max-width: 83%;
+  border: 1px solid #e0e0e0;
   cursor: pointer;
 }
 .type-706 .product .thumbs-list #btn-down {

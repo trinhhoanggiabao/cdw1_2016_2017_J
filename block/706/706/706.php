@@ -27,14 +27,16 @@
                         <img src="../images/moschino-cheap-and-chic-yacht-main.jpg">
                     </div>
                     <div class="thumbs-list col-md-3">
-                        <div class="btn-move" onclick="clickButtonUp()">
+                        <div class="btn-move" id="btn-up" onclick="clickButtonUp()">
                             <i class="fa fa-chevron-up"></i>
                         </div>
+                        <figure>
                             <img src="../images/moschino-cheap-and-chic-yacht-main.jpg" id="show">
                             <img src="../images/moschino-cheap-and-chic-yacht-thumb2.jpg">
                             <img src="../images/moschino-cheap-and-chic-yacht-thumb3.jpg">
                             <img src="../images/moschino-cheap-and-chic-yacht-thumb4.jpg">                         
                             <img src="../images/moschino-cheap-and-chic-yacht-a.jpg" id="hide">
+                        </figure>
                         <div class="btn-move" id="btn-down" onclick="clickButtonDown()">
                             <i class="fa fa-chevron-down"></i>
                         </div>
