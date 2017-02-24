@@ -1,26 +1,26 @@
-body {
+.type-704 body {
   background: #ebebeb;
   padding-top: 36px;
   margin: 0;
 }
-a,
-body {
+.type-704 a,
+.type-704 body {
   color: #666;
 }
-body,
-html {
+.type-704 body,
+.type-704 html {
   height: 100%;
   min-height: 100%;
 }
-.zaro p {
+.type-704 .zaro p {
   padding-bottom: 20px;
 }
-.zaro h4,
-.zaro h4 a {
+.type-704 .zaro h4,
+.type-704 .zaro h4 a {
   font-size: 20px;
   line-height: 28px;
 }
-.zaro .zaro-dropdown {
+.type-704 .zaro .zaro-dropdown {
   display: none;
   margin: 0;
   padding: 0;
@@ -28,31 +28,31 @@ html {
   background: #ebebeb;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
-.zaro div,
-.zaro form {
+.type-704 .zaro div,
+.type-704 .zaro form {
   margin: 0;
   padding: 0;
 }
-.zaro img {
+.type-704 .zaro img {
   border: 0;
 }
-.zaro a,
-.zaro a:active,
-.zaro a:visited {
+.type-704 .zaro a,
+.type-704 .zaro a:active,
+.type-704 .zaro a:visited {
   color: #333;
   text-decoration: none;
 }
-.zaro .align-center {
+.type-704 .zaro .align-center {
   text-align: center;
 }
-.zaro .slidelip {
+.type-704 .zaro .slidelip {
   transition: all .5s ease-in-out;
 }
-.zaro a,
-.zaro .smooth02 {
+.type-704 .zaro a,
+.type-704 .zaro .smooth02 {
   transition: all .2s ease-in-out;
 }
-.zaro .fa {
+.type-704 .zaro .fa {
   display: inline-block;
   vertical-align: top;
   width: 20px;
@@ -60,45 +60,45 @@ html {
   fill: currentColor;
   pointer-events: none;
 }
-.zaro #white_background {
+.type-704 .zaro #white_background {
   background-color: #f9f9f9;
 }
-.zaro .page-width {
+.type-704 .zaro .page-width {
   margin: 0 auto;
   width: 960px;
 }
-.zaro .margin-auto {
+.type-704 .zaro .margin-auto {
   margin: 0 auto;
 }
-.zaro #header {
+.type-704 .zaro #header {
   top: -36px;
   height: 150px;
   position: relative;
 }
-.zaro #header #header_logo {
+.type-704 .zaro #header #header_logo {
   position: absolute;
   margin: 80px 0 0 0;
   width: 100%;
 }
-.zaro #header #header_logo a {
+.type-704 .zaro #header #header_logo a {
   font: normal 80px Georgia;
   color: #3C3C3C;
 }
-.zaro #header #header_logo img.logo {
+.type-704 .zaro #header #header_logo img.logo {
   max-width: 100%;
   max-height: 100%;
   width: auto;
   height: auto;
 }
-.zaro #header #header_logo .logo {
+.type-704 .zaro #header #header_logo .logo {
   font: normal 80px/80px "Georgia";
   color: #424243;
 }
-.zaro #header #header_logo {
+.type-704 .zaro #header #header_logo {
   left: 0;
   top: 0;
 }
-.zaro #header #shopping_cart {
+.type-704 .zaro #header #shopping_cart {
   position: absolute;
   top: 97px;
   left: 0;
@@ -112,7 +112,7 @@ html {
   border: 1px solid #e7e2e2;
   min-width: 200px;
 }
-.zaro #header #shopping_cart a {
+.type-704 .zaro #header #shopping_cart a {
   padding: 0;
   background: none;
   width: auto;
@@ -122,21 +122,21 @@ html {
   font-size: 13px;
   height: 34px;
 }
-.zaro #header #shopping_cart a b {
+.type-704 .zaro #header #shopping_cart a b {
   font-weight: normal;
 }
-.zaro #header #shopping_cart a:first-child {
+.type-704 .zaro #header #shopping_cart a:first-child {
   display: block;
   overflow: hidden;
   font-size: 13px;
 }
-.zaro #header #shopping_cart a:first-child b {
+.type-704 .zaro #header #shopping_cart a:first-child b {
   font-weight: normal;
 }
-.zaro #header #shopping_cart .main-color {
+.type-704 .zaro #header #shopping_cart .main-color {
   color: #bbb;
 }
-.zaro #header #shopping_cart .fa-shopping-basket {
+.type-704 .zaro #header #shopping_cart .fa-shopping-basket {
   width: 17px;
   height: 17px;
   margin: 8px 5px 0 0;
@@ -146,15 +146,15 @@ html {
   fill: currentColor;
   pointer-events: none;
 }
-.zaro #header #shopping_cart span {
+.type-704 .zaro #header #shopping_cart span {
   line-height: 16px;
 }
-.zaro #header #shopping_cart:hover {
+.type-704 .zaro #header #shopping_cart:hover {
   background: #ebebeb;
   z-index: 11;
   color: #8b8b8b;
 }
-.zaro #header #search_box_top {
+.type-704 .zaro #header #search_box_top {
   position: absolute;
   top: 97px;
   right: 0;
@@ -162,7 +162,7 @@ html {
   height: 34px;
   width: 230px;
 }
-.zaro #header #search_box_top #search_query_top {
+.type-704 .zaro #header #search_box_top #search_query_top {
   width: 100%;
   height: 100%;
   border: none;
@@ -177,7 +177,7 @@ html {
   background-color: transparent;
   z-index: 1;
 }
-.zaro #header #search_box_top .search-button {
+.type-704 .zaro #header #search_box_top .search-button {
   cursor: pointer;
   color: #ccc;
   border: none;
@@ -190,28 +190,28 @@ html {
   transition: all .2s ease-in-out;
   z-index: 2;
 }
-.zaro #header #search_box_top .search-button .fa {
+.type-704 .zaro #header #search_box_top .search-button .fa {
   width: 19px;
   height: 19px;
   margin: 0;
   cursor: pointer;
   font: 20px/1 FontAwesome;
 }
-.zaro #header #search_box_top .search-button:hover i {
+.type-704 .zaro #header #search_box_top .search-button:hover i {
   color: #FFF;
 }
-.zaro .dib {
+.type-704 .zaro .dib {
   display: inline-block;
   vertical-align: top;
 }
-.zaro #currencies_list {
+.type-704 .zaro #currencies_list {
   float: right;
   margin: 0 0 0 30px;
 }
-.zaro #currencies_list span {
+.type-704 .zaro #currencies_list span {
   font: normal 15px/36px FontAwesome;
 }
-.zaro #currencies_list ul {
+.type-704 .zaro #currencies_list ul {
   clear: both;
   width: 100%;
   list-style-type: none;
@@ -222,7 +222,7 @@ html {
   margin: 0;
   padding: 0;
 }
-.zaro #currencies_list li {
+.type-704 .zaro #currencies_list li {
   border-left: 1px solid #dedede;
   border-right: 1px solid #dedede;
   background: #ebebeb;
@@ -232,128 +232,128 @@ html {
   cursor: pointer;
   font: normal 13px/27px Verdana;
 }
-.zaro #currencies_list li:hover {
+.type-704 .zaro #currencies_list li:hover {
   color: #FFF;
 }
-.zaro #currencyHolder {
+.type-704 .zaro #currencyHolder {
   position: relative;
   z-index: 99;
 }
-.zaro #currencyHolder span span {
+.type-704 .zaro #currencyHolder span span {
   padding: 0 5px 0 10px;
 }
-.zaro #currencyHolder span .fa {
+.type-704 .zaro #currencyHolder span .fa {
   width: 20px;
   height: 20px;
   margin-top: 8px;
 }
-.zaro #currencyHolder:hover span {
+.type-704 .zaro #currencyHolder:hover span {
   background-color: #7b7975;
   color: #fff;
 }
-.zaro #currencyHolder:hover span li {
+.type-704 .zaro #currencyHolder:hover span li {
   color: #fff;
 }
-.zaro #currencyHolder:hover .zaro-dropdown {
+.type-704 .zaro #currencyHolder:hover .zaro-dropdown {
   display: block;
 }
-.zaro #languages_block_top {
+.type-704 .zaro #languages_block_top {
   float: right;
   margin: 0;
 }
-.zaro #languages_block_top:hover .selected_language {
+.type-704 .zaro #languages_block_top:hover .selected_language {
   background-color: #7b7975;
   color: #FFF;
 }
-.zaro #languages_block_top:hover .selected_language a {
+.type-704 .zaro #languages_block_top:hover .selected_language a {
   color: #fff;
   cursor: default;
 }
-.zaro #languages_block_top:hover .zaro-dropdown {
+.type-704 .zaro #languages_block_top:hover .zaro-dropdown {
   display: block;
 }
-.zaro ul#first-languages {
+.type-704 .zaro ul#first-languages {
   clear: both;
   list-style-type: none;
   border-top: 1px solid #dedede;
   border-bottom: 1px solid #dedede;
   display: none;
 }
-.zaro ul#first-languages li {
+.type-704 .zaro ul#first-languages li {
   border-left: 1px solid #dedede;
   border-right: 1px solid #dedede;
   background: #ebebeb;
   color: black;
   text-decoration: none;
 }
-.zaro ul#first-languages li img {
+.type-704 .zaro ul#first-languages li img {
   margin: 9px 5px 0 10px;
 }
-.zaro ul#first-languages li a {
+.type-704 .zaro ul#first-languages li a {
   line-height: 27px;
   color: #555;
 }
-.zaro ul#first-languages li:hover a {
+.type-704 .zaro ul#first-languages li:hover a {
   color: #FFF;
 }
-.zaro #countries {
+.type-704 .zaro #countries {
   padding: 0;
   width: auto;
   position: relative;
   z-index: 99;
 }
-.zaro #countries .selected_language {
+.type-704 .zaro #countries .selected_language {
   float: left;
   margin: 0 !important;
   display: block;
 }
-.zaro #countries .selected_language img {
+.type-704 .zaro #countries .selected_language img {
   margin: 13px 5px 0 10px;
 }
-.zaro #countries .selected_language a {
+.type-704 .zaro #countries .selected_language a {
   line-height: 36px;
   color: #6d6d6d;
   text-decoration: none;
 }
-.zaro #countries .selected_language .fa {
+.type-704 .zaro #countries .selected_language .fa {
   width: 20px;
   height: 20px;
   margin: 9px 5px 0 0;
 }
-.zaro #countries span {
+.type-704 .zaro #countries span {
   font: normal 16px/20px FontAwesome;
   color: #888;
 }
-.zaro #menu_header {
+.type-704 .zaro #menu_header {
   float: left;
 }
-.zaro #menu_header ul {
+.type-704 .zaro #menu_header ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.zaro #menu_header li {
+.type-704 .zaro #menu_header li {
   position: relative;
   padding: 0 10px;
   margin-right: 15px;
 }
-.zaro #menu_header li span {
+.type-704 .zaro #menu_header li span {
   line-height: 20px;
   display: inline-block;
   margin-bottom: 5px;
 }
-.zaro #menu_header li a {
+.type-704 .zaro #menu_header li a {
   color: #999;
   font-family: Verdana;
   line-height: 36px;
   font-size: 13px;
   text-decoration: none;
 }
-.zaro #menu_header li a span {
+.type-704 .zaro #menu_header li a span {
   line-height: 14px;
   margin: 0;
 }
-.zaro #menu_header .fa {
+.type-704 .zaro #menu_header .fa {
   display: none;
   width: 15px;
   color: #009900;
@@ -361,29 +361,29 @@ html {
   font: normal 16px/20px FontAwesome;
   margin-top: 10px;
 }
-.zaro #menu_header .zaro-dropdown {
+.type-704 .zaro #menu_header .zaro-dropdown {
   top: 36px;
   width: 250px;
   position: absolute;
   left: 0;
 }
-.zaro #menu_header li:hover .zaro-dropdown {
+.type-704 .zaro #menu_header li:hover .zaro-dropdown {
   box-shadow: none;
   display: block;
 }
-.zaro #menu_header li:hover * {
+.type-704 .zaro #menu_header li:hover * {
   color: #FFF;
 }
-.zaro #header_user {
+.type-704 .zaro #header_user {
   padding-top: 0;
   position: relative;
   margin-left: 15px;
 }
-.zaro #header_user ul {
+.type-704 .zaro #header_user ul {
   margin: 0;
   padding: 0;
 }
-.zaro #header_user li {
+.type-704 .zaro #header_user li {
   float: left;
   display: block;
   clear: none;
@@ -393,35 +393,35 @@ html {
   margin: 0;
   line-height: 36px;
 }
-.zaro #header_user li a {
+.type-704 .zaro #header_user li a {
   color: #999;
   font-size: 13px;
   font-family: Verdana;
   text-decoration: none;
 }
-.zaro #header_user li a:hover {
+.type-704 .zaro #header_user li a:hover {
   color: #009900;
 }
-.zaro .menu-container {
+.type-704 .zaro .menu-container {
   margin-bottom: 20px;
 }
-.zaro .menu-container a {
+.type-704 .zaro .menu-container a {
   text-transform: uppercase;
 }
-.zaro .menu-container .mega-menu {
+.type-704 .zaro .menu-container .mega-menu {
   background: url(../images/border.gif) repeat-x 0 100%;
   width: 100%;
   margin: auto;
 }
-.zaro .menu-container .mega-menu ul.mega-menu-ul {
+.type-704 .zaro .menu-container .mega-menu ul.mega-menu-ul {
   list-style-type: none;
   position: relative;
   padding-left: 0;
 }
-.zaro .menu-container .mega-menu li a span {
+.type-704 .zaro .menu-container .mega-menu li a span {
   padding: 0 10px;
 }
-.zaro .menu-container .mega-menu li a {
+.type-704 .zaro .menu-container .mega-menu li a {
   padding: 0 18px;
   text-transform: uppercase;
   color: #3a3a3c;
@@ -429,7 +429,7 @@ html {
   line-height: 35px;
   display: block;
 }
-.zaro .menu-container .mega-menu-item.mega-active a span:before {
+.type-704 .zaro .menu-container .mega-menu-item.mega-active a span:before {
   content: "";
   height: 5px;
   position: absolute;
@@ -438,7 +438,7 @@ html {
   width: 100%;
   background-color: #009900;
 }
-.zaro .menu-container .mega-menu-item:hover a span:before {
+.type-704 .zaro .menu-container .mega-menu-item:hover a span:before {
   content: "";
   height: 5px;
   position: absolute;
@@ -447,62 +447,62 @@ html {
   width: 100%;
   background-color: #009900;
 }
-.zaro .menu-container .mega-menu-item:hover a.menu-item {
+.type-704 .zaro .menu-container .mega-menu-item:hover a.menu-item {
   color: #009900;
 }
-.zaro .menu-container .mega-menu-item:hover a.opener {
+.type-704 .zaro .menu-container .mega-menu-item:hover a.opener {
   color: #009900;
 }
-.zaro .menu-container .mega-dropdown-menu {
+.type-704 .zaro .menu-container .mega-dropdown-menu {
   background-color: #f9f9f9;
   padding: 22px 20px 30px;
 }
-.zaro .menu-container .mega-dropdown-menu img {
+.type-704 .zaro .menu-container .mega-dropdown-menu img {
   display: block;
   margin: 0 auto;
 }
-.zaro .menu-container .mega-dropdown-menu .brand {
+.type-704 .zaro .menu-container .mega-dropdown-menu .brand {
   margin: 0 0 20px 0;
 }
-.zaro .menu-container .mega-dropdown-menu li {
+.type-704 .zaro .menu-container .mega-dropdown-menu li {
   padding-left: 0;
   font-size: 16px;
   text-transform: uppercase;
 }
-.zaro .menu-container .mega-dropdown-menu li a {
+.type-704 .zaro .menu-container .mega-dropdown-menu li a {
   font-size: 13px;
   text-transform: none;
 }
-.zaro .menu-container .mega-dropdown-menu li ul li ul {
+.type-704 .zaro .menu-container .mega-dropdown-menu li ul li ul {
   padding: 0;
   margin: 0;
 }
-.zaro .menu-container .mega-dropdown-menu .first-item {
+.type-704 .zaro .menu-container .mega-dropdown-menu .first-item {
   padding-left: 15px;
 }
-.zaro .menu-container .mega-dropdown-menu .first-item li {
+.type-704 .zaro .menu-container .mega-dropdown-menu .first-item li {
   text-align: center;
 }
-.zaro .menu-container span.price {
+.type-704 .zaro .menu-container span.price {
   font-size: 24px;
   color: #930;
   display: block;
   line-height: 30px;
 }
-.zaro .menu-container .mega-menu-item li h2 {
+.type-704 .zaro .menu-container .mega-menu-item li h2 {
   text-transform: none;
 }
-.zaro .menu-container .mega-menu-item li p {
+.type-704 .zaro .menu-container .mega-menu-item li p {
   font-size: 13px;
   text-transform: none;
 }
-.zaro .menu-container .mega-menu-item .demos {
+.type-704 .zaro .menu-container .mega-menu-item .demos {
   position: absolute;
   width: 190px;
   left: auto;
   padding: 0;
 }
-.zaro .menu-container .mega-menu-item .demos li {
+.type-704 .zaro .menu-container .mega-menu-item .demos li {
   padding-left: 10px;
   font-size: 15px;
   border-top: 1px solid #ddd;
@@ -511,18 +511,18 @@ html {
   height: auto;
   vertical-align: top;
 }
-.zaro .menu-container .mega-menu-item .demos li a {
+.type-704 .zaro .menu-container .mega-menu-item .demos li a {
   width: 100%;
   padding: 5px 5px 5px 20px;
   font-size: 14px;
 }
-.zaro .dropdown {
+.type-704 .zaro .dropdown {
   position: static !important;
 }
-.zaro #zaro-carousel {
+.type-704 .zaro #zaro-carousel {
   margin-top: 70px;
 }
-.zaro #zaro-carousel .zaro-controls {
+.type-704 .zaro #zaro-carousel .zaro-controls {
   border: 1px solid #e6e5e5;
   box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
   width: 39px;
@@ -530,16 +530,16 @@ html {
   text-align: center;
   cursor: pointer;
 }
-.zaro #zaro-carousel .zaro-controls .fa {
+.type-704 .zaro #zaro-carousel .zaro-controls .fa {
   width: 23px;
   height: 23px;
   margin-top: 9px;
   font-size: 20px;
 }
-.zaro #zaro-carousel .carousel-title {
+.type-704 .zaro #zaro-carousel .carousel-title {
   position: relative;
 }
-.zaro #zaro-carousel .carousel-title h3 {
+.type-704 .zaro #zaro-carousel .carousel-title h3 {
   font-size: 25px;
   line-height: 46px;
   text-transform: uppercase;
@@ -547,24 +547,24 @@ html {
   padding: 0 73px;
   margin: 0;
 }
-.zaro #zaro-carousel .carousel-title .zaro-controls {
+.type-704 .zaro #zaro-carousel .carousel-title .zaro-controls {
   position: absolute;
   left: 0;
   top: 2px;
   color: #a7a6a0;
 }
-.zaro #zaro-carousel .carousel-title .zaro-next {
+.type-704 .zaro #zaro-carousel .carousel-title .zaro-next {
   left: auto;
   right: 0;
 }
-.zaro #zaro-carousel .title-table {
+.type-704 .zaro #zaro-carousel .title-table {
   margin-bottom: 30px;
 }
-.zaro #zaro-carousel .title-table td {
+.type-704 .zaro #zaro-carousel .title-table td {
   padding: 0;
   margin: 0;
 }
-.zaro #zaro-carousel .title-wing {
+.type-704 .zaro #zaro-carousel .title-wing {
   display: inline-block;
   content: "";
   height: 1px;
@@ -573,17 +573,17 @@ html {
   vertical-align: middle;
   width: 100%;
 }
-.zaro #zaro-carousel .carousel-inner {
+.type-704 .zaro #zaro-carousel .carousel-inner {
   width: 100%;
 }
-.zaro #zaro-carousel .carousel-inner .item img {
+.type-704 .zaro #zaro-carousel .carousel-inner .item img {
   margin: 0;
   height: auto;
   border: 1px solid #e0e0e0;
   box-sizing: border-box;
   display: block;
 }
-.zaro #zaro-carousel .carousel-inner .item a.search-box-img {
+.type-704 .zaro #zaro-carousel .carousel-inner .item a.search-box-img {
   position: absolute;
   top: 0px;
   right: 20px;
@@ -596,20 +596,20 @@ html {
   cursor: pointer;
   z-index: 99;
 }
-.zaro #zaro-carousel .carousel-inner .item a.search-box-img .fa {
+.type-704 .zaro #zaro-carousel .carousel-inner .item a.search-box-img .fa {
   margin-top: 9px;
   font-size: 18px;
 }
-.zaro #zaro-carousel .carousel-inner .item-hover:hover a.search-box-img {
+.type-704 .zaro #zaro-carousel .carousel-inner .item-hover:hover a.search-box-img {
   opacity: 1;
 }
-.zaro #zaro-carousel .carousel-inner .item-hover:hover .addToCart-hover {
+.type-704 .zaro #zaro-carousel .carousel-inner .item-hover:hover .addToCart-hover {
   display: block;
 }
-.zaro #zaro-carousel .carousel-inner .item-hover:hover h3 {
+.type-704 .zaro #zaro-carousel .carousel-inner .item-hover:hover h3 {
   display: none;
 }
-.zaro #zaro-carousel .carousel-inner .zaro-rate {
+.type-704 .zaro #zaro-carousel .carousel-inner .zaro-rate {
   height: 18px;
   text-align: center;
   width: 100%;
@@ -618,7 +618,7 @@ html {
   margin-bottom: 10px;
   display: block;
 }
-.zaro #zaro-carousel .carousel-inner .row p {
+.type-704 .zaro #zaro-carousel .carousel-inner .row p {
   color: #777 !important;
   display: block;
   margin: 0 0 7px;
@@ -631,12 +631,12 @@ html {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover {
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover {
   width: 100%;
   display: none;
   color: #FFF;
 }
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover a {
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover a {
   padding: 10px;
   text-transform: uppercase;
   background-color: #999 !important;
@@ -644,12 +644,12 @@ html {
   float: left;
   margin-right: 5px;
 }
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover .col-md-6 {
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .col-md-6 {
   margin: 0;
   padding: 0;
 }
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite,
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist {
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite,
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist {
   float: left;
   background-color: #009900;
   opacity: 0.2;
@@ -657,71 +657,71 @@ html {
   padding: 10px;
   padding-top: -10px;
 }
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite .fa,
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist .fa {
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite .fa,
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist .fa {
   font-size: 18px;
 }
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover .card:hover {
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .card:hover {
   background-color: #009900;
 }
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite:hover,
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist:hover {
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite:hover,
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist:hover {
   opacity: 1;
 }
-.zaro #zaro-carousel .carousel-inner .row .addToCart-hover a:hover {
+.type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover a:hover {
   background-color: #009900 !important;
 }
-.zaro .align-center {
+.type-704 .zaro .align-center {
   text-align: center;
 }
-.zaro .full-width {
+.type-704 .zaro .full-width {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
-.zaro .main-bg-hover:hover {
+.type-704 .zaro .main-bg-hover:hover {
   background-color: #009900 !important;
 }
-.zaro .main-bg {
+.type-704 .zaro .main-bg {
   background-color: #009900;
 }
 @media (min-width: 728px) {
-  .zaro .menu-container a span:before {
+  .type-704 .zaro .menu-container a span:before {
     width: 0;
     transition: all 0.3s;
   }
-  .zaro .menu-container .mega-menu-item a span {
+  .type-704 .zaro .menu-container .mega-menu-item a span {
     position: relative;
   }
-  .zaro .menu-container .mega-menu-ul {
+  .type-704 .zaro .menu-container .mega-menu-ul {
     display: block !important;
   }
-  .zaro .menu-container .mega-menu-ul li a.opener {
+  .type-704 .zaro .menu-container .mega-menu-ul li a.opener {
     display: none;
   }
 }
 @media (min-width: 729px) {
-  .zaro .mega-menu .mega-menu-ul {
+  .type-704 .zaro .mega-menu .mega-menu-ul {
     height: 43px;
   }
-  .zaro .mega-menu ul li {
+  .type-704 .zaro .mega-menu ul li {
     display: block;
     float: left;
   }
-  .zaro .mega-menu ul li a span {
+  .type-704 .zaro .mega-menu ul li a span {
     display: inline-block;
     height: 43px;
   }
-  .zaro .mega-menu ul li:first-child a {
+  .type-704 .zaro .mega-menu ul li:first-child a {
     padding-left: 0;
   }
-  .zaro .mega-menu .mega-menu-item a.menu-item {
+  .type-704 .zaro .mega-menu .mega-menu-item a.menu-item {
     font-size: 16px !important;
   }
-  .zaro .mega-menu .mobileMenuTitle {
+  .type-704 .zaro .mega-menu .mobileMenuTitle {
     display: none;
   }
-  .zaro .col-custom-5-col {
+  .type-704 .zaro .col-custom-5-col {
     width: 33%;
     float: left;
     position: relative;
@@ -729,17 +729,17 @@ html {
   }
 }
 @media (min-width: 980px) {
-  .zaro #currencies_list {
+  .type-704 .zaro #currencies_list {
     float: right;
   }
-  .zaro #menu_header li {
+  .type-704 .zaro #menu_header li {
     margin: 0;
     line-height: 36px;
   }
-  .zaro .mega-menu .mega-menu-item a.menu-item {
+  .type-704 .zaro .mega-menu .mega-menu-item a.menu-item {
     font-size: 18px !important;
   }
-  .zaro .col-custom-5-col {
+  .type-704 .zaro .col-custom-5-col {
     width: 20%;
     float: left;
     position: relative;
@@ -747,33 +747,33 @@ html {
   }
 }
 @media (min-width: 1170px) {
-  .zaro .page-width {
+  .type-704 .zaro .page-width {
     width: 1170px;
   }
-  .zaro .mega-menu ul li a {
+  .type-704 .zaro .mega-menu ul li a {
     padding: 0 25px;
   }
-  .zaro .mega-menu .mega-menu-item a.menu-item {
+  .type-704 .zaro .mega-menu .mega-menu-item a.menu-item {
     font-size: 20px !important;
   }
 }
 @media (max-width: 979px) and (min-width: 728px) {
-  .zaro #header {
+  .type-704 .zaro #header {
     height: 200px;
   }
-  .zaro #shopping_cart,
-  .zaro #search_box_top {
+  .type-704 .zaro #shopping_cart,
+  .type-704 .zaro #search_box_top {
     top: 180px !important;
   }
-  .zaro #menu_header li {
+  .type-704 .zaro #menu_header li {
     padding: 0 15px;
   }
-  .zaro #menu_header li a>span {
+  .type-704 .zaro #menu_header li a>span {
     display: none;
   }
 }
 @media (max-width: 727px) {
-  .zaro .mobileMenuTitle {
+  .type-704 .zaro .mobileMenuTitle {
     display: block;
     background: url(data:image/gif;base64,R0lGODdhFgAWAPAAABcXF////ywAAAAAFgAWAAACH4SPqcvtD12YtNqLs968+29F4kiWEYim6sqG5gvHTQEAOw==) no-repeat 97% 50%;
     width: 100%;
@@ -788,62 +788,62 @@ html {
   }
 }
 @media (max-width: 980px) {
-  .zaro #menu_header .fa {
+  .type-704 .zaro #menu_header .fa {
     display: inline-block;
     margin-bottom: 11px;
   }
-  .zaro #menu_header li {
+  .type-704 .zaro #menu_header li {
     margin: 0;
     line-height: 36px;
   }
 }
 @media (max-width: 1170px) and (min-width: 980px) {
-  .zaro #zaro-carousel .add-ToCart a {
+  .type-704 .zaro #zaro-carousel .add-ToCart a {
     padding: 5px 0 !important;
     margin-right: 5px !important;
   }
-  .zaro #zaro-carousel .add-ToCart .favorite,
-  .zaro #zaro-carousel .add-ToCart .wishlist {
+  .type-704 .zaro #zaro-carousel .add-ToCart .favorite,
+  .type-704 .zaro #zaro-carousel .add-ToCart .wishlist {
     margin-right: 5px !important;
     padding: 5px !important;
     padding-top: -10px !important;
   }
-  .zaro #zaro-carousel .search-box-img {
+  .type-704 .zaro #zaro-carousel .search-box-img {
     right: 10px !important;
     top: 10px !important;
   }
-  .zaro #zaro-carousel .col-custom-5-col {
+  .type-704 .zaro #zaro-carousel .col-custom-5-col {
     padding: 10px;
   }
 }
 @media (max-width: 979px) {
-  .zaro .page-width {
+  .type-704 .zaro .page-width {
     width: 728px;
     transition: all .4s linear;
   }
-  .zaro #header_logo {
+  .type-704 .zaro #header_logo {
     top: 90px;
   }
 }
 @media (max-width: 727px) {
-  .zaro .page-width {
+  .type-704 .zaro .page-width {
     width: 450px;
   }
-  .zaro #header {
+  .type-704 .zaro #header {
     height: 190px;
   }
-  .zaro #header #header_logo {
+  .type-704 .zaro #header #header_logo {
     left: 0 !important;
     text-align: center;
     margin-top: 60px;
   }
-  .zaro #header #header_logo .logo {
+  .type-704 .zaro #header #header_logo .logo {
     width: auto;
     max-width: 100%;
     max-height: 100px;
     height: auto;
   }
-  .zaro #header #shopping_cart {
+  .type-704 .zaro #header #shopping_cart {
     position: relative;
     padding: 0;
     float: left;
@@ -853,15 +853,15 @@ html {
     border: none;
     min-width: 36px;
   }
-  .zaro #header #shopping_cart .fa {
+  .type-704 .zaro #header #shopping_cart .fa {
     width: 20px;
     height: 20px;
     font: normal normal normal 20px/1 FontAwesome;
   }
-  .zaro #header #shopping_cart a {
+  .type-704 .zaro #header #shopping_cart a {
     height: 35px !important;
   }
-  .zaro #header #shopping_cart:hover {
+  .type-704 .zaro #header #shopping_cart:hover {
     width: 100%;
     position: absolute;
     left: 0;
@@ -869,28 +869,28 @@ html {
     z-index: 99;
     color: #8b8b8b;
   }
-  .zaro #header #search_box_top {
+  .type-704 .zaro #header #search_box_top {
     top: 160px;
     right: 50%;
     margin-right: -150px;
     width: 300px;
     transition: all .4s linear;
   }
-  .zaro #header #search_box_top .search-button {
+  .type-704 .zaro #header #search_box_top .search-button {
     -webkit-appearance: button;
   }
-  .zaro #menu_header {
+  .type-704 .zaro #menu_header {
     height: auto;
     position: absolute;
     top: 220px;
     width: 100%;
     left: 0;
   }
-  .zaro #menu_header ul {
+  .type-704 .zaro #menu_header ul {
     width: 100%;
     text-align: left;
   }
-  .zaro #menu_header ul li {
+  .type-704 .zaro #menu_header ul li {
     line-height: 30px;
     text-align: center;
     margin: 0;
@@ -900,10 +900,10 @@ html {
     border: none;
     padding: 0;
   }
-  .zaro #menu_header ul li:first-child a {
+  .type-704 .zaro #menu_header ul li:first-child a {
     border-style: none;
   }
-  .zaro #menu_header ul li a {
+  .type-704 .zaro #menu_header ul li a {
     font-size: 16px;
     width: 100%;
     display: block;
@@ -911,29 +911,29 @@ html {
     height: auto;
     olor: #666;
   }
-  .zaro #menu_header li {
+  .type-704 .zaro #menu_header li {
     width: 33.3%;
   }
-  .zaro #menu_header li span {
+  .type-704 .zaro #menu_header li span {
     font-size: 12px;
   }
-  .zaro #menu_header .zaro-dropdown {
+  .type-704 .zaro #menu_header .zaro-dropdown {
     width: 100%;
   }
-  .zaro .menu-container a.opener {
+  .type-704 .zaro .menu-container a.opener {
     visibility: visible;
   }
-  .zaro .menu-container .mega-menu {
+  .type-704 .zaro .menu-container .mega-menu {
     margin-top: 50px;
   }
-  .zaro .menu-container .mega-menu-ul {
+  .type-704 .zaro .menu-container .mega-menu-ul {
     display: none;
   }
-  .zaro .menu-container .mega-menu-ul li a span {
+  .type-704 .zaro .menu-container .mega-menu-ul li a span {
     position: relative;
     float: left;
   }
-  .zaro .menu-container .mega-menu-ul li a.opener {
+  .type-704 .zaro .menu-container .mega-menu-ul li a.opener {
     margin: 0 !important;
     max-width: 50px;
     background-position: 50% 50%;
@@ -950,7 +950,7 @@ html {
     width: 20%;
     height: 58px;
   }
-  .zaro .menu-container .mega-menu-ul li a.opener:before {
+  .type-704 .zaro .menu-container .mega-menu-ul li a.opener:before {
     content: "+";
     line-height: 50px;
     font-size: 28px;
@@ -958,7 +958,7 @@ html {
     text-align: center;
     display: block;
   }
-  .zaro .menu-container .mobileMenuTitle {
+  .type-704 .zaro .menu-container .mobileMenuTitle {
     display: block;
     background: url(data:image/gif;base64,R0lGODdhFgAWAPAAABcXF////ywAAAAAFgAWAAACH4SPqcvtD12YtNqLs968+29F4kiWEYim6sqG5gvHTQEAOw==) no-repeat 97% 50%;
     width: 100%;
@@ -971,35 +971,35 @@ html {
     text-transform: uppercase;
     font-weight: normal;
   }
-  .zaro .menu-container .mega-menu-item {
+  .type-704 .zaro .menu-container .mega-menu-item {
     float: none;
     width: 100%;
     overflow: hidden;
     background: #fafafa;
     border-bottom: 1px solid #f2f2f2;
     border-top: 1px solid #fbfbfb;
-    padding: 15px 0 0 0 !important;
+    padding: 15px 0 0 0;
     line-height: 20px;
     position: relative;
   }
-  .zaro .menu-container .mega-menu-item ul,
-  .zaro .menu-container .mega-menu-item img {
+  .type-704 .zaro .menu-container .mega-menu-item ul,
+  .type-704 .zaro .menu-container .mega-menu-item img {
     display: none;
     visibility: hidden;
   }
-  .zaro .menu-container .mega-menu-item a span:before {
+  .type-704 .zaro .menu-container .mega-menu-item a span:before {
     visibility: hidden;
     opacity: 0;
   }
-  .zaro .menu-container .mega-menu-ul {
+  .type-704 .zaro .menu-container .mega-menu-ul {
     visibility: visible;
     height: auto;
     padding-left: 20px;
   }
-  .zaro .menu-container .mega-menu-ul ul {
+  .type-704 .zaro .menu-container .mega-menu-ul ul {
     margin: 5px 0 0 0 !important;
   }
-  .zaro .menu-container .mega-menu-ul li {
+  .type-704 .zaro .menu-container .mega-menu-ul li {
     width: 100%;
     margin: 0;
     background: #f6f6f6;
@@ -1009,10 +1009,10 @@ html {
     border-top: 1px solid #fbfbfb;
     position: relative;
   }
-  .zaro .menu-container .mega-menu-ul li ul {
+  .type-704 .zaro .menu-container .mega-menu-ul li ul {
     display: none;
   }
-  .zaro .col-custom-5-col {
+  .type-704 .zaro .col-custom-5-col {
     width: 50%;
     float: left;
     position: relative;
