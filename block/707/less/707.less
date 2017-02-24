@@ -1,42 +1,47 @@
 .type-707{
+    @color: #ccc;
+    @color2: #fff;
+    @color3: #e0e0e0;
+    @color4: #c5988b;
+    @boder: 1px soid @color;
+    @boder2: 1px soid @color3;
+    @background: #e17365;
+    @background2: #7a7975;
+    
     .col-md-6 {
         margin-left: -5px;
     }
     .product {
-
         .title {
             h4 {
-                color: #666;
+                color: @color;
                 font-family: LMRoman10Regular;
                 font-size: 25px;
             }
-
             .color-star {
-                color: #ccc;
+                color: @color;
             }
         }
-
         .state {
-            color: #666;
+            color: @color;
             .name {
-                color: #666;
+                color: @color;
             }
         }
-
         .tab-title {
             margin-top: 20px;
             cursor: pointer;
             .active-tab {
-                background: #FFF;
+                background: @color2;
             }
             h4 {
                 padding: 0 8px 0 10px;
                 line-height: 26px;
                 color: #666;
-                background: #e0e0e0;
+                background: @color3;
                 display: inline-block;
                 font-size: 14px;
-                border: 1px solid #e0e0e0;
+                border: @boder2;
                 border-bottom: none;
                 margin: 0 2px 0 0;
             }
@@ -46,23 +51,20 @@
         }
         .attributes {
             margin-top: 30px;
-
             .attribute-list {
                 display: inline-block;
                 margin-right: 10px;
-
             }
             p {
                 margin-top: 10px;
                 padding-bottom: 20px;
-
             }
             .price {
                 h5 {   
                     font-size: 24px;
                     line-height: 1px;
                     float: left;
-                    color: #c5988b;
+                    color: @color4;
                     font-weight: normal;
                     margin-right: 20px;
                     font-family: Georgia;
@@ -70,8 +72,8 @@
                 .btn-add {
                     text-transform: uppercase;
                     padding: 12px 25px;
-                    background-color: #7a7975;
-                    color: #ffffff;
+                    background-color: @background2;
+                    color: @color2;
                     transition: all .2s ease-in-out;
                 }
                 .btn-add:hover {
@@ -82,18 +84,16 @@
         }
         label {
             margin-right: 5px;
-            color: #666;
+            color: @color;
             font-weight: normal;
         }
         a {
             text-decoration: none;
         }
-
     }
-
     .box-cart {
         margin-top: 25px;
-        border-top: 1px solid #e0e0e0;
+        border-top: @boder2;
         padding-top: 10px;    
         .social {
             margin-left: 10px;
@@ -102,14 +102,10 @@
         }
         .wishlist {
             text-decoration: none;
-            color: #666;
+            color: @color;
         }
     }
-
-
-
     .tab-title {
-
         font-family: LMRomanCaps10-Regular;   
     }
     ul.tab {
@@ -117,12 +113,11 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        border: 1px solid #ccc;
+        border: @boder;
         border-bottom: none;
         background-color: #f1f1f1;
         li {
             float: left;
-
             a {
                 display: inline-block;
                 color: black;
@@ -133,29 +128,26 @@
             }
         }
     }
-
-    .active {background-color: #fff;}
+    .active {background-color: @color2;}
 
     /* Style the tab content */
     .tabcontent {
         display: none;
         padding: 6px 12px;
-        border: 1px solid #ccc;
+        border: @boder;
         border-top: none;
-        background: #fff;
+        background: @color2;
     }
-
     #data-sheet {
         td {
             padding: 9px 10px;
         }
     }
-
     #accessories {
         text-align: center;
         img {
             max-width: 100%;
-            border: 1px solid #e0e0e0;
+            border: @boder2;
         }
         h3 {
             white-space: nowrap;
@@ -163,18 +155,18 @@
         }
         h5 {
             font-size: 18px;
-            color: #C5988B;
+            color: @color4;
             margin-bottom: 15px;
         }
         .btn-add-to-cart {
-            background: #7a7975;
-            color: #fff;
+            background: @background2;
+            color: @color2;
             padding: 7px 15px;
             margin-top: 15px;
             transition: 0.5s;
         }
         .btn-add-to-cart:hover {
-            background: #e17365;
+            background: @background;
             transition: 0.5s;
         }
         ul {
@@ -196,23 +188,22 @@
                 margin-left: 170px;
                 padding: 7px 15px;
                 line-height: 16px;
-                background-color: #7a7975;
-                color: #fff;
+                background-color: @background2;
+                color: @color2;
                 text-transform: uppercase;
                 transition: 0.5s;    
-
             }
             a:hover {
-                background: #e17365;
+                background: @background;
             }
             .star-color {
-                color: #ccc;
+                color: @color;
             }
             p {
                 padding-bottom: 10px;
             }
             margin-top: 10px;
-            border-bottom: 1px dotted #ccc;
+            border-bottom: 1px dotted @color;
         }
     }
 }
