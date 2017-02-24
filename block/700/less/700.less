@@ -1,18 +1,26 @@
 
 body {
-    background: #ebebeb;
+    background: @background_body;
     padding-top: 36px;
     margin:0;
 }
 a, body {
-    color: #666;
+    color: @color_body;
 } 
 body, html {
     height: 100%;
     min-height: 100%;
 }
-
+@background_body: #ebebeb;
+@color_body: #666;
+@color_a: #333;
+@white_background: #f9f9f9;
+@mega-menu_background: url(../images/border.gif) repeat-x 0 100%;
+@color_mega_menu_li_a: #3a3a3c;
+@mega-active_background: #009900;
+@color_span: #930;
 .zaro{ 
+    
     p {
         padding-bottom: 20px;
     }
@@ -29,7 +37,7 @@ body, html {
         border:0;
     }
     a, a:active, a:visited {
-        color: #333;
+        color: @color_a;
         text-decoration: none;
     }
     .align-center{
@@ -51,7 +59,7 @@ body, html {
         pointer-events: none;
     }
     #white_background{
-        background-color: #f9f9f9;
+        background-color: @white_background;
     }
     .page-width {
         margin: 0 auto;
@@ -67,7 +75,7 @@ body, html {
             text-transform: uppercase;
         }
         .mega-menu{
-            background: url(../images/border.gif) repeat-x 0 100%;
+            background: @mega-menu_background;
             width: 100%;
             margin: auto;
             ul.mega-menu-ul{
@@ -82,7 +90,7 @@ body, html {
                 a { 
                     padding: 0 18px;
                     text-transform: uppercase;
-                    color: #3a3a3c;
+                    color: @color_mega_menu_li_a;
                     font-size: 19px;
                     line-height: 35px;
                     display: block;
@@ -97,7 +105,7 @@ body, html {
                 bottom: 3px;
                 left: 0;
                 width: 100%;
-                background-color: #009900;
+                background-color: @mega-active_background;
             }
         }
         .mega-menu-item:hover{
@@ -108,17 +116,17 @@ body, html {
                 bottom: 3px;
                 left: 0;
                 width: 100%;
-                background-color: #009900;
+                background-color: @mega-active_background;
             }
             a.menu-item{
-                color: #009900;
+                color: @mega-active_background;
             }
             a.opener{
-                color: #009900;
+                color: @mega-active_background;
             }
         } 
         .mega-dropdown-menu{ 
-            background-color: #f9f9f9;
+            background-color: @white_background;
             padding: 22px 20px 30px;
             img{ 
                 display: block;
@@ -155,7 +163,7 @@ body, html {
         }
         span.price{
             font-size: 24px;
-            color: #930;
+            color: @color_span;
             display: block;
             line-height: 30px;
         }
@@ -203,10 +211,10 @@ body, html {
         padding:0;
     }
     .main-bg-hover:hover{
-        background-color: #009900 !important;
+        background-color: @mega-active_background !important;
     }
     .main-bg{
-        background-color: #009900;
+        background-color: @mega-active_background;
     }
 }
 
@@ -363,6 +371,11 @@ body, html {
         }
     }
 }
+@mobileMenuTitle_color: #000;
+@mobileMenuTitle_background: url(data:image/gif;base64,R0lGODdhFgAWAPAAABcXF////ywAAAAAFgAWAAACH4SPqcvtD12YtNqLs968+29F4kiWEYim6sqG5gvHTQEAOw==) no-repeat 97% 50%;
+@mobileMega-menu-item_background: #fafafa;
+@mobileMega-menu-item_border-bottom: #f2f2f2;
+@mobileMega-menu-item_border-top: #fbfbfb;
 @media (max-width: 727px){
     .zaro{
         .page-width {
@@ -415,14 +428,14 @@ body, html {
             }
             .mobileMenuTitle {
                 display: block;
-                background: url(data:image/gif;base64,R0lGODdhFgAWAPAAABcXF////ywAAAAAFgAWAAACH4SPqcvtD12YtNqLs968+29F4kiWEYim6sqG5gvHTQEAOw==) no-repeat 97% 50%;
+                background: @mobileMenuTitle_background;
                 width: 100%;
                 font-size: 23px;
                 cursor: pointer;
                 height: 56px;
                 text-indent: 20px;
                 line-height: 56px;
-                color: #000;
+                color: @mobileMenuTitle_color;
                 text-transform: uppercase;
                 font-size: 23px;
                 font-weight: normal;
@@ -431,9 +444,9 @@ body, html {
                 float: none;
                 width: 100%;
                 overflow: hidden;
-                background: #fafafa;
-                border-bottom: 1px solid #f2f2f2;
-                border-top: 1px solid #fbfbfb;
+                background: @mobileMega-menu-item_background;
+                border-bottom: 1px solid @mobileMega-menu-item_border-bottom;
+                border-top: 1px solid @mobileMega-menu-item_border-top;
                 padding: 15px 0 0 0!important;
                 line-height: 20px;
                 position: relative;
