@@ -1,4 +1,4 @@
-.type-13 {
+.type-709 {
     .banner-carousel-wrap {
         overflow: hidden;
         margin-left: 10px;
@@ -19,8 +19,9 @@
     .banner-carousel-top img {
         max-width: 100%;
     }
+    @transition:all .5s ease-in-out;
     .banner-carousel-top .sliderCarousel img {
-        transition: all .5s ease-in-out;        
+        transition: @transition;        
     }
     
     
@@ -64,7 +65,7 @@
     }    
     
     .banner-carousel-top .sliderCarousel img {
-        transition: all .5s ease-in-out;
+        transition: @transition;
     }
     
     a {
@@ -110,9 +111,9 @@
         color: #fff;
         border: 1px solid rgba(255,255,255,0.2);
         transition: 0.3s; 
-        
+   @font-size: 20px;    
         .fa-chevron-left, .fa-chevron-right {
-            font-size: 20px;
+            font-size: @font-size;
             margin-top: 9px;
             color: #fff;
         }        
@@ -129,7 +130,7 @@
     
     
     .fa-chevron-left, .fa-chevron-right {
-        font-size: 20px;
+        font-size: @font-size;
         margin-top: 9px;
         color: #a7a6a0;
     }

@@ -29,7 +29,7 @@
         
     
 
-        <div class="type-13">
+        <div class="type-709">
             <div class="container">
                 <div class="banners-carousel">
                     <div class="banners-carousel-container">
