@@ -1,11 +1,15 @@
 .type-712 {
+    @border:1px solid #e5e5e5;
+    @overflow:hidden;
+    @position:relative;
+    @text-align:center;
     .manufacturersCarousel {
-    overflow: hidden;
-    position: relative;
+    overflow: @overflow;
+    position: @position;
     margin-top: 50px;
     margin-bottom: 35px;
     .mnf-flexisel-container {
-        position: relative;
+        position: @position;
         margin-bottom: 20px;
         .nbs-flexisel-inner {
             margin-left: 27px;
@@ -20,7 +24,7 @@
                     margin-left: 0;
                     padding: 0;
                     float: left;
-                    text-align: center;
+                    text-align: @text-align;
 
                     .manuf-indent {
                         padding-right: 30px;
@@ -28,7 +32,7 @@
                     a {
                         display: block;
                         background: #efedeb;
-                        overflow: hidden;
+                        overflow: @overflow;
                         padding: 7px;
 
                     }
@@ -37,7 +41,7 @@
                         width: auto;
                         height: auto;
                         opacity: 0.9;
-                        border: 1px solid #e5e5e5;
+                        border: @border;
 
                     }
                 }
@@ -54,9 +58,9 @@
         background: #f9f9f9;
         width: 40px;
         height: 40px;
-        border: 1px solid #e6e5e5;
+        border: @border;
         box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
-        text-align:  center;
+        text-align:  @text-align;
         cursor: pointer;
         transition: all .3s ease-in-out;
         font-size: 20px;

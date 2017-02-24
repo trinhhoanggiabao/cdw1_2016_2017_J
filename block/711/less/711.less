@@ -1,13 +1,18 @@
 .type-711 {
+    @position: relative;
+    @overflow: hidden;
+    @white-space:nowrap;
+    @text-align:center;
+    @cursor:pointer;
     .instagram-feed {
-    text-align: center;
+    text-align: @text-align;
     margin-top: 50px;
-    position: relative;
+    position: @position;
     margin-bottom: 20px;
 
     .instafeed-container {
-        position: relative;
-        overflow: hidden;
+        position: @position;
+        overflow: @overflow;
         .title-table {
             margin-bottom: 30px;
             margin-left: 10px;
@@ -23,12 +28,12 @@
                 }
             }
             .carousel-title {
-                position: relative;
+                position: @position;
                 .title {
                     line-height: 46px;
                     text-transform: uppercase;
                     padding: 0 73px;
-                    white-space: nowrap; 
+                    white-space: @white-space; 
                     font-family: LMRoman10Regular;
                 }
 
@@ -37,7 +42,7 @@
                     box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
                     width: 39px;
                     height: 39px;
-                    text-align: center;
+                    text-align: @text-align;
                     cursor: pointer;
                     transition: all .2s ease-in-out;
                     position: absolute;
@@ -83,8 +88,8 @@
                         }
                         .ig-caption {
                             display: block;
-                            white-space: nowrap;
-                            overflow: hidden;
+                            white-space: @white-space;
+                            overflow: @overflow;
                             text-overflow: ellipsis;
                             color: #666;
                             margin-bottom: 5px;
