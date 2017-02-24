@@ -17,7 +17,7 @@
         $less = new lessc;
         $less->compileFile('../less/710.less', '../css/710.css');
         ?>
-        <link href="../css/featured-products.css" rel="stylesheet" type="text/css" />
+        <link href="../css/710.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
         <script src="../js/owl.carousel.js" type="text/javascript"></script>
         <script type="text/javascript" src="../js/script.js"></script>

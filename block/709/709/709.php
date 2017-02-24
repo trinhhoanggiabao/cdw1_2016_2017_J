@@ -6,7 +6,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/709.css" rel="stylesheet" type="text/css"/>
         <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         
@@ -17,7 +17,7 @@
         $less = new lessc;
         $less->compileFile('../less/709.less', '../css/709.css');
         ?>
-        <link href="../css/banners-carousel.css" rel="stylesheet" type="text/css" />
+        <link href="../css/709.css" rel="stylesheet" type="text/css" />
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
         <script src="../js/owl.carousel.js" type="text/javascript"></script>
         <script type="text/javascript" src="../js/script.js"></script>

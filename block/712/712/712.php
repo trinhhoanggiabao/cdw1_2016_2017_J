@@ -6,7 +6,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/712.css" rel="stylesheet" type="text/css"/>
         <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         
@@ -26,7 +26,7 @@
     </head>
 
     <body>
-        <div class="712">
+        <div class="type-712">
             <div class="container">
                     <div class="manufacturersCarousel">
                         <div class="mnf-flexisel-container">
