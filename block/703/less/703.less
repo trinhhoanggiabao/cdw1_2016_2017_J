@@ -1,8 +1,10 @@
+.type-703 {
+    @display: inline-block;
 body {
     background: #f9f9f9;
 }
 .info {
-    display: inline-block;
+    display: @display;
 }
 .col-md-6 {
     margin-left: -10px;
@@ -83,7 +85,7 @@ body {
             line-height: 26px;
             color: #666;
             background: #e0e0e0;
-            display: inline-block;
+            display: @display;
             font-size: 14px;
             border: 1px solid #e0e0e0;
             border-bottom: none;
@@ -91,13 +93,13 @@ body {
         }
     }
     .active-section {
-        display: block;
+        display:@display;
     }
     .attributes {
         margin-top: 30px;
         
         .attribute-list {
-            display: inline-block;
+            display: @display;
             margin-right: 10px;
             
         }
@@ -157,7 +159,7 @@ body {
     .thumb-img-carousel img {
         border: 1px solid #e0e0e0;
         cursor: pointer;
-        display: inline-block;
+        display: @display;
         width: 90%;
         margin-left: 10px;
     }
@@ -229,7 +231,7 @@ ul.tab {
         float: left;
         
         a {
-            display: inline-block;
+            display: @display;
             color: black;
             text-align: center;
             padding: 10px 11px;
@@ -283,7 +285,7 @@ ul.tab {
         transition: 0.5s;
     }
     ul {
-        display: inline-block;
+        display: @display;
         list-style: none;
         margin: 0;
         padding: 0;
@@ -384,11 +386,11 @@ ul.tab {
         padding: 10px 135px;
     }
     #btn-up {
-        display: none;
+        display: @display;
     }
     
     #btn-down {
-        display: none;
+        display: @display;
     }
     #accessories {
         h3 {
@@ -403,4 +405,5 @@ ul.tab {
             max-width: 100%;    
         }
     }
+}
 }
