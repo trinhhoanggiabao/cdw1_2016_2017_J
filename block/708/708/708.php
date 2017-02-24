@@ -21,7 +21,7 @@
         <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
-        
+        <div class="type-708">
         <div class="container">
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="col-md-12">
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        
+        </div>
     </body>
         
 
