@@ -374,8 +374,8 @@ body, html {
 @mobileMenuTitle_color: #000;
 @mobileMenuTitle_background: url(data:image/gif;base64,R0lGODdhFgAWAPAAABcXF////ywAAAAAFgAWAAACH4SPqcvtD12YtNqLs968+29F4kiWEYim6sqG5gvHTQEAOw==) no-repeat 97% 50%;
 @mobileMega-menu-item_background: #fafafa;
-@mobileMega-menu-item_border-bottom: #f2f2f2;
-@mobileMega-menu-item_border-top: #fbfbfb;
+@mobileMega-menu-item_border-bottom:1px solid #f2f2f2;
+@mobileMega-menu-item_border-top:1px solid #fbfbfb;
 @media (max-width: 727px){
     .zaro{
         .page-width {
@@ -445,8 +445,8 @@ body, html {
                 width: 100%;
                 overflow: hidden;
                 background: @mobileMega-menu-item_background;
-                border-bottom: 1px solid @mobileMega-menu-item_border-bottom;
-                border-top: 1px solid @mobileMega-menu-item_border-top;
+                border-bottom: @mobileMega-menu-item_border-bottom;
+                border-top: @mobileMega-menu-item_border-top;
                 padding: 15px 0 0 0!important;
                 line-height: 20px;
                 position: relative;
