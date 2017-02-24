@@ -2,14 +2,15 @@
     @color: #e17365;
     @color2: #e0e0e0;
     @boder : 1px solid @color2;
-    @margin-left: -5px;
     
-    
+    .cursor{
+        cursor: pointer; 
+    }
     body {
         background: #f9f9f9;
     }
     .col-md-6 {
-        margin-left: @margin-left;
+        margin-left: -5px;
     }
     .product {
         .items {
@@ -26,7 +27,7 @@
                 margin-top: 8px;
                 margin-bottom: 7px;
                 max-width: 83%;
-                cursor: pointer;
+                .cursor;
             }
             #btn-down {
                 opacity: 0;
@@ -42,8 +43,8 @@
                 border-radius: 50%;
                 position: absolute;
                 left: 48px;
-                cursor: pointer;
                 border: @boder;
+                .cursor;
             }
             .btn-move:hover {
                 color:@color;
