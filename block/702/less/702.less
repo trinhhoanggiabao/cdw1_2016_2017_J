@@ -1,10 +1,21 @@
+@footer_background-color: #6f6d69;
+@footer_color: white;
+@footer_h4_font: normal 15px Georgia;
+@footer_li_font: normal 13px Verdana;
+@footer_li_a: #efefef;
+@footer_li_a_hover: #ccc !important;
+@footer_tweet_color: #c5988b;
+@footer_tweet-time_color: #e6e6e6 !important;
+@footet_icon_color: #a3a19d;
+@footer_a_color: #fff;
+@footer-text_color: #e1e1e1;
 footer {
-  background-color: #6f6d69;
+  background-color: @footer_background-color;
   margin-top: 120px;
-  color: white;
+  color: @footer_color;
   padding-top: 50px;
   h4 {
-    font: normal 15px Georgia;
+    font: @footer_h4_font;
     line-height: 18px;
     padding: 0 0 30px 10px;
     text-transform: uppercase;
@@ -22,7 +33,7 @@ footer {
     margin: 0;
     li {
       transition: all .2s ease-in-out;
-      font: normal 13px Verdana;
+      font: @footer_li_font;
       line-height: 18px;
       padding: 11px 0 11px 10px;
       border-top: 1px solid rgba(0, 0, 0, .05);
@@ -31,11 +42,11 @@ footer {
         border-top: 1px solid rgba(0, 0, 0, .1);
       }
       a {
-        color: #efefef;
+        color: @footer_li_a;
       }
       a:hover {
         text-decoration: none;
-        color: #ccc !important;
+        color: @footer_li_a_hover;
       }
     }
     li:hover {
@@ -44,9 +55,9 @@ footer {
     }
     &#tweet {
       border: none;
-      color: #efefef;
+      color: @footer_li_a;
       a {
-        color: #c5988b;
+        color: @footer_tweet_color;
       }
       li {
         border: none;
@@ -55,7 +66,7 @@ footer {
       }
       .tweet-time {
         a {
-          color: #e6e6e6 !important;
+          color: @footer_tweet-time_color;
           font-family: Georgia !important;
           font-style: italic !important;
         }
@@ -63,7 +74,7 @@ footer {
       .icon {
         width: 17px;
         height: 17px;
-        color: #a3a19d;
+        color: @footet_icon_color;;
         position: absolute;
         left: 0;
         top: 2px;
@@ -72,9 +83,9 @@ footer {
     }
   }
   a {
-    color: #fff;
+    color: @footer_a_color;
     &:hover {
-      color: #fff;
+      color: @footer_a_color;
     }
   }
   .fb-followers {
@@ -92,7 +103,7 @@ footer {
       }
     }
     .footer-text {
-      color: #e1e1e1;
+      color: @footer-text_color;
       float: left;
     }
     #payment-icons {
