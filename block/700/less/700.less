@@ -11,16 +11,28 @@ body, html {
     height: 100%;
     min-height: 100%;
 }
-@background_body: #ebebeb;
-@color_body: #666;
-@color_a: #333;
-@white_background: #f9f9f9;
-@mega-menu_background: url(../images/border.gif) repeat-x 0 100%;
-@color_mega_menu_li_a: #3a3a3c;
-@mega-active_background: #009900;
-@color_span: #930;
-.zaro{ 
-    
+.zaro{  
+    @background_body: #ebebeb;
+    @color_body: #666;
+    @color_a: #333;
+    @white_background: #f9f9f9;
+    @mega-menu_background: url(../images/border.gif) repeat-x 0 100%;
+    @color_mega_menu_li_a: #3a3a3c;
+    @mega-active_background: #009900;
+    @color_span: #930;
+    .span{
+    content: "";
+    height: 5px;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 100%;
+    background-color: @mega-active_background;
+}
+.margin_padding{
+    margin:0;
+    padding:0;
+}
     p {
         padding-bottom: 20px;
     }
@@ -30,8 +42,7 @@ body, html {
     }
 
     div,form{
-        margin:0;
-        padding:0;
+        .margin_padding
     }
     img{
         border:0;
@@ -99,24 +110,12 @@ body, html {
         }
         .mega-menu-item.mega-active{
             a span:before{
-                content: "";
-                height: 5px;
-                position: absolute;
-                bottom: 3px;
-                left: 0;
-                width: 100%;
-                background-color: @mega-active_background;
+                .span
             }
         }
         .mega-menu-item:hover{
             a span:before{
-                content: "";
-                height: 5px;
-                position: absolute;
-                bottom: 3px;
-                left: 0;
-                width: 100%;
-                background-color: @mega-active_background;
+                .span
             }
             a.menu-item{
                 color: @mega-active_background;
@@ -147,8 +146,7 @@ body, html {
                 ul{
                     li{
                         ul{
-                            padding:0;
-                            margin:0;
+                            .margin_padding
                         }
                     }
                 }
