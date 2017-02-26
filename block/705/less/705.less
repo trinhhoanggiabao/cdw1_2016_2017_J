@@ -1,130 +1,155 @@
-header.type-10 {
+header.type-705 {
+    @background-color: #ebebeb;
+    @float: left;
+    @color: #999;
+    @padding: 0;
+    @list-style: none;
+    @backgroundcolor: #e17365;
+    @transition: all .2s ease-in-out;
+    @color: #ffffff;
+    @position: absolute;
+    @display: none;
+    @transition3: all .3s ease-in-out;
+    @padding10: 10px;
+    @floatr: right;
+    @cursor: pointer;
+    @max-width: 100%;
+    @transition5: all .5s ease-in-out;
+    @color9: #b9b9b9;
+    @font-weight: normal;
+    @displayb: block;
+    @margin-left: 5px;
+    @padding35: 3px 5px;
+    @displayit: inline-table;
+    @color-hover: #e17365;
+    @padding810: 8px 10px;
+    @margin-left10: -10px;
     .topheader {
-        background-color: #ebebeb;
+        background-color: @background-color;
         nav.topmenu-left {
             ul.top-parent-menu {
-                float: left;
+                float: @float;
                 padding: 5px 0;
-                color: #999;
+                color: @color;
                 li {
-                    float: left;
+                    float: @float;
                     margin: 0;
-                    padding: 0;
-                    list-style: none;
+                    padding: @padding;
+                    list-style: @list-style;
                     a {
-                        color: #999;
+                        color: @color;
                         padding: 8px 20px;
                         padding-bottom: 16px;
-                        transition: all .2s ease-in-out;
+                        transition: @transition;
                         text-align: center;
                     }
                     a:hover {
-                        background-color: #e17365;
-                        color: #ffffff;
+                        background-color: @backgroundcolor;
+                        color: @color;
                     }
                     ul.top-sub-menu {
-                        background-color: #e17365;
-                        position: absolute;
+                        background-color: @backgroundcolor;
+                        position: @position;
                         top: 38px;
-                        display: none;
+                        display: @display;
                         li.dropdown {
                             float: none;
                             padding: 10px 7px;
                             text-align: left;
                             margin-right: 100px;
-                            transition: all .3s ease-in-out;
+                            transition: @transition3;
                             .sub-menu {
-                                color: #ffffff;
+                                color: @color;
                                 margin-left: -37px;
-                                padding: 10px;
+                                padding: @padding10;
                             }
                         }
                     }
                 }
                 li:hover {
                     .active {
-                        background-color: #e17365;
-                        color: #ffffff;
+                        background-color: @backgroundcolor;
+                        color: @color;
                     }
                     ul.top-sub-menu {
-                        display: block;
-                        transition: all .3s ease-in-out;
-                        color: #999;
+                        display: @displayb;
+                        transition: @transition3;
+                        color: @color;
                     }
                 }
                 .sign-in {
-                    color: #999;
-                    transition: all .2s ease-in-out;
+                    color: @color;
+                    transition: @transition;
                     margin-left: 10px;
                 }
                 .register {
-                    color: #999;
-                    transition: all .2s ease-in-out;
+                    color: @color;
+                    transition: @transition;
                 }
                 .catch:hover {
-                    color: #e17365;
-                    transition: all .2s ease-in-out;
+                    color: @color-hover;
+                    transition: @transition;
                 }
             }
         }
         nav.topmenu-right {
             ul {
                 margin-right: -15px;
-                float: right;
-                cursor: pointer;
+                float: @floatr;
+                cursor: @cursor;
                 li {
-                    float: left;
+                    float: @float;
                     margin: 0 20px;
-                    padding: 0;
-                    list-style: none;
+                    padding: @padding;
+                    list-style: @list-style;
                     .show-countries {
-                        padding: 8px 10px;
+                        padding: @padding810;
                         img {
-                            max-width: 100%;
+                            max-width: @max-width;
                             margin-bottom: 3px;
                         }
                     }
                     .hide-countries {
-                        position: absolute;
+                        position: @position;
                         left: 10px;
                         background-color: #ebebeb;
-                        margin-left: -10px;
+                        margin-left: @margin-left10;
                         padding-right: 9px;
-                        display: inline-table;
-                        display: none;
+                        display: @displayit;
+                        display: @display;
                         .countries {
-                            margin-left: 5px;
-                            padding: 3px 5px;
-                            transition: all .2s ease-in-out;
+                            margin-left: @margin-left;
+                            padding: @padding35;
+                            transition: @transition;
                         }
                         .countries:hover {
-                            background-color: #e17365;
-                            transition: all .2s ease-in-out;
+                            background-color: @backgroundcolor;
+                            transition: @transition;
                             .languege { 
-                                color: #ffffff;
+                                color: @color;
                             }
                         }
                     }
                     .show-money {
-                        padding: 8px 10px;
+                        padding: @padding810;
                     }
                     .hide-money {
-                        position: absolute;
+                        position: @position;
                         left: 10px;
-                        background-color: #ebebeb;
-                        margin-left: -10px;
-                        display: inline-table;
-                        display: none;
+                        background-color: @background-color;
+                        margin-left: @margin-left10;
+                        display: @displayit;
+                        display: @display;
                         .money {
                             margin-left: 5px;
                             padding: 3px 5px;
-                            transition: all .2s ease-in-out;
+                            transition: @transition;
                             a {
                                 padding: 5px 6px;
                             }
                             a:hover {
-                                background-color: #e17365;
-                                color: #ffffff;
+                                background-color: @backgroundcolor;
+                                color: @color;
                             }
                         }
                     }
@@ -136,17 +161,17 @@ header.type-10 {
                     background-color: #7b7975;
                     .show-countries {
                         .languege-en {
-                            color: #ffffff;
-                            transition: all .2s ease-in-out;
+                            color: @color
+                                transition @transition;
                         }
                     }
                     .show-money {
                         .money-active {
-                            color: #ffffff;
+                            color: @color;
                         }
                     }
                     .hide-countries, .hide-money {
-                        display: block;
+                        display: @displayb;
                     }
                 }
             }
@@ -156,14 +181,14 @@ header.type-10 {
         padding: 40px 0;
         .shopping-cart {
             margin-top: 25px;
-            float: left;
+            float: @float;
             .cart {
-                padding: 10px;
-                color: #b9b9b9;
+                padding: @padding10;
+                color: @color9;
                 border: 1px solid #e7e2e2;
-                transition: all .5s ease-in-out;
+                transition: @transition5;
                 padding-right: 80px;
-                font-weight: normal;
+                font-weight: @font-weight;
                 .fa-cart {
                     color: red;
                 }
@@ -171,40 +196,40 @@ header.type-10 {
             .cart:hover {
                 background-color: #e0e0e0;
                 color: #8b8b8b;
-                transition: all .5s ease-in-out;
+                transition: @transition5;
             }
         }
         .logo {
-            float: left;
+            float: @float;
             img {
-                max-width: 100%;
+                max-width: @max-width;
                 margin-left: 100%;
             }
         }
         .search {
-            float: right;
+            float: @floatr;
             margin-top: 18px;
             #text-search {
                 padding: 6px;
             }
             .fa-search {
                 padding: 9px;
-                cursor: pointer;
+                cursor: @cursor;
                 font-size: 18px;
-                color: #b9b9b9;
-                font-weight: normal;
-                transition: all .3s ease-in-out;
-                    margin-left: -40px;
+                color: @color9;
+                font-weight: @font-weight;
+                transition: @transition3;
+                margin-left: -40px;
             }
             .fa-search:hover {
-                background-color: #e17365;
-                color: #ffffff;
-                transition: all .3s ease-in-out;
+                background-color: @backgroundcolors;
+                color: @color;
+                transition: @transition3;
             }
         }
     }
 }
-@font-family: Time News Roman;
+
 a {
     text-decoration: none;
 }
