@@ -23,7 +23,7 @@
 .type-704 .zaro .zaro-dropdown {
   display: none;
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
   width: 100%;
   background: #ebebeb;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -31,7 +31,7 @@
 .type-704 .zaro div,
 .type-704 .zaro form {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
 }
 .type-704 .zaro img {
   border: 0;
@@ -53,11 +53,10 @@
   transition: all .2s ease-in-out;
 }
 .type-704 .zaro .fa {
-  display: inline-block;
+  display: none;
   vertical-align: top;
   width: 20px;
   height: 20px;
-  fill: currentColor;
   pointer-events: none;
 }
 .type-704 .zaro #white_background {
@@ -436,7 +435,7 @@
   bottom: 3px;
   left: 0;
   width: 100%;
-  background-color: #009900;
+  background-color: #f9f9f9;
 }
 .type-704 .zaro .menu-container .mega-menu-item:hover a span:before {
   content: "";
@@ -445,7 +444,7 @@
   bottom: 3px;
   left: 0;
   width: 100%;
-  background-color: #009900;
+  background-color: #f9f9f9;
 }
 .type-704 .zaro .menu-container .mega-menu-item:hover a.menu-item {
   color: #009900;
@@ -474,7 +473,7 @@
   text-transform: none;
 }
 .type-704 .zaro .menu-container .mega-dropdown-menu li ul li ul {
-  padding: 0;
+  padding: 0 10px;
   margin: 0;
 }
 .type-704 .zaro .menu-container .mega-dropdown-menu .first-item {
@@ -500,7 +499,7 @@
   position: absolute;
   width: 190px;
   left: auto;
-  padding: 0;
+  padding: 0 10px;
 }
 .type-704 .zaro .menu-container .mega-menu-item .demos li {
   padding-left: 10px;
@@ -646,12 +645,12 @@
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .col-md-6 {
   margin: 0;
-  padding: 0;
+  padding: 0 10px;
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite,
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist {
   float: left;
-  background-color: #009900;
+  background-color: #f9f9f9;
   opacity: 0.2;
   margin-right: 10px;
   padding: 10px;
@@ -662,7 +661,7 @@
   font-size: 18px;
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .card:hover {
-  background-color: #009900;
+  background-color: #f9f9f9;
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite:hover,
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist:hover {
@@ -677,13 +676,13 @@
 .type-704 .zaro .full-width {
   width: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 10px;
 }
 .type-704 .zaro .main-bg-hover:hover {
-  background-color: #009900;
+  background-color: #f9f9f9;
 }
 .type-704 .zaro .main-bg {
-  background-color: #009900;
+  background-color: #f9f9f9;
 }
 @media (min-width: 728px) {
   .type-704 .zaro .menu-container a span:before {
@@ -809,8 +808,8 @@
     padding-top: -10px;
   }
   .type-704 .zaro #zaro-carousel .search-box-img {
-    right: 10px !important;
-    top: 10px !important;
+    right: 10p;
+    top: 10px;
   }
   .type-704 .zaro #zaro-carousel .col-custom-5-col {
     padding: 10px;
@@ -921,7 +920,7 @@
     width: 100%;
   }
   .type-704 .zaro .menu-container a.opener {
-    visibility: visible;
+    visibility: hidden ;
   }
   .type-704 .zaro .menu-container .mega-menu {
     margin-top: 50px;
@@ -973,7 +972,6 @@
   }
   .type-704 .zaro .menu-container .mega-menu-item {
     float: none;
-    width: 100%;
     overflow: hidden;
     background: #fafafa;
     border-bottom: 1px solid #f2f2f2;
@@ -992,7 +990,7 @@
     opacity: 0;
   }
   .type-704 .zaro .menu-container .mega-menu-ul {
-    visibility: visible;
+    visibility: hidden;
     height: auto;
     padding-left: 20px;
   }
@@ -1014,7 +1012,7 @@
   }
   .type-704 .zaro .col-custom-5-col {
     width: 50%;
-    float: left;
+    float: right;
     position: relative;
     min-height: 1px;
   }

@@ -24,12 +24,19 @@
     @displayi: inline-block;
     @float: right;
     @min-height: 1px;
-    @visibility: visible;
+    @visibile: visible;
     @margin: 0;
+    @floatn: none;
+    @height: auto;
+    @width: 100%;
+    @vertical-align: top;
+    @overflow: hidden;
+    @visibility: hidden;
+    @opacity: 0;
     body {
         background: @background;
         padding-top: 36px;
-        margin:0;
+        margin:@margin;
     }
     a, body {
         color: #666;
@@ -49,15 +56,15 @@
         }
         .zaro-dropdown{
             display: @display;
-            margin:0;
-            padding:0;
-            width: 100%;
+            margin:@margin;
+            padding:@padding;
+            width: @width;
             background: @background;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
         }
         div,form{
-            margin:0;
-            padding:0;
+            margin:@margin;
+            padding:@padding;
         }
         img{
             border:0;
@@ -77,8 +84,8 @@
         }
 
         .fa {
-            display: @d;
-            vertical-align: top;
+            display: @display;
+            vertical-align: @vertical-align;
             width: 20px;
             height: 20px;
             pointer-events: none;
@@ -100,16 +107,16 @@
             #header_logo {
                 position: @position;
                 margin: 80px 0 0 0;
-                width: 100%; 
+                width: @width; 
                 a {
                     font: normal 80px Georgia;
                     color: #3C3C3C;
                 }
                 img.logo {
-                    max-width: 100%;
-                    max-height: 100%;
+                    max-width: @width;
+                    max-height: @width;
                     width: auto;
-                    height: auto;
+                    height: @height;
                 }
                 .logo{
                     font: normal 80px/80px "Georgia";
@@ -149,7 +156,7 @@
                 }
                 a:first-child {
                     display: @displayb;
-                    overflow: hidden;
+                    overflow: @overflow;
                     font-size: 13px;
                     b {
                         font-weight: normal;
@@ -164,7 +171,7 @@
                     margin: 8px 5px 0 0;
                     color: #b0adad;
                     display: @displayi;
-                    vertical-align: top;
+                    vertical-align: @vertical-align;
                     fill: currentColor;
                     pointer-events: none;
                 }
@@ -185,10 +192,10 @@
                 height: 34px;
                 width:230px;
                 #search_query_top{
-                    width: 100%;
+                    width: @width;
                     height: 100%;
                     border: none;
-                    height: auto;
+                    height: @height;
                     position: @position;
                     padding: 7px 0;
                     text-indent: 10px;
@@ -229,7 +236,7 @@
 
         .dib {
             display: @displayi;
-            vertical-align: top;
+            vertical-align: @vertical-align;
         }
 
 
@@ -241,7 +248,7 @@
             }
             ul {
                 clear: both;
-                width: 100%;
+                width: @width;
                 list-style-type: @list-style-types;
                 border-top: @border;
                 border-bottom: @border;
@@ -426,7 +433,7 @@
             position: @positionr;
             margin-left: 15px;
             ul{
-                margin:0;
+                margin:@margin;
                 padding: 0;
             }
             li {
@@ -460,7 +467,7 @@
             }
             .mega-menu{
                 background: url(../images/border.gif) repeat-x 0 100%;
-                width: 100%;
+                width: @width;
                 margin: auto;
                 ul.mega-menu-ul{
                     list-style-type: @list-style-type;
@@ -477,7 +484,7 @@
                         color: #3a3a3c;
                         font-size: 19px;
                         line-height: 35px;
-                        display: block;
+                        display: @displayb;
                     }
                 }
             }
@@ -488,7 +495,7 @@
                     position: absolute;
                     bottom: 3px;
                     left: 0;
-                    width: 100%;
+                    width: @width;
                     background-color: @background-color;
                 }
             }
@@ -499,7 +506,7 @@
                     position: absolute;
                     bottom: 3px;
                     left: 0;
-                    width: 100%;
+                    width: @width;
                     background-color: @background-color;
                 }
                 a.menu-item{
@@ -513,7 +520,7 @@
                 background-color: @background-color;
                 padding: 22px 20px 30px;
                 img{ 
-                    display: block;
+                    display: @displayb;
                     margin:0 auto;
                 }
                 .brand{
@@ -531,8 +538,8 @@
                     ul{
                         li{
                             ul{
-                                padding:0;
-                                margin:0;
+                                padding:@padding;
+                                margin:@margin;
                             }
                         }
                     }
@@ -548,7 +555,7 @@
             span.price{
                 font-size: 24px;
                 color: #930;
-                display: block;
+                display: @displayb;
                 line-height: 30px;
             }
 
@@ -566,17 +573,17 @@
                     position: absolute; 
                     width: 190px;
                     left: @left;
-                    padding:0;
+                    padding:@padding;
                     li{
                         padding-left: 10px;
                         font-size: 15px;
                         border-top: 1px solid #ddd;
                         display:  @displayi;
                         line-height: 30px;
-                        height: auto;
-                        vertical-align: top;
+                        height: @height;
+                        vertical-align: @vertical-align;
                         a{
-                            width: 100%;
+                            width: @width;
                             padding: 5px 5px 5px 20px;
                             font-size: 14px;
                         }
@@ -613,7 +620,7 @@
                     text-transform: uppercase;
                     white-space: nowrap;
                     padding: 0 73px;
-                    margin:0;
+                    margin:@margin;
                 }
                 .zaro-controls{
                     position: absolute;
@@ -630,7 +637,7 @@
                 margin-bottom: 30px;
                 td {
                     padding: 0;
-                    margin:0;
+                    margin:@margin;
                 }
             }
             .title-wing {
@@ -640,18 +647,18 @@
                 border-top: 1px solid #e6e5e5;
                 border-bottom: 1px solid #e6e5e5;
                 vertical-align: middle;
-                width: 100%;
+                width: @width;
             }
 
             .carousel-inner{
-                width: 100%;
+                width: @width;
                 .item{
                     img{
                         margin: @margin;
-                        height: auto;
+                        height: @height;
                         border: 1px solid #e0e0e0;
                         box-sizing: border-box;
-                        display: block;
+                        display: @displayb;
                     }
                     a.search-box-img{
                         position: absolute;
@@ -676,7 +683,7 @@
                         opacity: 1; 
                     }
                     .addToCart-hover{
-                        display: block;  
+                        display:@displayb;  
                     }
                     h3{
                         display: @display;
@@ -690,25 +697,25 @@
                     z-index: 99;
                     margin-top: 10px;
                     margin-bottom: 10px;
-                    display: block;
+                    display: @displayb;
                 }
                 .row{
                     p{
                         color: #777!important;
-                        display: block;
+                        display: @displayb;
                         margin: 0 0 7px;
                         font-size: 16px;
                         line-height: 20px;
                         text-align: @text-align;
-                        width: 100%;
+                        width: @width;
                         float: left;
                         white-space: nowrap;
-                        overflow: hidden;
+                        overflow: @overflow;
                         text-overflow: ellipsis;
                     }
 
                     .addToCart-hover{
-                        width: 100%; 
+                        width: @width; 
                         display: @display; 
                         color: #FFF; 
                         a{
@@ -720,8 +727,8 @@
                             margin-right: @margin-right;
                         }  
                         .col-md-6{
-                            margin:0;
-                            padding:0;
+                            margin:@margin;
+                            padding:@padding;
                         }
                         .favorite,.wishlist{
                             float:left;
@@ -754,9 +761,9 @@
             text-align: @text-align;
         }
         .full-width{
-            width: 100%;
+            width: @width;
             margin:0 auto;
-            padding:0;
+            padding:@padding;
         }
         .main-bg-hover:hover{
             background-color: @background-color;
@@ -780,7 +787,7 @@
                     }
                 }
                 .mega-menu-ul{
-                    display: block;
+                    display: @displayb;
                     li{
                         a.opener{
                             display: @display;
@@ -802,7 +809,7 @@
                 ul{
 
                     li {
-                        display: block;
+                        display: @displayb;
                         float: left;
                         a{
                             span {
@@ -915,7 +922,7 @@
             .mobileMenuTitle {
                 display: block;
                 background: url(data:image/gif;base64,R0lGODdhFgAWAPAAABcXF////ywAAAAAFgAWAAACH4SPqcvtD12YtNqLs968+29F4kiWEYim6sqG5gvHTQEAOw==) no-repeat 97% 50%;
-                width: 100%;
+                width: @width;
                 font-size: 23px;
                 cursor: @cursor;
                 height: 56px;
@@ -993,9 +1000,9 @@
                     margin-top: 60px;
                     .logo{
                         width: auto;
-                        max-width: 100%;
+                        max-width: @width;
                         max-height: 100px;
-                        height: auto;
+                        height: @height;
                     }
                 }
                 #shopping_cart {
@@ -1017,7 +1024,7 @@
                     }
                 }
                 #shopping_cart:hover{
-                    width: 100%;
+                    width: @width;
                     position: absolute;
                     left: 0;
                     top: 0;
@@ -1039,19 +1046,19 @@
 
 
             #menu_header{
-                height: auto;
+                height: @height;
                 position: absolute;
                 top: 220px;
-                width: 100%;
+                width: @width;
                 left: 0;
                 ul {
-                    width: 100%;
+                    width: @width;
                     text-align: left;
                     li {
                         line-height: 30px;
                         text-align: center;
                         margin:@margin;
-                        display: block;
+                        display: @displayb;
                         float: left;
                         position: static;
                         border: none;
@@ -1063,10 +1070,10 @@
                     li{
                         a {
                             font-size: 16px;
-                            width: 100%;
+                            width: @width;
                             display: @displayb;
                             border-left: none;
-                            height: auto;
+                            height: @height;
                             color: #666;
                         }
                     }
@@ -1078,7 +1085,7 @@
                     }
                 }
                 .zaro-dropdown{
-                    width: 100%;
+                    width: @width;
                 }
             }
 
@@ -1120,7 +1127,7 @@
                             content: "+";
                             line-height: 50px;
                             font-size: 28px;
-                            width: 100%;
+                            width: @width;
                             text-align: center;
                             display: @displayb;
                         }
@@ -1129,7 +1136,7 @@
                 .mobileMenuTitle {
                     display: @displayb;
                     background: url(data:image/gif;base64,R0lGODdhFgAWAPAAABcXF////ywAAAAAFgAWAAACH4SPqcvtD12YtNqLs968+29F4kiWEYim6sqG5gvHTQEAOw==) no-repeat 97% 50%;
-                    width: 100%;
+                    width: @width;
                     font-size: 23px;
                     cursor: @cursor;
                     height: 56px;
@@ -1141,9 +1148,8 @@
                     font-weight: normal;
                 }
                 .mega-menu-item{
-                    float: none;
-                    width: 100%;
-                    overflow: hidden;
+                    float: @floatn;
+                    overflow: @overflow;
                     background: #fafafa;
                     border-bottom: @border-bottom;
                     border-top: @border-top;
@@ -1152,26 +1158,26 @@
                     position: @positionr;
                     ul,img{
                         display:none;
-                        visibility: hidden;
+                        visibility: @visibility;
                     }
                     a span:before{
-                        visibility: hidden;
+                        visibility: @visibility;
                         opacity: 0;
                     } 
                 }
                 .mega-menu-ul{
                     visibility: @visible;
-                    height: auto  ;
+                    height: @height;
                     padding-left: 20px;
                     ul{
                         margin: 5px 0 0 0;
                     }
                     li{
-                        width: 100%;
+                        width: @width;
                         margin: @margin;
                         background: #f6f6f6;
-                        float: none;
-                        overflow: hidden;
+                        float: @floatn;
+                        overflow: @overflow;
                         border-bottom: 1px solid #f2f2f2;
                         border-top: @border-top;
                         position: @positionr;
