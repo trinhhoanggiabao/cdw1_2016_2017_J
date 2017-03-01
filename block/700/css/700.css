@@ -1,11 +1,11 @@
 body {
-  background: ;
+  background: #ebebeb;
   padding-top: 36px;
   margin: 0;
 }
 a,
 body {
-  color: ;
+  color: #666;
 }
 body,
 html {
@@ -153,9 +153,6 @@ html {
 .zaro .menu-container .mega-dropdown-menu .first-item {
   padding-left: 15px;
 }
-.zaro .menu-container .mega-dropdown-menu .first-item li {
-  text-align: center;
-}
 .zaro .menu-container span.price {
   font-size: 24px;
   color: #930;
@@ -186,7 +183,7 @@ html {
 }
 .zaro .menu-container .mega-menu-item .demos li a {
   width: 100%;
-  padding: 5px 5px 5px 20px;
+  padding: 5px 5px 5px 10px;
   font-size: 14px;
 }
 .zaro .dropdown {

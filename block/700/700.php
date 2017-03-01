@@ -36,14 +36,14 @@
                                         <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
                                             <li class="col-md-2 col-sm-3">
                                                 <ul class="first-item">
-                                                    <li class="dropdown-header">Men Collection</li>  
-                                                    <div class="item active">
+                                                    <li>Men Collection</li>  
+                                                    <div>
                                                         <a href="#">
                                                             <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
                                                         </a>
                                                     </div>
 
-                                                    <li class="divider"></li>
+                                                    
                                                     <li>
                                                         <a href="#">Dress Anna Sui....</a>
                                                         <span class="price">$309.00</span>
@@ -54,17 +54,17 @@
                                                 <ul class="full-width">
                                                     <li class="col-md-2 col-sm-3">
                                                         <ul>
-                                                            <li class="dropdown-header">Features</li>
+                                                            <li>Features</li>
                                                             <li><a href="#">Auto Carousel</a></li>
                                                             <li><a href="#">Carousel Control</a></li>
                                                             <li><a href="#">Left & Right Navigation</a></li>
                                                             <li><a href="#">Four Columns Grid</a></li>
-                                                            <li class="divider"></li> 
+                                                            
                                                         </ul>
                                                     </li>
                                                     <li class="col-md-2 col-sm-3">
                                                         <ul>
-                                                            <li class="dropdown-header">Plus</li>
+                                                            <li>Plus</li>
                                                             <li><a href="#">Navbar Inverse</a></li>
                                                             <li><a href="#">Pull Right Elements</a></li>
                                                             <li><a href="#">Coloured Headers</a></li>                            
@@ -73,7 +73,7 @@
                                                     </li>
                                                     <li class="col-md-2 col-sm-3">
                                                         <ul>
-                                                            <li class="dropdown-header">Much more</li>
+                                                            <li>Much more</li>
                                                             <li><a href="#">Easy to Customize</a></li>
                                                             <li><a href="#">Calls to action</a></li>
                                                             <li><a href="#">Custom Fonts</a></li>
@@ -82,7 +82,7 @@
                                                     </li>
                                                     <li class="col-md-2 col-sm-3">
                                                         <ul>
-                                                            <li class="dropdown-header">Much more</li>
+                                                            <li>Much more</li>
                                                             <li><a href="#">Easy to Customize</a></li>
                                                             <li><a href="#">Calls to action</a></li>
                                                             <li><a href="#">Custom Fonts</a></li>
@@ -91,7 +91,7 @@
                                                     </li>
                                                     <li class="col-md-2 col-sm-3">
                                                         <ul>
-                                                            <li class="dropdown-header">Much more</li>
+                                                            <li>Much more</li>
                                                             <li><a href="#">Easy to Customize</a></li>
                                                             <li><a href="#">Calls to action</a></li>
                                                             <li><a href="#">Custom Fonts</a></li>
@@ -123,15 +123,15 @@
                                                 </ul>
                                             </li>
                                             <li class="col-md-8 col-sm-8">
-                                                <ul class="full-width">
+                                                    <ul class="full-width">
                                                     <li class="col-md-3 col-sm-6">
                                                         <ul>
-                                                            <li class="dropdown-header">Features</li>
+                                                            <li>Features</li>
                                                             <li><a href="#">Auto Carousel</a></li>
                                                             <li><a href="#">Carousel Control</a></li>
                                                             <li><a href="#">Left & Right Navigation</a></li>
                                                             <li><a href="#">Four Columns Grid</a></li>
-                                                            <li class="divider"></li> 
+                                                            
                                                         </ul>
                                                     </li>
                                                     <li class="col-md-3 col-sm-6">
@@ -145,7 +145,7 @@
                                                     </li>
                                                     <li class="col-md-3 col-sm-6">
                                                         <ul>
-                                                            <li class="dropdown-header">Much more</li>
+                                                            <li>Much more</li>
                                                             <li><a href="#">Easy to Customize</a></li>
                                                             <li><a href="#">Calls to action</a></li>
                                                             <li><a href="#">Custom Fonts</a></li>
@@ -154,7 +154,7 @@
                                                     </li>
                                                     <li class="col-md-3 col-sm-6">
                                                         <ul>
-                                                            <li class="dropdown-header">Much more</li>
+                                                            <li>Much more</li>
                                                             <li><a href="#">Easy to Customize</a></li>
                                                             <li><a href="#">Calls to action</a></li>
                                                             <li><a href="#">Custom Fonts</a></li>
@@ -166,14 +166,14 @@
                                             </li>
                                             <li class="col-md-2 col-sm-2">
                                                 <ul class="first-item">
-                                                    <li class="dropdown-header">Men Collection</li>  
+                                                    <li>Men Collection</li>  
                                                     <div class="item active">
                                                         <a href="#">
                                                             <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
                                                         </a>
                                                     </div>
 
-                                                    <li class="divider"></li>
+                                                    
                                                     <li>
                                                         <a href="#">View all Collection 
 
@@ -231,40 +231,40 @@
                                         <a href="#" class="opener"></a>
                                         <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li>  
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <img src="images/4-manu_alysum.jpg">
                                             </li> 
                                         </ul>	
                                     </li>
@@ -275,13 +275,13 @@
                                         </a>
                                         <a href="#" class="opener"></a>
                                         <ul class="dropdown-menu mega-dropdown-menu demos" >
-                                            <li>Demo 01 - Alysum</li>
-                                            <li>Demo 01 - Alysum</li>
-                                            <li>Demo 01 - Alysum</li>
-                                            <li>Demo 01 - Alysum</li>
-                                            <li>Demo 01 - Alysum</li>
-                                            <li>Demo 01 - Alysum</li>
-                                            <li>Demo 01 - Alysum</li>
+                                            <li><a>Demo 01 - Alysum</a></li>
+                                            <li><a>Demo 01 - Alysum</a></li>
+                                            <li><a>Demo 01 - Alysum</a></li>
+                                            <li><a>Demo 01 - Alysum</a></li>
+                                            <li><a>Demo 01 - Alysum</a></li>
+                                            <li><a>Demo 01 - Alysum</a></li>
+                                            <li><a>Demo 01 - Alysum</a></li>
                                         </ul>
                                     </li>
                                 </ul> 
