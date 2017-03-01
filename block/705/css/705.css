@@ -48,7 +48,7 @@ header.type-705 .topheader nav.topmenu-left ul.top-parent-menu li:hover .active 
 header.type-705 .topheader nav.topmenu-left ul.top-parent-menu li:hover ul.top-sub-menu {
   display: block;
   transition: all .3s ease-in-out;
-  color: #999;
+  color: #ffffff;
 }
 header.type-705 .topheader nav.topmenu-left ul.top-parent-menu .sign-in {
   color: #999;
@@ -100,7 +100,7 @@ header.type-705 .topheader nav.topmenu-right ul li .hide-countries .countries:ho
   transition: all .2s ease-in-out;
 }
 header.type-705 .topheader nav.topmenu-right ul li .hide-countries .countries:hover .languege {
-  color: #ffffff;
+  color: #999;
 }
 header.type-705 .topheader nav.topmenu-right ul li .show-money {
   padding: 8px 10px;
@@ -123,7 +123,7 @@ header.type-705 .topheader nav.topmenu-right ul li .hide-money .money a {
 }
 header.type-705 .topheader nav.topmenu-right ul li .hide-money .money a:hover {
   background-color: #e17365;
-  color: #ffffff;
+  color: #999;
 }
 header.type-705 .topheader nav.topmenu-right ul li a {
   color: #6d6d6d;
@@ -132,7 +132,7 @@ header.type-705 .topheader nav.topmenu-right ul li:hover {
   background-color: #7b7975;
 }
 header.type-705 .topheader nav.topmenu-right ul li:hover .show-countries .languege-en {
-  color: #ffffff;
+  color: #999;
   transition: all .2s ease-in-out;
 }
 header.type-705 .topheader nav.topmenu-right ul li:hover .show-money .money-active {
