@@ -1,17 +1,3 @@
-.type-704 body {
-  background: #ebebeb;
-  padding-top: 36px;
-  margin: 0;
-}
-.type-704 a,
-.type-704 body {
-  color: #666;
-}
-.type-704 body,
-.type-704 html {
-  height: 100%;
-  min-height: 100%;
-}
 .type-704 .zaro p {
   padding-bottom: 20px;
 }
@@ -150,7 +136,7 @@
   line-height: 16px;
 }
 .type-704 .zaro #header #shopping_cart:hover {
-  background: #ebebeb;
+  background: ;
   z-index: 11;
   color: #8b8b8b;
 }
@@ -517,7 +503,7 @@
   font-size: 14px;
 }
 .type-704 .zaro .dropdown {
-  position: static !important;
+  position: static;
 }
 .type-704 .zaro #zaro-carousel {
   margin-top: 70px;
@@ -619,7 +605,7 @@
   display: block;
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row p {
-  color: #777 !important;
+  color: #777;
   display: block;
   margin: 0 0 7px;
   font-size: 16px;
@@ -669,7 +655,7 @@
   opacity: 1;
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover a:hover {
-  background-color: #009900 !important;
+  background-color: #009900;
 }
 .type-704 .zaro .align-center {
   text-align: center;
@@ -680,7 +666,7 @@
   padding: 0;
 }
 .type-704 .zaro .main-bg-hover:hover {
-  background-color: #009900 !important;
+  background-color: #009900;
 }
 .type-704 .zaro .main-bg {
   background-color: #009900;
@@ -716,7 +702,7 @@
     padding-left: 0;
   }
   .type-704 .zaro .mega-menu .mega-menu-item a.menu-item {
-    font-size: 16px !important;
+    font-size: 16px;
   }
   .type-704 .zaro .mega-menu .mobileMenuTitle {
     display: none;
@@ -763,7 +749,7 @@
   }
   .type-704 .zaro #shopping_cart,
   .type-704 .zaro #search_box_top {
-    top: 180px !important;
+    top: 180px;
   }
   .type-704 .zaro #menu_header li {
     padding: 0 15px;
@@ -859,7 +845,7 @@
     font: normal normal normal 20px/1 FontAwesome;
   }
   .type-704 .zaro #header #shopping_cart a {
-    height: 35px !important;
+    height: 35px;
   }
   .type-704 .zaro #header #shopping_cart:hover {
     width: 100%;
@@ -1011,11 +997,5 @@
   }
   .type-704 .zaro .menu-container .mega-menu-ul li ul {
     display: none;
-  }
-  .type-704 .zaro .col-custom-5-col {
-    width: 50%;
-    float: left;
-    position: relative;
-    min-height: 1px;
   }
 }

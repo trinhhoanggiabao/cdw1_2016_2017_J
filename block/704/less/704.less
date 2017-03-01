@@ -6,19 +6,6 @@
     @cursor: pointer;
     @display: none;
     @displayb: block;
-    body {
-        background: @background;
-        padding-top: 36px;
-        margin:0;
-    }
-    a, body {
-        color: #666;
-    } 
-    body, html {
-        height: 100%;
-        min-height: 100%;
-    }
-
     .zaro{ 
         p {
             padding-bottom: 20px;
@@ -223,7 +210,7 @@
             ul {
                 clear: both;
                 width: 100%;
-                list-style-type: @list-style-types;
+                list-style-type: @list-style-type;
                 border-top: 1px solid #dedede;
                 border-bottom: 1px solid #dedede;
                 display: @display;
@@ -345,9 +332,6 @@
                 color: #888;
             }
         }
-
-
-
         #menu_header{
             float: left;   
             ul{
@@ -566,7 +550,7 @@
             }
         } 
         .dropdown{
-            position: static !important;
+            position: static;
         }
 
         //SLIDE SHOW
@@ -675,7 +659,7 @@
                 }
                 .row{
                     p{
-                        color: #777!important;
+                        color: #777;
                         display: block;
                         margin: 0 0 7px;
                         font-size: 16px;
@@ -722,7 +706,7 @@
                             opacity: 1;
                         }
                         a:hover{ 
-                            background-color: #009900 !important; 
+                            background-color: #009900; 
                         }
                     } 
                 }
@@ -740,7 +724,7 @@
             padding:0;
         }
         .main-bg-hover:hover{
-            background-color: #009900 !important;
+            background-color: #009900;
         }
         .main-bg{
             background-color: #009900;
@@ -798,7 +782,7 @@
                 }
                 .mega-menu-item{ 
                     a.menu-item{
-                        font-size: 16px !important; 
+                        font-size: 16px; 
                     }
                 }
                 .mobileMenuTitle{
@@ -823,7 +807,6 @@
                     margin: 0;
                     line-height: 36px;
                 }
-
             }
 
             .mega-menu{
@@ -876,7 +859,7 @@
                 height: 200px;
             }
             #shopping_cart, #search_box_top {
-                top: 180px !important;
+                top: 180px;
             }
             #menu_header{ 
                 li{
@@ -994,7 +977,7 @@
                         font: normal normal normal 20px/1 FontAwesome;
                     }
                     a {
-                        height: 35px !important;
+                        height: 35px;
                     }
                 }
                 #shopping_cart:hover{
@@ -1017,8 +1000,6 @@
                 }
 
             }
-
-
             #menu_header{
                 height: auto;
                 position: absolute;
@@ -1162,13 +1143,6 @@
 
                     } 
                 }
-            }
-            .col-custom-5-col{
-                width: 50%; 
-                float:left;
-                position: relative;
-                min-height: 1px;
-
             }
         }
     }
