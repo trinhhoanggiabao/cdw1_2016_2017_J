@@ -4,7 +4,6 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 
@@ -158,9 +157,6 @@
                             </div>
                             <div id="custom-tab" class="tabcontent">
                                 <img src="images/sizes.jpg">
-                            </div>
-                            <div id="video" class="tabcontent">
-                                <iframe id="player" type="text/html" src="video/prada-spring-2015.mp4" width="515" height="270" frameborder="0"></iframe>
                             </div>
                             <div id="comment" class="tabcontent">
                                 <div class="thumb-comment">
