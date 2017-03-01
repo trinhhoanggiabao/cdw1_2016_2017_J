@@ -43,7 +43,6 @@
   vertical-align: top;
   width: 20px;
   height: 20px;
-  fill: currentColor;
   pointer-events: none;
 }
 .type-704 .zaro #white_background {
@@ -136,7 +135,7 @@
   line-height: 16px;
 }
 .type-704 .zaro #header #shopping_cart:hover {
-  background: ;
+  background: #ebebeb;
   z-index: 11;
   color: #8b8b8b;
 }
