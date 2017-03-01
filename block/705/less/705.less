@@ -24,6 +24,11 @@ header.type-705 {
     @color-hover: #e17365;
     @padding810: 8px 10px;
     @margin-left10: -10px;
+    .color-tra{
+        color: @colormenu;
+        transition: @transition;
+    }
+
     .topheader {
         background-color: @background-color;
         nav.topmenu-left {
@@ -78,13 +83,11 @@ header.type-705 {
                     }
                 }
                 .sign-in {
-                    color: @colormenu;
-                    transition: @transition;
+                    .color-tra;
                     margin-left: 10px;
                 }
                 .register {
-                    color: @colormenu;
-                    transition: @transition;
+                    .color-tra;
                 }
                 .catch:hover {
                     color: @color-hover;
@@ -141,7 +144,7 @@ header.type-705 {
                         display: @displayit;
                         display: @display;
                         .money {
-                            margin-left: 5px;
+                            margin-left: @margin-left;
                             padding: 3px 5px;
                             transition: @transition;
                             a {
@@ -228,8 +231,4 @@ header.type-705 {
             }
         }
     }
-}
-
-a {
-    text-decoration: none;
 }
