@@ -237,10 +237,10 @@
     max-width: 100%;
   }
   #btn-up {
-    display: ;
+    display: none;
   }
   #btn-down {
-    display: ;
+    display: none;
   }
 }
 @media (max-width: 769px) {
