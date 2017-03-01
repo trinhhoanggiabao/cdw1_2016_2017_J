@@ -1,11 +1,5 @@
-.type-703 body {
-  background: #f9f9f9;
-}
 .type-703 .info {
   display: inline-block;
-}
-.type-703 .col-md-6 {
-  margin-left: -10px;
 }
 .type-703 .product .items img {
   max-width: 100%;
@@ -119,20 +113,6 @@
 }
 .type-703 .product a {
   text-decoration: none;
-}
-.type-703 .col-md-12 {
-  margin-top: 25px;
-}
-.type-703 .col-md-12 h5 {
-  font-family: LMRomanCaps10-Regular;
-  font-size: 16px;
-  font-style: italic;
-  text-transform: uppercase;
-  padding-bottom: 8px;
-  padding-right: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #e0e0e0;
 }
 .type-703 .purchase-item .thumb-img-carousel img {
   border: 1px solid #e0e0e0;
@@ -257,9 +237,6 @@
   margin: 0;
   padding: 0;
   margin-bottom: 15px;
-}
-.type-703 #player {
-  text-align: center;
 }
 .type-703 #comment .thumb-comment {
   margin-top: 10px;
