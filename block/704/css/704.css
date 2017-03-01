@@ -23,7 +23,7 @@
 .type-704 .zaro .zaro-dropdown {
   display: none;
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
   width: 100%;
   background: #ebebeb;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -31,7 +31,7 @@
 .type-704 .zaro div,
 .type-704 .zaro form {
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
 }
 .type-704 .zaro img {
   border: 0;
@@ -53,10 +53,11 @@
   transition: all .2s ease-in-out;
 }
 .type-704 .zaro .fa {
-  display: none;
+  display: inline-block;
   vertical-align: top;
   width: 20px;
   height: 20px;
+  fill: currentColor;
   pointer-events: none;
 }
 .type-704 .zaro #white_background {
@@ -303,7 +304,7 @@
 }
 .type-704 .zaro #countries .selected_language {
   float: left;
-  margin: 0;
+  margin: 0 !important;
   display: block;
 }
 .type-704 .zaro #countries .selected_language img {
@@ -435,7 +436,7 @@
   bottom: 3px;
   left: 0;
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: #009900;
 }
 .type-704 .zaro .menu-container .mega-menu-item:hover a span:before {
   content: "";
@@ -444,12 +445,12 @@
   bottom: 3px;
   left: 0;
   width: 100%;
-  background-color: #f9f9f9;
+  background-color: #009900;
 }
 .type-704 .zaro .menu-container .mega-menu-item:hover a.menu-item {
   color: #009900;
 }
-.type-704 .zaro .menu-container .mega-menu-item:hover a.menu-item a.opener {
+.type-704 .zaro .menu-container .mega-menu-item:hover a.opener {
   color: #009900;
 }
 .type-704 .zaro .menu-container .mega-dropdown-menu {
@@ -473,7 +474,7 @@
   text-transform: none;
 }
 .type-704 .zaro .menu-container .mega-dropdown-menu li ul li ul {
-  padding: 0 10px;
+  padding: 0;
   margin: 0;
 }
 .type-704 .zaro .menu-container .mega-dropdown-menu .first-item {
@@ -499,7 +500,7 @@
   position: absolute;
   width: 190px;
   left: auto;
-  padding: 0 10px;
+  padding: 0;
 }
 .type-704 .zaro .menu-container .mega-menu-item .demos li {
   padding-left: 10px;
@@ -516,7 +517,7 @@
   font-size: 14px;
 }
 .type-704 .zaro .dropdown {
-  position: static;
+  position: static !important;
 }
 .type-704 .zaro #zaro-carousel {
   margin-top: 70px;
@@ -645,12 +646,12 @@
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .col-md-6 {
   margin: 0;
-  padding: 0 10px;
+  padding: 0;
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite,
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist {
   float: left;
-  background-color: #f9f9f9;
+  background-color: #009900;
   opacity: 0.2;
   margin-right: 10px;
   padding: 10px;
@@ -661,7 +662,7 @@
   font-size: 18px;
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .card:hover {
-  background-color: #f9f9f9;
+  background-color: #009900;
 }
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .favorite:hover,
 .type-704 .zaro #zaro-carousel .carousel-inner .row .addToCart-hover .wishlist:hover {
@@ -676,13 +677,13 @@
 .type-704 .zaro .full-width {
   width: 100%;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0;
 }
 .type-704 .zaro .main-bg-hover:hover {
-  background-color: #f9f9f9;
+  background-color: #009900 !important;
 }
 .type-704 .zaro .main-bg {
-  background-color: #f9f9f9;
+  background-color: #009900;
 }
 @media (min-width: 728px) {
   .type-704 .zaro .menu-container a span:before {
@@ -798,18 +799,18 @@
 }
 @media (max-width: 1170px) and (min-width: 980px) {
   .type-704 .zaro #zaro-carousel .add-ToCart a {
-    padding: 5px 0;
-    margin-right: 5px;
+    padding: 5px 0 !important;
+    margin-right: 5px !important;
   }
   .type-704 .zaro #zaro-carousel .add-ToCart .favorite,
   .type-704 .zaro #zaro-carousel .add-ToCart .wishlist {
-    margin-right: 5px;
-    padding: 5px;
-    padding-top: -10px;
+    margin-right: 5px !important;
+    padding: 5px !important;
+    padding-top: -10px !important;
   }
   .type-704 .zaro #zaro-carousel .search-box-img {
-    right: 10p;
-    top: 10px;
+    right: 10px !important;
+    top: 10px !important;
   }
   .type-704 .zaro #zaro-carousel .col-custom-5-col {
     padding: 10px;
@@ -908,7 +909,7 @@
     display: block;
     border-left: none;
     height: auto;
-    color: #666;
+    olor: #666;
   }
   .type-704 .zaro #menu_header li {
     width: 33.3%;
@@ -920,7 +921,7 @@
     width: 100%;
   }
   .type-704 .zaro .menu-container a.opener {
-    visibility: hidden ;
+    visibility: visible;
   }
   .type-704 .zaro .menu-container .mega-menu {
     margin-top: 50px;
@@ -933,7 +934,7 @@
     float: left;
   }
   .type-704 .zaro .menu-container .mega-menu-ul li a.opener {
-    margin: 0;
+    margin: 0 !important;
     max-width: 50px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -972,6 +973,7 @@
   }
   .type-704 .zaro .menu-container .mega-menu-item {
     float: none;
+    width: 100%;
     overflow: hidden;
     background: #fafafa;
     border-bottom: 1px solid #f2f2f2;
@@ -990,12 +992,12 @@
     opacity: 0;
   }
   .type-704 .zaro .menu-container .mega-menu-ul {
-    visibility: hidden;
+    visibility: visible;
     height: auto;
     padding-left: 20px;
   }
   .type-704 .zaro .menu-container .mega-menu-ul ul {
-    margin: 5px 0 0 0;
+    margin: 5px 0 0 0 !important;
   }
   .type-704 .zaro .menu-container .mega-menu-ul li {
     width: 100%;
@@ -1012,7 +1014,7 @@
   }
   .type-704 .zaro .col-custom-5-col {
     width: 50%;
-    float: right;
+    float: left;
     position: relative;
     min-height: 1px;
   }

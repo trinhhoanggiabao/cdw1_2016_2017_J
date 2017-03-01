@@ -27,17 +27,17 @@
                 <div class="col-md-6 col-sm-4 col-xs-12">
                     <div class="product">
                         <figure class="items col-md-9">
-                            <img src="images/moschino-cheap-and-chic-yacht-main.jpg" alt="" id="main_img">
+                            <img src="images/moschino-cheap-and-chic-yacht-main.jpg">
                         </figure>
                         <article class="thumbs-list col-md-3">
                             <article class="btn-move" id="btn-up" onclick="clickButtonUp()">
                                 <i class="fa fa-chevron-up"></i>
                             </article>
-                            <img src="images/moschino-cheap-and-chic-yacht-main.jpg" alt="" class="thumb_nail" id="show">
-                            <img src="images/moschino-cheap-and-chic-yacht-thumb2.jpg" alt="" class="thumb_nail">
-                            <img src="images/moschino-cheap-and-chic-yacht-thumb3.jpg" alt="" class="thumb_nail">
-                            <img src="images/moschino-cheap-and-chic-yacht-thumb4.jpg" alt="" class="thumb_nail">                         
-                            <img src="images/moschino-cheap-and-chic-yacht-a.jpg" alt="" class="thumb_nail" id="hide">
+                            <img src="images/moschino-cheap-and-chic-yacht-main.jpg" alt=""id="show">
+                            <img src="images/moschino-cheap-and-chic-yacht-thumb2.jpg" alt="">
+                            <img src="images/moschino-cheap-and-chic-yacht-thumb3.jpg" alt="">
+                            <img src="images/moschino-cheap-and-chic-yacht-thumb4.jpg" alt="">                         
+                            <img src="images/moschino-cheap-and-chic-yacht-a.jpg" alt="" id="hide">
                             <article class="btn-move" id="btn-down" onclick="clickButtonDown()">
                                 <i class="fa fa-chevron-down"></i>
                             </article>
@@ -77,10 +77,10 @@
                             </figure>
                         </div>
                         <div class="btn-move-left button">
-                            <i class="fa fa-chevron-left btn-prev"></i>
+                            <i class="fa fa-chevron-left"></i>
                         </div>
                         <article class="btn-move-right button">
-                            <i class="fa fa-chevron-right btn-next"></i>
+                            <i class="fa fa-chevron-right"></i>
                         </article>
                     </div>
 
@@ -103,12 +103,12 @@
                         </span>
                         <div class="tab-title">
                             <ul class="tab">
-                                <li><a href="javascript:void(0)" class="tablinks active" onclick="openTab(event, 'more-info')">More info</a></li>
-                                <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'data-sheet')">Data sheet</a></li>
-                                <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'accessories')">Accessories</a></li>
-                                <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'custom-tab')">Custom Tab</a></li>
-                                <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'video')">Video</a></li>
-                                <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'comment')">Comments</a></li>
+                                <li><a href="javascript:void(0)" class="active" onclick="openTab(event, 'more-info')">More info</a></li>
+                                <li><a href="javascript:void(0)" onclick="openTab(event, 'data-sheet')">Data sheet</a></li>
+                                <li><a href="javascript:void(0)" onclick="openTab(event, 'accessories')">Accessories</a></li>
+                                <li><a href="javascript:void(0)" onclick="openTab(event, 'custom-tab')">Custom Tab</a></li>
+                                <li><a href="javascript:void(0)" onclick="openTab(event, 'video')">Video</a></li>
+                                <li><a href="javascript:void(0)" onclick="openTab(event, 'comment')">Comments</a></li>
                             </ul>
                             <div id="more-info" class="tabcontent active-section">
                                 Eorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis leo sit amet diam ullamcorper ullamcorper. In eleifend luctus interdum.
