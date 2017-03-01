@@ -1,3 +1,7 @@
+.banner .banner-feauter .item {
+  max-width: 100%;
+  overflow: visible;
+}
 .banner .banner-feauter img {
   border: 1px solid #e0e0e0;
 }
