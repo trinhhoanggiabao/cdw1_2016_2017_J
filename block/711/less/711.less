@@ -4,6 +4,7 @@
     @white-space:nowrap;
     @text-align:center;
     @cursor:pointer;
+    @display:block;
     .instagram-feed {
     text-align: @text-align;
     margin-top: 50px;
@@ -43,7 +44,7 @@
                     width: 39px;
                     height: 39px;
                     text-align: @text-align;
-                    cursor: pointer;
+                    cursor: @cursor;
                     transition: all .2s ease-in-out;
                     position: absolute;
                     top: 2px;
@@ -76,18 +77,18 @@
                 padding: 0;
                 margin-left: 15px;
                 text-align: left;      
-                cursor: pointer;
+                cursor: @cursor;
                 .ig-indent {
                     margin-right: 30px;
                     .ig-wrapper {
                         img {
                             width: 100%;
                             height: auto;
-                            display: block;
+                            display:  @display;
                             margin-bottom: 16px;
                         }
                         .ig-caption {
-                            display: block;
+                            display:  @display;
                             white-space: @white-space;
                             overflow: @overflow;
                             text-overflow: ellipsis;

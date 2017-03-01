@@ -6,6 +6,7 @@
     @position:relative;
     @opacity:0;
     @text-align:center;
+    @display: block;
     .productsCarousel {      
         overflow: @overflow;     
         margin-top: 20px;
@@ -25,13 +26,13 @@
             }              
 
             .carousel-title {
-                position:  @position;
+                position:@position;
                 .title {
                     line-height: 46px;
-                    text-transform: @text-transform;
+                    text-transform:@text-transform;
                     padding: 0 73px;
-                    white-space: @white-space; 
-                    font-family: @font-family;
+                    white-space:@white-space; 
+                    font-family:@font-family;
                 }
 
                 .flexisel-nav {
@@ -39,7 +40,7 @@
                     box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
                     width: 39px;
                     height: 39px;
-                    text-align: @text-align;
+                    text-align:@text-align;
                     cursor: pointer;
                     transition: all .2s ease-in-out;
                     position: absolute;
@@ -70,48 +71,6 @@
 
         }     
     }
-
-    /*.space-image {
-        margin-left: 10px;
-        .col-md-240px {
-            float: left;
-            .image-carousel {
-                margin-right: 20px;
-                cursor: pointer;
-            }
-            img {
-                max-width: 100%;
-                border: 1px solid #e0e0e0;
-            }
-            
-            .quick-view {
-                position: absolute;
-                top: 19%;
-                border: 1px solid #e0e0e0;
-                color: #000;
-                font-size: 18px;                    
-                padding: 9px;
-                transition: 0.2s;
-                color: #a7a6a0;
-                opacity: 0;
-            }
-            .quick-view:hover {
-                background: #a7a6a0;
-                transition: 0.2s;
-                color: #fff;
-            }
-            
-            .image-carousel:hover {
-                .quick-view {
-                    opacity: 1;
-                }
-            }
-            
-        }
-        
-    }*/
-
-
     .btm-nbs-flexisel-container {
         .nbs-flexisel-inner {
             margin-bottom: 70px;
@@ -120,23 +79,18 @@
             list-style: none;
             margin: 0;
             padding: 0;
-
-
             li.block-product {
                 float: left;
                 position:  @position;
                 margin: 10px;
                 .carouselContainer {
-                    padding: 0;
-
-                    @display: block;
+                    padding: 0;                   
                     .slide-animate {
                         background: #ffffff;
                         display: @display;
                         position:  @position;        
                         text-align: @text-align;
                         height: auto;
-
                         img {
                             margin: 0 !important;
                             width: 100%;
@@ -144,13 +98,11 @@
                             border: 1px solid #e0e0e0;
                             box-sizing: border-box;
                         }
-
                         .product-image {
                             opacity:  1;
                             //margin-bottom: 15px;
                             transition: 0.3s;
                         }
-
                         .additional-image {
                             position: absolute;       
                             width: 100%;
@@ -160,7 +112,6 @@
                             transition: 0.3s;
                             opacity:  @opacity;
                         }
-
                         .pk-reduction {
                             background-color: #c72929;
                             display: @display;
@@ -172,7 +123,6 @@
                             top: 15px;
                             left: 10px;
                         }
-
                         .quick-view {
                             width: 35px;
                             height: 35px;
@@ -181,8 +131,6 @@
                             top: 5px;
                             right: 5px;
                             color: #b0adad;
-
-
                             .fa-search {
                                 margin-top: 8px;
                                 font-size: 18px;
@@ -208,7 +156,6 @@
                     position:  @position;
                     text-align: @text-align;
                     margin-top: 15px;
-
                     .rate-block {
                         height: 18px;
                         //width: 100%;
@@ -223,7 +170,6 @@
                             color: #ccc;
                         }
                     }
-
                     .f_title {
                         white-space: @white-space;
                         overflow: @overflow;
@@ -237,7 +183,6 @@
                         width: 100%;
                         float: left;
                     }
-
                     .content_price {
                         font-size: 24px;
                         line-height: 24px;
@@ -254,7 +199,6 @@
                             opacity:  @opacity;
                         }
                     }
-
                     .content_price .new-price {
                         opacity:  1;
                         font-family: @font-family;
@@ -262,27 +206,23 @@
                     }
                 }
             }
-
             li.block-product:hover {
                 .content_price, .new-price {
                     opacity:  @opacity;
                     transition: all .3s ease-in-out;
                 }
-
                 .quick-view {
                     background: #ffffff;
                     opacity:  1;    
                     transition: all .3s ease-in-out;
                 }    
             }
-
             .quick-view {
                 opacity:  @opacity;
             }
         }
     }
 }
-
 @media (max-width:480px) {
     .title {
         font-size: 14px;
