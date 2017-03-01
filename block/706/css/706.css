@@ -10,11 +10,11 @@
 }
 .type-706 .product .items img {
   max-width: 100%;
-  border: ;
+  border: 1px solid #e0e0e0;
   cursor: crosshair;
 }
 .type-706 .product .thumbs-list {
-  border-right: ;
+  border-right: 1px solid #e0e0e0;
 }
 .type-706 .product .thumbs-list img {
   margin-top: 8px;
@@ -24,12 +24,8 @@
   cursor: pointer;
 }
 .type-706 .product .thumbs-list #btn-down {
-  opacity: 0;
   position: absolute;
   top: 605px;
-}
-.type-706 .product .thumbs-list #hide {
-  display: none;
 }
 .type-706 .product .thumbs-list .btn-move {
   background: #e6e5e5;

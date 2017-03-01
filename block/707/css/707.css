@@ -43,7 +43,7 @@
   background: #e0e0e0;
   display: inline-block;
   font-size: 14px;
-  border: 1px soid #e0e0e0;
+  border: 1px solid #e0e0e0;
   border-bottom: none;
   margin: 0 2px 0 0;
 }
@@ -86,12 +86,9 @@
   color: #ccc;
   font-weight: normal;
 }
-.type-707 .product a {
-  text-decoration: none;
-}
 .type-707 .box-cart {
   margin-top: 25px;
-  border-top: 1px soid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
   padding-top: 10px;
 }
 .type-707 .box-cart figure {
@@ -111,7 +108,7 @@
   margin: 0;
   list-style: none;
   overflow: hidden;
-  border: 1px soid #ccc;
+  border: 1px solid #ccc;
   border-bottom: none;
   background-color: #f1f1f1;
 }
@@ -132,7 +129,7 @@
 .type-707 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px soid #ccc;
+  border: 1px solid #ccc;
   border-top: none;
   background: #fff;
 }
@@ -144,7 +141,7 @@
 }
 .type-707 #accessories img {
   max-width: 100%;
-  border: 1px soid #e0e0e0;
+  border: 1px solid #e0e0e0;
 }
 .type-707 #accessories h3 {
   white-space: nowrap;

@@ -1,7 +1,7 @@
 .type-706{
     @color: #e17365;
     @color2: #e0e0e0;
-    @border : 1px solid @color2;
+    @border : 1px solid #e0e0e0;
     @cursor: pointer;
     @position: absolute;
     
@@ -20,12 +20,12 @@
         .items {
             img {
                 max-width: 100%;
-                border: @boder;
+                border: @border;
                 cursor: crosshair;
             }
         }
         .thumbs-list {
-            border-right: @boder;
+            border-right: @border;
             img {
                 margin-top: 8px;
                 margin-bottom: 7px;
@@ -33,13 +33,10 @@
                 .bodder-cursor;
             }
             #btn-down {
-                opacity: 0;
                 position: @position;
                 top: 605px;
             }
-            #hide {
-                display: none;
-            }
+            
             .btn-move {
                 background: #e6e5e5;
                 padding: 5px;
