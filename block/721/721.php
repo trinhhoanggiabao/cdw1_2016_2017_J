@@ -19,7 +19,7 @@
         <link href="css/721.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-      <div class="type_b_6">
+      <div class="type-721">
             <div class="tabberlive_outer_sub">
                 <div class=" container-width">
                     <div class="htabs">

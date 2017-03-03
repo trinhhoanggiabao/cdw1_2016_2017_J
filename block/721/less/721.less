@@ -1,4 +1,4 @@
-.type_b_6 {
+.type-721{
 
     background:#FFFFFF;
     color:#666666;
@@ -73,23 +73,30 @@
             width: auto;
             margin: 0 15px;
         } 
-        
+
 
     }
     @media only screen and (max-width: 479px){
         .tabberlive_outer_sub ul.tabbernav_product li{
             width: 100%; 
         }
-        
+
     }
     input,select,textarea,button { vertical-align:middle;  }
     select { padding:3px; }
     select option { padding-right:10px; }
     textarea { overflow:auto; }
-    button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
-    button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
-
-    button.button { overflow:visible; width:auto; border:0; padding:0; margin:0; background:transparent; cursor:pointer;   }
+    button.button{ 
+        padding:0; 
+        border:0;
+        overflow:visible;
+        width:auto; 
+        border:0;
+        padding:0; 
+        margin:0; 
+        background:transparent;
+        cursor:pointer; 
+    }
     .product_hover-block .button.btn-cart { width: 100%;}
     .button.btn-cart > span{ padding:6px 20px;}
     button.button span { 
@@ -105,7 +112,6 @@
         border:1px solid #262626;
         font-weight:bold;
         text-transform:uppercase;
-        /*box-sizing: border-box; width:100%;*/
     }
     button.button span span { border:0; padding:0;   }
     button.button:hover span {
@@ -113,10 +119,8 @@
         color: #ffffff;
         cursor: pointer;
         text-decoration: none;
-        transition: all 0.3s ease 0s; -webkit-transition:all 0.3s ease 0s; -moz-transition:all 0.3s ease 0s; -ms-transition:all 0.3s ease 0s; -o-transition:all 0.3s ease 0s;
+        transition: all 0.3s ease 0s; 
     }
-
-
     #nav ul { display: none;  left: 0; padding: 10px;  position: absolute; top: 52px;  width: 15em;}
     #nav div ul { position:static; width:auto; border:none; }
 
@@ -129,37 +133,60 @@
     #nav ul span,
 
     /* Category Page ========================================================================= */
-
-
     .product_desc { padding: 0 10px;}
-    .product_hover-block {bottom: 0; left: 0;  margin: 0 auto;  position: absolute;  right: 0; width: 100%; opacity:0; -khtml-opacity: 0; -webkit-opacity:0; -moz-opacity:0; -ms-opacity:0;}
-    .product-block:hover .product_hover-block{ opacity:1; -khtml-opacity: 1; -webkit-opacity:1; -moz-opacity:1; -ms-opacity:1;}
-    .product_hover-block  .ratings { bottom: 40px; left: 0;  margin: 0 auto;   position: absolute; right: 0;}
-    h2.product-name{ background:none; padding:0px 0 0 !important; border-bottom: none !important;  margin:6px 0 5px;}
-
+    .product_hover-block {
+        bottom: 0; 
+        left: 0; 
+        margin: 0 auto; 
+        position: absolute; 
+        right: 0; width: 100%; 
+        opacity:0;
+    }
+    .product-block:hover .product_hover-block{
+        opacity:1;
+        }
+    .product_hover-block  .ratings { 
+        bottom: 40px; 
+              left: 0; 
+              margin: 0 auto; 
+              position: absolute;
+              right: 0;
+    }
+    h2.product-name{ 
+        background:none;
+        padding:0px 0 0 !important;
+        border-bottom: none !important; 
+        margin:6px 0 5px;
+    }
     /* View Type: Grid */
     .products-grid{ width:100%; }
-    .products-grid li.item { float:left; width:300px; padding:0; list-style:none; }
+    .products-grid li.item { 
+        float:left; 
+        width:300px;
+        padding:0;
+        list-style:none;
+    }
     .products-grid li .product-block{
         background: none repeat scroll 0 0 #FFFFFF;
         clear: both;
         margin: 5px 14px;
         overflow: hidden;
     }
-    
     .tabberlive_outer_sub .products-grid li .product-block{ margin: 5px 10px;}
     .products-grid li .product-block-inner{
         overflow: hidden;
         padding:0px;
         position: relative;
         text-align: center;
-
     }
     .product-image-block-inner .product-image-block {
         position: relative;
     }
     a.product-image { display:block; }
-    .product-block .product-image-block img {height: auto; width: 100%;}
+    .product-block .product-image-block img {
+        height: auto;
+        width: 100%;
+    }
     .product-block .product-image-block .hover-image {
         left: 0;
         /*opacity: 0; transition: all 0.8s ease 0s;*/
@@ -334,8 +361,11 @@
         font-weight:bold; 
         text-align:center;
         margin: 60px;
+        &:hover{
+            background:#000;
+            color:#fff;
+        }
     }
-    .tabberlive_outer_sub .tabs .view_actions a:hover{ background:#000; color:#fff;}
+    
     /* End Product Tab CMS */
-
 }
