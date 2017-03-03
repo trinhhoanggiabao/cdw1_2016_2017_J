@@ -1,0 +1,79 @@
+.type-718 .navbar-default {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+.type-718 .nav navbar-nav {
+  float: none;
+}
+.type-718 .navbar-default .navbar-brand {
+  color: #000;
+  font-weight: bold;
+  display: none;
+  font-size: 1em;
+}
+.type-718 .navbar-default .navbar-nav>.active>a,
+.type-718 .navbar-default .navbar-nav>.active>a:focus,
+.type-718 .navbar-default .navbar-nav>.active>a:hover {
+  background: none;
+  color: #000;
+  font-weight: bold;
+}
+.type-718 .navbar-default .navbar-nav>li>a {
+  padding: 5px;
+}
+.type-718 .navbar-nav>li {
+  float: none;
+}
+.type-718 .shopcollection ul {
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+.type-718 .shopcollection ul li {
+  float: none;
+  padding: 5px 0;
+}
+.type-718 .shopcollection ul li a {
+  color: #666;
+}
+.type-718 .shopcollection .active {
+  color: #000;
+  font-weight: bold;
+}
+.type-718 .wintershop ul {
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+.type-718 .wintershop .active {
+  font-weight: bold;
+  color: #000;
+}
+.type-718 .wintershop ul li {
+  float: none;
+  padding: 5px 0;
+}
+.type-718 .wintershop ul li a {
+  color: #666;
+}
+@media only screen and (max-width: 768px) {
+  .type-718 .navbar-default .navbar-nav>.active>a,
+  .type-718 .navbar-default .navbar-nav>.active>a:focus,
+  .type-718 .navbar-default .navbar-nav>.active>a:hover {
+    display: none;
+  }
+  .type-718 hr {
+    display: none;
+  }
+  .type-718 .shopcollection {
+    display: none;
+  }
+  .type-718 .wintershop {
+    display: none;
+  }
+  .type-718 .navbar-default .navbar-brand {
+    display: block;
+  }
+  .type-718 .navbar-nav {
+    border: 1px solid #666;
+  }
+}

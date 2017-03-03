@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-
 <html>
-
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -16,14 +14,12 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-3.less', 'css/type-3.css');
+        $less->compileFile('less/718.less', 'css/718.css');
         ?>
-        <link href="css/type-3.css" rel="stylesheet" type="text/css" />
+        <link href="css/718.css" rel="stylesheet" type="text/css" />
     </head>
-
-
     <body>
-        <div class="type-3">
+        <div class="type-718">
             <div class="container">
                 <!--===========phan categories=============-->
                 <nav class="navbar navbar-default">
