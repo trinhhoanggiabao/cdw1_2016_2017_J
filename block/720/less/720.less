@@ -1,44 +1,46 @@
-.type-5{
+.type-720{
+    @the-pt: 100%;
+    @transition: all 0.3s ease 0s;
+    @pixel: 15px;
+    @the-none: none;
+    .color-position{
+        position: absolute;
+        color: #fff;
+    }
     .sub-banner{
         overflow: hidden;
-        width: 100%;
-        margin: 10px 0 0;
-    }
-    .sub-banner img{
-        width: 100%;
+        width: @the-pt;
+        margin: @pixel - 5 0 0;
+        img{width: @the-pt;}
+        &:hover img{
+            transform: scale(1.1);
+            transition: @transition;
+        }
+        &:hover .shopnow{
+            transition: @transition;
+            z-index: 1;
+            display: block;
+        }
     }
     .text{
-        position: absolute;
-        bottom: 15px;
-        left: 30px;
-        font-size: 18px;
-        color: #fff;
+        bottom: @pixel;
+        left: @pixel + 15;
+        font-size: @pixel + 3;
+        .color-position;
     }
     .shopnow{
-        display: none;
-        position: absolute;
-        transition: all 0.3s ease 0s;
-        right: 15px;
+        display: @the-none;
+        transition: @transition;
+        right: @pixel;
         bottom: 0;
-        color: #fff;
         background: rgba(38,38,38,0.7);
-        padding: 10px 15px;
+        padding: @pixel - 5 @pixel;
         text-align: right;
-        width: 92%;
+        width: @the-pt - 8;
         box-sizing: border-box;
-    }
-    .sub-banner:hover img{
-        transform: scale(1.1);
-        transition: all 0.3s ease 0s;
-    }
-    .sub-banner:hover .shopnow{
-        transition: all 0.3s ease 0s;
-        z-index: 1;
-        display: block;
+        .color-position;
     }
     @media only screen and (max-width:768px){
-        .sub-banner:hover .shopnow{
-            display: none;
-        }
+        .sub-banner:hover .shopnow{display: @the-none;}
     }
 }
