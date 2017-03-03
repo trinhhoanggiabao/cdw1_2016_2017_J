@@ -1,25 +1,27 @@
 .type-706{
     @color: #e17365;
     @color2: #e0e0e0;
-    @border : 1px solid #e0e0e0;
+    @border : 1px solid @color2;
     @cursor: pointer;
     @position: absolute;
+    @background: #f9f9f9;
+    @pixel: -5px;
+    @max-width: 100%;
     
     .bodder-cursor{
         border: @border;
         cursor: @cursor;
     }
-    
     body {
-        background: #f9f9f9;
+        background: @background;
     }
     .col-md-6 {
-        margin-left: -5px;
+        margin-left: @pixel;
     }
     .product {
         .items {
             img {
-                max-width: 100%;
+                max-width: @max-width;
                 border: @border;
                 cursor: crosshair;
             }
@@ -27,28 +29,24 @@
         .thumbs-list {
             border-right: @border;
             img {
-                margin-top: 8px;
-                margin-bottom: 7px;
-                max-width: 83%;
+                margin-top: @pixel + 13;
+                margin-bottom: @pixel + 12;
+                max-width: @max-width - 17%;
                 .bodder-cursor;
             }
             #btn-down {
                 position: @position;
-                top: 605px;
+                top: @pixel + 610;
             }
-            
             .btn-move {
                 background: #e6e5e5;
-                padding: 5px;
-                border-radius: 50%;
+                padding: @pixel + 10;
+                border-radius: @max-width - 50%;
                 position: @position;
-                left: 48px;
+                left: @pixel + 53;
                 .bodder-cursor;
-            }
-            .btn-move:hover {
-                color:@color;
+                &:hover{ color: @color;}
             }
         }    
-
     }
 }

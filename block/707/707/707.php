@@ -7,8 +7,6 @@
         <link href="../css/owl.carousel.css" rel="stylesheet" type="text/css"/>
         <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        
-        <link href="../css/707.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
             include ('../libs/lessc.inc.php');
@@ -16,6 +14,7 @@
         $less = new lessc;
         $less->compileFile('../less/707.less', '../css/707.css');
         ?>
+        <link href="../css/707.css" rel="stylesheet" type="text/css"/>
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
         <script src="../js/owl.carousel.js" type="text/javascript"></script>
         <script type="text/javascript" src="../js/script.js"></script>

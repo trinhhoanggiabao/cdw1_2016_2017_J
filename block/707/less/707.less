@@ -3,29 +3,27 @@
     @color2: #fff;
     @color3: #e0e0e0;
     @color4: #c5988b;
-    @boder: 1px solid #ccc;
-    @boder2: 1px solid #e0e0e0;
+    @boder: 1px solid @color;
+    @boder2: 1px solid @color3;
     @background: #e17365;
     @background2: #7a7975;
-    @margin: 10px;
+    @pixel:5px;
     @font: LMRoman10Regular;
     @transition: 0.5s;
     @display: inline-block;
     @transition: all .2s ease-in-out;
     @font-weight:  normal;
-    @border-bottom: none;
+    @the-none: none;
     @float: left;
     @text-align: center;
     @margin-bottom: 15px;
-    @display2: none;
-
     .padding-margin{
         padding: 0;
         margin: 0;
-        list-style: none;
+        list-style: @the-none;
     }
     .a-wishlist{
-        text-decoration: none;
+        text-decoration: @the-none;
     }
     .color-backColor-textTr-transition{
         text-transform: uppercase;
@@ -33,17 +31,15 @@
         color: @color2;
         transition: @transition;
     }
-
-
     .col-md-6 {
-        margin-left: -5px;
+        margin-left: @pixel;
     }
     .product {
         .title {
             h4 {
                 color: @color;
                 font-family: @font;
-                font-size: 25px;
+                font-size: @pixel+20;
             }
             .color-star {
                 color: @color;
@@ -56,20 +52,20 @@
             }
         }
         .tab-title {
-            margin-top: 20px;
+            margin-top: @pixel+15;
             cursor: pointer;
             .active-tab {
                 background: @color2;
             }
             h4 {
                 padding: 0 8px 0 10px;
-                line-height: 26px;
+                line-height: @pixel+21;
                 color: #666;
                 background: @color3;
                 display: @display;
-                font-size: 14px;
+                font-size: @pixel+9;
                 border: @boder2;
-                border-bottom: @border-bottom;
+                border-bottom: @the-none;
                 margin: 0 2px 0 0;
             }
         }
@@ -77,23 +73,23 @@
             display: block;
         }
         .attributes {
-            margin-top: 30px;
+            margin-top: @pixel+25;
             .attribute-list {
                 display: @display;
-                margin-right: @margin;
+                margin-right: @pixel+5;
             }
             p {
-                margin-top: @margin;
-                padding-bottom: 20px;
+                margin-top: @pixel+5;
+                padding-bottom: @pixel+15;
             }
             .price {
                 h5 {   
-                    font-size: 24px;
+                    font-size: @pixel+19;
                     line-height: 1px;
                     float: @float;
                     color: @color4;
                     font-weight: @font-weight;
-                    margin-right: 20px;
+                    margin-right: @pixel+15;
                     font-family: Georgia;
                 }
                 .btn-add {
@@ -108,22 +104,19 @@
             }
         }
         label {
-            margin-right: 5px;
+            margin-right: @pixel;
             color: @color;
             font-weight: @font-weight;
         }
-        a {
-            //.a-wishlist;
-        }
     }
     .box-cart {
-        margin-top: 25px;
+        margin-top: @pixel+20;
         border-top: @boder2;
-        padding-top: 10px;    
+        padding-top: @pixel+5;    
         figure{
-            margin-left: @margin;
+            margin-left: @pixel+5;
             float: @float;
-            margin-right: 35px;
+            margin-right: @pixel+30;
         }
         .wishlist {
             .a-wishlist;
@@ -137,7 +130,7 @@
         .padding-margin;
         overflow: hidden;
         border: @boder;
-        border-bottom: @border-bottom;
+        border-bottom: @the-none;
         background-color: #f1f1f1;
         li {
             float: @float;
@@ -155,10 +148,9 @@
 
     /* Style the tab content */
     .tabcontent {
-        //display: @display2;
         padding: 6px 12px;
         border: @boder;
-        border-top: none;
+        border-top: @the-none;
         background: @color2;
     }
     #data-sheet {
@@ -174,10 +166,10 @@
         }
         h3 {
             white-space: nowrap;
-            font-size: 19px;
+            font-size: @pixel+14;
         }
         h5 {
-            font-size: 18px;
+            font-size: @pixel+13;
             color: @color4;
             margin-bottom: @margin-bottom;
         }
@@ -185,12 +177,10 @@
             background: @background2;
             color: @color2;
             padding: 7px 15px;
-            margin-top: 15px;
+            margin-top: @pixel+10;
             transition: @transition;
-        }
-        .btn-add-to-cart:hover {
-            background: @background;
-            transition: @transition;
+            &:hover{background: @background;
+            transition: @transition;}
         }
         ul {
             display: @display;
@@ -198,21 +188,19 @@
             margin-bottom: @margin-bottom;
         }
     }
-
     #player {
         text-align: @text-align;
     }
-
     #comment {
         .thumb-comment {
+			margin-top: @pixel+5;
+            border-bottom: 1px dotted @color;
             a {
-                margin-left: 170px;
+                margin-left: @pixel+165;
                 padding: 7px 15px;
-                line-height: 16px;
+                line-height: @pixel+11;
                 .color-backColor-textTr-transition;    
-            }
-            a:hover {
-                background: @background;
+                &:hover{background: @background;}
             }
             .star-color {
                 color: @color;
@@ -220,8 +208,6 @@
             p {
                 padding-bottom: 10px;
             }
-            margin-top: @margin;
-            border-bottom: 1px dotted @color;
         }
     }
 }
