@@ -18,10 +18,7 @@
         ?>
         <link href="css/701.css" rel="stylesheet" type="text/css" />
 
-
-
     </head>
-
     <body>
         <div class="banner">
             <div class="container">
