@@ -1,61 +1,53 @@
-.type-4 .banner {
+.type-719 .display-border-font {
+  display: none;
+  border: 2px solid #fff;
+  font-size: 1.2em;
+}
+.type-719 .banner {
   padding: 15px 0 0 0;
 }
-.type-4 .icon-fa .fa {
-  border: 1px solid #fff;
-  position: absolute;
-  padding: 5px;
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  top: 50%;
-  left: 36%;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.type-4 .carousel-inner>.item>a>img,
-.type-4 .carousel-inner>.item>img {
+.type-719 .carousel-inner>.item>a>img,
+.type-719 .carousel-inner>.item>img {
   width: 100%;
 }
-.type-4 .carousel-indicators .active {
+.type-719 .carousel-indicators .active {
   background: #000;
 }
-.type-4 .carousel-indicators li {
+.type-719 .carousel-indicators li {
   border-radius: 0;
   background: #fff;
   border: 1px solid #000;
 }
-.type-4 .carousel-control .glyphicon-chevron-left,
-.type-4 .carousel-control .icon-prev {
+.type-719 .carousel-control .glyphicon-chevron-left,
+.type-719 .carousel-control .icon-prev {
   display: none;
   border: 2px solid #fff;
   font-size: 1.2em;
 }
-.type-4 .slide {
+.type-719 .slide {
   width: 100%;
 }
-.type-4 .slide:hover .carousel-control .glyphicon-chevron-left,
-.type-4 .slide:hover .carousel-control .icon-prev {
+.type-719 .slide:hover .carousel-control .glyphicon-chevron-left,
+.type-719 .slide:hover .carousel-control .icon-prev {
   display: block;
 }
-.type-4 .slide:hover .carousel-control .glyphicon-chevron-right,
-.type-4 .slide:hover .carousel-control .icon-next {
+.type-719 .slide:hover .carousel-control .glyphicon-chevron-right,
+.type-719 .slide:hover .carousel-control .icon-next {
   display: block;
 }
-.type-4 .carousel-control .glyphicon-chevron-right,
-.type-4 .carousel-control .icon-next {
+.type-719 .carousel-control .glyphicon-chevron-right,
+.type-719 .carousel-control .icon-next {
   display: none;
   border: 2px solid #fff;
   font-size: 1.2em;
 }
-.type-4 .singlebanner {
+.type-719 .singlebanner {
   overflow: hidden;
 }
-.type-4 .singlebanner img {
+.type-719 .singlebanner img {
   width: 100%;
 }
-.type-4 .singlebanner:hover img {
+.type-719 .singlebanner:hover img {
   transform: scale(1.1);
   transition: all 0.3s ease 0s;
 }

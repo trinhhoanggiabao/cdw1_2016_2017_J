@@ -22,7 +22,7 @@
     </head>
 
     <body>
-        <div class="type-4">
+        <div class="type-719">
             <div class="container">
                 <div class="banner">
                     <div class=row>
