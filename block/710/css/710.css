@@ -145,7 +145,7 @@
   height: 18px;
   margin-bottom: 10px;
   left: 0;
-
+  display: block;
 }
 .type-710 .btm-nbs-flexisel-container ul.product-module li.block-product .bottom-block .rate-block .fa-star {
   color: #666;
@@ -159,7 +159,7 @@
   text-overflow: ellipsis;
   font-family: LMRoman10Regular;
   color: #777 !important;
-
+  display: block;
   margin: 0 0 7px;
   font-size: 17px;
   line-height: 20px;
