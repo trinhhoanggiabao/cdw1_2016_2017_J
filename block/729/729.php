@@ -17,7 +17,7 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type_b_chitiet_menu.less', 'css/type_b_chitiet_menu.css');
+        $less->compileFile('less/729.less', 'css/729.css');
         ?>
         <link href="css/type_b_chitiet_menu.css" rel="stylesheet" type="text/css" />
 
@@ -26,7 +26,7 @@
     </head>
 
     <body>
-        <div class="type_b_chitiet_menu">
+        <div class="729">
             <div class="container">
                 <!--=====Phan navber catogery====-->
                 <nav class="navbar navbar-default">

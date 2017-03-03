@@ -15,9 +15,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-b-danhmuc2.less', 'css/type-b-danhmuc2.css');
+        $less->compileFile('less/731.less', 'css/731.css');
         ?>
-        <link href="css/type-b-danhmuc2.css" rel="stylesheet" type="text/css" />
+        <link href="css/731.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div class="type-b-danhmuc2">
@@ -145,7 +145,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="">
-                                    <img src="../home/images/1_4.jpg" alt=""/>
+                                    <img src="images/1_4.jpg" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -161,7 +161,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="imagemenu">
-                                    <img src="../home/images/7_3_4.jpg" alt=""/>
+                                    <img src="images/7_3_4.jpg" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-6">
