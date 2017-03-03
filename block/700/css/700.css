@@ -12,6 +12,12 @@ html {
   height: 100%;
   min-height: 100%;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .zaro .span {
   content: "";
   height: 5px;
@@ -53,24 +59,11 @@ html {
 .zaro .slidelip {
   transition: all .5s ease-in-out;
 }
-.zaro a,
-.zaro .smooth02 {
+.zaro a {
   transition: all .2s ease-in-out;
-}
-.zaro .fa {
-  display: inline-block;
-  vertical-align: top;
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
-  pointer-events: none;
 }
 .zaro #white_background {
   background-color: #f9f9f9;
-}
-.zaro .page-width {
-  margin: 0 auto;
-  width: 960px;
 }
 .zaro .margin-auto {
   margin: 0 auto;
@@ -194,12 +187,6 @@ html {
   margin: 0 auto;
   padding: 0;
 }
-.zaro .main-bg-hover:hover {
-  background-color: #009900 !important;
-}
-.zaro .main-bg {
-  background-color: #009900;
-}
 @media (min-width: 728px) {
   .zaro .menu-container a span:before {
     width: 0;
@@ -241,27 +228,13 @@ html {
   .zaro .mega-menu .mega-menu-item a.menu-item {
     font-size: 18px !important;
   }
-  .zaro .col-custom-5-col {
-    width: 20%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-  }
 }
 @media (min-width: 1170px) {
-  .zaro .page-width {
-    width: 1170px;
-  }
   .zaro .mega-menu ul li a {
     padding: 0 25px;
   }
   .zaro .mega-menu .mega-menu-item a.menu-item {
     font-size: 20px !important;
-  }
-}
-@media (max-width: 979px) and (min-width: 728px) {
-  .zaro #header {
-    height: 200px;
   }
 }
 @media (max-width: 727px) {
@@ -279,16 +252,7 @@ html {
     font-weight: normal;
   }
 }
-@media (max-width: 979px) {
-  .zaro .page-width {
-    width: 728px;
-    transition: all .4s linear;
-  }
-}
 @media (max-width: 727px) {
-  .zaro .page-width {
-    width: 450px;
-  }
   .zaro .menu-container a.opener {
     visibility: visible;
   }
