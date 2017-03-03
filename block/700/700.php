@@ -28,7 +28,7 @@
                             <div class="mega-menu">
                                 <div class="mobileMenuTitle">Menu</div>
                                 <ul class="mega-menu-ul">
-                                    <li class="dropdown mega-dropdown mega-menu-item mega-active">
+                                    <li class="dropdown mega-menu-item mega-active">
                                         <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown">
                                             <span>Women</span>
                                         </a>	
@@ -100,14 +100,14 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="col-md-10 col-sm-10 clearfix">
+                                            <li class="col-md-10 col-sm-10 ">
                                                 <a>
                                                     <img src="images/banner-bottom.jpg">
                                                 </a>
                                             </li>
                                         </ul>	
                                     </li>
-                                    <li class="dropdown mega-dropdown mega-menu-item">
+                                    <li class="dropdown mega-menu-item">
                                         <a href="#" class="menu-item dropdown-toggle" data-toggle="dropdown">
                                             <span>Men</span>
                                         </a>				
@@ -115,7 +115,7 @@
                                         <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
                                             <li class="col-md-2 col-sm-3">
                                                 <ul class="first-item">
-                                                    <div class="item active">
+                                                    <div>
                                                         <a href="#">
                                                             <img src="images/banner-left.jpg" class="img-responsive" alt="product 1">
                                                         </a>
@@ -136,7 +136,7 @@
                                                     </li>
                                                     <li class="col-md-3 col-sm-6">
                                                         <ul>
-                                                            <li class="dropdown-header">Plus</li>
+                                                            <li>Plus</li>
                                                             <li><a href="#">Navbar Inverse</a></li>
                                                             <li><a href="#">Pull Right Elements</a></li>
                                                             <li><a href="#">Coloured Headers</a></li>                            
@@ -167,7 +167,7 @@
                                             <li class="col-md-2 col-sm-2">
                                                 <ul class="first-item">
                                                     <li>Men Collection</li>  
-                                                    <div class="item active">
+                                                    <div>
                                                         <a href="#">
                                                             <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
                                                         </a>
@@ -184,14 +184,14 @@
                                         </ul>	
                                     </li>
 
-                                    <li class="dropdown mega-dropdown mega-menu-item">
+                                    <li class="dropdown mega-menu-item">
                                         <a href="#" class="menu-item">
                                             <span>Blog</span>
 
                                         </a> 
                                         <a href="#" class="opener"></a>
                                     </li>
-                                    <li class="dropdown mega-dropdown mega-menu-item">
+                                    <li class="dropdown mega-menu-item">
                                         <a href="#"class="menu-item">
                                             <span>About Us</span>
                                         </a>
@@ -202,7 +202,7 @@
                                                 <h2>Alysum -  is the universal theme, with the pleasant and clean design.</h2>
                                                 <p>With this theme you can easily create your unique shop, choosing any colors & over 500 Google fonts. </p>
                                             </li>
-                                            <li class="col-md-3 col-sm-3 clearfix align-center">
+                                            <li class="col-md-3 col-sm-3 align-center">
                                                 <img src="images/mic01.png">
                                                 <h4>Responsive design</h4>
                                                 <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
@@ -224,7 +224,7 @@
                                             </li>
                                         </ul>	
                                     </li>
-                                    <li class="dropdown mega-dropdown mega-menu-item">
+                                    <li class="dropdown mega-menu-item">
                                         <a href="#"class="menu-item">
                                             <span>Brands</span>
                                         </a>
@@ -269,7 +269,7 @@
                                         </ul>	
                                     </li>
 
-                                    <li class="dropdown mega-dropdown mega-menu-item">
+                                    <li class="dropdown mega-menu-item">
                                         <a href="#"class="menu-item">
                                             <span>Demos</span>
                                         </a>
