@@ -29,10 +29,10 @@
   padding: 7px 0 0 10px;
 }
 .type-714 .icon .fa {
-  opacity: ;
+  opacity: 0.5;
 }
 .type-714 .icon .fa:hover {
-  opacity: ;
+  opacity: 1;
 }
 .type-714 .action {
   padding: 1px;
@@ -43,19 +43,19 @@
   }
   .type-714 .dropdown,
   .type-714 .dropup {
-    text-align: ;
+    text-align: center;
     position: relative;
     left: calc(35%);
   }
   .type-714 .defaut {
-    display: ;
+    display: none;
   }
   .type-714 .icon span {
-    display: ;
+    display: none;
   }
   .type-714 .icon {
     float: none;
-    text-align: ;
+    text-align: center;
   }
   .type-714 .icon i {
     padding: 5px 10px;
@@ -135,7 +135,7 @@
   margin: 13px 0;
   padding: 6px 15px;
   width: 160px;
-  text-align: ;
+  text-align: left;
   color: #fff;
 }
 .type-714 .type-2 .item-cart {
@@ -156,7 +156,7 @@
   }
   .type-714 .type-2 .logo {
     width: 100%;
-    text-align: ;
+    text-align: center;
   }
   .type-714 .type-2 .form-select select {
     width: 100%;
