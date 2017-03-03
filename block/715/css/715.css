@@ -1,63 +1,63 @@
-.type-714 .dropdown,
-.type-714 .dropup {
+.type-715 .dropdown,
+.type-715 .dropup {
   float: left;
 }
-.type-714 .btn-primary {
+.type-715 .btn-primary {
   background: none;
   border: none;
   color: #000;
   padding: 10px;
 }
-.type-714 .btn-primary.active,
-.type-714 .btn-primary:active,
-.type-714 .open>.dropdown-toggle.btn-primary {
+.type-715 .btn-primary.active,
+.type-715 .btn-primary:active,
+.type-715 .open>.dropdown-toggle.btn-primary {
   background: none;
   border-radius: 0;
   color: #000;
   border: none;
 }
-.type-714 .defaut {
+.type-715 .defaut {
   position: absolute;
   top: 9px;
   left: 150px;
 }
-.type-714 .icon {
+.type-715 .icon {
   float: right;
   padding: 4px 0;
 }
-.type-714 .icon i {
+.type-715 .icon i {
   padding: 7px 0 0 10px;
 }
-.type-714 .icon .fa {
+.type-715 .icon .fa {
   opacity: 0.5;
 }
-.type-714 .icon .fa:hover {
+.type-715 .icon .fa:hover {
   opacity: 1;
 }
-.type-714 .action {
+.type-715 .action {
   padding: 0;
 }
 @media only screen and (max-width: 480px) {
-  .type-714 .singlebanner img {
+  .type-715 .singlebanner img {
     padding-top: 10px;
   }
-  .type-714 .dropdown,
-  .type-714 .dropup {
+  .type-715 .dropdown,
+  .type-715 .dropup {
     text-align: center;
     position: relative;
     left: calc(35%);
   }
-  .type-714 .defaut {
+  .type-715 .defaut {
     display: none;
   }
-  .type-714 .icon span {
+  .type-715 .icon span {
     display: none;
   }
-  .type-714 .icon {
+  .type-715 .icon {
     float: none;
     text-align: center;
   }
-  .type-714 .icon i {
+  .type-715 .icon i {
     padding: 5px 10px;
   }
 }
