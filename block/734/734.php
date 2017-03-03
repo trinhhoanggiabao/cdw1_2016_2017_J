@@ -14,7 +14,7 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-j-1.less', 'css/type-j-1.css');
+        $less->compileFile('less/734.less', 'css/734.css');
         ?>
         <link href="css/734.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery.min.js" type="text/javascript"></script>
@@ -23,7 +23,7 @@
     </head>
 
     <body>
-        <div class="type-j-1">
+        <div class="734">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
