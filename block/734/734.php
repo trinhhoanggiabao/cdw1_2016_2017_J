@@ -23,7 +23,7 @@
     </head>
 
     <body>
-        <div class="734">
+        <div class="type-734">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
