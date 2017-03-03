@@ -16,7 +16,6 @@
     @the-none: none;
     @float: left;
     @text-align: center;
-    @margin-bottom: 15px;
     .padding-margin{
         padding: 0;
         margin: 0;
@@ -145,7 +144,6 @@
         }
     }
     .active {background-color: @color2;}
-
     /* Style the tab content */
     .tabcontent {
         padding: 6px 12px;
@@ -153,11 +151,7 @@
         border-top: @the-none;
         background: @color2;
     }
-    #data-sheet {
-        td {
-            padding: 9px 10px;
-        }
-    }
+    #data-sheet {td {padding: 9px 10px;}}
     #accessories {
         text-align: @text-align;
         img {
@@ -171,7 +165,7 @@
         h5 {
             font-size: @pixel+13;
             color: @color4;
-            margin-bottom: @margin-bottom;
+            margin-bottom: @pixel+10;
         }
         .btn-add-to-cart {
             background: @background2;
@@ -185,15 +179,13 @@
         ul {
             display: @display;
             .padding-margin;
-            margin-bottom: @margin-bottom;
+            margin-bottom: @pixel+10;
         }
     }
-    #player {
-        text-align: @text-align;
-    }
+    #player {text-align: @text-align;}
     #comment {
         .thumb-comment {
-			margin-top: @pixel+5;
+            margin-top: @pixel+5;
             border-bottom: 1px dotted @color;
             a {
                 margin-left: @pixel+165;

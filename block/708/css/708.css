@@ -16,10 +16,10 @@
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
-  border-bottom: 1px soid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 .type-708 .purchase-item .thumb-img-carousel img {
-  border: 1px soid #e0e0e0;
+  border: 1px solid #e0e0e0;
   display: inline-block;
   width: 90%;
   margin-left: 10px;
@@ -27,22 +27,15 @@
 }
 .type-708 .button {
   position: absolute;
-  top: 50%;
+  top: 90%;
   left: 2px;
   margin-top: 15px;
   width: 24px;
   height: 24px;
-  border: 1px soid #e0e0e0;
+  border: 1px solid #e0e0e0;
   box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
   transition: 0.3s;
   cursor: pointer;
-}
-.type-708 .button .fa {
-  width: 15px;
-  height: 15px;
-  margin-top: 5px;
-  text-align: center;
-  margin-left: 5px;
 }
 .type-708 .button:hover {
   background: #e17365;
@@ -50,6 +43,13 @@
   color: #fff;
   border: 1px solid rgba(255,255,255,0.2);
   transition: 0.3s;
+}
+.type-708 .button .fa {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+  text-align: center;
+  margin-left: 5px;
 }
 .type-708 .btn-move-left {
   margin-left: 15px;

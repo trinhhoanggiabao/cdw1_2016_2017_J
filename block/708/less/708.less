@@ -2,71 +2,68 @@
     @color: #e0e0e0;
     @color2: #e17365;
     @color3: #fff;
+    @color4: #e6e5e5;
+    @color5: #f9f9f9;
     @boder: 1px solid @color;
     @position: absolute;
     @transition: 0.3s;
     @cursor: pointer;
-    
-    body {
-        background: #f9f9f9;
-    }
-    .col-md-6 {
-        margin-left: -5px;
-    }
+    @the-width:100%;
+    @the-pixel: -5px; 
+    body {background: @color5;}
+    .col-md-6 {margin-left: @the-pixel;}
     .col-md-12 {
+        margin-top: @the-pixel + 30;
         h5 {
             font-family: LMRomanCaps10-Regular;
-            font-size: 16px;
+            font-size: @the-pixel + 21;
             font-style: italic;
             text-transform: uppercase;
-            padding-bottom:  8px;
-            padding-right: 10px;
-            padding-left: 10px;
-            margin-bottom: 20px;
+            padding-bottom:  @the-pixel + 13;
+            padding-right: @the-pixel + 15;
+            padding-left: @the-pixel + 15;
+            margin-bottom: @the-pixel + 25;
             border-bottom: @boder;
-        }
-        margin-top: 25px;
+        }  
     }
     .purchase-item {
         .thumb-img-carousel img {
             border: @boder;
             display: inline-block;
-            width: 90%;
-            margin-left: 10px;
+            width: @the-width - 10;
+            margin-left: @the-pixel + 15;
             cursor: @cursor;
         }
     }
     .button  {
         position: @position;
-        top: 50%;
-        left: 2px;
-        margin-top: 15px;
-        width: 24px;
-        height: 24px;
+        top: @the-width - 10;
+        left: @the-pixel + 7;
+        margin-top: @the-pixel + 20;
+        width: @the-pixel + 29;
+        height: @the-pixel + 29;
         border: @boder;
-        box-shadow: 0 0 0 1px @color3, 0 0 0 2px #e6e5e5;
+        box-shadow: 0 0 0 1px @color3, 0 0 0 2px @color4;
         transition: @transition;
         cursor: @cursor;
-        .fa {
-            width: 15px;
-            height: 15px;
-            margin-top: 5px;
-            text-align: center;
-            margin-left: 5px;
-        }
-    }
-    .button:hover {
-        background: @color2;
+        &:hover{background: @color2;
         box-shadow: 0 0 0 1px @color2, 0 0 0 2px @color2;
         color: @color3;
         border: 1px solid rgba(255,255,255,0.2);
-        transition: @transition;
+        transition: @transition;}
+        .fa {
+            width: @the-pixel + 20;
+            height: @the-pixel + 20;
+            margin-top: @the-pixel + 10;
+            text-align: center;
+            margin-left: @the-pixel + 10;
+        }
     }
     .btn-move-left{
-        margin-left: 15px;
+        margin-left: @the-pixel + 20;
     }
     .btn-move-right {
         position: @position;
-        left: 95%;
+        left: @the-width - 5;
     }
 }
