@@ -1,0 +1,127 @@
+.type-2 .headerinner {
+  background: #262626;
+  padding: 20px;
+}
+.type-2 .search {
+  margin-top: 15px;
+}
+.type-2 .form-select {
+  background: #3b3b3b;
+  float: left;
+  margin: 0 0px 0 0;
+  padding: 0;
+  width: 25%;
+  border: 1px solid #4d4d4d;
+  border-right: none;
+}
+.type-2 .form-select select {
+  width: 100%;
+  margin: 10px 0;
+  background: none;
+  color: #b6b6b6;
+  margin-right: 5px;
+  border: 1px solid #3b3b3b;
+  border-right: 1px solid;
+}
+.type-2 .form-select select option {
+  color: #b6b6b6;
+  padding: 4px 0 4px 3px;
+}
+.type-2 .form-input {
+  width: 65%;
+  background: #3b3b3b;
+  border: 1px solid #4d4d4d;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  height: 42px;
+  line-height: 18px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.type-2 .form-input input {
+  width: 65%;
+  background: none;
+  border: none;
+}
+.type-2 .btn-button {
+  width: 10%;
+  float: left;
+}
+.type-2 .btn-button button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+.type-2 .btn-button .fa-search {
+  color: #fff;
+  background: #6b6b6b;
+  height: 42px;
+  padding: 11px 13px;
+}
+.type-2 .item {
+  position: absolute;
+}
+.type-2 .thumbitem {
+  background: #eb1f1f;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 13px 0;
+  padding: 6px 15px;
+  width: 160px;
+  text-align: left;
+  color: #fff;
+}
+.type-2 .item-cart {
+  background: url(../images/cart.png) no-repeat scroll 0 0 transparent;
+  content: "";
+  height: 69px;
+  position: absolute;
+  right: 4px;
+  top: 0;
+  width: 52px;
+}
+@media only screen and (max-width: 475px) {
+  .type-2 .item {
+    position: absolute;
+    right: 94px;
+    top: -70px;
+    margin-right: 75px;
+  }
+  .type-2 .logo {
+    width: 100%;
+    text-align: center;
+  }
+  .type-2 .form-select select {
+    width: 100%;
+  }
+  .type-2 .form-input input {
+    width: 100%;
+  }
+  .type-2 .btn-button button {
+    width: 100%;
+  }
+  .type-2 .search {
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  .type-2 .form-input {
+    width: 40%;
+  }
+  .type-2 .form-select {
+    width: 40%;
+  }
+  .type-2 .btn-button {
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 982px) {
+  .type-2 .item {
+    position: absolute !important;
+    right: 30px;
+    bottom: 25px;
+  }
+}

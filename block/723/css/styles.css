@@ -1,0 +1,42 @@
+.type_b_8 .bottom-single-banner {
+  clear: both;
+  padding: 21px 0 18px;
+  position: relative;
+}
+.type_b_8 .bottom-single-banner .item {
+  overflow: hidden;
+  position: relative;
+}
+.type_b_8 img {
+  border: 0;
+  vertical-align: top;
+}
+.type_b_8 .bottom-single-banner .item img {
+  transition: all 0.9s ease 0s;
+  max-width: 100%;
+}
+.type_b_8 .bottom-single-banner:hover .item img {
+  transform: scale(1.05);
+  transition: all 0.9s ease 0s;
+}
+@media only screen and (max-width: 1250px) and (min-width: 1024px) {
+  .type_b_8 .container-width {
+    width: 980px;
+  }
+}
+@media only screen and (max-width: 1023px) and (min-width: 980px) {
+  .type_b_8 .container-width {
+    width: 940px;
+  }
+}
+@media only screen and (max-width: 979px) {
+  .type_b_8 .container-width {
+    width: 724px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .type_b_8 .container-width {
+    width: auto;
+    margin: 0 15px;
+  }
+}

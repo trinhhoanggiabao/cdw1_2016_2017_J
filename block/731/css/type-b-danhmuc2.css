@@ -1,0 +1,126 @@
+.type-b-danhmuc2 .navbar-default {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+.type-b-danhmuc2 .navbar-default .navbar-nav>.active>a,
+.type-b-danhmuc2 .navbar-default .navbar-nav>.active>a:focus,
+.type-b-danhmuc2 .navbar-default .navbar-nav>.active>a:hover {
+  background: none;
+  color: #000;
+  font-weight: bold;
+}
+.type-b-danhmuc2 .navbar-nav>li>a {
+  padding-top: 0;
+}
+.type-b-danhmuc2 hr {
+  float: left;
+  width: 300px;
+}
+.type-b-danhmuc2 .color-bg ul {
+  list-style: none;
+}
+.type-b-danhmuc2 .color-bg img {
+  padding: 1px;
+  border: 1px solid #000;
+}
+.type-b-danhmuc2 .color {
+  padding: 10px;
+}
+.type-b-danhmuc2 .shobytext {
+  padding: 10px;
+}
+.type-b-danhmuc2 .shopby {
+  float: left;
+}
+.type-b-danhmuc2 .shopby ul {
+  list-style: none;
+}
+.type-b-danhmuc2 .shopby ul li a {
+  color: #777;
+  padding-left: 15px;
+}
+.type-b-danhmuc2 .shopby ul li a:hover {
+  text-decoration: none;
+}
+.type-b-danhmuc2 .price ul {
+  list-style: none;
+}
+.type-b-danhmuc2 .price ul li a {
+  color: #777;
+}
+.type-b-danhmuc2 .price ul li a:hover {
+  text-decoration: none;
+}
+.type-b-danhmuc2 .sopby img {
+  position: relative;
+}
+.type-b-danhmuc2 .manufa {
+  padding: 10px;
+}
+.type-b-danhmuc2 .color-bg {
+  padding-left: 20px;
+}
+.type-b-danhmuc2 .shopbybrand ul {
+  list-style: none;
+}
+.type-b-danhmuc2 .shopbybrand ul li a {
+  color: #777;
+}
+.type-b-danhmuc2 .shopbybrand ul li a:hover {
+  text-decoration: none;
+}
+.type-b-danhmuc2 .produt-menu {
+  float: left;
+}
+.type-b-danhmuc2 .produt-menu img {
+  width: 60%;
+}
+.type-b-danhmuc2 .moneymenu {
+  text-decoration: line-through;
+  font-size: 16px;
+  color: #c5c5c5;
+  font-weight: bold;
+}
+.type-b-danhmuc2 .dolar800 {
+  font-size: 18px;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+.type-b-danhmuc2 .addcartmenu a {
+  color: #999;
+  text-decoration: none;
+  padding: 15px 0;
+}
+.type-b-danhmuc2 .addcartmenu a:hover {
+  text-decoration: none;
+}
+.type-b-danhmuc2 .khoangcach {
+  padding-top: 15px;
+}
+.type-b-danhmuc2 .seeall {
+  float: right;
+}
+.type-b-danhmuc2 .recently {
+  float: left;
+}
+.type-b-danhmuc2 .recently h4 {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #000;
+}
+.type-b-danhmuc2 .recently a {
+  color: #000;
+  text-decoration: none;
+}
+.type-b-danhmuc2 .img-left {
+  padding: 15px;
+}
+@media only screen and (max-width: 530px) {
+  .type-b-danhmuc2 .navbar-nav {
+    border: 1px solid #b6b6b6;
+  }
+  .type-b-danhmuc2 .navbar-brand {
+    display: block;
+  }
+}

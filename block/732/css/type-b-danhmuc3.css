@@ -1,0 +1,49 @@
+.type-b-danhmuc3 .cms-left .fa-th-list:hover {
+  opaciti: 1;
+}
+.type-b-danhmuc3 .thumb-item {
+  padding: 25px;
+}
+.type-b-danhmuc3 .icon-grid {
+  font-size: 2em;
+  padding: 0 5px;
+}
+.type-b-danhmuc3 .icon-list {
+  float: left;
+}
+.type-b-danhmuc3 .cms-left .fa-th-large {
+  font-size: 1.2em;
+  padding: 0 10px;
+  width: 29px;
+}
+.type-b-danhmuc3 .cms-left .fa-th-list {
+  font-size: 1.2em;
+  padding: 0 10px;
+  opacity: 0.4;
+}
+.type-b-danhmuc3 .cms-right select {
+  padding: 4px 5px;
+}
+.type-b-danhmuc3 .cms-right .fa-sort-amount-desc {
+  border: 1px solid #999;
+  padding: 5px;
+  margin: 0 5px;
+}
+.type-b-danhmuc3 .cms-right .numberone {
+  background: #000;
+  color: #fff;
+  padding: 6px 10px;
+}
+.type-b-danhmuc3 .cms-right .number {
+  border: 1px solid #999;
+  padding: 5px 7px;
+}
+.type-b-danhmuc3 .cms-right .glyphicon-triangle-right {
+  border: 1px solid #999;
+  padding: 8px 8px;
+  opacity: 0.4;
+  font-size: 10px;
+}
+.type-b-danhmuc3 .cms-right span {
+  padding: 0 10px;
+}

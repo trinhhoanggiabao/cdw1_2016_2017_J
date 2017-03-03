@@ -1,0 +1,54 @@
+.type-1{
+    .dropdown, .dropup{
+        float: left;
+    }
+    .btn-primary {
+        background: none;
+        border: none;
+        color: #000;
+    }
+    .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary{
+        background: none;
+        border-radius: 0;
+        color: #000;
+        border: none;
+    }
+    .defaut{
+        position: absolute;
+        top: 6px;
+        left: 150px;
+    }
+    .icon{
+        float: right;
+        padding: 2px 0;
+    }
+    .icon i{
+        padding: 7px 0 0 10px;
+    }
+    .icon .fa{
+        opacity: 0.5;
+    }
+    .icon .fa:hover{
+        opacity: 1;
+    }
+    @media only screen and(max-width:425px){
+        .dropdown, .dropup{
+          text-align: center;
+          position: relative;
+          left: calc(50% - 15px);
+        }
+        .defaut{
+            display: none;
+        }
+        .icon span{
+            display: none;
+        }        
+        .icon{
+            float: none;
+            text-align: center;
+        }
+        .icon i{
+            padding: 5px 10px;
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.type_b_chitiet_menu .navbar-default {
+  background: none;
+  border: none;
+  border-radius: 0;
+}
+.type_b_chitiet_menu .nav navbar-nav {
+  float: none;
+}
+.type_b_chitiet_menu .navbar-default .navbar-brand {
+  color: #000;
+  font-weight: bold;
+  display: none;
+  font-size: 1em;
+}
+.type_b_chitiet_menu .navbar-default .navbar-nav>.active>a,
+.type_b_chitiet_menu .navbar-default .navbar-nav>.active>a:focus,
+.type_b_chitiet_menu .navbar-default .navbar-nav>.active>a:hover {
+  background: none;
+  color: #000;
+  font-weight: bold;
+}
+.type_b_chitiet_menu .navbar-default .navbar-nav>li>a {
+  padding: 10px 0 0 0;
+}
+.type_b_chitiet_menu .navbar-nav>li {
+  float: none;
+}
+.type_b_chitiet_menu .navbar-default .navbar-collapse,
+.type_b_chitiet_menu .navbar-default .navbar-form {
+  padding: 0;
+}
+.type_b_chitiet_menu .navbar-nav {
+  margin: 0;
+}
+.type_b_chitiet_menu .catogeri ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.type_b_chitiet_menu .catogeri ul li a {
+  color: #777;
+  text-decoration: none;
+}
+.type_b_chitiet_menu .catogeri ul li {
+  padding: 5px 0;
+}
+.type_b_chitiet_menu .catogeri ul li a:hover {
+  color: #000;
+}
+.type_b_chitiet_menu .catogeri ul li .active {
+  color: #000;
+  font-weight: bold;
+}
+.type_b_chitiet_menu .distance {
+  padding: 0;
+}
+.type_b_chitiet_menu .shopbybrand ul {
+  padding: 0;
+  list-style: none;
+}
+.type_b_chitiet_menu .shopbybrand ul li .active {
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+}
+.type_b_chitiet_menu .shopbybrand ul li {
+  padding: 5px 0;
+}
+.type_b_chitiet_menu .shopbybrand ul li a {
+  color: #777;
+}
+.type_b_chitiet_menu .shopbybrand ul li a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.type_b_chitiet_menu .thumb-image img {
+  width: 30%;
+}
+.type_b_chitiet_menu .money1 {
+  text-decoration: line-through;
+  color: #777;
+  font-size: 14px;
+  font-weight: bold;
+}
+.type_b_chitiet_menu .money2 {
+  color: #000;
+  font-weight: bolder;
+  font-size: 16px;
+}
+.type_b_chitiet_menu .text {
+  padding: 5px 0;
+}
+.type_b_chitiet_menu .addtocart {
+  padding: 5px 0;
+}
+.type_b_chitiet_menu hr {
+  color: #e5e5e5;
+}

@@ -1,0 +1,42 @@
+.type-5 .sub-banner {
+  overflow: hidden;
+  width: 100%;
+  margin: 10px 0 0;
+}
+.type-5 .sub-banner img {
+  width: 100%;
+}
+.type-5 .text {
+  position: absolute;
+  bottom: 15px;
+  left: 30px;
+  font-size: 18px;
+  color: #fff;
+}
+.type-5 .shopnow {
+  display: none;
+  position: absolute;
+  transition: all 0.3s ease 0s;
+  right: 15px;
+  bottom: 0;
+  color: #fff;
+  background: rgba(38,38,38,0.7);
+  padding: 10px 15px;
+  text-align: right;
+  width: 92%;
+  box-sizing: border-box;
+}
+.type-5 .sub-banner:hover img {
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+}
+.type-5 .sub-banner:hover .shopnow {
+  transition: all 0.3s ease 0s;
+  z-index: 1;
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .type-5 .sub-banner:hover .shopnow {
+    display: none;
+  }
+}

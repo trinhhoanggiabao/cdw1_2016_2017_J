@@ -1,0 +1,133 @@
+.type-2{
+    .headerinner{
+        background: #262626;
+        padding: 20px;
+    }
+    .search{
+        margin-top: 15px; 
+    }
+    .form-select{
+        background: #3b3b3b;
+        float: left;
+        margin: 0 0px 0 0;
+        padding:0;
+        width: 25%;
+        border: 1px solid #4d4d4d;
+        border-right: none;
+    }
+    .form-select select{
+        width: 100%;
+        margin: 10px 0;
+        background: none;
+        color: #b6b6b6;
+        margin-right: 5px;
+        border: 1px solid #3b3b3b;
+        border-right: 1px solid;
+    }
+    .form-select select option{
+        color: #b6b6b6;
+        padding: 4px 0 4px 3px;
+    }
+    .form-input{
+        width: 65%;
+        background: #3b3b3b;
+        border: 1px solid #4d4d4d;
+        border-left: none;
+        border-right: none;
+        box-shadow: none;
+        color: #fff;
+        float: left;
+        font-size: 12px;
+        height: 42px;
+        line-height: 18px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .form-input input{
+        width: 65%;
+        background: none;
+        border: none;
+    }
+    .btn-button{
+        width: 10%;
+        float: left;
+    }
+    .btn-button button{
+        padding: 0;
+        border:none;
+        background: none;
+    }
+    .btn-button .fa-search{
+        color: #fff;
+        background: #6b6b6b;
+        height: 42px;
+        background: #6b6b6b;
+        padding: 11px 13px;
+    }
+    .item{
+        position: absolute;
+    }
+    .thumbitem{
+        background: #eb1f1f;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 13px 0;
+        padding: 6px 15px;
+        width: 160px;
+        text-align: left;
+        color: #fff;
+    }
+    .item-cart{
+        background: url(../images/cart.png) no-repeat scroll 0 0 transparent;
+        content: "";
+        height: 69px;
+        position: absolute;
+        right: 4px;
+        top: 0;
+        width: 52px;
+    }
+    @media only screen and (max-width:475px){
+        .item{
+            position: absolute;
+            right: 94px;
+            top: -70px;
+            margin-right: 75px;
+        }
+        .logo{
+            width: 100%;
+            text-align: center;
+        }
+        .form-select select{
+            width: 100%;
+        }
+        .form-input input{
+            width: 100%;
+        }
+        .btn-button button{
+            width: 100%;
+        }
+        .search{
+            margin-left: 20px;
+            margin-top: 70px;
+        }
+        .form-input{
+            width: 40%;
+        }
+        .form-select{
+            width: 40%;
+        }
+        .btn-button{
+            width: 10%;
+        }
+
+    }
+    @media only screen and (max-width:982px){
+        .item{
+            position: absolute !important;
+            right: 30px;
+            bottom: 25px;
+        }
+    }
+
+
+}

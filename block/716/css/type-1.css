@@ -1,0 +1,56 @@
+.type-1 .dropdown,
+.type-1 .dropup {
+  float: left;
+}
+.type-1 .btn-primary {
+  background: none;
+  border: none;
+  color: #000;
+}
+.type-1 .btn-primary.active,
+.type-1 .btn-primary:active,
+.type-1 .open>.dropdown-toggle.btn-primary {
+  background: none;
+  border-radius: 0;
+  color: #000;
+  border: none;
+}
+.type-1 .defaut {
+  position: absolute;
+  top: 6px;
+  left: 150px;
+}
+.type-1 .icon {
+  float: right;
+  padding: 2px 0;
+}
+.type-1 .icon i {
+  padding: 7px 0 0 10px;
+}
+.type-1 .icon .fa {
+  opacity: 0.5;
+}
+.type-1 .icon .fa:hover {
+  opacity: 1;
+}
+@media only screen and (max-width: 425px) {
+  .type-1 .dropdown,
+  .type-1 .dropup {
+    text-align: center;
+    position: relative;
+    left: calc(35%);
+  }
+  .type-1 .defaut {
+    display: none;
+  }
+  .type-1 .icon span {
+    display: none;
+  }
+  .type-1 .icon {
+    float: none;
+    text-align: center;
+  }
+  .type-1 .icon i {
+    padding: 5px 10px;
+  }
+}

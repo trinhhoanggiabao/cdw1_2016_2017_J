@@ -1,0 +1,26 @@
+.type-b-danhmuc1 .headclothing {
+  background: #f5f5f5;
+  padding: 10px;
+}
+.type-b-danhmuc1 .clothing h4 {
+  color: #000;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.type-b-danhmuc1 .clothing-text {
+  padding-top: 5px;
+  float: right;
+}
+.type-b-danhmuc1 .clothing-text a {
+  color: #666666;
+}
+.type-b-danhmuc1 .clothing-text a:hover {
+  text-decoration: none;
+}
+@media only screen and (max-width: 480px) {
+  .type-b-danhmuc1 .clothing-text {
+    float: none;
+    position: relative;
+  }
+}
