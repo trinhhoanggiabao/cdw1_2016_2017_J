@@ -23,32 +23,22 @@
             <div class="container">
                 <!--===========phan categories=============-->
                 <nav class="navbar navbar-default">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span> 
-                            </button>
-                            <div class="logo" data-toggle="collapse" data-target="#myNavbar">
-                                <a class="navbar-brand" href="#">MENU</a>
-                            </div>
-                        </div>
-                        <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav">
-                                <li class="active"><a href="#">CATEGORIES</a></li>
-                                <li><a href="#">Clothing</a></li>
-                                <li><a href="#">Accessories</a></li> 
-                                <li><a href="#">Tops & T-Shirts</a></li> 
-                                <li><a href="#">Cardigans</a></li> 
-                                <li><a href="#">Jumpers</a></li> 
-                                <li><a href="#">Designer Wear</a></li> 
-                                <li><a href="#">jersey tops</a></li> 
-                                <li><a href="#">Blouses</a></li> 
-                                <li><a href="#">Swim Wear</a></li> 
-                                <li><a href="#">Skirts</a></li> 
-                                <li><a href="#">Coats & Jackets</a></li> 
-                            </ul>
-                        </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">CATEGORIES</a></li>
+                            <li><a href="#">Clothing</a></li>
+                            <li><a href="#">Accessories</a></li> 
+                            <li><a href="#">Tops & T-Shirts</a></li> 
+                            <li><a href="#">Cardigans</a></li> 
+                            <li><a href="#">Jumpers</a></li> 
+                            <li><a href="#">Designer Wear</a></li> 
+                            <li><a href="#">jersey tops</a></li> 
+                            <li><a href="#">Blouses</a></li> 
+                            <li><a href="#">Swim Wear</a></li> 
+                            <li><a href="#">Skirts</a></li> 
+                            <li><a href="#">Coats & Jackets</a></li> 
+                        </ul>
+                    </div>
                 </nav>
                 <hr>
                 <div class="clearfix"></div>
@@ -79,5 +69,4 @@
             </div>
         </div>
     </body>
-
 </html>

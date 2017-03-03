@@ -1,3 +1,15 @@
+.type-718 .color-font {
+  color: #000;
+  font-weight: bold;
+}
+.type-718 .padding-list {
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+.type-718 .padding-float {
+  float: none;
+  padding: 5px 0;
+}
 .type-718 .navbar-default {
   background: none;
   border: none;
@@ -45,8 +57,8 @@
   padding: 0 0 0 20px;
 }
 .type-718 .wintershop .active {
-  font-weight: bold;
   color: #000;
+  font-weight: bold;
 }
 .type-718 .wintershop ul li {
   float: none;
