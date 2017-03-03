@@ -9,6 +9,16 @@
     @margin-left: 15px;
     @font-family: LMRomanCaps10-Regular;
     @display2:none;
+    @transition: all .2s ease-in-out;
+    .trans {
+        transition: @transition;
+    }
+    .state-name {
+        color: @color6;
+    }
+    .active-section-list {
+        display: @display;
+    }
     .info {
         display: @display;
     }
@@ -69,9 +79,9 @@
         }
 
         .state {
-            color: @color6;
+            .state-name;
             .name {
-                color: @color6;
+                .state-name;
             }
         }
         .tab-title {
@@ -93,13 +103,13 @@
             }
         }
         .active-section {
-            display:@display;
+            .active-section-list;
         }
         .attributes {
             margin-top: 30px;
 
             .attribute-list {
-                display: @display;
+                .active-section-list;
                 margin-right: 10px;
 
             }
@@ -123,11 +133,11 @@
                     padding: 12px 25px;
                     background-color: #7a7975;
                     color: #ffffff;
-                    transition: all .2s ease-in-out;
+                    .trans;
                 }
                 .btn-add:hover {
                     background-color: #e1423c;
-                    transition: all .2s ease-in-out;
+                    .trans;
                 }
             }
         }
@@ -289,7 +299,7 @@
                 background: #e17365;
             }
             .star-color {
-                color: #ccc;
+                color: @color;
             }
             p {
                 padding-bottom: 10px;

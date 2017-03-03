@@ -1,5 +1,4 @@
-<html style="background-color: #f3f3f4;">
-
+<html>
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -241,6 +240,4 @@
         </div>
 
     </body>
-
-
 </html>

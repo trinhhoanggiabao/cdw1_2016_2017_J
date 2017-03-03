@@ -1,3 +1,12 @@
+.type-703 .trans {
+  transition: all .2s ease-in-out;
+}
+.type-703 .state-name {
+  color: #666;
+}
+.type-703 .active-section-list {
+  display: inline-block;
+}
 .type-703 .info {
   display: inline-block;
 }
