@@ -34,9 +34,9 @@
                             <div class="tabs">
                                 <div class="tab-content" >
                                     <div id="newproducts" class="tab-pane fade in active ">
-                                        <div class="new-products">
+                                        <div>
                                             <div class="new-products-inner">
-                                                <div class="related product-outer">
+                                                <div class="related">
                                                     <div class=" caltegory-title">
                                                         <h2> related Products </h2>
                                                     </div>
@@ -75,11 +75,7 @@
 
                                                                                                 <span class="price">$523.00</span> 
                                                                                             </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
-                                                                                            </div>
+                                                                                            
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
@@ -116,11 +112,7 @@
 
                                                                                                 <span class="price">$789.00</span>
                                                                                             </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
-                                                                                            </div>
+                                                                                            
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
@@ -156,11 +148,7 @@
                                                                                                 <span class="regular-price" >
                                                                                                     <span class="price">$689.00</span> </span>
                                                                                             </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
-                                                                                            </div>
+                                                                                          
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
@@ -199,11 +187,7 @@
 
                                                                                                 <span class="price">$523.00</span> 
                                                                                             </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
-                                                                                            </div>
+                                                                                            
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
@@ -240,11 +224,6 @@
 
                                                                                                 <span class="price">$789.00</span>
                                                                                             </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
-                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
@@ -279,11 +258,6 @@
                                                                                             <div class="price-box">
                                                                                                 <span class="regular-price" >
                                                                                                     <span class="price">$689.00</span> </span>
-                                                                                            </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
@@ -322,11 +296,6 @@
 
                                                                                                 <span class="price">$523.00</span> 
                                                                                             </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
-                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
@@ -363,11 +332,6 @@
 
                                                                                                 <span class="price">$789.00</span>
                                                                                             </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
-                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
@@ -403,11 +367,6 @@
                                                                                                 <span class="regular-price" >
                                                                                                     <span class="price">$689.00</span> </span>
                                                                                             </div>
-                                                                                            <div class="ratings">
-                                                                                                <div class="rating-box">
-                                                                                                    <div class="rating" style="width:0%"></div>
-                                                                                                </div>
-                                                                                            </div>
                                                                                         </div>
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
@@ -441,16 +400,16 @@
                     <div class="tab-content" >
                         <div id="newproducts" class="tab-pane fade in active ">
 
-                            <div class="new-products">
+                            <div>
                                 <div class="new-products-inner">
-                                    <div class="related product-outer">
-                                        <div class="box-collateral">
+                                    <div class="related">
+                                        <div>
                                             <div class=" caltegory-title">
                                                 <h2> You may also be interested in the following product(s) </h2>
                                             </div>
                                         </div>
                                     </div>
-                                    <div  class="carousel slide " id="myCarousel1" > 
+                                    <div  class="carousel slide "> 
                                         <ul class="product-carousel" style="opacity: 0;display: block;margin-left: -25px; ">
                                             <div class="slider-wrapper-outer">
                                                 <div class="slider-wrapper" style="width: 100%;display: block">
@@ -484,11 +443,6 @@
                                                                                     <span class=" old-price"> $664.00</span>        
 
                                                                                     <span class="price">$523.00</span> 
-                                                                                </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -525,11 +479,6 @@
                                                                                     <span class="regular-price" >
                                                                                         <span class="price">$498.00</span> </span>
                                                                                 </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
-                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                         <!-- End div class product-block-->
@@ -564,11 +513,6 @@
                                                                                 <div class="price-box">
                                                                                     <span class="regular-price" >
                                                                                         <span class="price">$444.00</span> </span>
-                                                                                </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -609,11 +553,6 @@
 
                                                                                     <span class="price">$523.00</span> 
                                                                                 </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
-                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                         <!-- End div class product-block-->
@@ -649,11 +588,6 @@
                                                                                     <span class="regular-price" >
                                                                                         <span class="price">$498.00</span> </span>
                                                                                 </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
-                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                         <!-- End div class product-block-->
@@ -688,11 +622,6 @@
                                                                                 <div class="price-box">
                                                                                     <span class="regular-price" >
                                                                                         <span class="price">$444.00</span> </span>
-                                                                                </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
@@ -733,11 +662,6 @@
 
                                                                                     <span class="price">$523.00</span> 
                                                                                 </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
-                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                         <!-- End div class product-block-->
@@ -773,11 +697,6 @@
                                                                                     <span class="regular-price" >
                                                                                         <span class="price">$498.00</span> </span>
                                                                                 </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
-                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                         <!-- End div class product-block-->
@@ -812,11 +731,6 @@
                                                                                 <div class="price-box">
                                                                                     <span class="regular-price" >
                                                                                         <span class="price">$444.00</span> </span>
-                                                                                </div>
-                                                                                <div class="ratings">
-                                                                                    <div class="rating-box">
-                                                                                        <div class="rating" style="width:0%"></div>
-                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>

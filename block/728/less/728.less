@@ -16,6 +16,12 @@
             font-size: 20px;
             text-decoration: none;
         }
+        .bt{
+            color: #000;
+            font-family: "FontAwesome";
+            font-size: 14px;
+            padding: 7px;
+        }
         .kt{
             bottom: 190px;
             width: 35px;
@@ -36,7 +42,7 @@
                 .kt
             }
             .prev3{
-                left: 0;
+                //left: 0;
                 .kt
             }
 
@@ -74,8 +80,6 @@
             padding-top: 25px;
         }
         /*---------------------------------------------*/
-
-
         .tabs {
             margin: 30px -10px 25px;
         }
@@ -137,8 +141,8 @@
         .product_hover-block .actions .add-to-links{ display:none;}
         .product_hover-block .add-to-links li:hover{ background:#000; border-color:#000; transition:all 0.3s ease 0s; -webkit-transition:all 0.3s ease 0s; -moz-transition:all 0.3s ease 0s; -ms-transition:all 0.3s ease 0s; -o-transition:all 0.3s ease 0s;}
         .product_hover-block .add-to-links li {
-            background: #fff;  
-            border: 1px solid #000; 
+            background: @act_hover_color;  
+            border: @act_hover; 
             box-sizing:border-box; 
             display:inline-block; 
             font-size:0; 
@@ -150,18 +154,12 @@
             padding:0 3px;
         }
         .add-to-links li a.link-wishlist::before {
-            color: #000;
-            content: "\f004";
-            font-family: "FontAwesome";
-            font-size: 14px;
-            padding: 7px;
+           content: "\f004";
+           .bt
         }
         .add-to-links li a.link-compare::before {
-            color: #000;
             content: "\f080";
-            font-family: "FontAwesome";
-            font-size: 14px;
-            padding: 7px;
+            .bt
         }
         .add-to-links li:hover a.link-wishlist::before, .add-to-links li:hover a.link-compare::before{ color:#fff;}
         .add-to-links li a.link-wishlist, .add-to-links li a.link-compare { display: block; height: 100%; width: 100%;}
@@ -184,24 +182,16 @@
         }
         .price-box { margin:2px 0 2px; }
         .price-box .price { font-weight:bold; color:#000; font-size:18px; font-family:"Source Sans Pro",sans-serif; }
-
-
-
-
+        
         .product-carousel{
             display: none;
-            opacity:1!important; -khtml-opacity: 1; -webkit-opacity:1; -moz-opacity:1; -ms-opacity:1;
+            opacity:1!important;
             position: relative;
-            width: 100%;
-            -ms-touch-action: pan-y;
+            width: 100%;  
         }
-
-
         .product-carousel .slider-wrapper{
             display: none;
             position: relative;
-            -webkit-transform: translate3d(0px, 0px, 0px);
-            -webkit-perspective: 1000;
         }
         .product-carousel .slider-wrapper-outer{
 
@@ -209,10 +199,6 @@
             width: 100%;
         }
         .product-carousel .slider-wrapper-outer.autoHeight{
-            -webkit-transition: height 500ms ease-in-out;
-            -moz-transition: height 500ms ease-in-out;
-            -ms-transition: height 500ms ease-in-out;
-            -o-transition: height 500ms ease-in-out;
             transition: height 500ms ease-in-out;
         }
 
@@ -295,10 +281,6 @@
         font-size: 18px;
         font-weight: bold;
     }
-
-
-
-
     @media (max-width: 1800px){
         .col-md-3 {padding: 0;}
         .content-2 .text-left{width: 50%;}
