@@ -1,9 +1,9 @@
-.type_b_10 .media-carousel {
+.type-725 .media-carousel {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
 }
-.type_b_10 .media-carousel .carousel-control.left {
+.type-725 .media-carousel .carousel-control.left {
   left: -12px;
   background-image: none;
   background: none repeat scroll 0 0 #222222;
@@ -13,7 +13,7 @@
   width: 40px;
   margin-top: 30px;
 }
-.type_b_10 .thumbnail {
+.type-725 .thumbnail {
   display: block;
   padding: 4px;
   margin-bottom: 20px;
@@ -25,7 +25,7 @@
   -o-transition: border .2s ease-in-out;
   transition: border .2s ease-in-out;
 }
-.type_b_10 .media-carousel .carousel-control.right {
+.type-725 .media-carousel .carousel-control.right {
   right: -12px !important;
   background-image: none;
   background: none repeat scroll 0 0 #222222;
@@ -35,23 +35,23 @@
   width: 40px;
   margin-top: 30px;
 }
-.type_b_10 .media-carousel .carousel-indicators {
+.type-725 .media-carousel .carousel-indicators {
   right: 50%;
   top: auto;
   bottom: 0px;
   margin-right: -19px;
 }
-.type_b_10 .media-carousel .carousel-indicators li {
+.type-725 .media-carousel .carousel-indicators li {
   background: #c0c0c0;
 }
-.type_b_10 .media-carousel .carousel-indicators .active {
+.type-725 .media-carousel .carousel-indicators .active {
   background: #333333;
 }
-.type_b_10 .media-carousel img {
+.type-725 .media-carousel img {
   width: 250px;
   height: 100px;
 }
-.type_b_10 .media-carousel .carousel-control.left {
+.type-725 .media-carousel .carousel-control.left {
   left: -12px;
   background-image: none;
   border: 1px solid #000;
@@ -62,7 +62,7 @@
   color: black;
   background: white;
 }
-.type_b_10 .media-carousel .carousel-control.left:hover {
+.type-725 .media-carousel .carousel-control.left:hover {
   left: -12px;
   background-image: none;
   border: 1px solid #000;
@@ -73,7 +73,7 @@
   color: white;
   background: black;
 }
-.type_b_10 .media-carousel .carousel-control.right {
+.type-725 .media-carousel .carousel-control.right {
   right: -12px !important;
   background-image: none;
   background: white;
@@ -84,7 +84,7 @@
   margin-top: 30px;
   color: black;
 }
-.type_b_10 .media-carousel .carousel-control.right:hover {
+.type-725 .media-carousel .carousel-control.right:hover {
   right: -12px !important;
   background-image: none;
   background: black;

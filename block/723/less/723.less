@@ -1,25 +1,33 @@
-.type_b_8{
+.type_723{
+    @position: relative;
+    @transition: all 0.9s ease 0s;
+    .position {
+        position: relative;
+    }
+    .transition {
+        transition: all 0.9s ease 0s;
+    }
     .bottom-single-banner {
         clear: both;
         padding: 21px 0 18px;
-        position: relative;
+       .position;
         
     }
     .bottom-single-banner .item {
         overflow: hidden;
-        position: relative;
+        .position;
     }
     img {
         border: 0;
         vertical-align: top;
     }
     .bottom-single-banner .item img {
-        transition: all 0.9s ease 0s;
+        .transition;
         max-width: 100%;
     }
     .bottom-single-banner:hover .item img {
         transform: scale(1.05);
-        transition: all 0.9s ease 0s;
+        .transition;
     }
     @media only screen and (max-width: 1250px) and (min-width: 1024px){
         .container-width {
