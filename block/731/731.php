@@ -23,16 +23,9 @@
         <div class="type-b-danhmuc2">
             <div class="container">
                 <!--====phan menu==========--->
-                <nav class="navbar navbar-default">
+                <nav class="navbar-default">
                     <div class="container">
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span> 
-                            </button>
-                        </div>
-                        <div class="collapse navbar-collapse" id="myNavbar">
+                        <div class="navbar-collapse" id="myNavbar">
                             <ul class="nav navbar-nav">
                                 <li class="active"><a href="#">CATEGORIES</a></li><br>
                                 <li><a href="#">Clothing</a></li><br>
@@ -145,7 +138,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="">
-                                    <img src="images/1_4.jpg" alt=""/>
+                                    <img src="../home/images/1_4.jpg" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -160,12 +153,12 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="imagemenu">
-                                    <img src="images/7_3_4.jpg" alt=""/>
+                                <div>
+                                    <img src="../home/images/7_3_4.jpg" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="khoang cach">
+                                <div class="khoangcach">
                                     <p>Ifashion Ips..</p>
                                     <span class="moneymenu">$970</span> <span class="dolar800">$860.00</span>
                                     <div class="addcartmenu">
@@ -176,12 +169,12 @@
                         </div>
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="imagemenu">
+                                <div>
                                     <img src="images/17_1_5_1.jpg" alt=""/>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="khoang cach">
+                                <div class="khoangcach">
                                     <p>Established.</p>
                                     <span class="moneymenu">$400</span> <span class="dolar800">$325.00</span>
                                     <div class="addcartmenu">
