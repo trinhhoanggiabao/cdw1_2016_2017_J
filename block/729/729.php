@@ -19,28 +19,26 @@
         $less = new lessc;
         $less->compileFile('less/729.less', 'css/729.css');
         ?>
-        <link href="css/type_b_chitiet_menu.css" rel="stylesheet" type="text/css" />
-
-
+        <link href="css/729.css" rel="stylesheet" type="text/css" />
 
     </head>
 
     <body>
-        <div class="729">
+        <div class="type_b_chitiet_menu">
             <div class="container">
                 <!--=====Phan navber catogery====-->
-                <nav class="navbar navbar-default">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <nav class="navbar-default">
+                    <div>
+<!--                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span> 
-                        </button>
-                        <div class="logo" data-toggle="collapse" data-target="#myNavbar">
+                        </button>-->
+                        <div data-toggle="collapse" data-target="#myNavbar">
                             <a class="navbar-brand" href="#">MENU</a>
                         </div>
                     </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="navbar-collapse catogeri">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">CATEGORIES</a></li>
                             <li><a href="#">Clothing</a></li>
@@ -72,7 +70,7 @@
                             <div class="text">
                                 Arcu vitae i..				 
                             </div>
-                            <div class="price-product">
+                            <div>
                                 <span class="money1">$860.00</span> <span class="money2">$800</span>
                             </div>
                             <div class="addtocart">
@@ -90,7 +88,7 @@
                             <div class="text">
                                 ifashion ips..				 
                             </div>
-                            <div class="price-product">
+                            <div>
                                 <span class="money1">$770.00</span> <span class="money2">$860</span>
                             </div>
                             <div class="addtocart">
@@ -108,7 +106,7 @@
                             <div class="text">
                                 Established ..			 
                             </div>
-                            <div class="price-product">
+                            <div>
                                 <span class="money1">$400.00</span> <span class="money2">$325</span>
                             </div>
                             <div class="addtocart">
@@ -146,7 +144,7 @@
                 <div class="clearfix"></div>
 
                 <!--======phan image bottom banner----->
-                <div class="image-bottom">
+                <div>
                     <img src="images/left-banner.jpg" alt=""/>
                 </div>
             </div>
