@@ -17,15 +17,15 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-b-danhmuc4.less', 'css/type-b-danhmuc4.css');
+        $less->compileFile('less/733.less', 'css/733.css');
         ?>
-        <link href="css/type-b-danhmuc4.css" rel="stylesheet" type="text/css" />
+        <link href="css/733.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
         <div class="type-b-danhmuc4">
             <div class="container">
-                <div class="product">
+
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-xs-6">
                             <div class="images">
@@ -82,7 +82,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Tenetur Aeta Sapiente Delectus</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money">$455.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -109,7 +109,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Suspendisse Massa Ipsum Random</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money-860"> $358.00 </span><span class="money">$800.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -143,7 +143,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Standard Passage Lorem Ipsum</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money-860"> $774.00 </span><span class="money">$626.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -171,7 +171,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Perspiciatis Voluptatem</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money">$784.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -204,7 +204,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Purus Ut Lorem In Fringilla</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money-860"> $465.00 </span><span class="money">$325.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -241,7 +241,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Occaecati Cupiditate Non Provident</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money-860"> $684.00 </span><span class="money">$562.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -269,7 +269,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Tenetur Aeta Sapiente Delectus</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money">$875.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -302,7 +302,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Suspendisse Massa Ipsum Random</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money-860"> $1,080.00 </span><span class="money">$900.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -345,7 +345,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Lorem Ipsum Dolor Simply Sed</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money-860"> $780.00 </span><span class="money">$680.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -385,7 +385,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Tenetur Aeta Sapiente Delectus</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money-860"> $400.00 </span><span class="money">$325.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -415,7 +415,7 @@
                             <div class="clearfix"></div>
                             <div class="thumb">
                                 <div class="arcu"><p>Suspendisse Massa Ipsum Random</p></div>
-                                <div class="price">
+                                <div>
                                     <span class="money">$300.00</span>
                                 </div>
                                 <div class="icon-star">
@@ -428,7 +428,7 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                  
             </div>
         </div>
     </body>
