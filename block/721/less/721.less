@@ -137,6 +137,8 @@
     }
     cite          { font-style: @the-normal; }
     q,blockquote    { quotes: @the-none; }
+    q:before,
+        q:after       { content:''; }
     small,big     { font-size: 1em; }
 
     /* Lists */
@@ -382,6 +384,7 @@
             .position-text;
             &:before{
                 background: #cccccc none repeat scroll 0 0;
+                content: "";
                 display: @display;
                 height: 1px;
                 padding: @padding;

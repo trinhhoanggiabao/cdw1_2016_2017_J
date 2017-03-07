@@ -1,5 +1,38 @@
-.type_b_7{
-
+.type-722{
+    @box-sizing: border-box;
+    @color: #262626;
+    @color2: #000000;
+    @color3: #ffffff;
+    @display: block;
+    @margin-bottom: 30px;
+    @text-transform: uppercase;
+    @text-align: center;
+    @position: relative;
+    @padding: 20px;
+    @width: 100%;
+    @font-weight: bold;
+    @float: left;
+    @overflow: hidden;
+    .over-pos{
+        overflow: @overflow;
+        position: @position;
+    }
+    .float-box{
+        box-sizing: @box-sizing;
+        float: @float;
+    }
+    .text-width{
+        text-align: @text-align;
+        width: @width;
+    }
+    .display-width{
+        display: @display;
+        width: @width;
+    }
+    .font-text{ 
+        font-weight: @font-weight;
+        text-transform: @text-transform;
+    }
     ul,li {
         list-style: none;
     }
@@ -9,152 +42,115 @@
         margin: auto;
     }
     .testimonial_shipping_cms{ overflow:hidden;}
-    .tm_shipping_cms { display: block;   position: relative;  width: 100%;}
-    .shipping_inner { margin-right: 30px; position: relative;}
-    .tm_shipping_cms .shipping-heading::after {
-        background:url(../images/title_line.png) no-repeat scroll 0 0 transparent;
-        content: "";
-        height: 11px;
-        margin-left: 30px;
-        padding: 1px;
-        position: absolute;
-        top: 5px;
-        width: 100%;
+    .tm_shipping_cms {
+        position: @position;
+        .display-width;
+        .shipping-heading {
+            color: @color2;
+            display: @display;
+            font-size: 18px;
+            margin-bottom: @margin-bottom;
+            margin-top: 15px;
+            padding-bottom: 21px;
+            position: @position;
+            text-align: left;
+            .font-text;
+            &::after{
+                background:url(../images/title_line.png) no-repeat scroll 0 0 transparent;
+                content: "";
+                height: 11px;
+                margin-left: 30px;
+                padding: 1px;
+                position: absolute;
+                top: 5px;
+                width: @width;
+            }
+        }
     }
-    .tm_shipping_cms .shipping-heading {
-        color: #000000;
-        display: block;
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 30px;
-        margin-top: 15px;
-        padding-bottom: 21px;
-        position: relative;
-        text-align: left;
-        text-transform: uppercase;
-    }
-    .ship_content1, .ship_content2, .ship_content3 { clear: both; margin-bottom: 40px;  overflow: hidden;  position: relative;  width: 100%;}
-    .ship_content1 .img_content {background:url(../images/icons.png) no-repeat scroll 20px 26px transparent;padding: 20px;}
-    .ship_content1:hover .img_content { background-position:20px -28px;  border-color: #262626;}
-    .ship_content2 .img_content { background:url(../images/icons.png) no-repeat scroll 20px -84px transparent;  padding: 20px;}
-    .ship_content2:hover .img_content{ background-position:20px -138px;  border-color: #262626;}
-    .ship_content3 .img_content { background:url(../images/icons.png) no-repeat scroll 20px -192px transparent;  padding: 20px;}
-    .ship_content3:hover .img_content{ background-position:20px -246px; border-color: #262626;}
-    .img_content {border:1px solid #d9d9d9;float: left;height: 80px;margin-right: 40px;position: relative;width: 80px;box-sizing: border-box;}
-    .des_content .heading { color: #1c1c1c; font-size: 15px; font-weight: 700; margin-bottom: 8px; text-transform: uppercase;}
+    .shipping_inner { margin-right: 30px; position: @position;}
+    .ship_content1, .ship_content2, .ship_content3 { clear: both; margin-bottom: 40px;  width: @width; .over-pos;}
+    .ship_content1 .img_content {background:url(../images/icons.png) no-repeat scroll 20px 26px transparent;padding: @padding;}
+    .ship_content1:hover .img_content { background-position:20px -28px;  border-color: @color;}
+    .ship_content2 .img_content { background:url(../images/icons.png) no-repeat scroll 20px -84px transparent;  padding: @padding;}
+    .ship_content2:hover .img_content{ background-position:20px -138px;  border-color: @color;}
+    .ship_content3 .img_content { background:url(../images/icons.png) no-repeat scroll 20px -192px transparent;  padding: @padding;}
+    .ship_content3:hover .img_content{ background-position:20px -246px; border-color: @color;}
+    .img_content {border:1px solid #d9d9d9;height: 80px;margin-right: 40px;position: @position;width: 80px; .float-box;}
+    .des_content .heading { color: #1c1c1c; font-size: 15px; font-weight: 700; margin-bottom: 8px; text-transform: @text-transform;}
     .des_content > div {font-weight: 300;}
 
-    .testimonial {
-
-        text-align: center;
-        width: 100%;
+    .testimonial{
+        .text-width;
+        .image-block {
+            background: @color3 none repeat scroll 0 0;
+            border-radius: 50%;
+            display: inline-block;
+            margin-bottom:38px;
+            .over-pos;
+            img {.display-width;}
+        }
+        .post-description{ color:#666666;}
+        .post-author {
+            margin: 20px 0 15px;
+            padding: 0;
+            text-align: @text-align;
+            .font-text;
+            a{ color: @color2;}
+        }
     }
-    .testimonial_title{ display:none;}
-    .testimonial_cms_inner {
-
-        overflow: hidden;
-        position: relative;
-    }
+    .testimonial_title{ display: none;}
+    .testimonial_cms_inner {.over-pos;}
     .testimonial_outer {
         background: #f2f2f2 none repeat scroll 0 0;
-        float: left;
-        padding: 20px;
-        width: 100%;
-        box-sizing: border-box;
+        padding: @padding;
+        width: @width;
+        .float-box;
     }
-
     .testimonial_inner {  border: 2px solid #fcfbf6;}
     .testimonial_sub_inner {
         margin: 0 auto;
-        text-align: center;
-        width: 100%;
+        .text-width;
     }
-    .testimonial-block {  margin: 51px 0 0;}
-    .testimonial .image-block {
-        background: #ffffff none repeat scroll 0 0;
-        border-radius: 50%; -webkit-border-radius:50%;  -khtml-border-radius:50%;  -moz-border-radius:50%;
-        display: inline-block;
-        margin-bottom:38px;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .testimonial .image-block img {  display: block;  width: 100%;}
-    .testimonial .post-description{ color:#666666;}
-    .testimonial .post-author {
-        font-weight: bold;
-        margin: 20px 0 15px;
-        padding: 0;
-        text-align: center;
-        text-transform: uppercase;
-    }
-    .testimonial .post-author a{ color: #000000;}
-
-
-
-
-
-
-
+    .testimonial-block {margin: 51px 0 0;}
     .carousel {
         margin-bottom: 0;
         padding: 0 40px 60px 40px;
     }
-    /* The controlsy */
     .carousel-control {
         left: -12px;
         height: 40px;
         width: 40px;
         background: none repeat scroll 0 0 #222222;
-        border: 4px solid #FFFFFF;
+        border: 4px solid @color3;
         border-radius: 23px 23px 23px 23px;
         margin-top: 90px;
     }
-    .carousel-control.right {
-        right: -12px;
-    }
-    /* The indicators */
+    .carousel-control.right {right: -12px;}
     .carousel-indicators {
         right: 50%;
         top: auto;
         bottom: 20px;
         margin-right: -19px;
-        left:47% !important;
+        left: 47% !important;
+        li{background: #cecece;}
+        .active {background: @color2;}
     }
-    /* The colour of the indicators */
-    .carousel-indicators li  {
-        background: #cecece;
-    }
-    .carousel-indicators .active {
-        background: #000000;
-    }
-
+    .slider-item{text-align:center;}
     @media only screen and (max-width: 609px){
-
-        .carousel-indicators{
-            left: 46% !important;
-        }
+        .carousel-indicators{left: 46% !important;}
     }
-
-
     @media only screen and (max-width: 479px){
         .ship_content1, .ship_content2, .ship_content3 {
-            text-align: center;
+            text-align: @text-align;
             .img_content{
                 margin-left: 60px;
-                margin-bottom: 30px;
+                margin-bottom: @margin-bottom;
             } 
         }
-        .carousel {
-            padding:0;    
-        }
+        .carousel {padding: 0;}
         .carousel-indicators{
             left: 36% !important;
             bottom: -12px;
         }
     }
-
-    .slider-item{text-align:center;}
-
-
 }

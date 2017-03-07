@@ -20,7 +20,7 @@
         <link href="css/722.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-              <div class="type_b_7">
+        <div class="type-722">
             <div class="container">
                 <div class="testimonial_shipping_cms">
                     <!---1--->
@@ -63,7 +63,7 @@
                                 </div>
                                 <div class="testimonial_outer">
                                     <div class="testimonial_inner">
-                                        <div class="testimonial_sub_inner">
+                                        <nav class="testimonial_sub_inner">
                                             <ul   style="opacity: 1; display: block;">
                                                 <div id="Carousel" class="carousel slide">
                                                     <div class="carousel-inner">
@@ -71,52 +71,38 @@
                                                             <li class="slider-item " style="width: 100%;padding-right: 30px">
                                                                 <div class="testimonial-block">
                                                                     <div class="image-block"><img alt="" src="images/user1.jpg"></div>
-
                                                                     <div class="post-description">"Passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in Middle of text. All the."</div>
                                                                     <div class="post-author"><a href="#">Glasgow</a></div>
-
                                                                 </div>
                                                             </li>
                                                         </div>
-
                                                         <div class="item">
                                                             <li class="slider-item " style="width: 100%;padding-right: 30px">
                                                                 <div class="testimonial-block">
                                                                     <div class="image-block"><img alt="" src="images/user1.jpg"></div>
-
                                                                     <div class="post-description">"Passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in Middle of text. All the."</div>
                                                                     <div class="post-author"><a href="#">Glasgow</a></div>
-
                                                                 </div>
                                                             </li>
                                                         </div>
-
                                                         <div class="item">
                                                             <li class="slider-item " style="width: 100%;padding-right: 30px">
                                                                 <div class="testimonial-block">
                                                                     <div class="image-block"><img alt="" src="images/user1.jpg"></div>
-
                                                                     <div class="post-description">"Passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in Middle of text. All the."</div>
                                                                     <div class="post-author"><a href="#">Glasgow</a></div>
-
                                                                 </div>
                                                             </li>
                                                         </div>
                                                     </div>
-
-
-
-
                                                     <ol class="carousel-indicators">
                                                         <li data-target="#Carousel" data-slide-to="0" class="active"></li>
                                                         <li data-target="#Carousel" data-slide-to="1"></li>
                                                         <li data-target="#Carousel" data-slide-to="2"></li>
                                                     </ol>
                                                 </div>
-
                                             </ul>
-
-                                        </div>
+                                        </nav>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +112,5 @@
                 <!---end-->
             </div>
         </div>
-
-
     </body>
 </html>

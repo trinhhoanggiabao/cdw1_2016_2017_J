@@ -29,7 +29,7 @@
                             <li><a class="tab-text " data-toggle="tab"  title="tab_product" href="#newproducts"  data-text="Special"><span>Special</span></a></li>
                             <li><a class="tab-text" data-toggle="tab"  title="tab_product" href="#newproducts"  data-text="featured"><span>featured</span></a></li>
                         </ul>
-                    </nav>>
+                    </nav>
                     <div class="tabs">    
                         <div class="tab-content">
                             <nav id="newproducts" class="tab-pane fade in active ">

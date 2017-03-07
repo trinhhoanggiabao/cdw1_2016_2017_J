@@ -140,6 +140,10 @@
 .type-721 blockquote {
   quotes: none;
 }
+.type-721 q:before,
+.type-721 q:after {
+  content: '';
+}
 .type-721 small,
 .type-721 big {
   font-size: 1em;
@@ -460,6 +464,7 @@
 }
 .type-721 .tabberlive_outer_sub .htabs:before {
   background: #cccccc none repeat scroll 0 0;
+  content: "";
   display: block;
   height: 1px;
   padding: 0;
