@@ -51,8 +51,6 @@
                                 <div class="vc_row">
                                     <div class="vc_column_container">
                                         <div class="vc_column-inner ">
-
-                                            <div class="owl-carousel">
                                                 <div class="swiper-container">
                                                     <div class="swiper-wrapper">
                                                         <div class="swiper-slide box4">

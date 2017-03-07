@@ -72,7 +72,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div class="lms_footer_center">
@@ -90,14 +89,14 @@
                                     Proinpus est sed mauris viverra, eu 
                                     congue tellus tempus. e
                                 </p>
-                                <div class="lms_social">
+                                <nav class="lms_social">
                                     <ul>
                                         <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Facebook" class="colortooltip"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Twitter" class="colortooltip"><i class="fa fa-twitter"></i></a></li>
                                         <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Google+" class="colortooltip"><i class="fa fa-google-plus"></i></a></li>
                                         <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Pinterest" class="colortooltip"><i class="fa fa-pinterest"></i></a></li>
                                     </ul>
-                                </div>
+                                </nav>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="lms_footer_popular_course">

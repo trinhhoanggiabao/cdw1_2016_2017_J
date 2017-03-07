@@ -1,5 +1,8 @@
-footer{
-
+.type-738{
+    .float-width{
+        width: 100%;
+        float: left;
+    }
     a{
         text-decoration: none;
         color: #ff9933;
@@ -10,14 +13,13 @@ footer{
         color: #9CA0A0;
     }
     h3 {
-        float: left;
-        width: 100%;
         color: #fff;
         font-size: 22px;
         margin-top: 15px;
         text-transform: capitalize;
         font-family: 'Vollkorn', serif;
         margin-bottom: 30px;
+        .float-width;
     }
 
     .scrollToTop{
@@ -33,7 +35,19 @@ footer{
         left: 40px;
         border: 1px solid #ff9933;
         overflow: hidden;
-
+        &:hover{
+            color: #fff;
+            background: #ff9933;
+            text-decoration: none;
+            i{
+                display: none;
+                transform: translateY(-15px);
+                transition: all 0.5s ease-in;
+            }
+            .down{
+                display: block;
+            }
+        }
         .down{
             width: 100%;
             height: 100%;
@@ -41,35 +55,17 @@ footer{
             top: 21px;
         }
     }
-    .scrollToTop:hover {
-        i{
-            display: none;
-            transform: translateY(-15px);
-            transition: all 0.5s ease-in;
-        }
-        .down{
-            display: block;
-        }
-        color: #fff;
-        background: #ff9933;
-        text-decoration: none;
-
-    }
-
     .lms_theme_color{
         color: #ff9933;
     }
 
     .lms_footer_top {
-        width: 100%;
-        float: left;
         padding: 20px 0px;
         background: url(../images/bg.png);
-
+.float-width;
         .lms_newsletter {
-            width: 100%;
-            float: left;
             margin-bottom: 20px;
+            .float-width;
             form {
                 display: block;
                 margin-top: 0em;
@@ -79,9 +75,8 @@ footer{
                     display: inline-block;
                     margin-bottom: 0;
                     vertical-align: middle;
-                    float: left;
-                    width: 100%;
                     position: relative;
+                    .float-width;
                     #form-control{
                         width: 80%;
                         display: inline-block;
@@ -100,13 +95,10 @@ footer{
                             width: 100%;
                             font-style: italic;
                         }
-
+                        &:hover{
+                            border-color: #ff9933;
+                        }
                     }
-                    #form-control:hover{
-                        border-color: #ff9933;
-                    }
-
-
                     .lms_newsletter_widget_btn{
                         padding: 9px 1px;
                         font-size: 20px;
@@ -142,28 +134,22 @@ footer{
             color: #9a9a9a;
             background-color: transparent;
             border: 1px solid #e1e3e7;
-            -webkit-transition: all 0.3s;
             background-image: url(../images/down.png);
             background-repeat: no-repeat;
             background-position: right;
-            -webkit-appearance: none;
             option{
                 color: #333;
 
             }
-
-        }
-        .postform:hover{
-            border-color: #ff9933;
-            outline: 0;
-            -webkit-transition: all 0.2s;
+            &:hover{
+                border-color: #ff9933;
+                outline: 0;
+            }
         }
         .lms_happening {
-            width: 100%;
-            float: left;
+            .float-width;
             .lms_happy_user {
-                width: 100%;
-                float: left;
+                .float-width;
                 img {
                     width: 48px;
                     height: 48px;
@@ -174,12 +160,10 @@ footer{
             }
         }
     }
-
     .lms_footer_center {
-        width: 100%;
-        float: left;
         background: #1a1a1a;
         padding: 50px 0px 20px 0px;
+        .float-width;
         .lms_footer_logo{
             img{
                 vertical-align: middle;
@@ -190,9 +174,8 @@ footer{
             margin: 0 10px 10px 0;
         }
         .lms_social {
-            width: 100%;
-            float: left;
             margin-top:30px;
+            .float-width;
             ul{
                 list-style: none;
                 padding:0;
@@ -220,17 +203,14 @@ footer{
                 }
             }
         }
-
         .lms_footer_popular_course {
-            width: 100%;
-            float: left;
+            .float-width;
             .lms_footer_course {
-                width: 100%;
-                float: left;
                 border: 1px solid #555555;
                 padding-left: 7px;
                 padding-bottom: 6px;
                 margin-bottom: 30px;
+                .float-width;
                 img {
                     width: 75px;
                     height: 79px;
@@ -270,8 +250,7 @@ footer{
             }
         }
         .lms_footer_contact{
-            width: 100%;
-            float: left;
+            .float-width;
             .pad{
                 padding-bottom: 20px;
             }
@@ -279,31 +258,24 @@ footer{
                 margin-bottom: 10px;
                 .color_hover{
                     color: #9CA0A0;
-
                 }
                 :hover{
                     color: #ff9933;
                 }
             }
         }
-
     }
-
     .lms_footer_bottom{
-        width: 100%;
-        float: left;
         background: #171717;
         font-size: 13px;
         text-align: center;
-
+        .float-width;
         p {
             margin-bottom: 0px;
             padding: 20px 0px;
         }
 
     }
-
-
     /* Dành cho điện thoại */
     @media all and (min-width: 767px) {}
     /* Dành cho máy tính bảng chiều dọc */
