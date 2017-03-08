@@ -9,7 +9,9 @@
     @display:none;
     @display1:block;
     @display2:inline-block;
-    
+    @opacity:0;
+    @opacity1:0.5;
+    @opacity2:1;
     .dropdown, .dropup{
         float: @float;
     }
@@ -38,10 +40,10 @@
         padding: 7px 0 0 10px;
     }
     .icon .fa{
-        opacity: 0.5;
+        opacity: @opacity1;
     }
     .icon .fa:hover{
-        opacity: 1;
+        opacity: @opacity2;
     }
     .action{
         padding: 1px;
@@ -558,8 +560,8 @@
 
 
     .product_desc { padding: 0 10px;}
-    .product_hover-block {bottom: 0; left: 0;  margin: 0 auto;  position: absolute;  right: 0; width: 100%; opacity:0; -khtml-opacity: 0; -webkit-opacity:0; -moz-opacity:0; -ms-opacity:0;}
-    .product-block:hover .product_hover-block{ opacity:1; -khtml-opacity: 1; -webkit-opacity:1; -moz-opacity:1; -ms-opacity:1;}
+    .product_hover-block {bottom: 0; left: 0;  margin: 0 auto;  position: absolute;  right: 0; width: 100%; opacity:@opacity; -khtml-opacity: @opacity; -webkit-opacity:@opacity; -moz-opacity:@opacity; -ms-opacity:@opacity;}
+    .product-block:hover .product_hover-block{ opacity:@opacity2; -khtml-opacity: @opacity2; -webkit-opacit:@opacity2; -moz-opacity:@opacity2; -ms-opacity:@opacity2;}
     .product_hover-block  .ratings { bottom: 40px; left: 0;  margin: 0 auto;   position: @position; right: 0;}
     h2.product-name{ background:none; padding:0px 0 0 !important; border-bottom: none !important;  margin:6px 0 5px;}
 
@@ -612,7 +614,7 @@
         text-transform:capitalize;
         top: 0px;
         z-index: 8;	
-        opacity:0; -khtml-opacity: 0; -webkit-opacity:0; -moz-opacity:0; -ms-opacity:0;
+        opacity:@opacity; -khtml-opacity: @opacity; -webkit-opacity:@opacity; -moz-opacity:@opacity; -ms-opacity:@opacity;
     }
     .new-label {
         color: #dc2626;
@@ -624,9 +626,9 @@
         text-transform:capitalize;
         top: 0px;
         z-index: 8;
-        opacity:0; -khtml-opacity:0; -webkit-opacity:0; -moz-opacity:0; -ms-opacity:0;
+        opacity:@opacity; -khtml-opacity:@opacity; -webkit-opacity:@opacity; -moz-opacity:@opacity; -ms-opacity:@opacity;
     }
-    .product-block:hover .sale-label, .product-block:hover .new-label{opacity:1; -khtml-opacity: 1; -webkit-opacity:1; -moz-opacity:1; -ms-opacity:1;}
+    .product-block:hover .sale-label, .product-block:hover .new-label{opacity:@opacity2; -khtml-opacity: @opacity2; -webkit-opacity:@opacity2; -moz-opacity:@opacity2; -ms-opacity:@opacity2;}
     /* View Type: List */
 
     .add-to-links li a.link-wishlist:before {

@@ -1,26 +1,38 @@
 .type-715{
+    @float:left;
+    @float1:none;
+    @float2:right;
+    @background:none;
+    @border:none;
+    @position:absolute;
+    @position1:relative;
+    @display:none;
+    @display1:block;
+    @display2:inline-block;
+    @text-align:center;
+    @text-align1:left;
     .dropdown, .dropup{
-        float: left;
+        float: @float;
     }
     .btn-primary {
-        background: none;
-        border: none;
+        background: @background;
+        border: @border;
         color: #000;
         padding: 10px;
     }
-    .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary{
-        background: none;
+  .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary{
+        background: @background;
         border-radius: 0;
         color: #000;
-        border: none;
+        border: @border;
     }
     .defaut{
-        position: absolute;
+        position: @position;
         top: 9px;
         left: 150px;
     }
     .icon{
-        float: right;
+        float: @float2;
         padding: 4px 0;
     }
     .icon i{
@@ -33,33 +45,31 @@
         opacity: 1;
     }
     .action{
-        padding: 0;
+        padding: 1px;
     }
-
     @media only screen and(max-width:480px){
         .singlebanner img{
             padding-top: 10px;
         }
         .dropdown, .dropup{
-            text-align: center;
-            position: relative;
+            text-align:@text-align;
+            position: @position1;
             left: calc(50% - 15px);
         }
         .defaut{
-            display: none;
+            display: @display;
         }
         .icon span{
-            display: none;
+            display: @display;
         }        
         .icon{
-            float: none;
-            text-align: center;
+            float: @float1;
+            text-align: @text-align;
         }
         .icon i{
             padding: 5px 10px;
         }
     }
-}
 .type-2{
     .headerinner{
         background: #262626;
@@ -70,17 +80,17 @@
     }
     .form-select{
         background: #3b3b3b;
-        float: left;
+        float: @float;
         margin: 0 0px 0 0;
         padding:0;
         width: 25%;
         border: 1px solid #4d4d4d;
-        border-right: none;
+        border-right: @border;
     }
     .form-select select{
         width: 100%;
         margin: 10px 0;
-        background: none;
+        background: @background;
         color: #b6b6b6;
         margin-right: 5px;
         border: 1px solid #3b3b3b;
@@ -94,40 +104,40 @@
         width: 65%;
         background: #3b3b3b;
         border: 1px solid #4d4d4d;
-        border-left: none;
-        border-right: none;
+        border-left: @border;
+        border-right: @border;
         box-shadow: none;
         color: #fff;
-        float: left;
+        float: @float;
         font-size: 12px;
-        height: 42px;
+        height: 41px;
         line-height: 18px;
         padding: 10px;
         box-sizing: border-box;
     }
     .form-input input{
         width: 65%;
-        background: none;
-        border: none;
+        background: @background;
+        border: @border;
     }
     .btn-button{
         width: 10%;
-        float: left;
+        float: @float;
     }
     .btn-button button{
         padding: 0;
-        border:none;
-        background: none;
+        border:@border;
+        background: @background;
     }
     .btn-button .fa-search{
         color: #fff;
         background: #6b6b6b;
-        height: 42px;
+        height: 41px;
         background: #6b6b6b;
         padding: 11px 13px;
     }
     .item{
-        position: absolute;
+        position: @position;
     }
     .thumbitem{
         background: #eb1f1f;
@@ -136,28 +146,28 @@
         margin: 13px 0;
         padding: 6px 15px;
         width: 160px;
-        text-align: left;
+        text-align: @text-align1;
         color: #fff;
     }
     .item-cart{
         background: url(../images/cart.png) no-repeat scroll 0 0 transparent;
         content: "";
         height: 69px;
-        position: absolute;
+        position: @position;
         right: 4px;
         top: 0;
         width: 52px;
     }
     @media only screen and (max-width:475px){
         .item{
-            position: absolute;
+            position: @position;
             right: 94px;
             top: -70px;
             margin-right: 75px;
         }
         .logo{
             width: 100%;
-            text-align: center;
+            text-align: @text-align;
         }
         .form-select select{
             width: 100%;
@@ -181,17 +191,14 @@
         .btn-button{
             width: 10%;
         }
-
     }
     @media only screen and (max-width:982px){
         .item{
-            position: absolute !important;
+            position: @position !important;
             right: 30px;
             bottom: 25px;
         }
     }
-
-
 }
 .type-b-danhmuc1{
     .headclothing{
@@ -206,7 +213,7 @@
     }
     .clothing-text{
         padding-top: 5px;
-        float: right;
+        float: @float2;
     }
     .clothing-text a{
         color: #666666;
@@ -216,29 +223,29 @@
     }
     @media only screen and(max-width:480px){
         .clothing-text{
-            float: none;
-            position: relative;
+            float: @float1;
+            position: @position1;
         }
     }
 }
 .type-b-danhmuc2{
     .navbar-default{
-        background: none;
-        border: none;
+        background: @background;
+        border: @border;
         border-radius: 0;
     }
     .nav navbar-nav{
-        float: none;
+        float: @float1;
     }
     .navbar-default .navbar-brand{
         color: #000;
         font-weight: bold;
-        display: none;
+        display: @display;
         font-size: 1em;
     }
     .navbar-default .navbar-nav>.active>a, 
     .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-        background: none;
+        background: @background;
         color: #000;
         font-weight: bold;
     }
@@ -246,7 +253,7 @@
         padding: 10px 0 0 0;
     }
     .navbar-nav>li{
-        float: none;
+        float: @float1;
     }
     .navbar-default .navbar-collapse, .navbar-default .navbar-form{
         padding: 0;
@@ -373,7 +380,7 @@
         padding: 5px 0;
     }
     .seeall{
-        float: right;
+        float: @float2;
     }
     hr{
         color: #e5e5e5;
@@ -388,7 +395,7 @@
         padding: 0 5px;
     }
     .icon-list{
-        float: left;
+        float: @float;
     }
     .cms-left .fa-th-large{
         font-size: 1.2em;
@@ -435,38 +442,38 @@
 }
 .type-b-danhmuc4{
     .sale{
-        float: left;
+        float: @float;
         color: red;
-        display: none;
-        position: absolute;
+        display: @display;
+        position: @position;
     }
     .new{
         color: red;
-        float: right;
-        display: none;
-        position: absolute;
+        float: @float2;
+        display: @display;
+        position: @position;
     }
     .images{
-        text-align: center;
+        text-align: @text-align;
     }
     .images img{
         width: 100%;
-        text-align: center;
+        text-align: @text-align;
         cursor: pointer;
         padding: 0;
         margin: 0;
     }
     .sub-image{
-        display: none;
+        display: @display;
     }
     .addtocart{
         bottom: 23%;
-        position: absolute;
+        position: @position;
         font-weight: bold;
         border: 1px solid #000;
-        text-align: center;
+        text-align: @text-align;
         padding: 5px;
-        display: none; 
+        display: @display; 
         width: 100%;
     }
     .addtocart:hover{
@@ -476,20 +483,20 @@
     }
     .images:hover{
         .addtocart{
-            display: block;
+            display: @display1;
         }
         .main-image{
-            display: none;
+            display: @display;
         }
         .sub-image{
-            display: block;
+            display: @display1;
         }
         .new{
-            display: block;
+            display: @display1;
             right: 1px;
         }
         .sale{
-            display: block;
+            display: @display1;
         }
     }
     .bg-yellow{
@@ -497,7 +504,7 @@
     }
     .thumb{
         padding-bottom: 5px;
-        text-align: center;
+        text-align: @text-align;
     }
     .arcu{
         cursor: pointer;
@@ -520,7 +527,7 @@
         color: #c5c5c5;
     }
     .box{
-        text-align: center;
+        text-align: @text-align;
     }
     .box img{
         border: 1px solid #000;
@@ -528,7 +535,7 @@
     }
     @media only screen and (min-width:330px) and (max-width:768px){
         .addtocart{
-            display: block;
+            display: @display1;
             bottom: 35%;
             width: 80%;
         }
@@ -540,11 +547,11 @@
 .type_b_11{
     #footer .footer-border-left-1 {
         border-left: 1px solid #3C3C3C;
-        text-align: center;
+        text-align: @text-align;
         margin-top: 28px;
     }
     footer{
-        display: block;
+        display: @display1;
         margin: 0 auto;
         padding: 0px;
         background: transparent;
@@ -569,23 +576,23 @@
         background: transparent;
     }
     .footer-container .footer-top-outer .block {
-        border: none;
+        border: @border;
         margin: 0 30px;
     }
     .block .block-title {
 
-        position: relative;
+        position: @position1;
     }
     .footer-container .block .block-title {
-        background: none;
+        background: @background;
         -webkit-border-radius: 0px;  
         padding: 6px 0px;
         text-shadow: none;
         text-transform: capitalize;
-        display: none;
+        display: @display;
     }
     .block .block-title strong {
-        display: block;
+        display: @display1;
         padding: 0px;
     }
     .footer-container .block .block-title strong {
@@ -596,11 +603,11 @@
         text-shadow: none;
         font-family: "Raleway",sans-serif;
         text-transform: uppercase;
-        position: relative;
+        position: @position1;
     }
 
     ul {
-        display: block;
+        display: @display1;
         -webkit-margin-before: 1em;
         -webkit-margin-after: 1em;
         -webkit-margin-start: 0px;
@@ -616,7 +623,7 @@
         margin: 0 0 53px;
     }
     .footer-container .footer-top-outer .block {
-        border: none;
+        border: @border;
         margin: 0 30px;
     }
     li {
@@ -627,25 +634,25 @@
         display: inline;
     }
     .footer-container .footer-top-outer .block-content {
-        background: none;
-        border: none;
+        background: @background;
+        border: @border;
         -webkit-border-radius: 0px;
 
         margin: 0px;
         padding: 0px;
     }
     .footer-container .block-content .form-subscribe-header {
-        float: left;
+        float: @float;
         margin: 0 0px 0 0;
     }
     .fa {
-        display: inline-block;
+        display: @display2;
         font: normal normal normal 14px/1 FontAwesome;
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
     }
     .news-text .fa {
-        float: left;
+        float: @float;
         font-size: 30px;
         line-height: 18px;
         margin-right: 6px;
@@ -659,7 +666,7 @@
     .news-text .text-content {
         background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
         color: #fff;
-        float: left;
+        float: @float;
         font-size: 18px;
         font-weight: bold;
         margin-top: 6px;
@@ -667,11 +674,11 @@
         text-transform: uppercase;
     }
     .footer-container .footer-top-outer .block-content .input-box {
-        float: right;
-        position: relative;
+        float: @float2;
+        position: @position1;
     }
     .input_inner {
-        float: left;
+        float: @float;
     }
     input {
         vertical-align: middle;
@@ -683,19 +690,19 @@
         padding-right: 215px;
     }
     .block-subscribe input.input-text {
-        display: block;
+        display: @display1;
         width: 461px;
         margin: 0px;
-        border: none;
+        border: @border;
         padding: 9px 9px 10px;
         color: #b6b6b6;
     }
     .block-subscribe .actions {
-        background: none;
+        background: @background;
         padding: 0;
         margin: 0 0 0 11px;
-        text-align: left;
-        float: left;
+        text-align: @text-align1;
+        float: @float;
     }
     button {
         vertical-align: middle;
@@ -711,14 +718,14 @@
         margin-left: 9px;
     }
     .block .actions button.button {
-        float: right;
+        float: @float2;
     }
     button.button span{
-        display: block;
+        display: @display1;
         font-family: "Raleway",sans-serif;
         background: #3C3C3C;
         line-height: 22px;
-        text-align: center;
+        text-align: @text-align;
         white-space: nowrap;
         text-decoration: none;
         font-weight: bold;
@@ -729,11 +736,11 @@
 
     }
     button.button span:hover{
-        display: block;
+        display: @display1;
         font-family: "Raleway",sans-serif;
         background: #262626;
         line-height: 22px;
-        text-align: center;
+        text-align: @text-align;
         white-space: nowrap;
         text-decoration: none;
         font-weight: bold;
@@ -757,7 +764,7 @@
     #footer .footer-area {
         border-left: 1px solid #3c3c3c;
         box-sizing: border-box;
-        float: left;
+        float: @float;
         margin-right: 15px;
         padding: 9px 0 0 80px;
         width: 100%;
@@ -767,7 +774,7 @@
         border: medium none;
         margin: -30px 53px 0 0;
         padding: 15px;
-        text-align: center;
+        text-align: @text-align;
         width: 100%;
         box-sizing: border-box;
         color: #c5c5c5;
@@ -777,7 +784,7 @@
         border: medium none;
         margin: 0 53px 0 0;
         padding: 12px;
-        text-align: center;
+        text-align: @text-align;
         width: 100%;
         box-sizing: border-box;
         color: #c5c5c5;
@@ -787,7 +794,7 @@
         border: medium none;
         margin: 0 53px 0 0;
         padding: 12px;
-        text-align: center;
+        text-align: @text-align;
         width: 100%;
         box-sizing: border-box;
         color: #c5c5c5;
@@ -798,7 +805,7 @@
         border: medium none;
         margin: 0 53px 0 0;
         padding: 12px;
-        text-align: center;
+        text-align: @text-align;
         width: 100%;
         box-sizing: border-box;
         color: #c5c5c5;
@@ -822,10 +829,10 @@
         text-shadow: none;
         font-family: "Raleway",sans-serif;
         text-transform: uppercase;
-        position: relative;
+        position: @position1;
     }
     #footer #block_1.footer-area h6 {
-        display: none;
+        display: @display;
     }
     .footer li {
         padding: 0;
@@ -854,7 +861,7 @@
     }
     li.social_block {
         cursor: pointer;
-        display: inline-block;
+        display: @display2;
         height: 25px;
         margin: 22px 0 0;
         padding: 0;
@@ -865,7 +872,7 @@
     }
     #footer #block_1.footer-area-1 li {
         line-height: 23px;
-        text-align: left;
+        text-align: @text-align1;
         padding: 2px 0;
     }
     #footer #block_1.footer-area-1 ul {
@@ -876,7 +883,7 @@
 
     }
     .news-text{
-        text-align: left;
+        text-align: @text-align1;
     }
     #footer .footer-border-left .footer-title{
         padding-bottom:  20px ;
@@ -888,16 +895,16 @@
     }
 
     .footer_bottom_images {
-        text-align: center;
+        text-align: @text-align;
         border-bottom:1px solid #3c3c3c;
-        position: relative;
+        position: @position1;
     } 
 
     .footer_bottom{
-        text-align: center;
+        text-align: @text-align;
     }
     .footer_bottom_images img{
-        position: absolute;
+        position: @position;
         top:-3px;
         background: #262626;
         margin-left: -40px;
@@ -906,7 +913,7 @@
     }
     #footer .footer-border-left{
         border-left:1px solid #3C3C3C;
-        text-align: center;
+        text-align: @text-align;
         margin-top: 28px;
 
     }
@@ -937,7 +944,7 @@
     #footer .footer-area {
         border-left: 1px solid #3c3c3c;
         box-sizing: border-box;
-        float: left;
+        float: @float;
         margin-right: 15px;
         padding: 9px 0 0 80px;
         width: 21.3%;
@@ -948,7 +955,7 @@
         color: #c5c5c5;
     }
     .footer address {
-        text-align: center;
+        text-align: @text-align;
         margin: -18px;
         padding: 10px 0 6px;
         line-height: 22px;
@@ -956,17 +963,17 @@
     }
     .footer ul.payment_icon {
         margin: 12px 0;
-        text-align: center;
+        text-align: @text-align;
         padding:2px;
     }
     .footer_bottom .payment_icon li {
-        background: none;
-        display: inline-block;
+        background: @background;
+        display: @display2;
         padding: 0 0px;
 
     }
     .footer_bottom .payment_icon li a {
-        display: block;
+        display: @display1;
         height: 26px;
         width: 44px;
     }
@@ -991,4 +998,5 @@
     .footer_bottom .payment_icon li a span {
         font-size: 0px;
     }
+}
 }
