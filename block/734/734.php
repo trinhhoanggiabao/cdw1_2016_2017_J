@@ -37,7 +37,9 @@
                                                 <div class="lms_heading_1">
                                                     <h2 class="lms_heading_title">Our Best Services</h2>
                                                 </div>
+                                                <article>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                </article>
                                             </div>
                                         </div>
                                     </div>
@@ -48,10 +50,14 @@
                                         <div class="vc_column-inner">
                                             <div class="lms_service_1">
                                                 <div class="lms_service_icon">
+                                                    <figure>
                                                     <img src="images/services1-41x41.png" alt=""/>
+                                                    </figure>
                                                 </div>
+                                                <article>
                                                 <h3>Learn Anything Online</h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscg elit. Donec id diam dapibus, sodales odio quis, fringilla mauris. In ut egestas orci. Nullam vel laoreet dui. Sed est quam, blandit quis sapien sed,</p>
+                                                </article>
                                             </div>
                                         </div>
                                     </div>
@@ -61,10 +67,12 @@
                                         <div class="vc_column-inner">
                                             <div class="lms_service_1">
                                                 <div class="lms_service_icon">
-                                                    <img src="images/services2-41x41.png" alt=""/>
+                                                    <figure><img src="images/services2-41x41.png" alt=""/></figure>                                                  
                                                 </div>
+                                                <article>
                                                 <h3>Talk to Our Experts</h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscg elit. Donec id diam dapibus, sodales odio quis, fringilla mauris. In ut egestas orci. Nullam vel laoreet dui. Sed est quam, blandit quis sapien sed,</p>
+                                                </article>
                                             </div>
                                         </div>
                                     </div>
@@ -74,10 +82,14 @@
                                         <div class="vc_column-inner">
                                             <div class="lms_service_1">
                                                 <div class="lms_service_icon">
+                                                    <figure>
                                                     <img src="images/services3-41x41.png" alt=""/>
+                                                    </figure>
                                                 </div>
+                                                <article>
                                                 <h3>Communicate with People</h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscg elit. Donec id diam dapibus, sodales odio quis, fringilla mauris. In ut egestas orci. Nullam vel laoreet dui. Sed est quam, blandit quis sapien sed,</p>
+                                                </article>
                                             </div>
                                         </div>
                                     </div>
@@ -87,10 +99,14 @@
                                         <div class="vc_column-inner">
                                             <div class="lms_service_1">
                                                 <div class="lms_service_icon">
+                                                    <figure>
                                                     <img src="images/services4-41x41.png" alt=""/>
+                                                    </figure>
                                                 </div>
+                                                <article>
                                                 <h3>Fully Responsive</h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscg elit. Donec id diam dapibus, sodales odio quis, fringilla mauris. In ut egestas orci. Nullam vel laoreet dui. Sed est quam, blandit quis sapien sed,</p>
+                                                </article>
                                             </div>
                                         </div>
                                     </div>
@@ -100,10 +116,14 @@
                                         <div class="vc_column-inner">
                                             <div class="lms_service_1">
                                                 <div class="lms_service_icon">
+                                                    <figure>
                                                     <img src="images/services5-41x41.png" alt=""/>
+                                                    </figure>
                                                 </div>
+                                                <article>
                                                 <h3>Download all Course</h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscg elit. Donec id diam dapibus, sodales odio quis, fringilla mauris. In ut egestas orci. Nullam vel laoreet dui. Sed est quam, blandit quis sapien sed,</p>
+                                                </article>
                                             </div>
                                         </div>
                                     </div>
@@ -113,10 +133,14 @@
                                         <div class="vc_column-inner">
                                             <div class="lms_service_1">
                                                 <div class="lms_service_icon">
+                                                    <figure>
                                                     <img src="images/services6-41x41.png" alt=""/>
+                                                    </figure>
                                                 </div>
+                                                <article>
                                                 <h3>Multi Media Units</h3>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscg elit. Donec id diam dapibus, sodales odio quis, fringilla mauris. In ut egestas orci. Nullam vel laoreet dui. Sed est quam, blandit quis sapien sed,</p>
+                                                </article>
                                             </div>
                                         </div>
                                     </div>
