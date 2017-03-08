@@ -22,7 +22,7 @@
         <div class="type-721">
             <div class="tabberlive_outer_sub">
                 <div class=" container-width">
-                    <nav class="htabs">
+                    <nav>
                         <ul class="tabbernav_product nav-pills" id="nav">
                             <li class="active"><a class="tab-text selected"  data-toggle="tab" title="tab_product" href="#newproducts"  data-text="Latest"><span>Latest</span></a></li>
                             <li><a class="tab-text "  data-toggle="tab"  title="tab_product" href="#newproducts"  data-text="Best Seller"><span>Best Seller</span></a></li>
@@ -32,7 +32,7 @@
                     </nav>
                     <div class="tabs">    
                         <div class="tab-content">
-                            <nav id="newproducts" class="tab-pane fade in active ">
+                            <nav id="newproducts" class="tab-pane fade in active">
                                 <ul class="products-grid" style="width: 100%;">
                                     <li class="item" style="width: 305px;">
                                         <div class="product-block" style="height: 394px;">

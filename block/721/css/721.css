@@ -456,13 +456,13 @@
 .type-721 .add-to-links li {
   list-style: none;
 }
-.type-721 .tabberlive_outer_sub .htabs {
+.type-721 .tabberlive_outer_sub nav {
   height: 35px;
   line-height: 16px;
   position: relative;
   text-align: center;
 }
-.type-721 .tabberlive_outer_sub .htabs:before {
+.type-721 .tabberlive_outer_sub nav:before {
   background: #cccccc none repeat scroll 0 0;
   content: "";
   display: block;
