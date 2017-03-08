@@ -25,15 +25,15 @@
   width: 35px;
   height: 35px;
   line-height: 31px;
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  overflow: hidden;
   text-align: center;
   font-size: 20px;
   color: #ff9933;
   text-decoration: none;
-  position: fixed;
-  bottom: 40px;
-  left: 40px;
   border: 1px solid #ff9933;
-  overflow: hidden;
 }
 .type-738 .scrollToTop:hover {
   color: #fff;
@@ -74,7 +74,7 @@
 }
 .type-738 .lms_footer_top .lms_newsletter .form-inline .form-group {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   vertical-align: middle;
   position: relative;
   width: 100%;
@@ -83,7 +83,6 @@
 .type-738 .lms_footer_top .lms_newsletter .form-inline .form-group #form-control {
   width: 80%;
   display: inline-block;
-  border-radius: none;
   border: 1px solid #e1e3e7;
   transition: all 0.5s;
 }
@@ -232,7 +231,7 @@
 .type-738 .lms_footer_center .lms_footer_popular_course .lms_footer_course a h4 {
   font-family: 'Vollkorn', serif;
   margin-top: 6px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 .type-738 .lms_footer_center .lms_footer_course_category :last-child {
   border-bottom: none;
