@@ -1,4 +1,19 @@
-.type-j-4 {
+.type-736 {
+    @content: "";
+    @display-block: block;
+    @font-size: 20px;
+    @opacity: 1;
+    @box-sizing: border-box;
+    @position: relative;
+    @width: 100%;
+    @float: left;
+    @text-align: center;
+    @display-iblock: inline-block;
+    @padding-left: 0;
+    @padding-right: 0;
+    @position-p: position;
+    @border: 1px solid #9ea6b0;
+
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
@@ -24,16 +39,12 @@
 
 
     .entry-content:before, .entry-content:after{
-        content: "";
+        content: @content;
         display: table;
     }
 
     p {
-        display: block;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
+        display: @display-block;
     }
     h2,h3,h4{
         font-family: 'Vollkorn', serif;
@@ -41,41 +52,39 @@
         color: #3a3a3a;
     }
     h1, h2, h3, h4, h5, h6 {
-        opacity: 1;
+        opacity: @opacity;
         visibility: visible;
-        -webkit-transition: opacity 0.24s ease-in-out;
-        -moz-transition: opacity 0.24s ease-in-out;
         transition: opacity 0.24s ease-in-out;
     }
 
     .vc_column_container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: @padding-left;
+        padding-right: @padding-right;
         .vc_column-inner {
-            box-sizing: border-box;
+            box-sizing: @box-sizing;
             padding-left: 15px;
             padding-right: 15px;
-            width: 100%;
+            width: @width;
         }
     }
 
     .lms_title_center {
-        width: 100%;
-        float: left;
-        text-align: center;
+        width: @width;
+        float: @float;
+        text-align: @text-align;
         .lms_heading_1 {
-            text-align: center;
-            display: inline-block;
+            text-align: @text-align;
+            display: @display-iblock;
             .lms_heading_title {
                 margin-top: 80px;
                 font-weight: 400;
                 padding: 0px 32px 28px 32px;
                 border-bottom: 1px solid #9ea6b0;
-                position: relative;
+                position: @position;
                 font-weight: 500;
             }
             .lms_heading_title:after{
-                content: "";
+                content: @content;
                 position: absolute;
                 top: 100%;
                 margin: -10px 0 0 -5px;
@@ -85,52 +94,51 @@
                 background: #fff;
                 border-left: 1px solid #9ea6b0;
                 border-right: 1px solid #9ea6b0;
-                -webkit-transform: rotate(20deg);
             }
         }
         p {
             margin-top: 8px;
-            font-size: 20px;
+            font-size: @font-size;
             line-height: 24px;
             margin-bottom: 70px;
         }
     }
 
     .box{
-        position: relative;
-        box-sizing: border-box; 
-        max-width: 100%;
+        position: @position;
+        box-sizing: @box-sizing; 
+        max-width: @width;
     }
     .swiper-container {
-        width: 100%;
+        width: @width;
         height: auto;
     }
     .swiper-slide {
         color:#000;
-        text-align:center;
+        text-align: @text-align;
     }
 
     .owl-carousel {
-        opacity: 1; 
-        display: block;
-        position: relative;
-        width: 100%;
+        opacity: @opacity; 
+        display: @display-block;
+        position: @position;
+        width: @width;
         .swiper-container {
             overflow: hidden;
-            position: relative;
-            width: 100%;
+            position: @position;
+            width: @width;
             .swiper-wrapper {
-                position: relative;
+                position: @position;
                 width: 6840px;
-                display: block; 
+                display: @display-block; 
                 transform: translate3d(-2280px, 0px, 0px); 
                 transition: all 800ms ease;
                 .swiper-slide {
-                    float: left;
+                    float: @float;
                     width: 1140px;
                     .lms_popular_courses_slider_item{
                         padding: 7.5px;
-                        float:left;
+                        float:@float;
                         .lms_popular_courses_item {
                             margin-bottom: 30px;
                             min-height: 260px;
@@ -145,18 +153,18 @@
     /*------testimonials--------*/
 
     .vc_column_container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: @padding-left;
+        padding-right: @padding-right;
         .vc_column-inner {
-            padding-left: 0;
-            padding-right: 0;
+            padding-left: @padding-left;
+            padding-right: @padding-right;
             .lms_plan_testimonial {
-                width: 100%;
-                float: left;
-                background-attachment: fixed !important;
+                width: @width;
+                float: @float;
+                background-attachment: fixed;
                 .lms_testimonials_bg2 {
-                    width: 100%;
-                    float: left;
+                    width: @width;
+                    float: @float;
                     background: url(../images/bg.png);
                 }
             }
@@ -164,28 +172,27 @@
     }
 
     .lms_testimonials {
-        width: 100%;
-        float: left;
-        position: relative;
+        width: @width;
+        float: @float;
+        position: @position;
         margin: 50px 0 80px 0;
     }
     .lms_testimonials_slider_item{
-        width: 100%;
-        float: left;
-        text-align: center;
+        width: @width;
+        float: @float;
+        text-align: @text-align;
         color: #fff;
         .lms_testimonial_quote {
             font-size: 82px;
-            display: inline-block;
+            display: @display-iblock;
             /* margin-left: 30px; */
             font-style: italic;
-            -webkit-transform: rotate(180deg);
         }
         .lms_testimonials_txt {
             padding: 0px 100px;
-            font-size: 20px;
+            font-size: @font-size;
             margin-bottom: 20px;
-            display: block;
+            display: @display-block;
         }
         img {
             width: 80px;
@@ -197,3 +204,4 @@
         }
     }
 }
+
