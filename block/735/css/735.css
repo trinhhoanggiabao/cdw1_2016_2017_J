@@ -28,10 +28,6 @@
 }
 .type-735 p {
   display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
 }
 .type-735 h2,
 .type-735 h3,
@@ -48,18 +44,12 @@
 .type-735 h6 {
   opacity: 1;
   visibility: visible;
-  -webkit-transition: opacity 0.24s ease-in-out;
-  -moz-transition: opacity 0.24s ease-in-out;
   transition: opacity 0.24s ease-in-out;
 }
 .type-735 .btn-default {
   color: #ff9933;
   background-color: transparent;
-  border-color: #9ea6b0 !important;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
+  border-color: #9ea6b0;
   transition: all 0.5s;
 }
 .type-735 .lms_pc_btn {
@@ -76,17 +66,10 @@
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 .type-735 .vc_column_container {

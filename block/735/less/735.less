@@ -2,6 +2,17 @@
     @font-size: 14px;
     @line-height: 1.42857143;
     @width: 100%;
+    @content: "";
+    @color: #ff9933;
+    @transition: all 0.5s;
+    @display: inline-block;
+    @text-align: center;
+    @cursor: pointer;
+    @float: left;
+    @position: relative;
+    @position-ab: absolute;
+    @left: 50%;
+    
     
     font-family: 'Open Sans', sans-serif;
     font-size: @font-size;
@@ -32,16 +43,12 @@
 
 
     .entry-content:before, .entry-content:after{
-        content: "";
+        content: @content;
         display: table;
     }
 
     p {
         display: block;
-        -webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: 0px;
-        -webkit-margin-end: 0px;
     }
     h2,h3,h4{
         font-family: 'Vollkorn', serif;
@@ -51,47 +58,34 @@
     h1, h2, h3, h4, h5, h6 {
         opacity: 1;
         visibility: visible;
-        -webkit-transition: opacity 0.24s ease-in-out;
-        -moz-transition: opacity 0.24s ease-in-out;
         transition: opacity 0.24s ease-in-out;
     }
 
     .btn-default {
-        color: #ff9933;
+        color: @color;
         background-color: transparent;
-        border-color: #9ea6b0 !important;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -ms-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s;
+        border-color: #9ea6b0;
+        transition: @transition;
     }
     .lms_pc_btn {
         margin-top: 10px;
     }
     .btn {
-        display: inline-block;
+        display: @display;
         padding: 6px 12px;
         margin-bottom: 15px;
         font-size: @font-size;
         font-weight: normal;
-        line-height: 1.42857143;
-        text-align: center;
+        line-height: @line-height;
+        text-align: @text-align;
         white-space: nowrap;
         vertical-align: middle;
-        cursor: pointer;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
+        cursor: @cursor;
         user-select: none;
         background-image: none;
         border: 1px solid transparent;
         border-radius: 4px;
-        -webkit-transition: all 0.5s;
-        -moz-transition: all 0.5s;
-        -ms-transition: all 0.5s;
-        -o-transition: all 0.5s;
-        transition: all 0.5s;
+        transition: @transition;
     }
 
     .vc_column_container {
@@ -107,25 +101,25 @@
 
     .lms_title_center {
         width: @width;
-        float: left;
-        text-align: center;
+        float: @float;
+        text-align: @text-align;
         .lms_heading_1 {
-            text-align: center;
-            display: inline-block;
+            text-align: @text-align;
+            display: @display;
             .lms_heading_title {
                 margin-top: 80px;
                 font-weight: 400;
                 padding: 0px 32px 28px 32px;
                 border-bottom: 1px solid #9ea6b0;
-                position: relative;
+                position: @position;
                 font-weight: 500;
             }
             .lms_heading_title:after{
-                content: "";
-                position: absolute;
+                content: @content;
+                position: @position-ab;
                 top: 100%;
                 margin: -10px 0 0 -5px;
-                left: 50%;
+                left: @left;
                 width: 10px;
                 height: 20px;
                 background: #fff;
@@ -154,7 +148,7 @@
 
     .lms_popular_courses_item{
         h3:hover {
-            color: #ff9933;
+            color: @color;
             transition: 0.5s all;
         }
         a:hover{
@@ -163,41 +157,41 @@
     }
 
     .customNavigation {
-        text-align: center;
-        display: inline-block;
+        text-align: @text-align;
+        display: @display;
         margin-bottom: 20px;
         width: @width;
-        float: left;
+        float: @float;
     }
     .lms_prev_next {
         width: 28px;
         height: 28px;
         line-height: 24px;
-        display: inline-block;
-        text-align: center;
+        display: @display;
+        text-align: @text-align;
         font-size: 24px;
         margin: 5px;
-        color: #ff9933;
-        cursor: pointer;
+        color: @color;
+        cursor: @cursor;
         border: 1px solid #9ea6b0;
     }
     .lms_prev_next:hover {
-        border-color: #ff9933;
+        border-color: @color;
     }
 
     .lms_popular_courses {
         width: @width;
-        float: left;
+        float: @float;
     }
     .lms_hover_section {
         overflow: hidden;
-        position: relative;
+        position: @position;
         img {
             width: @width;
             margin-bottom: 0px;
         }
         .lms_hover_overlay {
-            position: absolute;
+            position: @position-ab;
             top: 0;
             left: 0;
             width: @width;
@@ -207,21 +201,17 @@
     .lms_hover_section:hover .lms_hover_overlay {
         background-image: url(../images/bg.png);
         background-repeat: repeat;
-        text-align: center;
-        -webkit-animation: lms_hover_expo 0.5s;
-        -moz-animation: lms_hover_expo 0.5s;
-        -ms-animation: lms_hover_expo 0.5s;
-        -o-animation: lms_hover_expo 0.5s;
+        text-align: @text-align;
         transform: scale(1);
         .lms_image_link {
-            position: absolute;
+            position: @position-ab;
             top: 50%;
-            left: 50%;
+            left: @left;
             margin: -25px 0 0 -25px;
             width: 50px;
             height: 50px;
-            display: inline-block;
-            cursor: pointer;
+            display: @display;
+            cursor: @cursor;
             background: url(../images/image_overlay_plus.png);
         }
     }

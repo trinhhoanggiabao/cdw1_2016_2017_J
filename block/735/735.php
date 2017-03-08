@@ -122,7 +122,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <script src="js/bp-touchSwipe.js" type="text/javascript"></script>
+                                           
                                         </div>
                                         <div class="customNavigation"> 
                                             <a class="lms_prev_next prev">
