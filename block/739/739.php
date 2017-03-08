@@ -21,9 +21,7 @@
         <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
     </head>
-
     <body>
         <div class="type-739">
             <div class="container">
@@ -31,7 +29,6 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <article class="hentry">
                             <div class="entry-content">
-                                
                                 <!------------Our Partners---------------->
                                 <div class="vc_row">
                                     <div class="vc_column_container">
@@ -47,7 +44,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="vc_row">
                                     <div class="vc_column_container">
                                         <div class="vc_column-inner ">

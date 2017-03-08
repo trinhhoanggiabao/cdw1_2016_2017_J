@@ -79,24 +79,28 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="lms_footer_logo">
-                                    <img src="images/logo.png" alt=""/>
+                                    <figure><img src="images/logo.png" alt=""/></figure>                                  
                                 </div>
-                                <p>Integer vitae triagna. Praesent
-                                    bibendum quam tellus, quis rhoncus
-                                    orci cursus vel. Aenean suscipilacerat
-                                    elit sit amet lacinia. Phasellus volutt
-                                    ligula eget urna egestas vehicula.
-                                    Proinpus est sed mauris viverra, eu 
-                                    congue tellus tempus. e
-                                </p>
-                                <nav class="lms_social">
-                                    <ul>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Facebook" class="colortooltip"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Twitter" class="colortooltip"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Google+" class="colortooltip"><i class="fa fa-google-plus"></i></a></li>
-                                        <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Pinterest" class="colortooltip"><i class="fa fa-pinterest"></i></a></li>
-                                    </ul>
-                                </nav>
+                                <article>
+                                    <p>Integer vitae triagna. Praesent
+                                        bibendum quam tellus, quis rhoncus
+                                        orci cursus vel. Aenean suscipilacerat
+                                        elit sit amet lacinia. Phasellus volutt
+                                        ligula eget urna egestas vehicula.
+                                        Proinpus est sed mauris viverra, eu 
+                                        congue tellus tempus. e
+                                    </p>
+                                </article>
+                                <div class="lms_social">
+                                    <nav>
+                                        <ul>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Facebook" class="colortooltip"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Twitter" class="colortooltip"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Google+" class="colortooltip"><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Pinterest" class="colortooltip"><i class="fa fa-pinterest"></i></a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="lms_footer_popular_course">
