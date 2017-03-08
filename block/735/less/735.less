@@ -1,7 +1,11 @@
-.type-j-2 {
+.type-735 {
+    @font-size: 14px;
+    @line-height: 1.42857143;
+    @width: 100%;
+    
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-size: @font-size;
+    line-height: @line-height;
     color: #5b5b5b;
 
     a{
@@ -10,7 +14,7 @@
     }
 
     img{
-        width: 100%;
+        width: @width;
     }
 
     .hentry {
@@ -69,7 +73,7 @@
         display: inline-block;
         padding: 6px 12px;
         margin-bottom: 15px;
-        font-size: 14px;
+        font-size: @font-size;
         font-weight: normal;
         line-height: 1.42857143;
         text-align: center;
@@ -97,12 +101,12 @@
             box-sizing: border-box;
             padding-left: 15px;
             padding-right: 15px;
-            width: 100%;
+            width: @width;
         }
     }
 
     .lms_title_center {
-        width: 100%;
+        width: @width;
         float: left;
         text-align: center;
         .lms_heading_1 {
@@ -140,7 +144,7 @@
 
     /*-------------------our best Services-----------------------------*/
     .swiper-container {
-        width: 100%;
+        width: @width;
         height: auto;
     }
     .swiper-slide {
@@ -162,7 +166,7 @@
         text-align: center;
         display: inline-block;
         margin-bottom: 20px;
-        width: 100%;
+        width: @width;
         float: left;
     }
     .lms_prev_next {
@@ -182,21 +186,21 @@
     }
 
     .lms_popular_courses {
-        width: 100%;
+        width: @width;
         float: left;
     }
     .lms_hover_section {
         overflow: hidden;
         position: relative;
         img {
-            width: 100%;
+            width: @width;
             margin-bottom: 0px;
         }
         .lms_hover_overlay {
             position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
+            width: @width;
             height: 100%;
         }
     }
