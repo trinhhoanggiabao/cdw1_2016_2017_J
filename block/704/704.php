@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <title>TODO supply a title</title>
+        <title>704</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <?php
@@ -68,23 +68,23 @@
                             <div id="languages_block_top" class="dib">
                                 <div id="countries" class=""> 
                                     <span class="selected_language smooth02">
-                                        <img src="images/1.jpg" class="dib" width="16" height="11" alt="en">
+                                        <figure><img src="images/1.jpg" class="dib" width="16" height="11" alt="en"></figure>
                                         <a class="dib" href="#"> English</a>
                                         <i class="fa fa-angle-down"></i>
                                     </span>
                                     <ul id="first-languages" class="zaro-dropdown" >
                                         <li class="smooth02 main-bg-hover"> 
-                                            <img src="images/1.jpg" clasfs="dib" width="16" height="11" alt="de">
+                                            <figure><img src="images/1.jpg" clasfs="dib" width="16" height="11" alt="de"></figure>
                                             <a href="#" title="Vietnamese">Vietnamese</a>
                                         </li> 
 
                                         <li class="smooth02 main-bg-hover"> 
-                                            <img src="images/1.jpg" class="dib" width="16" height="11" alt="de">
+                                            <figure><img src="images/1.jpg" class="dib" width="16" height="11" alt="de"></figure>
                                             <a href="#" title="Japan">Japan</a>
                                         </li> 
 
                                         <li class="smooth02 main-bg-hover"> 
-                                            <img src="images/1.jpg" class="dib" width="16" height="11" alt="de">
+                                            <figure><img src="images/1.jpg" class="dib" width="16" height="11" alt="de"></figure>
                                             <a href="#" title="Korea">Korea</a>
                                         </li>  
 
@@ -183,7 +183,9 @@
                                                     <li class="dropdown-header">Men Collection</li>  
                                                     <div class="item active">
                                                         <a href="#">
-                                                            <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
+                                                            <figure>
+                                                                <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive" alt="product 1">
+                                                            </figure>
                                                         </a>
                                                     </div>
 
@@ -246,7 +248,7 @@
                                             </li>
                                             <li class="col-md-10 col-sm-10 clearfix">
                                                 <a>
-                                                    <img src="images/banner-bottom.jpg">
+                                                    <figure><img src="images/banner-bottom.jpg"></figure>
                                                 </a>
                                             </li>
                                         </ul>	
@@ -261,7 +263,9 @@
                                                 <ul class="first-item">
                                                     <div class="item active">
                                                         <a href="#">
-                                                            <img src="images/banner-left.jpg" class="img-responsive" alt="product 1">
+                                                            <figure>
+                                                                <img src="images/banner-left.jpg" class="img-responsive" alt="product 1">
+                                                            </figure>
                                                         </a>
                                                     </div> 
                                                 </ul>
@@ -347,24 +351,25 @@
                                                 <p>With this theme you can easily create your unique shop, choosing any colors & over 500 Google fonts. </p>
                                             </li>
                                             <li class="col-md-3 col-sm-3 clearfix align-center">
-                                                <img src="images/mic01.png">
+                                                <figure><img src="images/mic01.png"></figure>
                                                 <h4>Responsive design</h4>
                                                 <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                             </li>
                                             <li class="col-md-3 col-sm-3 align-center">
-                                                <img src="images/mic02.png">
+                                                <figure><img src="images/mic02.png"></figure>
                                                 <h4>Responsive design</h4>
                                                 <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                             </li>
                                             <li class="col-md-3 col-sm-3 align-center">
-                                                <img src="images/mic03.png">
+                                                <figure><img src="images/mic03.png"></figure>
                                                 <h4>Responsive design</h4>
                                                 <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
                                             </li>
                                             <li class="col-md-3 col-sm-3 align-center">
-                                                <img src="images/mic04.png">
-                                                <h4>Responsive design</h4>
-                                                <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                                <figure><img src="images/mic04.png"></figure>
+                                                <article><h4>Responsive design</h4>
+                                                    <p> Alysum 100% responsive and supports all&nbsp;devices from desktop to small cell phones.</p>
+                                                </article>
                                             </li>
                                         </ul>	
                                     </li>
@@ -375,40 +380,40 @@
                                         <a href="#" class="opener"></a>
                                         <ul class="container margin-auto dropdown-menu mega-dropdown-menu" >
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li>  
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                             <li class="col-md-2 col-sm-2 brand">
-                                                <img src="images/4-manu_alysum.jpg" class="img-responsive">
+                                                <figure><img src="images/4-manu_alysum.jpg" class="img-responsive"></figure>
                                             </li> 
                                         </ul>	
                                     </li>
@@ -544,7 +549,7 @@
                                     <div class="col-custom-5-col item-hover">
                                         <div class="row">
                                             <a href="#">
-                                                <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive">
+                                                <figure><img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive"></figure>
                                             </a>
                                             <a class="search-box-img">
                                                 <i class="fa fa-search"></i>
@@ -582,7 +587,7 @@
                                     <div class="col-custom-5-col item-hover">
                                         <div class="row">
                                             <a href="#">
-                                                <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive">
+                                                <figure><img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive"></figure>
                                             </a>
                                             <a class="search-box-img">
                                                 <i class="fa fa-search"></i>
@@ -620,7 +625,7 @@
                                     <div class="col-custom-5-col item-hover">
                                         <div class="row">
                                             <a href="#">
-                                                <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive">
+                                                <figure><img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive"></figure>
                                             </a>
                                             <a class="search-box-img">
                                                 <i class="fa fa-search"></i>
@@ -658,7 +663,7 @@
                                     <div class="col-custom-5-col item-hover">
                                         <div class="row">
                                             <a href="#">
-                                                <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive">
+                                                <figure><img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive"></figure>
                                             </a>
                                             <a class="search-box-img">
                                                 <i class="fa fa-search"></i>
@@ -696,7 +701,7 @@
                                     <div class="col-custom-5-col item-hover">
                                         <div class="row">
                                             <a href="#">
-                                                <img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive">
+                                                <figure><img src="images/dress-anna-sui-ambrosia-lace.jpg" class="img-responsive"></figure>
                                             </a>
                                             <a class="search-box-img">
                                                 <i class="fa fa-search"></i>

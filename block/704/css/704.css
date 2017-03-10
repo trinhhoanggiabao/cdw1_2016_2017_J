@@ -107,9 +107,6 @@
   font-size: 13px;
   height: 34px;
 }
-.type-704 .zaro #header #shopping_cart a b {
-  font-weight: normal;
-}
 .type-704 .zaro #header #shopping_cart a:first-child {
   display: block;
   overflow: hidden;
