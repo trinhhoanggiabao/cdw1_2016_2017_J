@@ -37,7 +37,7 @@
                                         <div>
                                             <div class="new-products-inner">
                                                 <div class="related">
-                                                    <div class=" caltegory-title">
+                                                    <div class=" caltegory-title">  
                                                         <h2> related Products </h2>
                                                     </div>
                                                 </div>
@@ -54,8 +54,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
                                                                                                 <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/1.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/1_1.jpg"  alt="youthful elegance and unmistakable">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
@@ -91,8 +93,10 @@
                                                                                             <div class="product-image-block">
 
                                                                                                 <a href="#" title="standard  passage Lorem Ipsum" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/2.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/2_2.jpg"  alt="standard  passage Lorem Ipsum">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
@@ -128,8 +132,10 @@
                                                                                             <div class="product-image-block">
 
                                                                                                 <a href="#" title="Ifashion ipsum dolor amet" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/3.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/3_3.jpg"  alt="Ifashion ipsum dolor amet">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
@@ -166,8 +172,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
                                                                                                 <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/1.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/1_1.jpg"  alt="youthful elegance and unmistakable">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
@@ -203,8 +211,10 @@
                                                                                             <div class="product-image-block">
 
                                                                                                 <a href="#" title="standard  passage Lorem Ipsum" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/2.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/2_2.jpg"  alt="standard  passage Lorem Ipsum">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
@@ -239,8 +249,10 @@
                                                                                             <div class="product-image-block">
 
                                                                                                 <a href="#" title="Ifashion ipsum dolor amet" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/3.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/3_3.jpg"  alt="Ifashion ipsum dolor amet">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
@@ -275,8 +287,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
                                                                                                 <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/1.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/1_1.jpg"  alt="youthful elegance and unmistakable">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
@@ -311,8 +325,10 @@
                                                                                             <div class="product-image-block">
 
                                                                                                 <a href="#" title="standard  passage Lorem Ipsum" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/2.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/2_2.jpg"  alt="standard  passage Lorem Ipsum">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
@@ -347,8 +363,10 @@
                                                                                             <div class="product-image-block">
 
                                                                                                 <a href="#" title="Ifashion ipsum dolor amet" class="product-image">
+                                                                                                    <figure>
                                                                                                     <img   src="images/3.jpg" alt="">
                                                                                                     <img class="hover-image" src="images/3_3.jpg"  alt="Ifashion ipsum dolor amet">
+                                                                                                    </figure>
                                                                                                 </a>
                                                                                                 <div class="product_hover-block">
                                                                                                     <div class="actions">
