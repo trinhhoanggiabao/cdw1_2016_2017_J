@@ -38,7 +38,6 @@
                                     <div class="item active">
                                         <img src="images/main-banner.jpg" alt=""/>
                                     </div>
-
                                     <div class="item">
                                         <img src="images/main-banner2.jpg" alt=""/>
                                     </div>
@@ -57,7 +56,7 @@
                         <!--=========phan sigle banner============-->
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="singlebanner">
-                                <img src="images/sub1.jpg" alt=""/>
+                                <figure><img src="images/sub1.jpg" alt=""/></figure>
                             </div>
                         </div>
                     </div>

@@ -24,7 +24,9 @@
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="product">
                     <div class="items col-md-9">
+                        <figure>
                         <img src="../images/moschino-cheap-and-chic-yacht-main.jpg">
+                        </figure>
                     </div>
                     <div class="thumbs-list col-md-3">
                         <div class="btn-move" id="btn-up" onclick="clickButtonUp()">

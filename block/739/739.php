@@ -38,7 +38,7 @@
                                                     <div class="lms_heading_1">
                                                         <h2 class="lms_heading_title">Our Partners</h2>
                                                     </div>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                    <article><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></article>
                                                 </div>
                                             </div>
                                         </div>
@@ -52,45 +52,53 @@
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <img src="images/partner1-220x50.png" alt=""/>
+                                                                    <figure><img src="images/partner1-220x50.png" alt=""/></figure>
                                                                     <hr>
+                                                                    <article>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                                                                         Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
                                                                     <p class="quote">"</p>
+                                                                    </article>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <img src="images/partner2-220x50.png" alt=""/>
+                                                                    <figure><img src="images/partner2-220x50.png" alt=""/></figure>
                                                                     <hr>
+                                                                    <article>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
                                                                     <p class="quote">"</p>
+                                                                    </article>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <img src="images/partner3-220x50.png" alt=""/>
+                                                                    <figure><img src="images/partner3-220x50.png" alt=""/></figure>
                                                                     <hr>
+                                                                    <article>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
                                                                     <p class="quote">"</p>
+                                                                    </article>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <img src="images/partner1-220x50.png" alt=""/>
+                                                                    <figure><img src="images/partner1-220x50.png" alt=""/></figure>
                                                                     <hr>
+                                                                    <article>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
                                                                     <p class="quote">"</p>
+                                                                    </article>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -105,7 +113,6 @@
                                                     <i class="fa fa-angle-right"></i>
                                                 </a>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>

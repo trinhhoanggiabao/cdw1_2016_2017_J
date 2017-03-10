@@ -24,6 +24,7 @@
                 <!--===========phan categories=============-->
                 <nav class="navbar navbar-default">
                     <div class="collapse navbar-collapse" id="myNavbar">
+                        <nav>
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">CATEGORIES</a></li>
                             <li><a href="#">Clothing</a></li>
@@ -38,12 +39,14 @@
                             <li><a href="#">Skirts</a></li> 
                             <li><a href="#">Coats & Jackets</a></li> 
                         </ul>
+                        </nav>
                     </div>
                 </nav>
                 <hr>
                 <div class="clearfix"></div>
                 <!---===========phan Shop cllection==============-->
                 <div class="shopcollection">
+                    <nav>
                     <ul>
                         <li ><a href="#" class="active">SHOP COLLECTION</a></li>
                         <li><a href="#">Holiday shop</a></li>
@@ -52,11 +55,13 @@
                         <li><a href="#">stripes</a></li>
                         <li><a href="#">Party</a></li>
                     </ul>
+                    </nav>
                 </div>
                 <hr>
                 <div class="clearfix"></div>
                 <!---===========phan wintershop==============-->
                 <div class="wintershop">
+                    <nav>
                     <ul>
                         <li ><a href="#" class="active">WINTER SHOP</a></li>
                         <li><a href="#">View all</a></li>
@@ -65,6 +70,7 @@
                         <li><a href="#">Camel Coats</a></li>
                         <li><a href="#">Giles</a></li>
                     </ul>
+                    </nav>
                 </div>
             </div>
         </div>

@@ -38,7 +38,8 @@
                         Manufacturer: <a href="#" class="name">Nicole Miller</a><br>
                         Condition: New
                     </span>
-                    <nav class="tab-title">
+                    <div class="tab-title">
+                        <nav>
                         <ul class="tab">
                             <li><a href="javascript:void(0)" class="tablinks active" onclick="openTab(event, 'more-info')">More info</a></li>
                             <li><a href="javascript:void(0)" onclick="openTab(event, 'data-sheet')">Data sheet</a></li>
@@ -47,17 +48,25 @@
                             <li><a href="javascript:void(0)" onclick="openTab(event, 'video')">Video</a></li>
                             <li><a href="javascript:void(0)" onclick="openTab(event, 'comment')">Comments</a></li>
                         </ul>
+                        </nav>
+                        
                         <div class="tabcontent active-section">
+                            <article>
                             Eorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis leo sit amet diam ullamcorper ullamcorper. In eleifend luctus interdum.
                             Cras vel eleifend neque. Phasellus eget est lacus, et aliquet arcu. Morbi vitae sapien
+                            </article>
+                            <nav>
                             <ul>
                                 <li>Color - White;</li>
                                 <li>100% micro modal;</li>
                                 <li>Ruched knot decoration at the chest;</li>
                                 <li>Unlined;</li>
                             </ul>
+                            </nav>
+                            <article>
                             Morbi vitae sapien in elit cursus auctor. Sed lectus nisi, commodo vel hendrerit vel, cursus non sapien. Nullam nec velit ante, vitae placerat odio.
                             Duis sodales nisi ac nunc vestibulum gravida. Phasellus auctor tellus felis, ac cursus ligula.
+                            </article>
                         </div>
                         <div id="data-sheet" class="tabcontent">
                             <table>
@@ -71,30 +80,32 @@
                                 </tr>
                             </table>
                         </div>
-                        <nav id="accessories" class="tabcontent">
+                        <div id="accessories" class="tabcontent">
+                            <nav>
                             <ul>
                                 <li class="col-md-4 col-sm-4">
-                                    <img src="../images/dress-nanette-lepore-want-me.jpg">
+                                    <figure><img src="../images/dress-nanette-lepore-want-me.jpg"></figure>
                                     <h3>Dress Nanette L...</h3>
                                     <h5>$470.00</h5>
                                     <a class="btn-add-to-cart" href="#">Add to cart</a>
                                 </li>
                                 <li class="col-md-4 col-sm-4">
-                                    <img src="../images/dress-herve-leger-sip-and-shine-martini.jpg">
+                                    <figure><img src="../images/dress-herve-leger-sip-and-shine-martini.jpg"></figure>
                                     <h3>Dress Herve Leg...</h3>
                                     <h5>$707.00</h5>
                                     <a class="btn-add-to-cart" href="#">Add to cart</a>
                                 </li>
                                 <li class="col-md-4 col-sm-4">
-                                    <img src="../images/dress-anna-sui-ambrosia-lace.jpg">
+                                    <figure><img src="../images/dress-anna-sui-ambrosia-lace.jpg"></figure>
                                     <h3>Dress Anna Sui ...</h3>
                                     <h5>$743.00</h5>
                                     <a class="btn-add-to-cart" href="#">Add to cart</a>
                                 </li>
                             </ul>
-                        </nav>
+                            </nav>
+                        </div>
                         <div id="custom-tab" class="tabcontent">
-                            <img src="../images/sizes.jpg">
+                            <figure><img src="../images/sizes.jpg"></figure>
                         </div>
                         <div id="video" class="tabcontent">
                             <iframe id="player" type="text/html" src="../video/prada-spring-2015.mp4" width="515" height="270" frameborder="0"></iframe>
@@ -127,7 +138,7 @@
                                 <p>hsfd 4387587 dkjhdsa g</p>
                             </div>
                         </div>
-                    </nav>
+                    </div>
                     <div class="attributes">
                         <label> Size: </label>
                         
@@ -139,9 +150,7 @@
                                 <option value="4" title="M">XL</option>
                             </select>
                         </div>
-                        
                             <label> Color: </label>
-                       
                         <div class="attribute-list">
                             <select>
                                 <option value="5" selected="selected" title="S">Red</option>

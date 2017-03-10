@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="sub-banner">
-                            <img src="images/Sub_banner1.jpg" alt=""/>
+                            <figure><img src="images/Sub_banner1.jpg" alt=""/></figure>
                             <div class="text">
                                 <p>BAGS</p>
                             </div>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="sub-banner">
-                            <img src="images/Sub_banner2.jpg" alt=""/>
+                            <figure><img src="images/Sub_banner2.jpg" alt=""/></figure>
                             <div class="text">
                                 JACKETS
                             </div>
@@ -43,7 +43,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="sub-banner">
-                            <img src="images/Sub_banner3.jpg" alt=""/>
+                            <figure><img src="images/Sub_banner3.jpg" alt=""/></figure>
                             <div class="text">
                                 GOGGLES
                             </div>

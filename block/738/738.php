@@ -106,12 +106,12 @@
                                 <div class="lms_footer_popular_course">
                                     <h3>Recent Course</h3>
                                     <div class="lms_footer_course">
-                                        <img src="images/h1.jpg" alt=""/>
+                                        <figure><img src="images/h1.jpg" alt=""/></figure>
                                         <a href="#"><h4>Learning Quality Graphic Design</h4></a>
                                         <p>There are many variations of passages</p>
                                     </div>
                                     <div class="lms_footer_course">
-                                        <img src="images/h2.jpg" alt=""/>
+                                        <figure><img src="images/h2.jpg" alt=""/></figure>
                                         <a href="#"><h4>JQuery Tutorial</h4></a>
                                         <p>jQuery is a fast and concise JavaScript</p>
                                     </div>
@@ -128,6 +128,7 @@
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="lms_footer_contact">
+                                    <article>
                                     <h3>Contacts</h3>
                                     <p class="pad">Lorem ipit amet, consectetur adipiscing elit.
                                         Etiam at ma erat laoreet accumsan. Vivamus id dui nulla.
@@ -148,13 +149,14 @@
                                         <span class="lms_theme_color">Email id : </span>
                                         <a href="#" class="color_hover">learning@system.com</a>
                                     </p>
+                                    </article>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="lms_footer_bottom">
-                    <p>Copyright © 2016 LMS Theme All Rights Reserved.</p>
+                    <article><p>Copyright © 2016 LMS Theme All Rights Reserved.</p></article>
                 </div>
                 <a href="#" class="scrollToTop">
                     <i class="fa fa-arrow-up"></i>
