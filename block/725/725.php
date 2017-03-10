@@ -1,7 +1,7 @@
 <html> 
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>725</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <?php
@@ -26,16 +26,16 @@
                             <div class="item  active">
                                 <div class="row">
                                     <div class="col-md-3 col-sm-4" >
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>          
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>       
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>        
                                   
 
@@ -44,16 +44,16 @@
                             <div class="item">
                                 <div class="row">
                                      <div class="col-md-3 col-sm-4" >
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                         <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>          
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>       
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>        
 
                                 </div>
@@ -61,16 +61,16 @@
                             <div class="item">
                                 <div class="row">
                                     <div class="col-md-3 col-sm-4" >
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>          
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>       
                                     <div class="col-md-3">
-                                        <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                        <figure><a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a></figure>
                                     </div>        
 
                                 </div>
