@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>726</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -63,7 +63,11 @@
                                 <div id="block_1" >
                                     <ul>
 
-                                        <div class="footer_logo"><a href="#"><img alt="" src="images/footer-logo.png"></a></div>
+                                        <div class="footer_logo">
+                                            <figure>
+                                            <a href="#"><img alt="" src="images/footer-logo.png"></a>
+                                            </figure>
+                                        </div>
                                         </li>
                                         <li>
                                             <a> 507-Union Trade Center,Udhana Darvaja Surat</a>
@@ -150,13 +154,14 @@
 
                     <div class="footer_bottom_images">
                         <div class="footer_bottom_images_1">
-
+                            <figure>
                             <img src="images/footer-divider.png" alt=""/>
+                            </figure>
                         </div>
                     </div>
 
                     <ul class="payment_icon">
-                        <li> <address>© 2016 Magento Demo Store. All Rights Reserved.</address>
+                        <li><address>© 2016 Magento Demo Store. All Rights Reserved.</address>
                         </li>
                         <br>
                         <li class="discover"><a href="#"><span>discover</span></a></li>
