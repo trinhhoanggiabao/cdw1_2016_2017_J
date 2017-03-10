@@ -72,10 +72,13 @@
                             <ul>
                                 <li class="dropdown">
                                     <div class="show-countries">
+                                        <figure>
                                         <img src="images/eng.jpg" alt="English">
                                         <a class="languege-en languege" href="#">English <i class="fa fa-angle-down"></i></a>
+                                        </figure>
                                     </div>     
                                     <div class="hide-countries">
+                                        <figure>
                                         <div class="countries">
                                             <img src="images/deu.jpg" alt="Deutch">
                                             <a class="languege" href="#">Deutch</a>
@@ -92,6 +95,7 @@
                                             <img src="images/aca.jpg" alt="العربية">
                                             <a class="languege" href="#">العربية</a>
                                         </div>
+                                        </figure>
                                     </div>
                                 </li>
                                 <li class="dropdown">
@@ -112,7 +116,7 @@
                     </div>
                 </div>
                 <div class="topheader2">
-                    <div class="container con-menu">
+                    <div class="container">
                         <div class="shopping-cart">
                             <a class="cart" href="#" title="View my shopping cart">
                                 <i class="fa fa-shopping-basket"></i>
@@ -121,7 +125,7 @@
                             </a>
                         </div>
                         <div class="logo">
-                            <img src="images/logo.jpg" alt="logo">
+                            <figure><img src="images/logo.jpg" alt="logo"></figure>
                         </div>
                         <div class="search">
                             <input type="text" id="text-search" placeholder="Search...">
