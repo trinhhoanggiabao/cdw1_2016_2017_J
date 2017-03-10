@@ -65,9 +65,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-3">
-                                <div class="logo">
+                                <figure class="logo">
                                     <img src="images/logo.png" alt=""/>
-                                </div>
+                                </figure>
                             </div>
                             <div class="col-md-7">
                                 <div class="search">
@@ -179,32 +179,32 @@
                                 <div class="color">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="bg">
+                                            <figure class="bg">
                                                 <img src="images/black.png" alt=""/>
                                                 <span>(7)</span>
-                                            </div>
-                                            <div class="bg">
+                                            </figure>
+                                            <figure> class="bg">
                                                 <img src="images/brown.png" alt=""/>
                                                 <span>(3)</span>
-                                            </div>
-                                            <div class="bg">
+                                            </figure>
+                                            <figure> class="bg">
                                                 <img src="images/green.png" alt=""/>
                                                 <span>(2)</span>
-                                            </div>
+                                            </figure>
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="bg">
+                                            <figure> class="bg">
                                                 <img src="images/blue.png" alt=""/>
                                                 <span>(3)</span>
-                                            </div>
-                                            <div class="bg">
+                                            </figure>
+                                            <figure> class="bg">
                                                 <img src="images/gray.png" alt=""/>
                                                 <span>(4)</span>
-                                            </div>
-                                            <div class="bg">
+                                            </figure>
+                                            <figure> class="bg">
                                                 <img src="images/orange.png" alt=""/>
                                                 <span>(2)</span>
-                                            </div>
+                                            </figure>
                                         </div>
                                     </div>
                                 </div>
@@ -268,9 +268,9 @@
                                 <h4>SPECIAL PRODUCTS</h4>
                                 <div class="row">
                                     <div class="col-md-5">
-                                        <div class="thumb-image">
+                                        <figure> class="thumb-image">
                                             <img src="images/1_4.jpg" alt="" />
-                                        </div>
+                                        </figure>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="text">
@@ -286,9 +286,9 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-5">
-                                        <div class="thumb-image">
+                                        <figure> class="thumb-image">
                                             <img src="images/7_3_4.jpg" alt="" />
-                                        </div>
+                                        </figure>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="text">
@@ -304,9 +304,9 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-5">
-                                        <div class="thumb-image">
+                                        <figure> class="thumb-image">
                                             <img src="images/17_1_5_1.jpg" alt="" />
-                                        </div>
+                                        </figure>
                                     </div>
                                     <div class="col-md-7">
                                         <div class="text">
@@ -327,9 +327,9 @@
                             <hr>
                             <div class="clearfix">
                                 <!--======phan image bottom banner----->
-                                <div class="image-bottom">
+                                <figure> class="image-bottom">
                                     <img src="images/left-banner.jpg" alt=""/>
-                                </div>
+                                </figure>
                             </div>
                         </div>
                     </div>
@@ -377,12 +377,12 @@
                                 <div class="row">
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
-                                            <div class="main-image">
+                                            <figure> class="main-image">
                                                 <img src="images/20_11.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure> class="sub-image">
                                                 <img src="images/21_5.jpg" alt=""/>
-                                            </div>
+                                            </figure>
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -404,12 +404,12 @@
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/20_11.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure class="sub-image">
                                                 <img src="images/21_5.jpg" alt=""/>
-                                            </div>
+                                            </figure>
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -431,12 +431,12 @@
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
-                                            <div class="main-image">
+                                            <figure> class="main-image">
                                                 <img src="images/19_7.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure> class="sub-image">
                                                 <img src="images/20_11.jpg" alt=""/>
-                                            </div>
+                                            </figure>
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -465,12 +465,12 @@
                                             <div class="sale">
                                                 sale
                                             </div>
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/15_4_5_1_1.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure> class="sub-image">
                                                 <img src="images/16_8_1_1.jpg" alt=""/>
-                                            </div>
+                                            </figure>
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -493,12 +493,12 @@
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/14_4_6_1.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure class="sub-image">
                                                 <img src="images/17_1_5_1.jpg" alt=""/>
-                                            </div>
+                                            </figure>
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -526,12 +526,12 @@
                                             <div class="sale">
                                                 sale
                                             </div>
-                                            <div class="main-image">
+                                            <figure> class="main-image">
                                                 <img src="images/13_4_8.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure class="sub-image">
                                                 <img src="images/15_4_5_1_1.jpg" alt=""/>
-                                            </div>
+                                            </figure>
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>

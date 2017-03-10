@@ -30,62 +30,62 @@
                                 <ul class="sliderCarousel" id="banner-carousel">
                                     <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
-                                             <a href="#"><img src="../images/banner-01.jpg"></a>   
+                                            <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
                                     </li>
                                     <li class="nbs-flexisel-item">    
                                         <div class="banner-carousel-wrap">
-                                            <a href="#"><img src="../images/banner-02.jpg"></a>
+                                            <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
                                      <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
-                                             <a href="#"><img src="../images/banner-01.jpg"></a>   
+                                            <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
                                     </li>
                                     <li class="nbs-flexisel-item">    
                                         <div class="banner-carousel-wrap">
-                                            <a href="#"><img src="../images/banner-02.jpg"></a>
+                                            <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
                                     <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
-                                             <a href="#"><img src="../images/banner-01.jpg"></a>   
+                                            <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
                                     </li>
                                     <li class="nbs-flexisel-item">    
                                         <div class="banner-carousel-wrap">
-                                            <a href="#"><img src="../images/banner-02.jpg"></a>
+                                            <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
                                      <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
-                                             <a href="#"><img src="../images/banner-01.jpg"></a>   
+                                            <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
                                     </li>
                                     <li class="nbs-flexisel-item">    
                                         <div class="banner-carousel-wrap">
-                                            <a href="#"><img src="../images/banner-02.jpg"></a>
+                                            <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
                                     <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
-                                             <a href="#"><img src="../images/banner-01.jpg"></a>   
+                                            <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
                                     </li>
                                     <li class="nbs-flexisel-item">    
                                         <div class="banner-carousel-wrap">
-                                            <a href="#"><img src="../images/banner-02.jpg"></a>
+                                            <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
                                      <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
-                                             <a href="#"><img src="../images/banner-01.jpg"></a>   
+                                            <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
                                     </li>
                                     <li class="nbs-flexisel-item">    
                                         <div class="banner-carousel-wrap">
-                                            <a href="#"><img src="../images/banner-02.jpg"></a>
+                                            <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
                                 </ul>

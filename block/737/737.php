@@ -58,7 +58,7 @@
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <img src="images/partner1-220x50.png" alt=""/>
+                                                                    <figure><img src="images/partner1-220x50.png" alt=""/></figure>
                                                                     <hr>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -70,7 +70,7 @@
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <img src="images/partner2-220x50.png" alt=""/>
+                                                                    <figure><img src="images/partner2-220x50.png" alt=""/></figure>
                                                                     <hr>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
@@ -81,7 +81,7 @@
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <img src="images/partner3-220x50.png" alt=""/>
+                                                                    <figure><img src="images/partner3-220x50.png" alt=""/></figure>
                                                                     <hr>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
@@ -92,7 +92,7 @@
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <img src="images/partner1-220x50.png" alt=""/>
+                                                                    <figure><img src="images/partner1-220x50.png" alt=""/></figure>
                                                                     <hr>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>

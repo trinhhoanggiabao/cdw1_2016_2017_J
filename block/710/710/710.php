@@ -21,15 +21,9 @@
         <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
         <script src="../js/owl.carousel.js" type="text/javascript"></script>
         <script type="text/javascript" src="../js/script.js"></script>
-
-
     </head>
-
     <body>
-        
-    
-
-        <div class="type-710">
+    <div class="type-710">
             <div class="container">
                 <div class="productsCarousel">
                     <table class="title-table">
@@ -57,12 +51,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#" title="">                                                        
                                                 <img  src="../images/calvin-klein-white-cap-colorblock.jpg" alt="Calvin Klein White Cap Colorblock">                                                                                                          
                                             </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#" title="">
                                                 <img src="../images/calvin-klein-white-cap-colorblock1.jpg" alt="Calvin Klein White Cap Colorblock">    
                                             </a>
+                                            </figure>
                                             <span class="pk-reduction">-3%</span>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
@@ -88,16 +86,19 @@
                                         </div>
                                     </div>
                                 </li>
-                                
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
-                                            <a class="product-image" href="#">                                                        
+                                            <figure>
+                                                <a class="product-image" href="#">                                                        
                                                 <img  src="../images/dress-mark-james-badgley-mischka-sweetheart.jpg" alt="Dress Daniel Vosovic Rust And Rain">                                                        
-                                            </a>   
+                                                </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/dress-mark-james-badgley-mischka-sweetheart2.jpg">
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -124,12 +125,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img  src="../images/ports-1961-galaxy-shine.jpg" alt="Ports 1961 Galaxy Shine">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/ports-1961-galaxy-shine1.jpg" alt="Ports 1961 Galaxy Shine">                                                        
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -156,12 +161,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img  src="../images/halston-heritage-au-naturale3.jpg" alt="Halston Heritage Au Naturale">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">                                                                                                                
                                                 <img  src="../images/halston-heritage-au-naturale4.jpg" alt="Halston Heritage Au Naturale">
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -189,12 +198,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img src="../images/lilly-pulitzer-embroidered-blossom.jpg" alt="Lilly Pulitzer Embroidered Blossom">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/lilly-pulitzer-embroidered-blossom2.jpg" alt="Lilly Pulitzer Embroidered Blossom">                                                        
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -221,12 +234,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img src="../images/moschino-cheap-and-chic-yacht.jpg" alt="">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img src="../images/moschino-cheap-and-chic-yacht.jpg" alt="">                                                            
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -253,12 +270,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
-                                            <a class="product-image" href="#" title="">                                                        
+                                            <figure>
+                                              <a class="product-image" href="#" title="">                                                        
                                                 <img  src="../images/calvin-klein-white-cap-colorblock.jpg" alt="Calvin Klein White Cap Colorblock">                                                                                                          
-                                            </a>
+                                            </a>  
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#" title="">
                                                 <img src="../images/calvin-klein-white-cap-colorblock1.jpg" alt="Calvin Klein White Cap Colorblock">    
                                             </a>
+                                            </figure>
                                             <span class="pk-reduction">-3%</span>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
@@ -288,12 +309,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img  src="../images/dress-mark-james-badgley-mischka-sweetheart.jpg" alt="Dress Daniel Vosovic Rust And Rain">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/dress-mark-james-badgley-mischka-sweetheart2.jpg">
                                             </a>
+                                            </figure>                                              
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -320,12 +345,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img  src="../images/ports-1961-galaxy-shine.jpg" alt="Ports 1961 Galaxy Shine">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/ports-1961-galaxy-shine1.jpg" alt="Ports 1961 Galaxy Shine">                                                        
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -352,12 +381,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img  src="../images/halston-heritage-au-naturale3.jpg" alt="Halston Heritage Au Naturale">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">                                                                                                                
                                                 <img  src="../images/halston-heritage-au-naturale4.jpg" alt="Halston Heritage Au Naturale">
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -385,12 +418,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img src="../images/lilly-pulitzer-embroidered-blossom.jpg" alt="Lilly Pulitzer Embroidered Blossom">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/lilly-pulitzer-embroidered-blossom2.jpg" alt="Lilly Pulitzer Embroidered Blossom">                                                        
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -417,12 +454,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img src="../images/moschino-cheap-and-chic-yacht.jpg" alt="">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img src="../images/moschino-cheap-and-chic-yacht.jpg" alt="">                                                            
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -449,12 +490,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#" title="">                                                        
                                                 <img  src="../images/calvin-klein-white-cap-colorblock.jpg" alt="Calvin Klein White Cap Colorblock">                                                                                                          
                                             </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#" title="">
                                                 <img src="../images/calvin-klein-white-cap-colorblock1.jpg" alt="Calvin Klein White Cap Colorblock">    
                                             </a>
+                                            </figure>
                                             <span class="pk-reduction">-3%</span>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
@@ -484,12 +529,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img  src="../images/dress-mark-james-badgley-mischka-sweetheart.jpg" alt="Dress Daniel Vosovic Rust And Rain">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/dress-mark-james-badgley-mischka-sweetheart2.jpg">
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -516,12 +565,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img  src="../images/ports-1961-galaxy-shine.jpg" alt="Ports 1961 Galaxy Shine">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/ports-1961-galaxy-shine1.jpg" alt="Ports 1961 Galaxy Shine">                                                        
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -548,12 +601,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img  src="../images/halston-heritage-au-naturale3.jpg" alt="Halston Heritage Au Naturale">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">                                                                                                                
                                                 <img  src="../images/halston-heritage-au-naturale4.jpg" alt="Halston Heritage Au Naturale">
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -581,12 +638,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img src="../images/lilly-pulitzer-embroidered-blossom.jpg" alt="Lilly Pulitzer Embroidered Blossom">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img  src="../images/lilly-pulitzer-embroidered-blossom2.jpg" alt="Lilly Pulitzer Embroidered Blossom">                                                        
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -613,12 +674,16 @@
                                 <li class="block-product">
                                     <div class="carouselContainer">
                                         <div class="slide-animate">
+                                            <figure>
                                             <a class="product-image" href="#">                                                        
                                                 <img src="../images/moschino-cheap-and-chic-yacht.jpg" alt="">                                                        
-                                            </a>   
+                                            </a>
+                                            </figure>
+                                            <figure>
                                             <a class="additional-image" href="#">
                                                 <img src="../images/moschino-cheap-and-chic-yacht.jpg" alt="">                                                            
                                             </a>
+                                            </figure>
                                             <a class="quick-view" href="#" title="Quick View">
                                                 <i class="fa fa-search"></i>                                                        
                                             </a>
@@ -648,10 +713,6 @@
                 </div> 
             </div>
         </div>
-<!-- END -->
-
-
-    
+<!-- END -->   
     </body>
-
 </html>

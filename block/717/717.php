@@ -28,9 +28,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="logo">
+                            <figure> class="logo">
                                 <img src="images/logo.png" alt=""/>
-                            </div>
+                            </figure>
                         </div>
                         <div class="col-md-7">
                             <div class="search">

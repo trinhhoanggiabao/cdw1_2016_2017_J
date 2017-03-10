@@ -62,9 +62,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="logo">
+                            <figure class="logo">
                                 <img src="images/logo.png" alt=""/>
-                            </div>
+                            </figure>
                         </div>
                         <div class="col-md-7">
                             <div class="search">
@@ -167,9 +167,9 @@
                             <h4>SPECIAL PRODUCTS</h4>
                             <div class="row">
                                 <div class="col-md-5">
-                                    <div class="thumb-image">
+                                    <figure class="thumb-image">
                                         <img src="images/1_4.jpg" alt="" />
-                                    </div>
+                                    </figure>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="text">
@@ -185,9 +185,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-5">
-                                    <div class="thumb-image">
+                                    <figure class="thumb-image">
                                         <img src="images/7_3_4.jpg" alt="" />
-                                    </div>
+                                    </figure>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="text">
@@ -203,9 +203,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-5">
-                                    <div class="thumb-image">
+                                    <figure class="thumb-image">
                                         <img src="images/17_1_5_1.jpg" alt="" />
-                                    </div>
+                                    </figure>
                                 </div>
                                 <div class="col-md-7">
                                     <div class="text">
@@ -249,9 +249,9 @@
                         <div class="clearfix"></div>
 
                         <!--======phan image bottom banner----->
-                        <div class="image-bottom">
+                        <figure class="image-bottom">
                             <img src="images/left-banner.jpg" alt=""/>
-                        </div>
+                        </figure>
                     </div>
                 </div>
 
@@ -269,9 +269,9 @@
 
                                         <div class="detail_left">
                                             <div class="product-img-box">
-                                                <div class="image" style="width: 100%;display: block"style="height: auto;">
+                                                <figure class="image" style="width: 100%;display: block"style="height: auto;">
                                                     <img src="images/2_12.jpg" id="main_img">
-                                                </div>
+                                                </figure>
                                                 <div  class="carousel slide" id="myCarousel" > 
                                                     <ul class="product-carousel" style="opacity: 0;display: block;margin-left: -25px; ">
                                                         <div class="slider-wrapper-outer">
@@ -285,10 +285,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/2_12.jpg" width="100" height="105" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -306,10 +306,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/21_1_2.jpg" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -327,10 +327,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/6_1_14.jpg" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -348,10 +348,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/7_3_7.jpg" alt=""  class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -371,10 +371,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/2_12.jpg" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -392,11 +392,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/21_1_2.jpg" alt="" class="click">
 
-                                                                                                </div>
-
+                                                                                                </figure>                                                                                               
                                                                                             </div>
                                                                                         </div>
 
@@ -413,10 +412,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/6_1_14.jpg" alt=""  class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -434,10 +433,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/7_3_7.jpg" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -457,14 +456,13 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/7_3_7.jpg" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
-
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
                                                                                 </div>
@@ -478,14 +476,13 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/21_1_2.jpg" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
-
                                                                                     </div>
                                                                                     <!-- End div class product-block-->
                                                                                 </div>
@@ -499,10 +496,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/2_12.jpg" alt=""  class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -520,10 +517,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/6_1_14.jpg" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -543,10 +540,10 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/7_3_7.jpg" alt="" class="click">
 
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -564,10 +561,9 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/21_1_2.jpg" alt="" class="click">
-
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -585,10 +581,9 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/2_12.jpg" alt=""  class="click">
-
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -606,10 +601,9 @@
                                                                                         <div class="product-image-block-inner">
                                                                                             <div class="product-image-block">
 
-                                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                                <figure title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                                     <img   src="images/6_1_14.jpg" alt="" class="click">
-
-                                                                                                </div>
+                                                                                                </figure>
 
                                                                                             </div>
                                                                                         </div>
@@ -623,7 +617,7 @@
                                                                     </div>
 
                                                                 </div>
-                                                            </div>
+                                                            </div> 
                                                         </div>
                                                     </ul>
                                                     <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
@@ -1069,10 +1063,10 @@
                                                                                                     <div class="product-block-inner">
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
-                                                                                                                <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                                <figure><a href="#" title="youthful elegance and unmistakable" class="product-image">
                                                                                                                     <img   src="images/1.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/1_1.jpg"  alt="youthful elegance and unmistakable">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1110,10 +1104,10 @@
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
 
-                                                                                                                <a href="#" title="standard  passage Lorem Ipsum" class="product-image">
+                                                                                                                <figure><a href="#" title="standard  passage Lorem Ipsum" class="product-image">
                                                                                                                     <img   src="images/2.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/2_2.jpg"  alt="standard  passage Lorem Ipsum">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1151,10 +1145,10 @@
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
 
-                                                                                                                <a href="#" title="Ifashion ipsum dolor amet" class="product-image">
+                                                                                                                <figure><a href="#" title="Ifashion ipsum dolor amet" class="product-image">
                                                                                                                     <img   src="images/3.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/3_3.jpg"  alt="Ifashion ipsum dolor amet">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1193,10 +1187,10 @@
                                                                                                     <div class="product-block-inner">
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
-                                                                                                                <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                                <figure><a href="#" title="youthful elegance and unmistakable" class="product-image">
                                                                                                                     <img   src="images/1.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/1_1.jpg"  alt="youthful elegance and unmistakable">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1234,10 +1228,10 @@
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
 
-                                                                                                                <a href="#" title="standard  passage Lorem Ipsum" class="product-image">
+                                                                                                                <figure><a href="#" title="standard  passage Lorem Ipsum" class="product-image">
                                                                                                                     <img   src="images/2.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/2_2.jpg"  alt="standard  passage Lorem Ipsum">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1275,10 +1269,10 @@
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
 
-                                                                                                                <a href="#" title="Ifashion ipsum dolor amet" class="product-image">
+                                                                                                                <figure><a href="#" title="Ifashion ipsum dolor amet" class="product-image">
                                                                                                                     <img   src="images/3.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/3_3.jpg"  alt="Ifashion ipsum dolor amet">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1316,10 +1310,10 @@
                                                                                                     <div class="product-block-inner">
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
-                                                                                                                <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                                <figure><a href="#" title="youthful elegance and unmistakable" class="product-image">
                                                                                                                     <img   src="images/1.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/1_1.jpg"  alt="youthful elegance and unmistakable">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1357,10 +1351,10 @@
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
 
-                                                                                                                <a href="#" title="standard  passage Lorem Ipsum" class="product-image">
+                                                                                                                <figure><a href="#" title="standard  passage Lorem Ipsum" class="product-image">
                                                                                                                     <img   src="images/2.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/2_2.jpg"  alt="standard  passage Lorem Ipsum">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1378,7 +1372,7 @@
                                                                                                                 <span class=" old-price"> $863.00</span>        
 
                                                                                                                 <span class="price">$789.00</span>
-                                                                                                            </div>
+                                                                                                    
                                                                                                             <div class="ratings">
                                                                                                                 <div class="rating-box">
                                                                                                                     <div class="rating" style="width:0%"></div>
@@ -1398,10 +1392,10 @@
                                                                                                         <div class="product-image-block-inner">
                                                                                                             <div class="product-image-block">
 
-                                                                                                                <a href="#" title="Ifashion ipsum dolor amet" class="product-image">
+                                                                                                                <figure><a href="#" title="Ifashion ipsum dolor amet" class="product-image">
                                                                                                                     <img   src="images/3.jpg" alt="">
                                                                                                                     <img class="hover-image" src="images/3_3.jpg"  alt="Ifashion ipsum dolor amet">
-                                                                                                                </a>
+                                                                                                                    </a></figure>
                                                                                                                 <div class="product_hover-block">
                                                                                                                     <div class="actions">
                                                                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1479,10 +1473,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                    <figure><a href="#" title="youthful elegance and unmistakable" class="product-image">
                                                                                                         <img   src="images/3_3.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/3.jpg"  alt="youthful elegance and unmistakable">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1520,10 +1514,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="established fact variations of passages" class="product-image">
+                                                                                                    <figure><a href="#" title="established fact variations of passages" class="product-image">
                                                                                                         <img   src="images/1_1.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/1.jpg"  alt="established fact variations of passages">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1560,10 +1554,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="consectetur adipiscing Ipsum available" class="product-image">
+                                                                                                    <figure><a href="#" title="consectetur adipiscing Ipsum available" class="product-image">
                                                                                                         <img   src="images/2.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/2_2.jpg"  alt="consectetur adipiscing Ipsum available">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1603,10 +1597,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                    <figure><a href="#" title="youthful elegance and unmistakable" class="product-image">
                                                                                                         <img   src="images/3_3.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/3.jpg"  alt="youthful elegance and unmistakable">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1644,10 +1638,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="established fact variations of passages" class="product-image">
+                                                                                                    <figure><a href="#" title="established fact variations of passages" class="product-image">
                                                                                                         <img   src="images/1_1.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/1.jpg"  alt="established fact variations of passages">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1684,10 +1678,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="consectetur adipiscing Ipsum available" class="product-image">
+                                                                                                    <figure><a href="#" title="consectetur adipiscing Ipsum available" class="product-image">
                                                                                                         <img   src="images/2.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/2_2.jpg"  alt="consectetur adipiscing Ipsum available">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1727,10 +1721,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="youthful elegance and unmistakable" class="product-image">
+                                                                                                    <figure><a href="#" title="youthful elegance and unmistakable" class="product-image">
                                                                                                         <img   src="images/3_3.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/3.jpg"  alt="youthful elegance and unmistakable">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1768,10 +1762,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="established fact variations of passages" class="product-image">
+                                                                                                    <figure><a href="#" title="established fact variations of passages" class="product-image">
                                                                                                         <img   src="images/1_1.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/1.jpg"  alt="established fact variations of passages">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1808,10 +1802,10 @@
                                                                                             <div class="product-image-block-inner">
                                                                                                 <div class="product-image-block">
 
-                                                                                                    <a href="#" title="consectetur adipiscing Ipsum available" class="product-image">
+                                                                                                    <figure><a href="#" title="consectetur adipiscing Ipsum available" class="product-image">
                                                                                                         <img   src="images/2.jpg" alt="">
                                                                                                         <img class="hover-image" src="images/2_2.jpg"  alt="consectetur adipiscing Ipsum available">
-                                                                                                    </a>
+                                                                                                        </a></figure>
                                                                                                     <div class="product_hover-block">
                                                                                                         <div class="actions">
                                                                                                             <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#')"><span>Add to Cart</span></button>
@@ -1910,7 +1904,7 @@
                                 <div id="block_1" class="footer-area-2">
                                     <ul>
 
-                                        <div class="footer_logo"><a href="#"><img alt="" src="images/footer-logo.png"></a></div>
+                                        <figure> class="footer_logo"><a href="#"><img alt="" src="images/footer-logo.png"></a></figure>
                                         </li>
                                         <li>
                                             <a> 507-Union Trade Center,Udhana Darvaja Surat</a>
@@ -1996,10 +1990,10 @@
                 <div class="footer_bottom"> 
 
                     <div class="footer_bottom_images ">
-                        <div class="footer_bottom_images_1">
+                        <figure class="footer_bottom_images_1">
 
                             <img src="images/footer-divider.png" alt=""/>
-                        </div>
+                        </figure>
                     </div>
 
                     <ul class="payment_icon">
@@ -2020,19 +2014,4 @@
 
         </div>
     </div>
-
-    <!--------------------------->
-
-
-
-
-    <!--------------------------->
-
-
-
-
-
 </body>
-
-
-

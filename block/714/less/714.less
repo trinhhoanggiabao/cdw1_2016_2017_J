@@ -11,6 +11,7 @@
     @display2:inline-block;
     @text-align:center;
     @text-align1:left;
+    @text-decoration:none;
     .dropdown, .dropup{
         float: @float;
     }
@@ -219,7 +220,7 @@
         color: #666666;
     }
     .clothing-text a:hover{
-        text-decoration: none;
+        text-decoration: @text-decoration;
     }
     @media only screen and(max-width:480px){
         .clothing-text{
@@ -268,7 +269,7 @@
     }
     .catogeri ul li a{
         color: #777;
-        text-decoration: none;
+        text-decoration: @text-decoration;
 
     }
     .catogeri ul li{
@@ -300,7 +301,7 @@
         color: #777;
     }
     .shopbybrand ul li a:hover{
-        text-decoration: none;
+        text-decoration: @text-decoration;
         color: #000;
     }
     .thumb-image img{
@@ -356,7 +357,7 @@
             }
             a:hover{
                 color: #000;
-                text-decoration: none;
+                text-decoration: @text-decoration;
                 font-family: "Raleway",sans-serif;
                 font-size: 13px;
                 font-weight: normal;
@@ -614,7 +615,7 @@
                 }
                 a{
                     color: #d9d9d9;
-                    text-decoration: none;
+                    text-decoration: @text-decoration;
                 }
             }
         }
@@ -625,7 +626,7 @@
             }
             a:hover{
                 color: #000;
-                text-decoration: none;
+                text-decoration: @text-decoration;
             }
         }
         .sku {
@@ -770,7 +771,7 @@
                     text-align: @text-align;
                     white-space: nowrap;
                     color: #000;
-                    text-decoration: none;
+                    text-decoration: @text-decoration;
                     border: 1px solid #000000;
                     font-weight: bold;
                     text-transform: uppercase;
@@ -787,7 +788,7 @@
             margin-bottom: 10px;
             a {
                 color: #666;
-                text-decoration: none;
+                text-decoration: @text-decoration;
             }
             a:hover{
                 color: #000;
@@ -883,7 +884,7 @@
                         border: 1px solid #d9d9d9;
                         display: @display1;
                         font-size: 12px;
-                        text-decoration: none;
+                        text-decoration: @text-decoration;
                         color: #666;
                     }
                 }
@@ -974,7 +975,7 @@
                     font-size: 13px;
                     padding: 12px 20px;
 
-                    text-decoration: none;
+                    text-decoration: @text-decoration;
                 }
             }
         }
@@ -1023,7 +1024,7 @@
                         text-align: @text-align;
                         white-space: nowrap;
                         color: #000;
-                        text-decoration: none;
+                        text-decoration: @text-decoration;
                         border: 1px solid #000000;
                         font-weight: bold;
                         text-transform: uppercase;
@@ -1131,7 +1132,7 @@
             }
             .btn:hover, .btn:focus {
                 color: #333; 
-                text-decoration: none; 
+                text-decoration: @text-decoration; 
             }
             .detail_collap{
                 margin: 2px 0;
@@ -1145,7 +1146,7 @@
                 margin-top: -20px;
                 overflow: hidden;
                 padding: 0px;
-                text-decoration: none;
+                text-decoration: @text-decoration;
                 margin-bottom: 0px;
                 width: 100%;
                 position: @position;
@@ -1280,7 +1281,7 @@
             color: #fff;
             background-color: #000;
             font-size: 20px;
-            text-decoration: none;
+            text-decoration: @text-decoration;
         }
     }
 
@@ -1358,7 +1359,7 @@
         margin: 0;
         padding:8px 22px;
         text-align: @text-align;
-        text-decoration: none;
+        text-decoration: @text-decoration;
         text-transform: uppercase;
         display:@display1;
         position:@position1;
@@ -1503,7 +1504,7 @@
     .add-to-links li a.link-wishlist, .add-to-links li a.link-compare { display: @display1; height: 100%; width: 100%;}
     .product_desc { padding: 0 10px; text-align: @text-align}
     .product-name { margin:0; font-size:1em; font-weight:normal; text-transform:capitalize; }
-    .product-name a , .product-review .product-name { color:#000; font-size:13px; text-decoration:none; margin-top:0px; }
+    .product-name a , .product-review .product-name { color:#000; font-size:13px; text-decoration:@text-decoration; margin-top:0px; }
     .product-name a:hover{  color:#000;}
     h2.product-name{ background:@background; padding:0px 0 0 !important; border-bottom: @border !important;  margin:9px 0 0px;}
     .product-carousel .product-block{
@@ -1564,7 +1565,7 @@
         text-align:@text-align;
         white-space:nowrap;
         color:#000;
-        text-decoration:none;
+        text-decoration:@text-decoration;
         border:1px solid #000000;
         font-weight:bold;
         text-transform:uppercase;
@@ -1574,7 +1575,7 @@
         background: #000000;
         color: #ffffff;
         cursor: pointer;
-        text-decoration: none;
+        text-decoration: @text-decoration;
         transition: all 0.3s ease 0s; 
     }
 
@@ -1751,7 +1752,7 @@
                 padding: 1px 14px;
                 color: #000;
                 font-size: 20px;
-                text-decoration: none;
+                text-decoration: @text-decoration;
 
             }
             a:hover{
@@ -1760,7 +1761,7 @@
                 color: #fff;
                 background-color: #000;
                 font-size: 20px;
-                text-decoration: none;
+                text-decoration: @text-decoration;
             }
         }
 
@@ -1878,7 +1879,7 @@
         .add-to-links li a.link-wishlist, .add-to-links li a.link-compare { display: @display1; height: 100%; width: 100%;}
         .product_desc { padding: 0 10px; text-align: @text-align}
         .product-name { margin:0; font-size:1em; font-weight:normal; text-transform:capitalize; }
-        .product-name a , .product-review .product-name { color:#000; font-size:13px; text-decoration:none; margin-top:0px; }
+        .product-name a , .product-review .product-name { color:#000; font-size:13px; text-decoration:@text-decoration; margin-top:0px; }
         .product-name a:hover{  color:#000;}
         h2.product-name{ background:@background; padding:0px 0 0 !important; border-bottom: @border !important;  margin:9px 0 0px;}
         .product-carousel .product-block{
@@ -1939,7 +1940,7 @@
             text-align:@text-align;
             white-space:nowrap;
             color:#000;
-            text-decoration:none;
+            text-decoration:@text-decoration;
             border:1px solid #000000;
             font-weight:bold;
             text-transform:uppercase;
@@ -1949,7 +1950,7 @@
             background: #000000;
             color: #ffffff;
             cursor: pointer;
-            text-decoration: none;
+            text-decoration: @text-decoration;
             transition: all 0.3s ease 0s; 
         }
 
@@ -2285,7 +2286,7 @@
         line-height: 22px;
         text-align: @text-align;
         white-space: nowrap;
-        text-decoration: none;
+        text-decoration: @text-decoration;
         font-weight: bold;
         text-transform: uppercase;
         padding: 6px 1px;
@@ -2300,7 +2301,7 @@
         line-height: 22px;
         text-align: @text-align;
         white-space: nowrap;
-        text-decoration: none;
+        text-decoration: @text-decoration;
         font-weight: bold;
         text-transform: uppercase;
         padding: 6px 1px;
@@ -2406,11 +2407,11 @@
         cursor: auto;
     }
     .footer a {
-        text-decoration: none;
+        text-decoration: @text-decoration;
         color: #c5c5c5;
     }
     .footer a:hover{
-        text-decoration: none;
+        text-decoration: @text-decoration;
         color: #fff;
     }
     img {
