@@ -51,7 +51,31 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/2_12.jpg" width="100" height="105" alt="" class="click">
+                                                                                    <figure>
+                                                                                        <img   src="images/2_12.jpg" width="100" height="105" alt="" class="click">
+                                                                                    </figure>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <!-- End div class product-block-->
+                                                                </div>
+                                                                <!-- End div class product-block-inner -->
+                                                            </li>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
+                                                            <li class="item   " style="width:  100%;">
+                                                                <div class="product-block" style="height: auto;">
+                                                                    <div class="product-block-inner">
+                                                                        <div class="product-image-block-inner">
+                                                                            <div class="product-image-block">
+
+                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                    <figure>
+                                                                                        <img src="images/21_1_2.jpg" alt="" class="click">
+                                                                                    </figure>
 
                                                                                 </div>
 
@@ -72,28 +96,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/21_1_2.jpg" alt="" class="click">
-
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <!-- End div class product-block-->
-                                                                </div>
-                                                                <!-- End div class product-block-inner -->
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
-                                                                    <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
-
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/6_1_14.jpg" alt="" class="click">
+                                                                                    <figure><img   src="images/6_1_14.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -114,7 +117,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/7_3_7.jpg" alt=""  class="click">
+                                                                                    <figure><img   src="images/7_3_7.jpg" alt=""  class="click"></figure>
 
                                                                                 </div>
 
@@ -137,7 +140,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/2_12.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/2_12.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -158,7 +161,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/21_1_2.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -179,7 +182,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/6_1_14.jpg" alt=""  class="click">
+                                                                                    <figure><img src="images/6_1_14.jpg" alt=""  class="click"></figure>
 
                                                                                 </div>
 
@@ -200,7 +203,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/7_3_7.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -223,7 +226,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/7_3_7.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -244,7 +247,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/21_1_2.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -265,7 +268,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/2_12.jpg" alt=""  class="click">
+                                                                                    <figure><img src="images/2_12.jpg" alt=""  class="click"></figure>
 
                                                                                 </div>
 
@@ -286,7 +289,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/6_1_14.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -309,7 +312,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/7_3_7.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -330,7 +333,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/21_1_2.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
@@ -351,7 +354,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/2_12.jpg" alt=""  class="click">
+                                                                                    <figure><img   src="images/2_12.jpg" alt=""  class="click"></figure>
 
                                                                                 </div>
 
@@ -372,7 +375,7 @@
                                                                             <div class="product-image-block">
 
                                                                                 <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <img   src="images/6_1_14.jpg" alt="" class="click">
+                                                                                    <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
 
                                                                                 </div>
 
