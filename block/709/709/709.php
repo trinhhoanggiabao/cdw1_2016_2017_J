@@ -21,7 +21,7 @@
         <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
-      <div class="type-709">
+        <div class="type-709">
             <div class="container">
                 <div class="banners-carousel">
                     <div class="banners-carousel-container">
@@ -38,7 +38,7 @@
                                             <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
-                                     <li class="nbs-flexisel-item">   
+                                    <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
                                             <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
@@ -58,7 +58,7 @@
                                             <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
-                                     <li class="nbs-flexisel-item">   
+                                    <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
                                             <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
@@ -78,7 +78,7 @@
                                             <figure><a href="#"><img src="../images/banner-02.jpg"></a></figure>
                                         </div>
                                     </li>
-                                     <li class="nbs-flexisel-item">   
+                                    <li class="nbs-flexisel-item">   
                                         <div class="banner-carousel-wrap">
                                             <figure><a href="#"><img src="../images/banner-01.jpg"></a></figure>   
                                         </div>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                </div> 
-            </div>
+            </div> 
+        </div>
     </body>
 </html>

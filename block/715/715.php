@@ -39,6 +39,7 @@
                                 <li><a href="#">Ge</a></li>
                             </ul>
                         </div>
+                        <!--- dropdown --->
                         <div class="dropdown">
                             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">USD
                                 <span class="caret"></span></button>
@@ -70,6 +71,7 @@
                                 </figure>
                             </div>
                             <div class="col-md-7">
+                                <!--- search --->
                                 <div class="search">
                                     <div class="form-select">
                                         <select>
@@ -97,6 +99,7 @@
                                 </div>
                             </div>
                             <div class="col-md-2">
+                                <!--- item --->
                                 <div class="item">
                                     <div class="thumbitem">
                                         <p>0 ITEM </p>
@@ -145,6 +148,7 @@
                                         <a class="navbar-brand" href="#">MENU</a>
                                     </div>
                                 </div>
+                                <!--- Menu --->
                                 <div class="collapse navbar-collapse" id="myNavbar">
                                     <ul class="nav navbar-nav">
                                         <li class="active"><a href="#">CATEGORIES</a></li>
@@ -176,35 +180,36 @@
                                     </ul>
                                 </div>
                                 <div class="clearfix"></div>
+                                <!--- color --->
                                 <div class="color">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <figure class="bg">
+                                            <div class="bg">
                                                 <img src="images/black.png" alt=""/>
                                                 <span>(7)</span>
-                                            </figure>
-                                            <figure> class="bg">
+                                            </div>
+                                            <div class="bg">
                                                 <img src="images/brown.png" alt=""/>
                                                 <span>(3)</span>
-                                            </figure>
-                                            <figure> class="bg">
+                                            </div>
+                                            <div class="bg">
                                                 <img src="images/green.png" alt=""/>
                                                 <span>(2)</span>
-                                            </figure>
+                                            </div>
                                         </div>
                                         <div class="col-md-6">
-                                            <figure> class="bg">
+                                            <div class="bg">
                                                 <img src="images/blue.png" alt=""/>
                                                 <span>(3)</span>
-                                            </figure>
-                                            <figure> class="bg">
+                                            </div>
+                                            <div class="bg">
                                                 <img src="images/gray.png" alt=""/>
                                                 <span>(4)</span>
-                                            </figure>
-                                            <figure> class="bg">
+                                            </div>
+                                            <div class="bg">
                                                 <img src="images/orange.png" alt=""/>
                                                 <span>(2)</span>
-                                            </figure>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -240,6 +245,7 @@
                                 <hr>
                                 <div class="clearfix"> </div>
                             </div>
+                            <!--- shopbybrand --->
                             <div class="shopbybrand">
                                 <ul>
                                     <li><a href="#" class="active"> SHOP BY BRAND</a></li>
@@ -286,7 +292,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-5">
-                                        <figure> class="thumb-image">
+                                        <figure class="thumb-image">
                                             <img src="images/7_3_4.jpg" alt="" />
                                         </figure>
                                     </div>
@@ -297,6 +303,7 @@
                                         <div class="price-product">
                                             <span class="money1">$770.00</span> <span class="money2">$860</span>
                                         </div>
+                                        <!--- Add to cart --->
                                         <div class="addtocart">
                                             Add to cart
                                         </div>
@@ -304,7 +311,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-5">
-                                        <figure> class="thumb-image">
+                                        <figure class="thumb-image">
                                             <img src="images/17_1_5_1.jpg" alt="" />
                                         </figure>
                                     </div>
@@ -315,6 +322,7 @@
                                         <div class="price-product">
                                             <span class="money1">$400.00</span> <span class="money2">$325</span>
                                         </div>
+                                        <!--- Add to cart --->
                                         <div class="addtocart">
                                             Add to cart
                                         </div>
@@ -327,7 +335,7 @@
                             <hr>
                             <div class="clearfix">
                                 <!--======phan image bottom banner----->
-                                <figure> class="image-bottom">
+                                <figure class="image-bottom">
                                     <img src="images/left-banner.jpg" alt=""/>
                                 </figure>
                             </div>
@@ -377,12 +385,13 @@
                                 <div class="row">
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
-                                            <figure> class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/20_11.jpg" alt=""/>
                                             </figure>
-                                            <figure> class="sub-image">
+                                            <figure class="sub-image">
                                                 <img src="images/21_5.jpg" alt=""/>
                                             </figure>
+                                            <!--- add to cart --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -431,10 +440,10 @@
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
-                                            <figure> class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/19_7.jpg" alt=""/>
                                             </figure>
-                                            <figure> class="sub-image">
+                                            <figure class="sub-image">
                                                 <img src="images/20_11.jpg" alt=""/>
                                             </figure>
                                             <div class="addtocart">
@@ -468,9 +477,10 @@
                                             <figure class="main-image">
                                                 <img src="images/15_4_5_1_1.jpg" alt=""/>
                                             </figure>
-                                            <figure> class="sub-image">
+                                            <figure class="sub-image">
                                                 <img src="images/16_8_1_1.jpg" alt=""/>
                                             </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -499,6 +509,7 @@
                                             <figure class="sub-image">
                                                 <img src="images/17_1_5_1.jpg" alt=""/>
                                             </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -526,12 +537,13 @@
                                             <div class="sale">
                                                 sale
                                             </div>
-                                            <figure> class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/13_4_8.jpg" alt=""/>
                                             </figure>
                                             <figure class="sub-image">
                                                 <img src="images/15_4_5_1_1.jpg" alt=""/>
                                             </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -563,12 +575,13 @@
                                             <div class="sale">
                                                 sale
                                             </div>
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/12_5_7.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure class="sub-image">
                                                 <img src="images/16_8_1_1.jpg" alt=""/>
-                                            </div>
+                                            </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -591,12 +604,13 @@
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/11_5_7.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure class="sub-image">
                                                 <img src="images/16_8_1_1.jpg" alt=""/>
-                                            </div>
+                                            </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -621,12 +635,13 @@
                                         <div class="images">
                                             <div class="sale">sale</div>
                                             <div class="new">new</div>
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/10_4_6.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure class="sub-image">
                                                 <img src="images/16_8_1_1.jpg" alt=""/>
-                                            </div>
+                                            </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -661,12 +676,13 @@
                                             <div class="new">
                                                 new
                                             </div>
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/2_10.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure class="sub-image">
                                                 <img src="images/4_1_3.jpg" alt=""/>
-                                            </div>
+                                            </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -697,12 +713,13 @@
                                             <div class="new">
                                                 new
                                             </div>
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/5_6.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>>
+                                            <figure class="sub-image">
                                                 <img src="images/21_5.jpg" alt=""/>
-                                            </div>
+                                            </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -727,12 +744,13 @@
                                             <div class="new">
                                                 new
                                             </div>
-                                            <div class="main-image">
+                                            <figure class="main-image">
                                                 <img src="images/7_3_4.jpg" alt=""/>
-                                            </div>
-                                            <div class="sub-image">
+                                            </figure>
+                                            <figure class="sub-image">
                                                 <img src="images/17_1_5_1.jpg" alt=""/>
-                                            </div>
+                                            </figure>
+                                            <!--- ADD TO CART --->
                                             <div class="addtocart">
                                                 ADD TO CART
                                             </div>
@@ -758,6 +776,7 @@
                     </div>
                 </div>
             </div>
+            <!--- footer --->
             <div class="type_b_11">
                 <footer class="footer-container">
                     <div class="footer-top-outer">
@@ -789,9 +808,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
                     <div class="footer">	 
 
                         <div class="footer_inner" id="footer">
@@ -801,8 +817,7 @@
                                     <div id="block_1" class="footer-area-2">
                                         <ul>
 
-                                            <div class="footer_logo"><a href="#"><img alt="" src="images/footer-logo.png"></a></div>
-                                            </li>
+                                            <figure class="footer_logo"><a href="#"><img alt="" src="images/footer-logo.png"></a></figure>
                                             <li>
                                                 <a> 507-Union Trade Center,Udhana Darvaja Surat</a>
                                             </li>
@@ -887,10 +902,10 @@
                     <div class="footer_bottom"> 
 
                         <div class="footer_bottom_images ">
-                            <div class="footer_bottom_images_1">
+                            <figure class="footer_bottom_images_1">
 
                                 <img src="images/footer-divider.png" alt=""/>
-                            </div>
+                            </figure>
                         </div>
 
                         <ul class="payment_icon">

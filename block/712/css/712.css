@@ -25,6 +25,7 @@
 }
 .type-712 .manufacturersCarousel .mnf-flexisel-container .nbs-flexisel-inner .nbs-flexisel-ul li .manuf-indent {
   padding-right: 30px;
+  float: left;
 }
 .type-712 .manufacturersCarousel .mnf-flexisel-container .nbs-flexisel-inner .nbs-flexisel-ul li a {
   display: block;
