@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title></title>
+        <title>703</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -14,9 +14,7 @@
         $less = new lessc;
         $less->compileFile('less/703.less', 'css/703.css');
         ?>
-        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/owl.carousel.js" type="text/javascript"></script>
-        <script type="text/javascript" src="js/script.js"></script>
+
     </head>
     <body>
 
@@ -31,19 +29,36 @@
                             <article class="btn-move" id="btn-up" onclick="clickButtonUp()">
                                 <i class="fa fa-chevron-up"></i>
                             </article>
-                            <img src="images/moschino-cheap-and-chic-yacht-main.jpg" alt=""id="show">
-                            <img src="images/moschino-cheap-and-chic-yacht-thumb2.jpg" alt="">
-                            <img src="images/moschino-cheap-and-chic-yacht-thumb3.jpg" alt="">
-                            <img src="images/moschino-cheap-and-chic-yacht-thumb4.jpg" alt="">                         
-                            <img src="images/moschino-cheap-and-chic-yacht-a.jpg" alt="" id="hide">
+                            <figure>
+                                <img src="images/moschino-cheap-and-chic-yacht-main.jpg" alt=""id="show">
+                            </figure>
+
+                            <figure>
+                                <img src="images/moschino-cheap-and-chic-yacht-thumb2.jpg" alt="">
+                            </figure>
+                            
+                            <figure>
+                                <img src="images/moschino-cheap-and-chic-yacht-thumb3.jpg" alt="">
+                            </figure>
+
+                            <figure>
+                                <img src="images/moschino-cheap-and-chic-yacht-thumb4.jpg" alt="">
+                            </figure>
+                            
+                            <figure>
+                                <img src="images/moschino-cheap-and-chic-yacht-a.jpg" alt="" id="hide">
+                            </figure>
                             <article class="btn-move" id="btn-down" onclick="clickButtonDown()">
                                 <i class="fa fa-chevron-down"></i>
                             </article>
                         </article>
 
                     </div>
+
                     <div class="col-md-12">
+
                         <h5>Also purchased products</h5>
+                        <!--Begin slide show images-->
                         <div class="purchase-item" id="item-product">
                             <figure class="thumb-img-carousel">
                                 <img src="images/calvin-klein-white-cap-colorblock111.jpg" alt="">
@@ -52,39 +67,51 @@
                             <figure class="thumb-img-carousel">
                                 <img src="images/dress-david-meister-lady-in-red.jpg" alt="">
                             </figure>
+
                             <figure class="thumb-img-carousel">
                                 <img src="images/dress-elie-tahari-head-heels.jpg" alt="">
                             </figure>
+
                             <figure class="thumb-img-carousel">
                                 <img src="images/dress-bibhu-mohapatra-luxury-lush-gown.jpg" alt="">
                             </figure>
+
                             <figure class="thumb-img-carousel">
                                 <img src="images/dress-nanette-lepore-want-me.jpg" alt="">
                             </figure>
+
                             <figure class="thumb-img-carousel">
                                 <img src="images/dress-anna-sui-dot-flutter.jpg" alt="">
                             </figure>
+
                             <figure class="thumb-img-carousel">
                                 <img src="images/dress-nanette-lapore-girls-only.jpg" alt="">
                             </figure>
+
                             <figure class="thumb-img-carousel">
                                 <img src="images/dress-milly-poppy-fields-sheat.jpg" alt="">
                             </figure>
+
                             <figure class="thumb-img-carousel">
                                 <img src="images/dress-tibi-red-rococo-print.jpg" alt="">
                             </figure>
                         </div>
+                        <!--End slide show images-->
+
+                        <!--Begin Button move left-right-->
                         <div class="btn-move-left button">
                             <i class="fa fa-chevron-left"></i>
                         </div>
                         <article class="btn-move-right button">
                             <i class="fa fa-chevron-right"></i>
                         </article>
+                        <!--End Button move left-right-->
                     </div>
 
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="product">
+                        <!---Begin icon Start--->
                         <div class="title">
                             <h4>Moschino Cheap And Chic Yacht</h4>
                             <div class="star">
@@ -94,6 +121,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star color-star"></i>
                             </div>
+                         <!---End icon Start--->   
                         </div>
                         <span class="state">
                             Manufacturer: <a href="#" class="name">Nicole Miller</a><br>
@@ -120,6 +148,7 @@
                                 Morbi vitae sapien in elit cursus auctor. Sed lectus nisi, commodo vel hendrerit vel, cursus non sapien. Nullam nec velit ante, vitae placerat odio.
                                 Duis sodales nisi ac nunc vestibulum gravida. Phasellus auctor tellus felis, ac cursus ligula.
                             </div>
+
                             <div id="data-sheet" class="tabcontent">
                                 <table>
                                     <tr class="odd">
@@ -132,22 +161,23 @@
                                     </tr>
                                 </table>
                             </div>
+
                             <div id="accessories" class="tabcontent">
                                 <ul>
                                     <li class="col-md-4 col-sm-4">
-                                        <img src="images/dress-nanette-lepore-want-me.jpg">
+                                        <figure><img src="images/dress-nanette-lepore-want-me.jpg"></figure>
                                         <h3>Dress Nanette L...</h3>
                                         <h5>$470.00</h5>
                                         <a class="btn-add-to-cart" href="#">Add to cart</a>
                                     </li>
                                     <li class="col-md-4 col-sm-4">
-                                        <img src="images/dress-herve-leger-sip-and-shine-martini.jpg">
+                                        <figure><img src="images/dress-herve-leger-sip-and-shine-martini.jpg"></figure>
                                         <h3>Dress Herve Leg...</h3>
                                         <h5>$707.00</h5>
                                         <a class="btn-add-to-cart" href="#">Add to cart</a>
                                     </li>
                                     <li class="col-md-4 col-sm-4">
-                                        <img src="images/dress-anna-sui-ambrosia-lace.jpg">
+                                        <figure><img src="images/dress-anna-sui-ambrosia-lace.jpg"></figure>
                                         <h3>Dress Anna Sui ...</h3>
                                         <h5>$743.00</h5>
                                         <a class="btn-add-to-cart" href="#">Add to cart</a>
@@ -155,11 +185,13 @@
                                 </ul>
                             </div>
                             <div id="custom-tab" class="tabcontent">
-                                <img src="images/sizes.jpg">
+                                <figure><img src="images/sizes.jpg"></figure>
                             </div>
                             <div id="comment" class="tabcontent">
                                 <div class="thumb-comment">
-                                    <span><b>Grade</b></span>
+                                    <span>
+                                        <b>Grade</b>
+                                    </span>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -173,7 +205,9 @@
 
                                 </div>
                                 <div class="thumb-comment">
-                                    <span><b>Grade</b></span>
+                                    <span>
+                                        <b>Grade</b>
+                                    </span>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -224,20 +258,28 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="box-cart">
+                        <!---Begin icon social--->
                         <div class="social">
-                            <img src="images/social-facebook-box-blue-icon.png" title="Facebook">
-                            <img src="images/twitter-icon.png" title="Twiiter">
-                            <img src="images/icon-print.png" title="Print">
-                            <img src="images/Other-Mail-Metro-icon.png" title="Email">
-                            <img src="images/google-plus-icon.png" title="Google plus">
+                            <figure>
+                                <img src="images/social-facebook-box-blue-icon.png" title="Facebook">
+                                <img src="images/twitter-icon.png" title="Twiiter">
+                                <img src="images/icon-print.png" title="Print">
+                                <img src="images/Other-Mail-Metro-icon.png" title="Email">
+                                <img src="images/google-plus-icon.png" title="Google plus">
+                            </figure>
                         </div>
+                        <!---End icon social--->
                         <a href="#" class="wishlist">» Add to my wishlist</a>
                     </div>
                 </div>
 
             </div>
         </div>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/owl.carousel.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/script.js"></script>
 
     </body>
 </html>
