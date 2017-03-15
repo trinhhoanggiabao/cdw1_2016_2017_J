@@ -2,7 +2,6 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #5b5b5b;
 }
 .type-736 a {
   color: #000;
@@ -96,10 +95,6 @@
 .type-736 .swiper-container {
   width: 100%;
   height: auto;
-}
-.type-736 .swiper-slide {
-  color: #000;
-  text-align: center;
 }
 .type-736 .owl-carousel {
   opacity: 1;

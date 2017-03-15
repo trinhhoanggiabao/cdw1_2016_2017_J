@@ -14,9 +14,9 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-j-4.less', 'css/type-j-4.css');
+        $less->compileFile('less/736.less', 'css/736.css');
         ?>
-        <link href="css/type-j-4.css" rel="stylesheet" type="text/css" />
+        <link href="css/736.css" rel="stylesheet" type="text/css" />
         <script src="js/swiper.min.js" type="text/javascript"></script>
         <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.min.js" type="text/javascript"></script>
@@ -25,7 +25,7 @@
     </head>
 
     <body>
-        <div class="type-j-4">
+        <div class="type-736">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <article class="hentry">
@@ -60,7 +60,7 @@
                                                                             <p class="lms_testimonial_quote">"</p>
                                                                             <p class="lms_testimonials_txt">Suspendisse posuere consectetur sodales. Etiam faucibus rhoncus nunc et pretium. Praesent tortor massa,
                                                                                 malesuada sed ornare in, dignissim adipiscing felis. Donec eget hendrerit magna,</p>
-                                                                            <img src="images/testimonial1.png" alt=""/>
+                                                                            <figure><img src="images/testimonial1.png" alt=""/></figure>
                                                                             <h4>john doe</h4>
                                                                         </div>
                                                                     </div>
@@ -69,14 +69,14 @@
                                                                             <p class="lms_testimonial_quote">"</p>
                                                                             <p class="lms_testimonials_txt">Suspendisse posuere consectetur sodales. Etiam faucibus rhoncus nunc et pretium. Praesent tortor massa,
                                                                                 malesuada sed ornare in, dignissim adipiscing felis. Donec eget hendrerit magna,</p>
-                                                                            <img src="images/testimonial1.png" alt=""/>
+                                                                            <figure><img src="images/testimonial1.png" alt=""/></figure>
                                                                             <h4>Olivia Liam</h4>
                                                                         </div>
                                                                     </div>
                                                                     <div class="swiper-slide">
                                                                         <div class="lms_testimonials_slider_item"><p class="lms_testimonial_quote">"</p>
                                                                             <p class="lms_testimonials_txt">Duis tortor lacus, dictum nec augue a, euismod sagittis eros. Aliquam id ligula malesuada, egestas est ultricies, ugue mauris feugiat dolor, sit amet viverra orci Duis vel urna dapibus, viverra nunc sit amet, cursus enim. Curabitur molestie orci id volutpat condimentum. Vestibulum pellentesque nunc in arcu tempus pretium. Mauris ac euismod nisl.</p>
-                                                                            <img src="images/testimonial1.png" alt=""/>
+                                                                            <figure><img src="images/testimonial1.png" alt=""/></figure>
                                                                             <h4>William Dam (LMS Director)</h4>
                                                                         </div>
                                                                     </div>
