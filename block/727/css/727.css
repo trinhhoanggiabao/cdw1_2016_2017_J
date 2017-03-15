@@ -86,7 +86,6 @@
 .type-727 .product-view .detail_left .click {
   cursor: pointer;
   width: 100px;
-  height: 105;
 }
 .type-727 .product-view .detail_left .carousel {
   margin-bottom: 0;
@@ -145,7 +144,7 @@
   line-height: 22px;
   padding: 6px 12px;
   margin: 0;
-  background: #fff;
+  background: #FFFFFF;
 }
 .type-727 .product-view .detail_left .carousel .product_hover-block .actions .add-to-links {
   display: none;
@@ -212,8 +211,6 @@
 .type-727 .product-view .detail_left .carousel .product-carousel .slider-wrapper {
   display: none;
   position: relative;
-  -webkit-transform: translate3d(0px,0px,0px);
-  -webkit-perspective: 1000;
 }
 .type-727 .product-view .detail_left .carousel .product-carousel .slider-wrapper-outer {
   position: relative;
@@ -443,7 +440,6 @@
 .type-727 .detail_right .email-addto-box .email-friend a::before {
   color: #666666;
   content: "\f003";
-  display: "Raleway", sans-serif;
   font-family: "FontAwesome";
   font-size: 16px;
   height: 16px;
@@ -456,7 +452,6 @@
   font-size: 13px;
 }
 .type-727 .detail_right .email-addto-box .add-to-links li {
-  display: "Raleway", sans-serif;
   list-style: none;
 }
 .type-727 .detail_right .email-addto-box .add-to-links li a:before {
@@ -902,9 +897,6 @@
 .type-727 .img {
   border: 0;
   vertical-align: top;
-}
-.type-727 body {
-  padding-top: 20px;
 }
 .type-727 .tabberlive_outer_sub {
   margin: 72px 0 87px;

@@ -35,9 +35,9 @@
                         <div class="detail_left">
                             <div class="product-img-box">
                                 <div class="image" style="width: 100%;display: block"style="height: auto;">
-                                    <img src="images/2_12.jpg" id="main_img">
+                                    <img src="images/2_12.jpg">
                                 </div>
-                                <div  class="carousel slide" id="myCarousel" > 
+                                <div class="carousel slide" id="myCarousel" > 
                                     <ul class="product-carousel" style="opacity: 0;display: block;margin-left: -25px; ">
                                         <div class="slider-wrapper-outer">
                                             <div class="slider-wrapper" style="width: 100%;display: block">
@@ -47,16 +47,145 @@
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure>
-                                                                                        <img   src="images/2_12.jpg" width="100" height="105" alt="" class="click">
-                                                                                    </figure>
-                                                                                </div>
+                                                                        <div class="product-image-block">
+
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure>
+                                                                                    <img   src="images/2_12.jpg" width="100" height="105" alt="" class="click">
+                                                                                </figure>
+                                                                            </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                    <!-- End div class product-block-->
+                                                                </div>
+                                                                <!-- End div class product-block-inner -->
+                                                            </li>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
+                                                                    <div class="product-block-inner">
+
+                                                                        <div class="product-image-block">
+
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure>
+                                                                                    <img src="images/21_1_2.jpg" alt="" class="click">
+                                                                                </figure>
 
                                                                             </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                    <!-- End div class product-block-->
+                                                                </div>
+                                                                <!-- End div class product-block-inner -->
+                                                            </li>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
+                                                                    <div class="product-block-inner">
+
+                                                                        <div class="product-image-block">
+
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img   src="images/6_1_14.jpg" alt="" class="click"></figure>
+
+                                                                            </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                    <!-- End div class product-block-->
+                                                                </div>
+                                                                <!-- End div class product-block-inner -->
+                                                            </li>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
+                                                                    <div class="product-block-inner">
+
+                                                                        <div class="product-image-block">
+
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img   src="images/7_3_7.jpg" alt=""  class="click"></figure>
+
+                                                                            </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                    <!-- End div class product-block-->
+                                                                </div>
+                                                                <!-- End div class product-block-inner -->
+                                                            </li>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item ">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
+                                                                    <div class="product-block-inner"> 
+
+                                                                        <div class="product-image-block">
+
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/2_12.jpg" alt="" class="click"></figure>
+
+                                                                            </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                    <!-- End div class product-block-->
+                                                                </div>
+                                                                <!-- End div class product-block-inner -->
+                                                            </li>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
+                                                                    <div class="product-block-inner">
+
+                                                                        <div class="product-image-block">
+
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
+
+                                                                            </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+                                                                    <!-- End div class product-block-->
+                                                                </div>
+                                                                <!-- End div class product-block-inner -->
+                                                            </li>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
+                                                                    <div class="product-block-inner">
+
+                                                                        <div class="product-image-block">
+
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/6_1_14.jpg" alt=""  class="click"></figure>
+
+                                                                            </div>
+
                                                                         </div>
 
                                                                     </div>
@@ -65,64 +194,20 @@
                                                                 <!-- End div class product-block-inner -->
                                                             </li>
                                                         </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure>
-                                                                                        <img src="images/21_1_2.jpg" alt="" class="click">
-                                                                                    </figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
 
-                                                                    </div>
-                                                                    <!-- End div class product-block-->
-                                                                </div>
-                                                                <!-- End div class product-block-inner -->
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
-                                                                    <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
-
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img   src="images/6_1_14.jpg" alt="" class="click"></figure>
-
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <!-- End div class product-block-->
-                                                                </div>
-                                                                <!-- End div class product-block-inner -->
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden1">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
-                                                                    <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
-
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img   src="images/7_3_7.jpg" alt=""  class="click"></figure>
-
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -136,16 +221,16 @@
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner"> 
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/2_12.jpg" alt="" class="click"></figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
+
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -153,20 +238,20 @@
                                                                 <!-- End div class product-block-inner -->
                                                             </li>
                                                         </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
+
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -174,20 +259,20 @@
                                                                 <!-- End div class product-block-inner -->
                                                             </li>
                                                         </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/6_1_14.jpg" alt=""  class="click"></figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/2_12.jpg" alt=""  class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
+
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -195,20 +280,20 @@
                                                                 <!-- End div class product-block-inner -->
                                                             </li>
                                                         </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden1">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
+
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -222,16 +307,16 @@
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner"> 
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
+
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -239,85 +324,20 @@
                                                                 <!-- End div class product-block-inner -->
                                                             </li>
                                                         </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
-                                                                    <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
-
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
-
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <!-- End div class product-block-->
-                                                                </div>
-                                                                <!-- End div class product-block-inner -->
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
-                                                                    <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
-
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/2_12.jpg" alt=""  class="click"></figure>
-
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <!-- End div class product-block-->
-                                                                </div>
-                                                                <!-- End div class product-block-inner -->
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden1">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
-                                                                    <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
-
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
-
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <!-- End div class product-block-->
-                                                                </div>
-                                                                <!-- End div class product-block-inner -->
-                                                            </li>
-                                                        </div>
-                                                    </div>
-                                                    <div class="item ">
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
-                                                                    <div class="product-block-inner"> 
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
+                                                                    <div class="product-block-inner">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
+
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -325,20 +345,20 @@
                                                                 <!-- End div class product-block-inner -->
                                                             </li>
                                                         </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img   src="images/2_12.jpg" alt=""  class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
+
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -346,41 +366,20 @@
                                                                 <!-- End div class product-block-inner -->
                                                             </li>
                                                         </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden2">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
                                                             <li class="item   " style="width:  100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
 
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img   src="images/2_12.jpg" alt=""  class="click"></figure>
+                                                                        <div class="product-image-block">
 
-                                                                                </div>
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
 
                                                                             </div>
+
                                                                         </div>
 
-                                                                    </div>
-                                                                    <!-- End div class product-block-->
-                                                                </div>
-                                                                <!-- End div class product-block-inner -->
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 hidden1">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
-                                                                    <div class="product-block-inner">
-                                                                        <div class="product-image-block-inner">
-                                                                            <div class="product-image-block">
-
-                                                                                <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                    <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
-
-                                                                                </div>
-
-                                                                            </div>
-                                                                        </div>
 
                                                                     </div>
                                                                     <!-- End div class product-block-->
@@ -703,26 +702,26 @@
                                                 </thead>
                                                 <tbody>
                                                 <th>Price</th>
-                                                <td class="value"><div><input type="radio" name="ratings[3]" id="Price_1" value="11" class="radio"></div></td>
-                                                <td class="value"><div><input type="radio" name="ratings[3]" id="Price_2" value="12" class="radio"></div></td>
-                                                <td class="value"><div><input type="radio" name="ratings[3]" id="Price_3" value="13" class="radio"></div></td>
-                                                <td class="value"><div>tm-selected><input type="radio" name="ratings[3]" id="Price_4" value="14" class="radio"></div></td>
-                                                <td class="value"><div><input type="radio" name="ratings[3]" id="Price_5" value="15" class="radio"></div></td>
+                                                <td><div><input type="radio" name="ratings[3]" id="Price_1" value="11" class="radio"></div></td>
+                                                <td><div><input type="radio" name="ratings[3]" id="Price_2" value="12" class="radio"></div></td>
+                                                <td><div><input type="radio" name="ratings[3]" id="Price_3" value="13" class="radio"></div></td>
+                                                <td><div>tm-selected><input type="radio" name="ratings[3]" id="Price_4" value="14" class="radio"></div></td>
+                                                <td><div><input type="radio" name="ratings[3]" id="Price_5" value="15" class="radio"></div></td>
                                                 <tr>
                                                     <th>Value</th>
-                                                    <td class="value"><div><input type="radio" name="ratings[2]" id="Value_1" value="6" class="radio"></div></td>
-                                                    <td class="value"><div><input type="radio" name="ratings[2]" id="Value_2" value="7" class="radio"></div></td>
-                                                    <td class="value"><div<input type="radio" name="ratings[2]" id="Value_3" value="8" class="radio"></div></td>
-                                                    <td class="value"><div><input type="radio" name="ratings[2]" id="Value_4" value="9" class="radio"></div></td>
-                                                    <td class="value"><div><input type="radio" name="ratings[2]" id="Value_5" value="10" class="radio"></div></td>
+                                                    <td><div><input type="radio" name="ratings[2]" id="Value_1" value="6" class="radio"></div></td>
+                                                    <td><div><input type="radio" name="ratings[2]" id="Value_2" value="7" class="radio"></div></td>
+                                                    <td><div<input type="radio" name="ratings[2]" id="Value_3" value="8" class="radio"></div></td>
+                                                    <td><div><input type="radio" name="ratings[2]" id="Value_4" value="9" class="radio"></div></td>
+                                                    <td><div><input type="radio" name="ratings[2]" id="Value_5" value="10" class="radio"></div></td>
                                                 </tr>
                                                 <th>Quality</th>
-                                                <td class="value"><div><input type="radio" name="ratings[1]" id="Quality_1" value="1" class="radio"></div></td>
-                                                <td class="value"><input type="radio" name="ratings[1]" id="Quality_2" value="2" class="radio"></div></td>
-                                                <td class="value"><input type="radio" name="ratings[1]" id="Quality_3" value="3" class="radio"></div></td>
-                                                <td class="value"><div><input type="radio" name="ratings[1]" id="Quality_4" value="4" class="radio"></div></td>
-                                                <td class="value"><div><input type="radio" name="ratings[1]" id="Quality_5" value="5" class="radio"></div></td>
-                                                </tbody>
+                                                <td><div><input type="radio" name="ratings[1]" id="Quality_1" value="1" class="radio"></div></td>
+                                                <td><input type="radio" name="ratings[1]" id="Quality_2" value="2" class="radio"></div></td>
+                                                <td<input type="radio" name="ratings[1]" id="Quality_3" value="3" class="radio"></div></td>
+                                                <td><div><input type="radio" name="ratings[1]" id="Quality_4" value="4" class="radio"></div></td>
+                                                <tdx`x`><div><input type="radio" name="ratings[1]" id="Quality_5" value="5" class="radio"></div></td>
+                                                    </tbody>
                                             </table>
                                             <input type="hidden" name="validate_rating" value="">
                                             <!-- <script type="text/javascript">decorateTable('product-review-table')</script> -->
