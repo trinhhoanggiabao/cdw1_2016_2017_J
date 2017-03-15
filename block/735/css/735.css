@@ -178,10 +178,6 @@
   background-image: url(../images/bg.png);
   background-repeat: repeat;
   text-align: center;
-  -webkit-animation: lms_hover_expo 0.5s;
-  -moz-animation: lms_hover_expo 0.5s;
-  -ms-animation: lms_hover_expo 0.5s;
-  -o-animation: lms_hover_expo 0.5s;
   transform: scale(1);
 }
 .type-735 .lms_hover_section:hover .lms_hover_overlay .lms_image_link {

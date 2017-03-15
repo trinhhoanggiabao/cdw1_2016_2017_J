@@ -52,33 +52,17 @@
                                                 <div class="swiper-slide">
                                                     <div class="lms_popular_courses_item">
                                                         <div class="lms_hover_section">
-                                                            <img src="images/JQuery-Tutorial-263x176.jpg" alt=""/>
+                                                            <figure><img src="images/JQuery-Tutorial-263x176.jpg" alt=""/></figure>
                                                             <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
                                                         </div>
-                                                        <a href="#"><h3>JQuery Tutorial</h3></a>
-                                                        <p>jQuery is a fast and concise JavaScript</p>
+                                                        <article>
+                                                            <a href="#"><h3>JQuery Tutorial</h3></a>
+                                                            <p>jQuery is a fast and concise JavaScript</p>
+                                                        </article>
                                                     </div>
                                                     <div class="lms_popular_courses_item">
                                                         <div class="lms_hover_section">
-                                                            <img src="images/JQuery-Tutorial-263x176.jpg" alt=""/>
-                                                            <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
-                                                        </div>
-                                                        <a href="#"><h3>JQuery Tutorial</h3></a>
-                                                        <p>jQuery is a fast and concise JavaScript</p>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div class="lms_popular_courses_item">
-                                                        <div class="lms_hover_section">
-                                                            <img src="images/JQuery-Tutorial-263x176.jpg" alt=""/>
-                                                            <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
-                                                        </div>
-                                                        <a href="#"><h3>JQuery Tutorial</h3></a>
-                                                        <p>jQuery is a fast and concise JavaScript</p>
-                                                    </div>
-                                                    <div class="lms_popular_courses_item">
-                                                        <div class="lms_hover_section">
-                                                            <img src="images/JQuery-Tutorial-263x176.jpg" alt=""/>
+                                                            <figure><img src="images/JQuery-Tutorial-263x176.jpg" alt=""/></figure>
                                                             <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
                                                         </div>
                                                         <a href="#"><h3>JQuery Tutorial</h3></a>
@@ -88,7 +72,29 @@
                                                 <div class="swiper-slide">
                                                     <div class="lms_popular_courses_item">
                                                         <div class="lms_hover_section">
-                                                            <img src="images/JQuery-Tutorial-263x176.jpg" alt=""/>
+                                                            <figure><img src="images/JQuery-Tutorial-263x176.jpg" alt=""/></figure>
+                                                            <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
+                                                        </div>
+                                                        <article>
+                                                            <a href="#"><h3>JQuery Tutorial</h3></a>
+                                                            <p>jQuery is a fast and concise JavaScript</p>
+                                                        </article>
+                                                    </div>
+                                                    <div class="lms_popular_courses_item">
+                                                        <div class="lms_hover_section">
+                                                            <figure><img src="images/JQuery-Tutorial-263x176.jpg" alt=""/></figure>
+                                                            <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
+                                                        </div>
+                                                        <article>
+                                                            <a href="#"><h3>JQuery Tutorial</h3></a>
+                                                            <p>jQuery is a fast and concise JavaScript</p>
+                                                        </article>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="lms_popular_courses_item">
+                                                        <div class="lms_hover_section">
+                                                            <figure><img src="images/JQuery-Tutorial-263x176.jpg" alt=""/></figure>
                                                             <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
                                                         </div>
                                                         <a href="#"><h3>JQuery Tutorial</h3></a>
@@ -96,7 +102,7 @@
                                                     </div>
                                                     <div class="lms_popular_courses_item">
                                                         <div class="lms_hover_section">
-                                                            <img src="images/JQuery-Tutorial-263x176.jpg" alt=""/>
+                                                            <figure><img src="images/JQuery-Tutorial-263x176.jpg" alt=""/></figure>
                                                             <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
                                                         </div>
                                                         <a href="#"><h3>JQuery Tutorial</h3></a>
@@ -106,7 +112,7 @@
                                                 <div class="swiper-slide">
                                                     <div class="lms_popular_courses_item">
                                                         <div class="lms_hover_section">
-                                                            <img src="images/JQuery-Tutorial-263x176.jpg" alt=""/>
+                                                            <figure><img src="images/JQuery-Tutorial-263x176.jpg" alt=""/></figure>
                                                             <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
                                                         </div>
                                                         <a href="#"><h3>JQuery Tutorial</h3></a>
@@ -114,7 +120,7 @@
                                                     </div>
                                                     <div class="lms_popular_courses_item">
                                                         <div class="lms_hover_section">
-                                                            <img src="images/JQuery-Tutorial-263x176.jpg" alt=""/>
+                                                            <figure><img src="images/JQuery-Tutorial-263x176.jpg" alt=""/></figure>
                                                             <div class="lms_hover_overlay"><a class="lms_image_link"></a></div>
                                                         </div>
                                                         <a href="#"><h3>JQuery Tutorial</h3></a>
@@ -122,7 +128,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                           
+
                                         </div>
                                         <div class="customNavigation"> 
                                             <a class="lms_prev_next prev">
@@ -136,13 +142,15 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <div class="lms_popular_courses_item">
-                                            <img src="images/Fundamentals-of-Project-Management-555x276.jpg" alt=""/>
-                                            <a href="#"><h3>Fundamentals of Project Management</h3></a>
-                                            <p>This online course is aimed at people interested in IT project management and builds on other business and IT courses available online at .
+                                            <figure><img src="images/Fundamentals-of-Project-Management-555x276.jpg" alt=""/></figure>
+                                            <article>
+                                                <a href="#"><h3>Fundamentals of Project Management</h3></a>
+                                                <p>This online course is aimed at people interested in IT project management and builds on other business and IT courses available online at .
 
-                                                Every competent project manager needs to know the various phases and project management software and tools available do the job properly (such as the Gantt Chart). This free course will identify these phases and tools, enabling you to successfully manage any project.
-                                                LEARNING OUTCOMES
-                                                After completing this course you will understand the history of project management and learn from examples of interviews with project managers. You will gain a good knowledge of project</p>
+                                                    Every competent project manager needs to know the various phases and project management software and tools available do the job properly (such as the Gantt Chart). This free course will identify these phases and tools, enabling you to successfully manage any project.
+                                                    LEARNING OUTCOMES
+                                                    After completing this course you will understand the history of project management and learn from examples of interviews with project managers. You will gain a good knowledge of project</p>
+                                            </article>
                                             <a href="" class="btn btn-default lms_pc_btn">Read More</a>
                                         </div>
                                     </div>
