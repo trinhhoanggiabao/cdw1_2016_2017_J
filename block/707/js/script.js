@@ -55,7 +55,7 @@ $(document).ready(function() {
  
       autoPlay: 3000, //Set AutoPlay to 5 seconds
  
-      items : 5
+      items :4
  
   });
   
