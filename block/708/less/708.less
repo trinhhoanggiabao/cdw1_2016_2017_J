@@ -1,69 +1,52 @@
 .type-708{
-    @color: #e0e0e0;
-    @color2: #e17365;
-    @color3: #fff;
-    @color4: #e6e5e5;
-    @color5: #f9f9f9;
-    @boder: 1px solid @color;
-    @position: absolute;
-    @transition: 0.3s;
+    @color: #e17365;
+    @color2: #e0e0e0;
+    @border : 1px solid @color2;
     @cursor: pointer;
-    @the-width:100%;
-    @the-pixel: -5px; 
-    body {background: @color5;}
-    .col-md-6 {margin-left: @the-pixel;}
-    .col-md-12 {
-        margin-top: @the-pixel + 30;
-        h5 {
-            font-family: LMRomanCaps10-Regular;
-            font-size: @the-pixel + 21;
-            font-style: italic;
-            text-transform: uppercase;
-            padding-bottom:  @the-pixel + 13;
-            padding-right: @the-pixel + 15;
-            padding-left: @the-pixel + 15;
-            margin-bottom: @the-pixel + 25;
-            border-bottom: @boder;
-        }  
-    }
-    .purchase-item {
-        .thumb-img-carousel img {
-            border: @boder;
-            display: inline-block;
-            width: @the-width - 10;
-            margin-left: @the-pixel + 15;
-            cursor: @cursor;
-        }
-    }
-    .button  {
-        position: @position;
-        top: @the-width - 10;
-        left: @the-pixel + 7;
-        margin-top: @the-pixel + 20;
-        width: @the-pixel + 29;
-        height: @the-pixel + 29;
-        border: @boder;
-        box-shadow: 0 0 0 1px @color3, 0 0 0 2px @color4;
-        transition: @transition;
+    @position: absolute;
+    @background: #f9f9f9;
+    @pixel: -5px;
+    @max-width: 100%;
+    
+    .bodder-cursor{
+        border: @border;
         cursor: @cursor;
-        &:hover{background: @color2;
-        box-shadow: 0 0 0 1px @color2, 0 0 0 2px @color2;
-        color: @color3;
-        border: 1px solid rgba(255,255,255,0.2);
-        transition: @transition;}
-        .fa {
-            width: @the-pixel + 20;
-            height: @the-pixel + 20;
-            margin-top: @the-pixel + 10;
-            text-align: center;
-            margin-left: @the-pixel + 10;
+    }
+    body {
+        background: @background;
+    }
+    .col-md-6 {
+        margin-left: @pixel;
+    }
+    .product {
+        .items {
+            img {
+                max-width: @max-width;
+                border: @border;
+                cursor: crosshair;
+            }
         }
-    }
-    .btn-move-left{
-        margin-left: @the-pixel + 20;
-    }
-    .btn-move-right {
-        position: @position;
-        left: @the-width - 5;
+        .thumbs-list {
+            border-right: @border;
+            img {
+                margin-top: @pixel + 13;
+                margin-bottom: @pixel + 12;
+                max-width: @max-width - 17%;
+                .bodder-cursor;
+            }
+            #btn-down {
+                position: @position;
+                top: @pixel + 610;
+            }
+            .btn-move {
+                background: #e6e5e5;
+                padding: @pixel + 10;
+                border-radius: @max-width - 50%;
+                position: @position;
+                left: @pixel + 53;
+                .bodder-cursor;
+                &:hover{ color: @color;}
+            }
+        }    
     }
 }
