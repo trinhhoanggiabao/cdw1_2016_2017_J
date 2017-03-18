@@ -63,7 +63,7 @@
 .type-725 .media-carousel .carousel-control.left:hover {
   left: -12px;
   background-image: none;
-  border: 4px solid #FFFFFF;
+  border: 1px solid #000;
   border-radius: 0px 0px 0px 0px;
   height: 30px;
   width: 30px;

@@ -120,6 +120,7 @@
   background-color: #7a7975;
   color: #ffffff;
   transition: all .2s ease-in-out;
+  text-decoration: none;
 }
 .type-703 .product .attributes .price .btn-add:hover {
   background-color: #e1423c;
@@ -275,72 +276,4 @@
 }
 .type-703 #comment .thumb-comment p {
   padding-bottom: 10px;
-}
-@media (max-width: 981px) {
-  .type-703 .star {
-    float: none;
-  }
-}
-@media (min-width: 980px) {
-  .type-703 .star {
-    float: right;
-  }
-  .type-703 select {
-    width: 120px;
-  }
-  .type-703 #custom-tab img {
-    max-width: 100%;
-  }
-  .type-703 #video #player {
-    max-width: 100%;
-  }
-}
-@media (max-width: 361px) {
-  .type-703 .attribute-list {
-    width: 100%;
-  }
-  .type-703 .wishlist {
-    float: left;
-    margin-left: 15px;
-    margin-top: 5px;
-  }
-  .type-703 select {
-    width: 100%;
-  }
-  .type-703 #quantity {
-    width: 100%;
-    height: 40px;
-  }
-  .type-703 #custom-tab img {
-    max-width: 100%;
-  }
-  .type-703 #video #player {
-    max-width: 100%;
-  }
-  .type-703 #btn-up {
-    display: none;
-  }
-  .type-703 #btn-down {
-    display: none;
-  }
-}
-@media (max-width: 769px) {
-  .type-703 ul.tab li a {
-    padding: 10px 135px;
-  }
-  .type-703 #btn-up {
-    display: inline-block;
-  }
-  .type-703 #btn-down {
-    display: inline-block;
-  }
-  .type-703 #accessories h3 {
-    font-size: 13px;
-  }
-  .type-703 #accessories .btn-add-to-cart {
-    font-size: 8px;
-  }
-  .type-703 #custom-tab img {
-    max-width: 100%;
-  }
 }

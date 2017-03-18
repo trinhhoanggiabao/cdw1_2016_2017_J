@@ -23,10 +23,11 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12   col-xs-12">
+                    <div class="col-md-12 col-xs-12">
                         <div class="bottom-single-banner">
                             <div class="item">
-                                <a href="#"><img src="images/shiping-banner.jpg" alt=""/>
+                                <a href="#">
+                                    <img src="images/shiping-banner.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>

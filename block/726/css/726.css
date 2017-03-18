@@ -268,6 +268,7 @@
 }
 .type-726 .footer li {
   padding: 0;
+  color: #c5c5c5;
 }
 .type-726 #footer #block_1.footer-area li {
   line-height: 23px;
@@ -351,15 +352,6 @@
 }
 .type-726 #footer li.social_block a:hover {
   color: #fff;
-}
-.type-726 #footer .footer-area {
-  border-left: 1px solid #3C3C3C;
-  box-sizing: border-box;
-  float: left;
-  margin-right: 15px;
-  padding: 9px 0 0 80px;
-  width: 21.3%;
-  min-height: 230px;
 }
 .type-726 #footer .footer-area {
   border-left: 1px solid #3C3C3C;

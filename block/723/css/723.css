@@ -1,3 +1,9 @@
+.type_723 .position {
+  position: relative;
+}
+.type_723 .transition {
+  transition: all 0.9s ease 0s;
+}
 .type_723 .bottom-single-banner {
   clear: both;
   padding: 21px 0 18px;

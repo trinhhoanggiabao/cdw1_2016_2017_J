@@ -26,12 +26,13 @@
     @margin_top10: 10px;
     @margin_top_15: 15px;
     @transition_05s: 0.5s;
+    @width: 100%;
     
     .btn-up-down {
         display: @display;
     }
     .tab-images-video {
-        max-width: 100%;
+        max-width: @max-width;
     }
     .margin-padding {
         margin: 0;
@@ -162,6 +163,7 @@
                     background-color: @background-color;
                     color: #ffffff;
                     .trans;
+                    text-decoration: none;
                 }
                 .btn-add:hover {
                     background-color: #e1423c;
@@ -334,88 +336,5 @@
             border-bottom: 1px dotted #ccc;
         }
     }
-    @media (max-width:981px) {
-        .star {
-            float: none;
-        }
-    }
-    @media (min-width:980px) {
-        .star {
-            float: right;
-        }
-
-        select {
-            width: 120px;
-        }
-        #custom-tab {
-            img {
-                .tab-images-video;    
-            }
-        }
-        #video {
-            #player {
-                .tab-images-video;  
-            }
-        }
-
-    }
-    @media (max-width:361px) {
-        .attribute-list {
-            width: 100%;
-        }
-        .wishlist {
-            float: @float_left;
-            margin-left: @margin-left;
-            margin-top: 5px;
-        }
-        select {
-            width: 100%;
-        }
-        #quantity {
-            width: 100%;
-            height: 40px;
-        }
-        #custom-tab {
-            img {
-                max-width: @max-width;    
-            }
-        }
-        #video {
-            #player {
-                max-width: @max-width;
-            }
-        }
-        #btn-up {
-            display: @display2;
-        }
-
-        #btn-down {
-            display: @display2;
-        }
-    }
-    @media (max-width: 769px) {
-        ul.tab li a {
-            padding: 10px 135px;
-        }
-        #btn-up {
-            .btn-up-down;
-        }
-
-        #btn-down {
-            .btn-up-down;
-        }
-        #accessories {
-            h3 {
-                font-size: 13px;
-            }
-            .btn-add-to-cart {
-                font-size: 8px;
-            }
-        }
-        #custom-tab {
-            img {
-                max-width: @max-width;    
-            }
-        }
-    }
+  
 }

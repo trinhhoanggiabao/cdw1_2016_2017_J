@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title></title>
+        <title>705</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,9 +23,10 @@
     </head>
 
     <body>
-            <header class="type-705">
-                <div class="topheader">
-                    <div class="container">
+        <header class="type-705">
+            <div class="topheader">
+                <div class="container">
+                    <div class="row">
                         <nav class="topmenu-left">
                             <ul class="top-parent-menu">
                                 <li>
@@ -73,28 +74,28 @@
                                 <li class="dropdown">
                                     <div class="show-countries">
                                         <figure>
-                                        <img src="images/eng.jpg" alt="English">
-                                        <a class="languege-en languege" href="#">English <i class="fa fa-angle-down"></i></a>
+                                            <img src="images/eng.jpg" alt="English">
+                                            <a class="languege-en languege" href="#">English <i class="fa fa-angle-down"></i></a>
                                         </figure>
                                     </div>     
                                     <div class="hide-countries">
                                         <figure>
-                                        <div class="countries">
-                                            <img src="images/deu.jpg" alt="Deutch">
-                                            <a class="languege" href="#">Deutch</a>
-                                        </div>  
-                                        <div class="countries">
-                                            <img src="images/span.jpg" alt="Español">
-                                            <a class="languege" href="#">Español</a>
-                                        </div>
-                                        <div class="countries">
-                                            <img src="images/fra.jpg" alt="Français">
-                                            <a class="languege" href="#">Français</a>
-                                        </div>  
-                                        <div class="countries">
-                                            <img src="images/aca.jpg" alt="العربية">
-                                            <a class="languege" href="#">العربية</a>
-                                        </div>
+                                            <div class="countries">
+                                                <img src="images/deu.jpg" alt="Deutch">
+                                                <a class="languege" href="#">Deutch</a>
+                                            </div>  
+                                            <div class="countries">
+                                                <img src="images/span.jpg" alt="Español">
+                                                <a class="languege" href="#">Español</a>
+                                            </div>
+                                            <div class="countries">
+                                                <img src="images/fra.jpg" alt="Français">
+                                                <a class="languege" href="#">Français</a>
+                                            </div>  
+                                            <div class="countries">
+                                                <img src="images/aca.jpg" alt="العربية">
+                                                <a class="languege" href="#">العربية</a>
+                                            </div>
                                         </figure>
                                     </div>
                                 </li>
@@ -115,8 +116,10 @@
                         </nav>
                     </div>
                 </div>
-                <div class="topheader2">
-                    <div class="container">
+            </div>
+            <div class="topheader2">
+                <div class="container">
+                    <div class="row">
                         <div class="shopping-cart">
                             <a class="cart" href="#" title="View my shopping cart">
                                 <i class="fa fa-shopping-basket"></i>
@@ -133,7 +136,8 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
+        </header>
     </body>
 
 </html>

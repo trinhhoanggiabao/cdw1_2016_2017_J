@@ -37,6 +37,16 @@
     @cursor: pointer;
     @line-height: 23px;
     @line-height22px: 22px;
+    @text-decoration: none;
+    @box-sizing: border-box;
+    @width: 100%;
+    @border-medium: medium none;
+    @white-space: nowrap;
+    @padding_6px_1px: 6px 1px;
+    @margin_right_15: 15px;
+    @padding_9px_0_0_80px: 9px 0 0 80px;
+    @min-height: 230px;
+    
     #footer .footer-border-left-1 {
         border-left: @border-left;
         text-align: @text-align;
@@ -209,11 +219,11 @@
         background: @background3c;
         line-height: @line-height22px;
         text-align: @text-align;
-        white-space: nowrap;
-        text-decoration: none;
+        white-space: @white-space;
+        text-decoration: @text-decoration;
         font-weight: @font-weight;
         text-transform: @text-transform;
-        padding: 6px 1px;
+        padding: @padding_6px_1px;
         color: @color;
         border:1px solid #fff;
 
@@ -224,11 +234,11 @@
         background: @background26;
         line-height: @line-height22px;
         text-align: @text-align;
-        white-space: nowrap;
-        text-decoration: none;
+        white-space: @white-space;
+        text-decoration: @text-decoration;
         font-weight: bold;
         text-transform: @text-transform;
-        padding: 6px 1px;
+        padding: @padding_6px_1px;
         color: @color;
         border:1px solid #262626;
 
@@ -248,48 +258,48 @@
         border-left: @border-left;
         box-sizing: @box-sizing;
         float: @float;
-        margin-right: 15px;
-        padding: 9px 0 0 80px;
-        width: 100%;
-        min-height: 230px;
+        margin-right: @margin_right_15;
+        padding: @padding_9px_0_0_80px;
+        width: @width;
+        min-height: @min-height;
     }
     #footer #block_1.footer-area {
-        border: medium none;
+        border: @border-medium;
         margin: -30px 53px 0 0;
         padding: 15px;
         text-align: @text-align;
-        width: 100%;
+        width: @width;
         box-sizing: @box-sizing;
         color: @colorc5;
         border-left: @border-left;
     }
     #footer #block_2.footer-area {
-        border: medium none;
+        border: @border-medium;
         margin: 0 53px 0 0;
         padding: 12px;
         text-align: @text-align;
-        width: 100%;
+        width: @width;
         box-sizing: @box-sizing;
         color: @colorc5;
         border-left: @border-left;
     }
     #footer #block_3.footer-area {
-        border: medium none;
+        border: @border-medium;
         margin: 0 53px 0 0;
         padding: 12px;
         text-align: @text-align;
-        width: 100%;
+        width: @width;
         box-sizing: @box-sizing;
         color: @colorc5;
         border-left: @border-left;
     }
 
     #footer #block_4.footer-area {
-        border: medium none;
+        border: @border-medium;
         margin: 0 53px 0 0;
         padding: 12px;
         text-align: @text-align;
-        width: 100%;
+        width: @width;
         box-sizing: @box-sizing;
         color: @colorc5;
         border-left: @border-left;
@@ -315,6 +325,7 @@
     }
     .footer li {
         padding: @padding0;
+        color: #c5c5c5;
     }
     #footer #block_1.footer-area li {
         line-height: @line-height;
@@ -327,11 +338,11 @@
         cursor: auto;
     }
     .footer a {
-        text-decoration: none;
+        text-decoration: @text-decoration;
         color: @colorc5;
     }
     .footer a:hover{
-        text-decoration: none;
+        text-decoration: @text-decoration;
         color: @color;
     }
     img {
@@ -365,7 +376,7 @@
         text-align: @text-alignleft;
     }
     #footer .footer-border-left .footer-title{
-        padding-bottom:  20px ;
+        padding-bottom:  20px;
         font-weight: @font-weight;
         font-size: 16px;
         color: @color;
@@ -412,21 +423,12 @@
     }
     #footer .footer-area {
         border-left: @border-left;
-        box-sizing: border-box;
+        box-sizing: @box-sizing;
         float: @float;
-        margin-right: 15px;
-        padding: 9px 0 0 80px;
+        margin-right: @margin_right_15;
+        padding: @padding_9px_0_0_80px;
         width: 21.3%;
-        min-height: 230px;
-    }
-    #footer .footer-area {
-        border-left: @border-left;
-        box-sizing: border-box;
-        float: @float;
-        margin-right: 15px;
-        padding: 9px 0 0 80px;
-        width: 21.3%;
-        min-height: 230px;
+        min-height: @min-height;
     }
     address {
         font-style: normal;

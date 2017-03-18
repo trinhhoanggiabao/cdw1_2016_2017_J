@@ -20,6 +20,7 @@
 
         <div class="type-703">
             <div class="container">
+                <div class="row">
                 <div class="col-md-6 col-sm-4 col-xs-12">
                     <div class="product">
                         <figure class="items col-md-9">
@@ -54,60 +55,7 @@
                         </article>
 
                     </div>
-
-                    <div class="col-md-12">
-
-                        <h5>Also purchased products</h5>
-                        <!--Begin slide show images-->
-                        <div class="purchase-item" id="item-product">
-                            <figure class="thumb-img-carousel">
-                                <img src="images/calvin-klein-white-cap-colorblock111.jpg" alt="">
-                            </figure>
-
-                            <figure class="thumb-img-carousel">
-                                <img src="images/dress-david-meister-lady-in-red.jpg" alt="">
-                            </figure>
-
-                            <figure class="thumb-img-carousel">
-                                <img src="images/dress-elie-tahari-head-heels.jpg" alt="">
-                            </figure>
-
-                            <figure class="thumb-img-carousel">
-                                <img src="images/dress-bibhu-mohapatra-luxury-lush-gown.jpg" alt="">
-                            </figure>
-
-                            <figure class="thumb-img-carousel">
-                                <img src="images/dress-nanette-lepore-want-me.jpg" alt="">
-                            </figure>
-
-                            <figure class="thumb-img-carousel">
-                                <img src="images/dress-anna-sui-dot-flutter.jpg" alt="">
-                            </figure>
-
-                            <figure class="thumb-img-carousel">
-                                <img src="images/dress-nanette-lapore-girls-only.jpg" alt="">
-                            </figure>
-
-                            <figure class="thumb-img-carousel">
-                                <img src="images/dress-milly-poppy-fields-sheat.jpg" alt="">
-                            </figure>
-
-                            <figure class="thumb-img-carousel">
-                                <img src="images/dress-tibi-red-rococo-print.jpg" alt="">
-                            </figure>
-                        </div>
-                        <!--End slide show images-->
-
-                        <!--Begin Button move left-right-->
-                        <div class="btn-move-left button">
-                            <i class="fa fa-chevron-left"></i>
-                        </div>
-                        <article class="btn-move-right button">
-                            <i class="fa fa-chevron-right"></i>
-                        </article>
-                        <!--End Button move left-right-->
-                    </div>
-
+             
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <div class="product">
@@ -151,11 +99,11 @@
 
                             <div id="data-sheet" class="tabcontent">
                                 <table>
-                                    <tr class="odd">
+                                    <tr>
                                         <td>Height</td>
                                         <td>Silk</td>
                                     </tr>
-                                    <tr class="even">
+                                    <tr>
                                         <td>Material</td>
                                         <td>Cotton</td>
                                     </tr>
@@ -274,7 +222,7 @@
                         <a href="#" class="wishlist">» Add to my wishlist</a>
                     </div>
                 </div>
-
+                </div>
             </div>
         </div>
         <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>

@@ -31,10 +31,9 @@
             <div class="row">    
                 <div class="product-view">
                     <div class="col-md-6 col-sm-12 col-xs-12">
-
                         <div class="detail_left">
                             <div class="product-img-box">
-                                <div class="image" style="width: 100%;display: block"style="height: auto;">
+                                <div class="image">
                                     <img src="images/2_12.jpg">
                                 </div>
                                 <div class="carousel slide" id="myCarousel" > 
@@ -44,7 +43,7 @@
                                                 <div class="carousel-inner">
                                                     <div class="item active">
                                                         <div class="col-md-3 col-sm-4 col-xs-4 ">
-                                                            <li class="item   " style="width:  100%;">
+                                                            <li class="item" style="width:100%;">
                                                                 <div class="product-block" style="height: auto;">
                                                                     <div class="product-block-inner">
 
@@ -52,7 +51,7 @@
 
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                 <figure>
-                                                                                    <img   src="images/2_12.jpg" width="100" height="105" alt="" class="click">
+                                                                                    <img src="images/2_12.jpg" width="100" height="105" alt="" class="click">
                                                                                 </figure>
                                                                             </div>
 
@@ -96,7 +95,7 @@
                                                                         <div class="product-image-block">
 
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                <figure><img   src="images/6_1_14.jpg" alt="" class="click"></figure>
+                                                                                <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
 
                                                                             </div>
 
