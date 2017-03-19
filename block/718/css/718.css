@@ -1,3 +1,10 @@
+.type-718 .abn {
+  width: 1200px;
+  padding: 0px;
+}
+.type-718 .column_left_cms {
+  width: 230px;
+}
 .type-718 .color-font {
   color: #000;
   font-weight: bold;
@@ -15,27 +22,27 @@
   border: none;
   border-radius: 0;
 }
-.type-718 .nav navbar-nav {
-  float: none;
-}
 .type-718 .navbar-default .navbar-brand {
   color: #000;
   font-weight: bold;
   display: none;
   font-size: 1em;
 }
-.type-718 .navbar-default .navbar-nav>.active>a,
-.type-718 .navbar-default .navbar-nav>.active>a:focus,
-.type-718 .navbar-default .navbar-nav>.active>a:hover {
+.type-718 .navbar-default .navbar-nav {
+  float: none;
+}
+.type-718 .navbar-default .navbar-nav li {
+  float: none;
+}
+.type-718 .navbar-default .navbar-nav li a {
+  padding: 5px;
+}
+.type-718 .navbar-default .navbar-nav .active>a,
+.type-718 .navbar-default .navbar-nav .active>a:focus,
+.type-718 .navbar-default .navbar-nav .active>a:hover {
   background: none;
   color: #000;
   font-weight: bold;
-}
-.type-718 .navbar-default .navbar-nav>li>a {
-  padding: 5px;
-}
-.type-718 .navbar-nav>li {
-  float: none;
 }
 .type-718 .shopcollection ul {
   list-style: none;
@@ -48,6 +55,10 @@
 .type-718 .shopcollection ul li a {
   color: #666;
 }
+.type-718 .shopcollection ul li a:hover {
+  text-decoration: none;
+  color: #333;
+}
 .type-718 .shopcollection .active {
   color: #000;
   font-weight: bold;
@@ -56,16 +67,20 @@
   list-style: none;
   padding: 0 0 0 20px;
 }
-.type-718 .wintershop .active {
-  color: #000;
-  font-weight: bold;
-}
 .type-718 .wintershop ul li {
   float: none;
   padding: 5px 0;
 }
 .type-718 .wintershop ul li a {
   color: #666;
+}
+.type-718 .wintershop ul li a:hover {
+  text-decoration: none;
+  color: #333;
+}
+.type-718 .wintershop .active {
+  color: #000;
+  font-weight: bold;
 }
 @media only screen and (max-width: 768px) {
   .type-718 .navbar-default .navbar-nav>.active>a,
@@ -87,5 +102,10 @@
   }
   .type-718 .navbar-nav {
     border: 1px solid #666;
+  }
+}
+@media only screen and (max-width: 979px) {
+  .type-718 .shopcollection ul {
+    display: none;
   }
 }

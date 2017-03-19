@@ -64,8 +64,8 @@
         transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
     }
     .font-text{
-       text-align:left; 
-       font-weight: @the-normal;
+        text-align:left; 
+        font-weight: @the-normal;
     }
     background:@color2;
     color:@color3;
@@ -74,7 +74,7 @@
     line-height: @line-height;
     letter-spacing: 1px;
     .font-text;
-    
+
     * {.margin-padding;}
     img{ border: @border; vertical-align: @vertical-align; }
     a{ 
@@ -217,7 +217,8 @@
         width: @width2; 
         opacity:0;
         .left-position;
-        .margin-right;
+        right: 0;
+        margin: 0 auto;
         .ratings { 
             bottom: 40px; 
             .left-position;
@@ -237,12 +238,13 @@
         width: @width2;
         li.item { 
             float: @float; 
-            width: 300px;
+            width: 305px;
             padding: 0;
             list-style: @the-none;
         }
         li{ 
             .product-block{
+                height: 394px;
                 background: none repeat scroll 0 0 @color2;
                 clear: both;
                 margin: 5px 14px;
@@ -327,7 +329,7 @@
             background: url(../images/bkg_rating.png) 0 100% repeat-x;
         }
     }
-     
+
     .ratings {
         .rating-box {
             margin-right: 5px;
@@ -377,22 +379,27 @@
         font-size: @pixel + 2;
         li{ list-style: @the-none; }
     }
+
     .tabberlive_outer_sub{
-        nav {
+        .htabs{
             height: 35px;
-            line-height: @pixel + 6;
-            .position-text;
+            line-height: 16px;
+            position: relative;
+            text-align: center;
             &:before{
                 background: #cccccc none repeat scroll 0 0;
                 content: "";
-                display: @display;
+                display: block;
                 height: 1px;
-                padding: @padding;
+                left: 0;
+                padding: 0;
+                position: absolute;
                 top: 45%;
-                width: @width2;
-                .left-position;
+                width: 100%;
             }
         }
+
+
         ul.tabbernav_product { 
             clear: both;
             padding: 0 14px 0 0;

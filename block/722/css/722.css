@@ -1,3 +1,23 @@
+.type-722 .over-pos {
+  overflow: hidden;
+  position: relative;
+}
+.type-722 .float-box {
+  box-sizing: border-box;
+  float: left;
+}
+.type-722 .text-width {
+  text-align: center;
+  width: 100%;
+}
+.type-722 .display-width {
+  display: block;
+  width: 100%;
+}
+.type-722 .font-text {
+  font-weight: bold;
+  text-transform: uppercase;
+}
 .type-722 ul,
 .type-722 li {
   list-style: none;
@@ -11,20 +31,20 @@
   overflow: hidden;
 }
 .type-722 .tm_shipping_cms {
-  display: block;
   position: relative;
+  display: block;
   width: 100%;
 }
 .type-722 .tm_shipping_cms .shipping-heading {
   color: #000000;
   display: block;
   font-size: 18px;
-  font-weight: bold;
   margin-bottom: 30px;
   margin-top: 15px;
   padding-bottom: 21px;
   position: relative;
   text-align: left;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .type-722 .tm_shipping_cms .shipping-heading::after {
@@ -46,9 +66,9 @@
 .type-722 .ship_content3 {
   clear: both;
   margin-bottom: 40px;
+  width: 100%;
   overflow: hidden;
   position: relative;
-  width: 100%;
 }
 .type-722 .ship_content1 .img_content {
   background: url(../images/icons.png) no-repeat scroll 20px 26px transparent;
@@ -76,12 +96,12 @@
 }
 .type-722 .img_content {
   border: 1px solid #d9d9d9;
-  float: left;
   height: 80px;
   margin-right: 40px;
   position: relative;
   width: 80px;
   box-sizing: border-box;
+  float: left;
 }
 .type-722 .des_content .heading {
   color: #1c1c1c;
@@ -113,10 +133,10 @@
   color: #666666;
 }
 .type-722 .testimonial .post-author {
-  font-weight: bold;
   margin: 20px 0 15px;
   padding: 0;
   text-align: center;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .type-722 .testimonial .post-author a {
@@ -131,10 +151,10 @@
 }
 .type-722 .testimonial_outer {
   background: #f2f2f2 none repeat scroll 0 0;
-  float: left;
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
+  float: left;
 }
 .type-722 .testimonial_inner {
   border: 2px solid #fcfbf6;
@@ -193,8 +213,9 @@
   .type-722 .ship_content1 .img_content,
   .type-722 .ship_content2 .img_content,
   .type-722 .ship_content3 .img_content {
-    margin-left: 60px;
-    margin-bottom: 30px;
+    display: inline-block;
+    float: none;
+    margin: 0 0 20px;
   }
   .type-722 .carousel {
     padding: 0;

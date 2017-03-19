@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 
 <html>
-
     <head>
         <title></title>
         <meta charset="UTF-8">
@@ -20,12 +19,11 @@
         ?>
         <link href="css/719.css" rel="stylesheet" type="text/css" />
     </head>
-
     <body>
-        <div class="type-719">
-            <div class="container">
-                <div class="banner">
-                    <div class=row>
+        <div class="container">
+            <div class="row">
+                <div class="type-719">
+                    <div class="banner">
                         <div class="col-md-8 col-sm-6 col-xs-12">
                             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                                 <!-- Indicators -->
@@ -56,7 +54,7 @@
                         <!--=========phan sigle banner============-->
                         <div class="col-md-4 col-sm-6 col-xs-12">
                             <div class="singlebanner">
-                                <figure><img src="images/sub1.jpg" alt=""/></figure>
+                                <img src="images/sub1.jpg" alt=""/>
                             </div>
                         </div>
                     </div>
@@ -64,9 +62,4 @@
             </div>
         </div>
     </body>
-</div>
-
-</div>
-</body>
-
 </html>

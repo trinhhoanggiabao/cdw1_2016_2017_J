@@ -10,29 +10,76 @@
         border: @border;
         font-size: 1.2em;
     }
-    .banner{padding: 15px 0 0 0;}
-    .carousel-inner>.item>a>img, .carousel-inner>.item>img{width: @the-pt;}
-    .carousel-indicators .active{background: @color2;}
-    .carousel-indicators li{
-        border-radius: 0;
-        background: @color;
-        border: 1px solid @color2;
+    .banner{
+        padding: 15px 0 0 0;
+        float: right;
+        width: 940px;
+        .carousel-inner>.item>a>img, .carousel-inner>.item>img{width: @the-pt;}
+        .carousel-indicators {
+            .active{
+                background: @color2;
+            }
+            li{
+                border-radius: 0;
+                background: @color;
+                border: 1px solid @color2;
+                &:hover{
+                    background: rgba(0, 0, 0, 0.9);
+                }
+            }
+        }
+        .slide{
+            width: @the-pt;
+            &:hover{
+                .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{display: @display;}
+                .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{display: @display;}
+            }
+        }
+        .singlebanner{
+            overflow: hidden;
+            img{width: @the-pt;}
+            &:hover img{
+                transform: scale(1.1);
+                transition: all 0.3s ease 0s;
+            }
+        }
     }
     .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{.display-border-font;}
-    .slide{
-        width: @the-pt;
-        &:hover{
-            .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{display: @display;}
-            .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{display: @display;}
-        }
-    }
+
     .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{.display-border-font;}
-    .singlebanner{
-        overflow: hidden;
-        img{width: @the-pt;}
-        &:hover img{
-            transform: scale(1.1);
-            transition: all 0.3s ease 0s;
+/*    @media only screen and (max-width: 1023px) and (min-width: 980px){
+        .banner{
+            width: 725px;
+        }
+        .singlebanner{
+            width: 725px;
         }
     }
+    @media only screen and (max-width: 1250px) and (min-width: 1024px){
+        .banner {
+            width: 765px;
+        }
+        .singlebanner{
+            width: 765px;
+        }
+
+
+    }
+    @media only screen and (max-width: 979px){
+        .banner{
+            width: auto;
+            float: none;
+        }
+        .singlebanner{
+             width: auto;
+            float: none;
+        }
+    }
+    @media only screen and (max-width: 479px){
+        .banner .singlebanner {
+            margin: 15px 0 0;
+            width: 100%;
+            text-align: center;
+        }
+    }*/
 }

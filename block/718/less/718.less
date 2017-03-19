@@ -5,6 +5,13 @@
     @color2: #666;
     @padding: 0 0 0 20px;
     @padding2: 5px 0;
+    .abn{
+        width: 1200px;
+        padding: 0px;
+    }
+    .column_left_cms{
+        width: 230px;
+    }
     .color-font{
         color: @color;
         font-weight: @font-weight;
@@ -21,28 +28,47 @@
         background: @the-none;
         border: @the-none;
         border-radius: 0;
+        .navbar-brand{
+            .color-font;
+            display: @the-none;
+            font-size: 1em;
+        }
+        .navbar-nav{
+            float: @the-none;
+            li{
+                float: @the-none;
+                a{
+                    padding: 5px;
+                }
+            }
+            .active>a, .active>a:focus,.active>a:hover{
+                background: @the-none;
+                .color-font;
+            }
+        }
+
     }
-    .nav navbar-nav{float: @the-none;}
-    .navbar-default .navbar-brand{
-        .color-font;
-        display: @the-none;
-        font-size: 1em;
+    .shopcollection {
+        ul{
+            .padding-list;
+            li{
+                .padding-float;
+                a{
+                    color: @color2;
+                    &:hover{
+                        text-decoration: none;
+                        color: #333;
+                    }
+                }
+            }
+        }
+        .active{
+            .color-font;
+        }
     }
-    .navbar-default .navbar-nav>.active>a, 
-    .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-        background: @the-none;
-        .color-font;
+    .wintershop{
+        .shopcollection;
     }
-    .navbar-default .navbar-nav>li>a{padding: 5px;}
-    .navbar-nav>li{float: @the-none;}
-    .shopcollection ul{.padding-list;}
-    .shopcollection ul li{.padding-float;}
-    .shopcollection ul li a{color: @color2;}
-    .shopcollection .active{.color-font;}
-    .wintershop ul{.padding-list;}
-    .wintershop .active{.color-font;}
-    .wintershop ul li{.padding-float;}
-    .wintershop ul li a{color: @color2;}
     @media only screen and (max-width:768px){
         .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus,
             .navbar-default .navbar-nav>.active>a:hover{
@@ -53,5 +79,10 @@
         .wintershop{display: @the-none;}
         .navbar-default .navbar-brand{display: block;}
         .navbar-nav{border: 1px solid @color2;}
+    }
+    @media only screen and (max-width: 979px){
+        .shopcollection ul{
+            display: none;
+        }
     }
 }

@@ -3,10 +3,12 @@
     <head>
         <title></title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-                
+        <link href="../css/owl.transitions.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/owl.transitions.css" rel="stylesheet" type="text/css"/>
+        <link href="../css/708.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
             include ('../libs/lessc.inc.php');
@@ -14,41 +16,33 @@
         $less = new lessc;
         $less->compileFile('../less/708.less', '../css/708.css');
         ?>
-        <link href="../css/708.css" rel="stylesheet" type="text/css" />
-        <script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>        
-        <script type="text/javascript" src="../js/script.js"></script>
+        <script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="../js/script.js" type="text/javascript"></script>
+        
     </head>
     <body>
         <div class="type-708">
             <div class="container">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="product">
-                    <div class="items col-md-9">
-                        <figure>
-                        <img src="../images/moschino-cheap-and-chic-yacht-main.jpg">
-                        </figure>
+                <div class="row">
+                    <div class="image">
+                        <img src="../images/dress-anna-sui-dot-flutter.jpg" alt=""/>
+                        <img src="../images/dress-bibhu-mohapatra-luxury-lush-gown.jpg" alt=""/>
+                        <img src="../images/dress-david-meister-lady-in-red.jpg" alt=""/>
+                        <img src="../images/dress-herve-leger-contrast-entrapment.jpg" alt=""/>
+                        <img src="../images/dress-herve-leger-sip-and-shine-martini.jpg" alt=""/>
+                        <img src="../images/dress-nanette-lepore-want-me.jpg" alt=""/>
+                        <img src="../images/dress-parker-little-bit-of-luck.jpg" alt=""/>
                     </div>
-                    <div class="thumbs-list col-md-3">
-                        <div class="btn-move" id="btn-up" onclick="clickButtonUp()">
-                            <i class="fa fa-chevron-up"></i>
-                        </div>
-                        <figure>
-                            <img src="../images/moschino-cheap-and-chic-yacht-main.jpg" id="show">
-                            <img src="../images/moschino-cheap-and-chic-yacht-thumb2.jpg">
-                            <img src="../images/moschino-cheap-and-chic-yacht-thumb3.jpg">
-                            <img src="../images/moschino-cheap-and-chic-yacht-thumb4.jpg">                         
-                            <img src="../images/moschino-cheap-and-chic-yacht-a.jpg" id="hide">
-                        </figure>
-                        <div class="btn-move" id="btn-down" onclick="clickButtonDown()">
-                            <i class="fa fa-chevron-down"></i>
-                        </div>
+                    <div id="galprev" class="btn-move-left button btn-prev">
+                        <i class="fa fa-chevron-left"></i>
                     </div>
+
+                    <div id="galnext" class="btn-move-right button btn-next">
+                        <i class="fa fa-chevron-right"></i>
+                    </div>
+
                 </div>
             </div>
-            
         </div>
-        </div>
-    </body>
-        
-
+    </body>       
 </html>
