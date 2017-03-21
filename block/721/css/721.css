@@ -275,7 +275,6 @@
   list-style: none;
 }
 .type-721 .products-grid li .product-block {
-  height: 394px;
   background: none repeat scroll 0 0 #fff;
   clear: both;
   margin: 5px 14px;
@@ -294,6 +293,15 @@
 }
 .type-721 .products-grid .price-box {
   margin: 2px 0 7px;
+}
+.type-721 .products-grid:after {
+  display: block;
+  content: ".";
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
 }
 .type-721 .tabberlive_outer_sub .products-grid li .product-block {
   margin: 5px 10px;
@@ -550,7 +558,6 @@
   display: inline-block;
   font-weight: bold;
   text-align: center;
-  margin: 60px;
 }
 .type-721 .tabberlive_outer_sub .tabs .view_actions a:hover {
   background: #000;
@@ -571,9 +578,62 @@
     width: auto;
     margin: 0 15px;
   }
+  .type-721 .product_desc,
+  .type-721 .product_hover-block {
+    opacity: 1;
+    -webkit-opacity: 1;
+  }
 }
 @media only screen and (max-width: 479px) {
   .type-721 .tabberlive_outer_sub ul.tabbernav_product li {
     width: 100%;
+    padding: 0 0 5px;
+  }
+}
+@media only screen and (max-width: 1250px) and (min-width: 1024px) {
+  .type-721 .container-width {
+    width: 980px;
+  }
+  .type-721 .products-grid li.item {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 1220px) and (min-width: 980px) {
+  .type-721 .products-grid li.item {
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 978px) and (min-width: 696px) {
+  .type-721 .products-grid li.item {
+    width: 223px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .type-721 .htabs .tabbernav_product li {
+    padding: 0 2px;
+  }
+  .type-721 .htabs .tabbernav_product .tab-text::before,
+  .type-721 .htabs .tabbernav_product .tab-text span {
+    padding: 8px 10px;
+  }
+}
+@media only screen and (max-width: 693px) and (min-width: 643px) {
+  .type-721 .products-grid li.item {
+    width: 301px;
+  }
+}
+@media only screen and (max-width: 642px) and (min-width: 502px) {
+  .type-721 .products-grid li.item {
+    width: 235px;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 398px) {
+  .type-721 .products-grid li.item {
+    width: 185px;
+  }
+}
+@media only screen and (max-width: 396px) {
+  .type-721 .products-grid li.item {
+    width: 301px;
   }
 }
