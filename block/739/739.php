@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12">
-                        <article class="hentry">
+                        <div class="hentry">
                             <div class="entry-content">
                                 <!------------Our Partners---------------->
                                 <div class="vc_row">
@@ -54,10 +54,10 @@
                                                             <div class="lms_our_partner_item">
                                                                 <img src="images/partner1-220x50.png" alt=""/>
                                                                 <hr>
-                                                                    <p class="quote">"</p>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                                                        Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
-                                                                    <p class="quote">"</p>
+                                                                <p class="quote">"</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                                                    Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
+                                                                <p class="quote">"</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -66,20 +66,20 @@
                                                             <div class="lms_our_partner_item">
                                                                 <img src="images/partner2-220x50.png" alt=""/>
                                                                 <hr>
-                                                                    <p class="quote">"</p>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
-                                                                    <p class="quote">"</p>
+                                                                <p class="quote">"</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
+                                                                <p class="quote">"</p>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="swiper-slide box4">
                                                         <div class="lms_our_partner_slider_item">
                                                             <div class="lms_our_partner_item">
-                                                            <img src="images/partner3-220x50.png" alt=""/>
+                                                                <img src="images/partner3-220x50.png" alt=""/>
                                                                 <hr>
-                                                                    <p class="quote">"</p>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
-                                                                    <p class="quote">"</p>
+                                                                <p class="quote">"</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
+                                                                <p class="quote">"</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -88,9 +88,9 @@
                                                             <div class="lms_our_partner_item">
                                                                 <img src="images/partner1-220x50.png" alt=""/>
                                                                 <hr>
-                                                                    <p class="quote">"</p>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
-                                                                    <p class="quote">"</p>
+                                                                <p class="quote">"</p>
+                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
+                                                                <p class="quote">"</p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -108,13 +108,12 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                    </article>
                 </div>
             </div>
+
         </div>
-        
-    </div>
-</body>
+    </body>
 
 </html>
