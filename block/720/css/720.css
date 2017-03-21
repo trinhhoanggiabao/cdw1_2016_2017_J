@@ -20,6 +20,7 @@
   display: block;
 }
 .type-720 .text {
+  font-weight: bold;
   bottom: 15px;
   left: 30px;
   font-size: 18px;
@@ -42,5 +43,15 @@
 @media only screen and (max-width: 768px) {
   .type-720 .sub-banner:hover .shopnow {
     display: none;
+  }
+}
+@media only screen and (min-width: 995px) and (max-width: 1199px) {
+  .type-720 .shopnow {
+    width: 91%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 994px) {
+  .type-720 .shopnow {
+    width: 88%;
   }
 }
