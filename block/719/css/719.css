@@ -5,36 +5,48 @@
 }
 .type-719 .banner {
   padding: 15px 0 0 0;
-  float: right;
-  width: 940px;
+  text-align: center;
 }
-.type-719 .banner .carousel-inner>.item>a>img,
-.type-719 .banner .carousel-inner>.item>img {
+.type-719 .banner .flexslider .slide {
   width: 100%;
 }
-.type-719 .banner .carousel-indicators .active {
+.type-719 .banner .flexslider .slide:hover .carousel-control .glyphicon-chevron-left,
+.type-719 .banner .flexslider .slide:hover .carousel-control .icon-prev {
+  display: block;
+}
+.type-719 .banner .flexslider .slide:hover .carousel-control .glyphicon-chevron-right,
+.type-719 .banner .flexslider .slide:hover .carousel-control .icon-next {
+  display: block;
+}
+.type-719 .banner .flexslider .slide .carousel-indicators .active {
   background: #000;
 }
-.type-719 .banner .carousel-indicators li {
+.type-719 .banner .flexslider .slide .carousel-indicators li {
   border-radius: 0;
   background: #fff;
   border: 1px solid #000;
 }
-.type-719 .banner .carousel-indicators li:hover {
+.type-719 .banner .flexslider .slide .carousel-indicators li:hover {
   background: rgba(0,0,0,0.9);
 }
-.type-719 .banner .slide {
+.type-719 .banner .flexslider .slide .carousel-inner>.item>a>img,
+.type-719 .banner .flexslider .slide .carousel-inner>.item>img {
   width: 100%;
 }
-.type-719 .banner .slide:hover .carousel-control .glyphicon-chevron-left,
-.type-719 .banner .slide:hover .carousel-control .icon-prev {
-  display: block;
+.type-719 .banner .flexslider .carousel-control .glyphicon-chevron-left,
+.type-719 .banner .flexslider .carousel-control .icon-prev {
+  display: none;
+  border: 2px solid #fff;
+  font-size: 1.2em;
 }
-.type-719 .banner .slide:hover .carousel-control .glyphicon-chevron-right,
-.type-719 .banner .slide:hover .carousel-control .icon-next {
-  display: block;
+.type-719 .banner .flexslider .carousel-control .glyphicon-chevron-right,
+.type-719 .banner .flexslider .carousel-control .icon-next {
+  display: none;
+  border: 2px solid #fff;
+  font-size: 1.2em;
 }
 .type-719 .banner .singlebanner {
+  width: 100%;
   overflow: hidden;
 }
 .type-719 .banner .singlebanner img {
@@ -44,15 +56,13 @@
   transform: scale(1.1);
   transition: all 0.3s ease 0s;
 }
-.type-719 .carousel-control .glyphicon-chevron-left,
-.type-719 .carousel-control .icon-prev {
-  display: none;
-  border: 2px solid #fff;
-  font-size: 1.2em;
+@media (max-width: 993px) and (min-width: 767px) {
+  .type-719 .banner .singlebanner {
+    width: 48%;
+  }
 }
-.type-719 .carousel-control .glyphicon-chevron-right,
-.type-719 .carousel-control .icon-next {
-  display: none;
-  border: 2px solid #fff;
-  font-size: 1.2em;
+@media (max-width: 766px) {
+  .type-719 .banner .singlebanner {
+    margin-top: 12px;
+  }
 }

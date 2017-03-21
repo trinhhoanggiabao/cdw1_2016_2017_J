@@ -12,30 +12,35 @@
     }
     .banner{
         padding: 15px 0 0 0;
-        float: right;
-        width: 940px;
-        .carousel-inner>.item>a>img, .carousel-inner>.item>img{width: @the-pt;}
-        .carousel-indicators {
-            .active{
-                background: @color2;
-            }
-            li{
-                border-radius: 0;
-                background: @color;
-                border: 1px solid @color2;
+        text-align: center;
+        .flexslider{
+            .slide{
+                width: @the-pt;
                 &:hover{
-                    background: rgba(0, 0, 0, 0.9);
+                    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{display: @display;}
+                    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{display: @display;}
                 }
+                .carousel-indicators {
+                    .active{
+                        background: @color2;
+                    }
+                    li{
+                        border-radius: 0;
+                        background: @color;
+                        border: 1px solid @color2;
+                        &:hover{
+                            background: rgba(0, 0, 0, 0.9);
+                        }
+                    }
+                }
+                .carousel-inner>.item>a>img, .carousel-inner>.item>img{width: @the-pt;}
             }
-        }
-        .slide{
-            width: @the-pt;
-            &:hover{
-                .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{display: @display;}
-                .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{display: @display;}
-            }
+            .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{.display-border-font;}
+
+            .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{.display-border-font;}
         }
         .singlebanner{
+            width: 100%;
             overflow: hidden;
             img{width: @the-pt;}
             &:hover img{
@@ -44,42 +49,14 @@
             }
         }
     }
-    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{.display-border-font;}
-
-    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{.display-border-font;}
-/*    @media only screen and (max-width: 1023px) and (min-width: 980px){
-        .banner{
-            width: 725px;
-        }
-        .singlebanner{
-            width: 725px;
+    @media (max-width: 993px) and (min-width:767px){
+        .banner .singlebanner{
+            width: 48%;
         }
     }
-    @media only screen and (max-width: 1250px) and (min-width: 1024px){
-        .banner {
-            width: 765px;
-        }
-        .singlebanner{
-            width: 765px;
-        }
-
-
-    }
-    @media only screen and (max-width: 979px){
-        .banner{
-            width: auto;
-            float: none;
-        }
-        .singlebanner{
-             width: auto;
-            float: none;
+     @media (max-width: 766px){
+        .banner .singlebanner{
+            margin-top: 12px;
         }
     }
-    @media only screen and (max-width: 479px){
-        .banner .singlebanner {
-            margin: 15px 0 0;
-            width: 100%;
-            text-align: center;
-        }
-    }*/
 }
