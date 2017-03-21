@@ -32,7 +32,7 @@
                     </div>
                     <div class="tabs">    
                         <div class="tab-content">
-                            <div id="newproducts" class="tab-pane fade in active">
+                            <div class="tab-pane fade in active">
                                 <ul class="products-grid">
                                     <li class="item">
                                         <!------div class product-block-inner----->
