@@ -14,16 +14,16 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/760.less', 'css/760.css');
+        $less->compileFile('less/755.less', 'css/755.css');
         ?>
-        <link href="css/760.css" rel="stylesheet" type="text/css" />
+        <link href="css/755.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
     </head>
 
     <body>
-        <div class="type-760">
+        <div class="type-755">
             <div class="type-34">
                 <div class="container">
                     <div class="col-md-9 col-xs-12">
