@@ -1,0 +1,199 @@
+.type-L-3 .type-34 .detail {
+  width: 1180px;
+  margin-left: -20px;
+}
+.type-L-3 .type-34 .detail .thin {
+  max-width: 100px;
+  margin-top: 20px;
+}
+.type-L-3 .type-34 .detail .carousel > .window {
+  overflow: hidden;
+  position: relative;
+  height: 300px;
+}
+.type-L-3 .type-34 .detail .carousel ul {
+  list-style: none;
+  top: 0;
+  left: 0;
+  position: absolute;
+  padding: 0px;
+}
+.type-L-3 .type-34 .detail .carousel li {
+  margin: 3px 0 0;
+}
+.type-L-3 .type-34 .detail .prev,
+.type-L-3 .type-34 .detail .next {
+  font-size: 30px;
+  width: 100%;
+  position: relative;
+  left: 50%;
+  left: 23%;
+  margin-left: -15px;
+}
+.type-L-3 .type-34 .detail .carousel li:first-child {
+  margin: 0;
+}
+.type-L-3 .type-34 .detail .item img {
+  width: 100%;
+}
+.type-L-3 .type-34 .detail .big-img {
+  margin-top: 30px;
+}
+.type-L-3 .type-34 .detail .big-img img {
+  width: 100%;
+}
+.type-L-3 .type-34 .detail .info {
+  margin-top: 20px;
+}
+.type-L-3 .type-34 .detail .name h1 {
+  color: #333;
+  line-height: normal;
+}
+.type-L-3 .type-34 .detail .rating {
+  display: block;
+}
+.type-L-3 .type-34 .detail .rating #active {
+  margin-left: 20px;
+}
+.type-L-3 .type-34 .detail .rating a {
+  color: #888;
+}
+.type-L-3 .type-34 .detail .rating a:hover {
+  color: #19caaf;
+  list-style: none;
+  text-decoration: none;
+}
+.type-L-3 .type-34 .detail .price {
+  margin-top: -17px;
+  border-bottom: 1px solid #dddddd;
+}
+.type-L-3 .type-34 .detail .price h2 {
+  font-size: 31px;
+  color: #19caaf;
+}
+.type-L-3 .type-34 .detail .describe {
+  margin-top: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+.type-L-3 .type-34 .detail .QTY {
+  text-align: center;
+  margin-top: 20px;
+}
+.type-L-3 .type-34 .detail .btn-add {
+  margin-top: 20px;
+  background: #19caaf;
+}
+.type-L-3 .type-34 .detail .btn-add p {
+  text-align: center;
+  padding: 10px 0;
+}
+.type-L-3 .type-34 .detail .btn-add p a {
+  color: #ffffff;
+}
+.type-L-3 .type-34 .detail .btn-add :hover {
+  background: #333;
+}
+.type-L-3 .type-34 .detail .btn-add p a:hover {
+  text-decoration: none;
+}
+.type-L-3 .type-34 .detail .btn-other {
+  margin-top: 30px;
+}
+.type-L-3 .type-34 .detail .btn-love {
+  float: left;
+  width: 95%;
+  background: #19caaf;
+}
+.type-L-3 .type-34 .detail .btn-love h4 {
+  text-align: center;
+}
+.type-L-3 .type-34 .detail .btn-love a {
+  color: #ffffff;
+  text-align: center;
+}
+.type-L-3 .type-34 .detail .btn-compare {
+  float: right;
+  width: 95%;
+  background: #19caaf;
+}
+.type-L-3 .type-34 .detail .btn-compare h4 {
+  text-align: center;
+}
+.type-L-3 .type-34 .detail .btn-compare a {
+  color: #ffffff;
+  text-align: center;
+}
+.type-L-3 .type-34 .detail .description {
+  margin-top: 50px;
+}
+.type-L-3 .type-34 .detail .description h3 {
+  text-align: center;
+}
+.type-L-3 .type-34 .detail .video {
+  width: 99%;
+}
+.type-L-3 .type-34 .detail .text p {
+  color: #888;
+  font-size: 11px;
+}
+.type-L-3 .type-34 .detail .specification h3 {
+  margin-top: 50px;
+  text-align: center;
+}
+.type-L-3 .type-34 .detail .table {
+  margin-top: 20px;
+}
+.type-L-3 .type-34 .detail .table .td {
+  background: #F9F9F9;
+}
+.type-L-3 .type-34 .detail .reviews {
+  margin-top: 50px;
+}
+.type-L-3 .type-34 .detail .reviews h3 {
+  text-align: center;
+}
+.type-L-3 .type-34 .detail .message {
+  float: left;
+}
+.type-L-3 .type-34 .detail .title h3 {
+  text-align: center;
+  margin-top: 30px;
+}
+.type-L-3 .type-34 .detail .title h3 a {
+  color: #333;
+}
+.type-L-3 .type-34 .detail .title h3 a:hover {
+  color: #19caaf;
+  text-decoration: none;
+}
+.type-L-3 .type-34 .detail .nav {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.type-L-3 .type-34 .detail .nav i {
+  float: right;
+}
+.type-L-3 .type-34 .detail .nav p {
+  float: right;
+  margin-right: 10px;
+}
+.type-L-3 .type-34 .detail .note {
+  text-align: center;
+}
+.type-L-3 .type-34 .detail .note .active {
+  color: red;
+  font-weight: bold;
+}
+.type-L-3 .type-34 .detail .btn-continue {
+  margin-top: 30px;
+}
+.type-L-3 .type-34 .detail .btn-continue a {
+  background: #19caaf;
+  float: right;
+  padding: 20px 20px;
+  color: #ffffff;
+}
+.type-L-3 .type-34 .detail .btn-continue a:hover {
+  background: #333;
+  text-decoration: none;
+}
