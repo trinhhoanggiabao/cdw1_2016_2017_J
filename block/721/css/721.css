@@ -622,16 +622,6 @@
     width: 301px;
   }
 }
-@media only screen and (max-width: 642px) and (min-width: 502px) {
-  .type-721 .products-grid li.item {
-    width: 235px;
-  }
-}
-@media only screen and (max-width: 500px) and (min-width: 398px) {
-  .type-721 .products-grid li.item {
-    width: 185px;
-  }
-}
 @media only screen and (max-width: 396px) {
   .type-721 .products-grid li.item {
     width: 301px;
