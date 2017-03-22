@@ -1,0 +1,61 @@
+.type-L .type-34 .banner {
+  background: #f2f2f2;
+  margin-top: 20px;
+  float: right;
+  padding-left: 40px;
+}
+.type-L .type-34 .left img {
+  text-align: center;
+}
+.type-L .type-34 .top-right h1 {
+  margin-top: 100px;
+  float: left;
+  font-size: 19px;
+  color: #19caaf;
+}
+.type-L .type-34 .center-right {
+  float: left;
+}
+.type-L .type-34 .center-right p {
+  color: #888888;
+  margin-right: 125px;
+  text-align: left;
+}
+.type-L .type-34 .btn-shop {
+  float: left;
+  background: #2f2f2f;
+  border-radius: 5px;
+}
+.type-L .type-34 .btn-shop:hover {
+  background: #19caaf;
+}
+.type-L .type-34 .btn-shop a {
+  position: relative;
+  display: inline-block;
+  line-height: 21px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 7.5px 29px 7.5px 26px;
+  text-decoration: none;
+}
+.type-L .type-34 .btn-slide {
+  float: right;
+  padding-top: 50px;
+  padding-right: 20px;
+}
+.type-L .type-34 .btn-slide ul li {
+  display: inline-block;
+  list-style: none;
+}
+.type-L .type-34 .btn-slide ul li a {
+  margin-top: 100px;
+  magin-right: 30px;
+  color: #888;
+  background: #000000;
+  padding: 3px;
+  border-radius: 50%;
+}
+.type-L .type-34 .btn-slide ul li a:hover {
+  text-decoration: none;
+  background: #19caaf;
+}
