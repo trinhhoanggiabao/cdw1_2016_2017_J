@@ -23,7 +23,6 @@
         <div class="container">
             <div class="row">
                 <div class="type-722">
-                    <div class="testimonial_shipping_cms">
                         <!---1--->
                         <div class="col-md-6 col-xs-12 col-sm-6">
                             <div class="tm_shipping_cms">
@@ -109,7 +108,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>                                                      
+                                                                        
                     <!---end-->
                 </div>
             </div>

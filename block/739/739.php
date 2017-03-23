@@ -23,10 +23,10 @@
         <script src="js/script-j-5.js" type="text/javascript"></script>
     </head>
     <body>
-        <div class="type-739">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="type-739">
                         <div class="hentry">
                             <div class="entry-content">
                                 <!------------Our Partners---------------->

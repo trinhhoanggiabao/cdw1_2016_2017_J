@@ -18,10 +18,9 @@
         <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body>
-
-        <div class="container">
-            <div class="row">
-                <div class="type-706">
+        <div class="type-706">
+            <div class="container">
+                <div class="row">
                     <div class="col-md-7 col-sm-6 col-xs-12">
                         <div class="product">
                             <div class="items col-md-9">
@@ -46,6 +45,4 @@
             </div>
         </div>
     </body>
-
-
 </html>

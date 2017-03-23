@@ -20,10 +20,9 @@
         <link href="css/719.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-
-        <div class="container">
-            <div class="row">
-                <div class="type-719">
+        <div class="type-719">
+            <div class="container">
+                <div class="row">
                     <div class="banner">
                         <!------------flexslider--------------->
                         <div class="flexslider"> 

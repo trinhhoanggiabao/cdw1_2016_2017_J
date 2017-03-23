@@ -24,55 +24,6 @@
     <body>
         <footer>
             <div class="type-738">
-                <div class="lms_footer_top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="lms_newsletter">
-                                    <h3>Newsletter</h3>
-                                    <form class="form-inline" name="form2">
-                                        <div class="form-group">
-                                            <div id="form-control">
-                                                <input type="text" name="mailchimp_email" class="form-control" placeholder="Enter email">
-                                            </div>
-                                            <button type="button" name="submit" value="Submit" onclick="ValidateEmail(document.form2.mailchimp_email)" class="lms_newsletter_widget_btn">OK</button>
-                                        </div>
-                                    </form>
-                                    <div class="mailchimp_message">
-                                        Please make sure you enter a valid email address.
-                                    </div>
-                                    <div class="mailchimp_message1">
-                                        <span>Almost done, please check your email address to confirmation.</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <h3>Blog Category</h3>
-                                <select name="cat" id="cat" class="postform">
-                                    <option>Select Category</option>
-                                    <option>Art</option>
-                                    <option>Fashion</option>
-                                    <option>Health</option>
-                                    <option>Photography</option>
-                                    <option>Science</option>
-                                    <option>Writing</option>
-                                </select>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-12">
-                                <div class="lms_happening">
-                                    <h3>Happening Now</h3>
-                                    <div class="lms_happy_user">
-                                        <img src="images/h3.jpg" alt=""/>
-                                        <p>
-                                            <span class="lms_theme_color">Sunny Valim</span>
-                                            Integer quis aliquet enim, nec sollicitudin lectus.		
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="lms_footer_center">
                     <div class="container">
                         <div class="row">

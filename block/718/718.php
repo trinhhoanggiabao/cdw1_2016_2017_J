@@ -26,53 +26,47 @@
                         <!--===========phan categories=============-->
                         <nav class="navbar navbar-default">
                             <div class="collapse navbar-collapse" id="myNavbar">
-                                <nav>
-                                    <ul class="nav navbar-nav">
-                                        <li class="active"><a href="#">CATEGORIES</a></li>
-                                        <li><a href="#">Clothing</a></li>
-                                        <li><a href="#">Accessories</a></li> 
-                                        <li><a href="#">Tops & T-Shirts</a></li> 
-                                        <li><a href="#">Cardigans</a></li> 
-                                        <li><a href="#">Jumpers</a></li> 
-                                        <li><a href="#">Designer Wear</a></li> 
-                                        <li><a href="#">jersey tops</a></li> 
-                                        <li><a href="#">Blouses</a></li> 
-                                        <li><a href="#">Swim Wear</a></li> 
-                                        <li><a href="#">Skirts</a></li> 
-                                        <li><a href="#">Coats & Jackets</a></li> 
-                                    </ul>
-                                </nav>
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a href="#">CATEGORIES</a></li>
+                                    <li><a href="#">Clothing</a></li>
+                                    <li><a href="#">Accessories</a></li> 
+                                    <li><a href="#">Tops & T-Shirts</a></li> 
+                                    <li><a href="#">Cardigans</a></li> 
+                                    <li><a href="#">Jumpers</a></li> 
+                                    <li><a href="#">Designer Wear</a></li> 
+                                    <li><a href="#">jersey tops</a></li> 
+                                    <li><a href="#">Blouses</a></li> 
+                                    <li><a href="#">Swim Wear</a></li> 
+                                    <li><a href="#">Skirts</a></li> 
+                                    <li><a href="#">Coats & Jackets</a></li> 
+                                </ul>
                             </div>
                         </nav>
                         <hr>
                         <div class="clearfix"></div>
                         <!---===========phan Shop cllection==============-->
                         <div class="shopcollection">
-                            <nav>
-                                <ul>
-                                    <li ><a href="#" class="active">SHOP COLLECTION</a></li>
-                                    <li><a href="#">Holiday shop</a></li>
-                                    <li><a href="#">Fashion Essentials</a></li>
-                                    <li><a href="#">Work</a></li>
-                                    <li><a href="#">stripes</a></li>
-                                    <li><a href="#">Party</a></li>
-                                </ul>
-                            </nav>
+                            <ul>
+                                <li ><a href="#" class="active">SHOP COLLECTION</a></li>
+                                <li><a href="#">Holiday shop</a></li>
+                                <li><a href="#">Fashion Essentials</a></li>
+                                <li><a href="#">Work</a></li>
+                                <li><a href="#">stripes</a></li>
+                                <li><a href="#">Party</a></li>
+                            </ul>
                         </div>
                         <hr>
                         <div class="clearfix"></div>
                         <!---===========phan wintershop==============-->
                         <div class="wintershop">
-                            <nav>
-                                <ul>
-                                    <li ><a href="#" class="active">WINTER SHOP</a></li>
-                                    <li><a href="#">View all</a></li>
-                                    <li><a href="#">Faux Fur Coats</a></li>
-                                    <li><a href="#">Parkas</a></li>
-                                    <li><a href="#">Camel Coats</a></li>
-                                    <li><a href="#">Giles</a></li>
-                                </ul>
-                            </nav>
+                            <ul>
+                                <li ><a href="#" class="active">WINTER SHOP</a></li>
+                                <li><a href="#">View all</a></li>
+                                <li><a href="#">Faux Fur Coats</a></li>
+                                <li><a href="#">Parkas</a></li>
+                                <li><a href="#">Camel Coats</a></li>
+                                <li><a href="#">Giles</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

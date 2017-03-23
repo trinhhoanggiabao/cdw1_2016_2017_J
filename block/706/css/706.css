@@ -8,7 +8,7 @@
   border: 1px solid #e0e0e0;
 }
 .type-706 .product .thumbs-list {
-  margin-left: -24px;
+  margin-left: -10px;
 }
 .type-706 .product .thumbs-list img {
   margin-bottom: 13px;
@@ -31,4 +31,7 @@
 }
 .type-706 .product .thumbs-list .btn-move:hover {
   color: #e17365;
+}
+.type-706 #hide {
+  display: none;
 }
