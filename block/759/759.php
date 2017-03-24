@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>759</title>
+        <title></title>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/759.css" rel="stylesheet" type="text/css" />
