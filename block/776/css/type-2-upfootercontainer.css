@@ -1,0 +1,181 @@
+.type-776 <!--slider-->
+    .jk-slider {
+  width: 100%;
+}
+.type-776 .hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+  -webkit-transform: translate3d(-50%,-50%,0);
+  -moz-transform: translate3d(-50%,-50%,0);
+  -ms-transform: translate3d(-50%,-50%,0);
+  -o-transform: translate3d(-50%,-50%,0);
+  transform: translate3d(-50%,-50%,0);
+}
+.type-776 .hero h1 {
+  font-size: 6em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.type-776 .fade-carousel .carousel-inner .item .hero {
+  opacity: 0;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
+}
+.type-776 .fade-carousel .carousel-inner .item.active .hero {
+  opacity: 1;
+  -webkit-transition: 2s all ease-in-out .1s;
+  -moz-transition: 2s all ease-in-out .1s;
+  -ms-transition: 2s all ease-in-out .1s;
+  -o-transition: 2s all ease-in-out .1s;
+  transition: 2s all ease-in-out .1s;
+}
+.type-776 .layout .carousel-item {
+  width: 100% !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box;
+}
+.type-776 .recent-post {
+  height: auto;
+  overflow: hidden;
+  float: left;
+  margin-bottom: 20px;
+}
+.type-776 .recent-post figure {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: transparent;
+  overflow: hidden;
+  box-shadow: 0 8px 6px -7px #999;
+}
+.type-776 figure a {
+  display: block;
+}
+.type-776 figure .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  margin-left: -0.6px;
+  padding-right: 0.6px;
+}
+.type-776 figure .thumb-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  transform: scale(0);
+  -webkit-backface-visibility: hidden;
+}
+.type-776 .overlay .thumb-info i {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  font-size: 44px;
+  margin-top: -15px;
+  height: 30px;
+  line-height: 33px;
+  text-shadow: 0 0 5px rgba(0,0,0,0.2);
+  text-align: center;
+}
+.type-776 i[class^="fa-"] {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+.type-776 .recent-post figure img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 3;
+  display: block !important;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.type-776 .recent-post figure:hover img {
+  transform: scale(1.2);
+}
+.type-776 spb_posts_carousel_widget .recent-post .details-wrap {
+  padding: 15px 0;
+}
+.type-776 .recent-post .details-wrap {
+  display: block;
+  vertical-align: top;
+}
+.type-776 .recent-post h5 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.type-776 h5 {
+  color: #252525;
+  font-size: 15px;
+  line-height: 18px;
+}
+.type-776 a {
+  color: #252525;
+}
+.type-776 a:hover {
+  color: #1bbeb4;
+  text-decoration: none;
+}
+.type-776 .recent-post .post-details {
+  margin-bottom: 8px;
+}
+.type-776 .flexslider .slides > li {
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  -webkit-backface-visibility: hidden;
+}
+.type-776 .flexslider .slides li img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block !important;
+}
+.type-776 h4.spb_heading {
+  font-weight: normal;
+  margin-top: 0;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.type-776 h4.spb_heading::before {
+  content: "";
+  display: block;
+  border-top: 2px solid #444;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+.type-776 h4.spb_heading span,
+.type-776 h4.lined-heading span {
+  padding: 0 10px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  background: #ffffff;
+  margin: 10px;
+}
+.type-776 .recent-post .slide .carousel-inner item:hover img {
+  transform: scale(1.2);
+}
