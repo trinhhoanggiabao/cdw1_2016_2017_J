@@ -57,9 +57,11 @@
                                                 <figure class="product-transition" style="padding-bottom: 360px;">
                                                     <span class="onsale">Sale!</span>
                                                     <div class="product-img-wrap">
-                                                        <div class="product-image"><img width="540" height="720" src="img/type1/adidas-grey-red001_1-540x720.jpg" class="size-shop_catalog" >
+                                                        <div class="product-image">
+                                                            <img width="540" height="720" src="images/adidas-grey-red001_1-540x720.jpg" class="size-shop_catalog" >
                                                         </div>
-                                                        <div class="product-image second-image"><img width="540" height="720" src="img/type1/adidas-grey-red006_1-540x720.jpg" class="size-shop_catalog">
+                                                        <div class="product-image second-image">
+                                                            <img width="540" height="720" src="images/adidas-grey-red006_1-540x720.jpg" class="size-shop_catalog">
                                                         </div>
                                                     </div>
                                                     <figcaption>
@@ -91,9 +93,9 @@
                                                 <figure class="product-transition" style="padding-bottom: 360px;">
                                                     <span class="onsale">Sale!</span>
                                                     <div class="product-img-wrap">
-                                                        <div class="product-image"><img width="540" height="720" src="img/type1/adidas-grey-red001_1-540x720.jpg" class="size-shop_catalog" >
+                                                        <div class="product-image"><img width="540" height="720" src="images/adidas-grey-red001_1-540x720.jpg" class="size-shop_catalog" >
                                                         </div>
-                                                        <div class="product-image second-image"><img width="540" height="720" src="img/type1/adidas-grey-red006_1-540x720.jpg" class="size-shop_catalog">
+                                                        <div class="product-image second-image"><img width="540" height="720" src="images/adidas-grey-red006_1-540x720.jpg" class="size-shop_catalog">
                                                         </div>
                                                     </div>
                                                     <figcaption>
@@ -125,9 +127,9 @@
                                                 <figure class="product-transition" style="padding-bottom: 360px;">
                                                     <span class="onsale">Sale!</span>
                                                     <div class="product-img-wrap">
-                                                        <div class="product-image"><img width="540" height="720" src="img/type1/adidas-grey-red001_1-540x720.jpg" class="size-shop_catalog" >
+                                                        <div class="product-image"><img width="540" height="720" src="images/adidas-grey-red001_1-540x720.jpg" class="size-shop_catalog" >
                                                         </div>
-                                                        <div class="product-image second-image"><img width="540" height="720" src="img/type1/adidas-grey-red006_1-540x720.jpg" class="size-shop_catalog">
+                                                        <div class="product-image second-image"><img width="540" height="720" src="images/adidas-grey-red006_1-540x720.jpg" class="size-shop_catalog">
                                                         </div>
                                                     </div>
                                                     <figcaption>
