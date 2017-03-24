@@ -1,68 +1,68 @@
-.type-719 .display-border-font {
+.demo {
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+.demo .type-719 .display-border-font {
   display: none;
   border: 2px solid #fff;
   font-size: 1.2em;
 }
-.type-719 .banner {
-  padding: 15px 0 0 0;
-  text-align: center;
-}
-.type-719 .banner .flexslider .slide {
+.demo .type-719 .slide {
   width: 100%;
 }
-.type-719 .banner .flexslider .slide:hover .carousel-control .glyphicon-chevron-left,
-.type-719 .banner .flexslider .slide:hover .carousel-control .icon-prev {
+.demo .type-719 .slide:hover .carousel-control .glyphicon-chevron-left,
+.demo .type-719 .slide:hover .carousel-control .icon-prev {
   display: block;
 }
-.type-719 .banner .flexslider .slide:hover .carousel-control .glyphicon-chevron-right,
-.type-719 .banner .flexslider .slide:hover .carousel-control .icon-next {
+.demo .type-719 .slide:hover .carousel-control .glyphicon-chevron-right,
+.demo .type-719 .slide:hover .carousel-control .icon-next {
   display: block;
 }
-.type-719 .banner .flexslider .slide .carousel-indicators .active {
+.demo .type-719 .slide .carousel-indicators .active {
   background: #000;
 }
-.type-719 .banner .flexslider .slide .carousel-indicators li {
+.demo .type-719 .slide .carousel-indicators li {
   border-radius: 0;
   background: #fff;
   border: 1px solid #000;
 }
-.type-719 .banner .flexslider .slide .carousel-indicators li:hover {
+.demo .type-719 .slide .carousel-indicators li:hover {
   background: rgba(0,0,0,0.9);
 }
-.type-719 .banner .flexslider .slide .carousel-inner>.item>a>img,
-.type-719 .banner .flexslider .slide .carousel-inner>.item>img {
+.demo .type-719 .slide .carousel-inner>.item>a>img,
+.demo .type-719 .slide .carousel-inner>.item>img {
   width: 100%;
 }
-.type-719 .banner .flexslider .carousel-control .glyphicon-chevron-left,
-.type-719 .banner .flexslider .carousel-control .icon-prev {
+.demo .type-719 .carousel-control .glyphicon-chevron-left,
+.demo .type-719 .carousel-control .icon-prev {
   display: none;
   border: 2px solid #fff;
   font-size: 1.2em;
 }
-.type-719 .banner .flexslider .carousel-control .glyphicon-chevron-right,
-.type-719 .banner .flexslider .carousel-control .icon-next {
+.demo .type-719 .carousel-control .glyphicon-chevron-right,
+.demo .type-719 .carousel-control .icon-next {
   display: none;
   border: 2px solid #fff;
   font-size: 1.2em;
 }
-.type-719 .banner .singlebanner {
+.demo .type-719 .singlebanner {
   width: 100%;
   overflow: hidden;
 }
-.type-719 .banner .singlebanner img {
+.demo .type-719 .singlebanner img {
   width: 100%;
 }
-.type-719 .banner .singlebanner:hover img {
+.demo .type-719 .singlebanner:hover img {
   transform: scale(1.1);
   transition: all 0.3s ease 0s;
 }
 @media (max-width: 993px) and (min-width: 767px) {
-  .type-719 .banner .singlebanner {
+  .demo .type-719 .banner .singlebanner {
     width: 48%;
   }
 }
 @media (max-width: 766px) {
-  .type-719 .banner .singlebanner {
+  .demo .type-719 .banner .singlebanner {
     margin-top: 12px;
   }
 }

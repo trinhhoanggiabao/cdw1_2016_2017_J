@@ -1,17 +1,19 @@
-.type-708 {
+.demo {
   padding: 20px 0px;
   background: url(../images/bg.png);
+}
+.demo .type-708 {
   width: 100%;
   float: left;
 }
-.type-708 .float-width {
+.demo .type-708 .float-width {
   width: 100%;
   float: left;
 }
-.type-708 p {
+.demo .type-708 p {
   color: #9CA0A0;
 }
-.type-708 h3 {
+.demo .type-708 h3 {
   color: #fff;
   font-size: 22px;
   margin-top: 15px;
@@ -21,16 +23,16 @@
   width: 100%;
   float: left;
 }
-.type-708 .lms_newsletter {
+.demo .type-708 .lms_newsletter {
   margin-bottom: 20px;
   width: 100%;
   float: left;
 }
-.type-708 .lms_newsletter form {
+.demo .type-708 .lms_newsletter form {
   display: block;
   margin-top: 0em;
 }
-.type-708 .lms_newsletter .form-inline .form-group {
+.demo .type-708 .lms_newsletter .form-inline .form-group {
   display: inline-block;
   margin-bottom: 0px;
   vertical-align: middle;
@@ -38,13 +40,13 @@
   width: 100%;
   float: left;
 }
-.type-708 .lms_newsletter .form-inline .form-group #form-control {
+.demo .type-708 .lms_newsletter .form-inline .form-group #form-control {
   width: 80%;
   display: inline-block;
   border: 1px solid #e1e3e7;
   transition: all 0.5s;
 }
-.type-708 .lms_newsletter .form-inline .form-group #form-control .form-control {
+.demo .type-708 .lms_newsletter .form-inline .form-group #form-control .form-control {
   border: none;
   height: 38px;
   font-size: 14px;
@@ -56,10 +58,10 @@
   width: 100%;
   font-style: italic;
 }
-.type-708 .lms_newsletter .form-inline .form-group #form-control:hover {
+.demo .type-708 .lms_newsletter .form-inline .form-group #form-control:hover {
   border-color: #ff9933;
 }
-.type-708 .lms_newsletter .form-inline .form-group .lms_newsletter_widget_btn {
+.demo .type-708 .lms_newsletter .form-inline .form-group .lms_newsletter_widget_btn {
   padding: 9px 1px;
   font-size: 20px;
   font-weight: normal;
@@ -72,15 +74,15 @@
   min-width: 65px;
   border-left: none;
 }
-.type-708 .lms_newsletter .mailchimp_message {
+.demo .type-708 .lms_newsletter .mailchimp_message {
   color: #9CA0A0;
   display: none;
 }
-.type-708 .lms_newsletter .mailchimp_message1 {
+.demo .type-708 .lms_newsletter .mailchimp_message1 {
   color: green;
   display: none;
 }
-.type-708 .postform {
+.demo .type-708 .postform {
   display: block;
   width: 100%;
   height: 40px;
@@ -94,22 +96,22 @@
   background-repeat: no-repeat;
   background-position: right;
 }
-.type-708 .postform option {
+.demo .type-708 .postform option {
   color: #333;
 }
-.type-708 .postform:hover {
+.demo .type-708 .postform:hover {
   border-color: #ff9933;
   outline: 0;
 }
-.type-708 .lms_happening {
+.demo .type-708 .lms_happening {
   width: 100%;
   float: left;
 }
-.type-708 .lms_happening .lms_happy_user {
+.demo .type-708 .lms_happening .lms_happy_user {
   width: 100%;
   float: left;
 }
-.type-708 .lms_happening .lms_happy_user img {
+.demo .type-708 .lms_happening .lms_happy_user img {
   width: 48px;
   height: 48px;
   float: left;
@@ -117,12 +119,12 @@
   margin-right: 10px;
 }
 @media (max-width: 768px) {
-  .type-708 .postform {
+  .demo .type-708 .postform {
     width: 89%;
   }
 }
 @media (max-width: 310px) {
-  .type-708 .lms_newsletter .form-inline .form-group {
+  .demo .type-708 .lms_newsletter .form-inline .form-group {
     width: 83%;
   }
 }

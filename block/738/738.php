@@ -29,7 +29,7 @@
                         <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <div class="lms_footer_logo">
-                                    <figure><img src="images/logo.png" alt=""/></figure>                                  
+                                    <img src="images/logo.png" alt=""/>                                  
                                 </div>
                                 <p>Integer vitae triagna. Praesent
                                     bibendum quam tellus, quis rhoncus

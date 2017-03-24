@@ -16,10 +16,11 @@
         <link href="css/720.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div class="type-720">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="type-720">
                         <div class="sub-banner">
                             <img src="images/Sub_banner1.jpg" alt=""/>
                             <div class="text">
@@ -30,7 +31,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="type-720">
                         <div class="sub-banner">
                             <img src="images/Sub_banner2.jpg" alt=""/>
                             <div class="text">
@@ -41,7 +44,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-12">
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="type-720">
                         <div class="sub-banner">
                             <img src="images/Sub_banner3.jpg" alt=""/>
                             <div class="text">
@@ -55,6 +60,7 @@
                 </div>
             </div>
         </div>
+
     </body>
 
 </html>

@@ -99,10 +99,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="product_desc">
-                                                    <h2 class="product-name"><a href="#" title="Justo neque Ipsum">Justo neque Ipsum</a></h2>
+                                                    <h2 class="product-name">
+                                                        <a href="#" title="Justo neque Ipsum">Justo neque Ipsum</a>
+                                                    </h2>
                                                     <div class="price-box">
                                                         <span class="regular-price" >
-                                                            <span class="price">$625.00</span> </span>
+                                                            <span class="price">$625.00</span>
+                                                        </span>
                                                     </div>
                                                     <div class="ratings">
                                                         <div class="rating-box">
@@ -176,7 +179,6 @@
                                                                     <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
                                                                     <li><a href="#" class="link-compare" title="Add to Compare">Add to Compare</a></li>
                                                                 </ul>
-
                                                             </div>
                                                         </div>
                                                     </div>
@@ -185,8 +187,8 @@
                                                     <h2 class="product-name"><a href="#" title="feminine designs delivering stylish">feminine designs delivering stylish</a></h2>
                                                     <div class="price-box">
                                                         <span class="regular-price" >
-                                                            <span class="price">$580.00</span> </span>
-
+                                                            <span class="price">$580.00</span>
+                                                        </span>
                                                     </div>
                                                     <div class="ratings">
                                                         <div class="rating-box">
@@ -196,7 +198,8 @@
                                                 </div>
                                             </div>
                                             <!-- End div class product-block-->
-                                        </div><!-- End div class product-block-inner -->
+                                        </div>
+                                        <!-- End div class product-block-inner -->
                                     </li>
                                     <li class="item">
                                         <!-----------div class product-block-inner-------------->
@@ -215,21 +218,22 @@
                                                         <div class="product_hover-block">
                                                             <div class="actions">
                                                                 <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#expound-the-actual-teachings-ofgreat.html?options=cart')"><span>Add to Cart</span></button>
-
                                                                 <ul class="add-to-links">
                                                                     <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
                                                                     <li><a href="#" class="link-compare" title="Add to Compare">Add to Compare</a></li>
                                                                 </ul>
-
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="product_desc">
-                                                    <h2 class="product-name"><a href="#" title="expound the actual teachings ofgreat">expound the actual teachings ofgreat</a></h2>
+                                                    <h2 class="product-name">
+                                                        <a href="#" title="expound the actual teachings ofgreat">expound the actual teachings ofgreat</a>
+                                                    </h2>
                                                     <div class="price-box">
                                                         <span class="regular-price" >
-                                                            <span class="price">$300.00</span> </span>
+                                                            <span class="price">$300.00</span> 
+                                                        </span>
                                                     </div>
                                                     <div class="ratings">
                                                         <div class="rating-box">

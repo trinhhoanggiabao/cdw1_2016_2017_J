@@ -1,44 +1,46 @@
-.type-719{
-    @the-pt: 100%;
-    @the-none: none;
-    @display: block;
-    @color: #fff;
-    @color2: #000;
-    @border: 2px solid @color;
-    .display-border-font{
-        display: @the-none;
-        border: @border;
-        font-size: 1.2em;
-    }
-    .banner{
-        padding: 15px 0 0 0;
-        text-align: center;
-        .flexslider{
-            .slide{
-                width: @the-pt;
-                &:hover{
-                    .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{display: @display;}
-                    .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{display: @display;}
-                }
-                .carousel-indicators {
-                    .active{
-                        background: @color2;
-                    }
-                    li{
-                        border-radius: 0;
-                        background: @color;
-                        border: 1px solid @color2;
-                        &:hover{
-                            background: rgba(0, 0, 0, 0.9);
-                        }
-                    }
-                }
-                .carousel-inner>.item>a>img, .carousel-inner>.item>img{width: @the-pt;}
-            }
-            .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{.display-border-font;}
-
-            .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{.display-border-font;}
+.demo{
+    padding: 15px 0 0 0;
+    text-align: center;
+    .type-719{
+        @the-pt: 100%;
+        @the-none: none;
+        @display: block;
+        @color: #fff;
+        @color2: #000;
+        @border: 2px solid @color;
+        .display-border-font{
+            display: @the-none;
+            border: @border;
+            font-size: 1.2em;
         }
+
+
+
+        .slide{
+            width: @the-pt;
+            &:hover{
+                .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{display: @display;}
+                .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{display: @display;}
+            }
+            .carousel-indicators {
+                .active{
+                    background: @color2;
+                }
+                li{
+                    border-radius: 0;
+                    background: @color;
+                    border: 1px solid @color2;
+                    &:hover{
+                        background: rgba(0, 0, 0, 0.9);
+                    }
+                }
+            }
+            .carousel-inner>.item>a>img, .carousel-inner>.item>img{width: @the-pt;}
+        }
+        .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{.display-border-font;}
+
+        .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{.display-border-font;}
+
         .singlebanner{
             width: 100%;
             overflow: hidden;
@@ -48,15 +50,16 @@
                 transition: all 0.3s ease 0s;
             }
         }
-    }
-    @media (max-width: 993px) and (min-width:767px){
-        .banner .singlebanner{
-            width: 48%;
+
+        @media (max-width: 993px) and (min-width:767px){
+            .banner .singlebanner{
+                width: 48%;
+            }
         }
-    }
-     @media (max-width: 766px){
-        .banner .singlebanner{
-            margin-top: 12px;
+        @media (max-width: 766px){
+            .banner .singlebanner{
+                margin-top: 12px;
+            }
         }
     }
 }
