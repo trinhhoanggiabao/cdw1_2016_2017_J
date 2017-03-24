@@ -38,7 +38,7 @@
                             Availability:<a href="#">YES</a>(995 item in stock)
                         </span>
                         <div class="tab-title">
-                            <h3 class="tablinks active" onclick="openTab(event, 'more-info')">More info</a></h3>
+                            <h3 class="active" onclick="openTab(event, 'more-info')">More info</a></h3>
                             <h3 onclick="openTab(event, 'data-sheet')">Data sheet</a></h3>
                             <h3 onclick="openTab(event, 'accessories')">Accessories</a></h3>
                             <h3 onclick="openTab(event, 'custom-tab')">Custom Tab</a></h3>

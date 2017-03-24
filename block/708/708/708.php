@@ -6,8 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="../css/owl.transitions.css" rel="stylesheet" type="text/css"/>
-        <link href="../css/owl.transitions.css" rel="stylesheet" type="text/css"/>
         <link href="../css/708.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
@@ -17,7 +15,6 @@
         $less->compileFile('../less/708.less', '../css/708.css');
         ?>
         <script src="../js/jquery-3.1.1.min.js" type="text/javascript"></script>
-        <script src="../js/script.js" type="text/javascript"></script>
 
     </head>
     <body>
@@ -61,7 +58,7 @@
                             <div class="lms_happy_user">
                                 <img src="../images/h3.jpg" alt=""/>
                                 <p>
-                                    <span class="lms_theme_color">Sunny Valim</span>
+                                    <span>Sunny Valim</span>
                                     Integer quis aliquet enim, nec sollicitudin lectus.		
                                 </p>
                             </div>

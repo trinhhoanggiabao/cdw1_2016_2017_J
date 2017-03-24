@@ -31,9 +31,6 @@
   margin-top: 20px;
   cursor: pointer;
 }
-.type-707 .product .tab-title .active-tab {
-  background: #fff;
-}
 .type-707 .product .tab-title h3 {
   padding: 0 10px 0 10px;
   font: normal 14px Georgia;
@@ -110,26 +107,6 @@
 }
 .type-707 .tab-title {
   font-family: LMRomanCaps10-Regular;
-}
-.type-707 ul.tab {
-  background: #fff;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  border-bottom: none;
-  background-color: #f1f1f1;
-}
-.type-707 ul.tab li {
-  float: left;
-}
-.type-707 ul.tab li a {
-  color: black;
-  text-align: center;
-  padding: 10px 11px;
-  text-decoration: none;
-  font-size: 1.1em;
 }
 .type-707 .active {
   background-color: #fff;
@@ -249,7 +226,7 @@
   }
 }
 @media (max-width: 769px) {
-  .type-707 ul.tab li a {
+  .type-707 ul li a {
     padding: 10px 135px;
   }
   .type-707 .product .tab-title #accessories h3 {

@@ -53,9 +53,7 @@
         .tab-title {
             margin-top: @pixel+15;
             cursor: pointer;
-            .active-tab {
-                background: @color2;
-            }
+            
             h3 {
                 padding: 0 10px 0 10px;
                 font: normal 14px Georgia;
@@ -137,24 +135,7 @@
     .tab-title {
         font-family: LMRomanCaps10-Regular;   
     }
-    ul.tab {
-        background: #fff;
-        .padding-margin;
-        overflow: hidden;
-        border: @boder;
-        border-bottom: @the-none;
-        background-color: #f1f1f1;
-        li {
-            float: @float;
-            a {
-                color: black;
-                text-align: @text-align;
-                padding: 10px 11px;
-                .a-wishlist;            
-                font-size: 1.1em;
-            }
-        }
-    }
+
     .active {background-color: @color2;}
     /* Style the tab content */
     .tabcontent {
@@ -269,7 +250,7 @@
         }
     }
     @media (max-width: 769px) {
-        ul.tab li a {
+        ul li a {
             padding: 10px 135px;
         }
         .product .tab-title #accessories {

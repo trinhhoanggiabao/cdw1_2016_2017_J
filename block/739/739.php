@@ -48,7 +48,6 @@
                                     <div class="vc_column_container">
                                         <div class="vc_column-inner ">
                                             <div class="swiper-container">
-                                                <div class="swiper-wrapper">
                                                     <div class="swiper-slide box4">
                                                         <div class="lms_our_partner_slider_item">
                                                             <div class="lms_our_partner_item">

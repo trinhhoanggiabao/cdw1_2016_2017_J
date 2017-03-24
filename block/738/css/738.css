@@ -82,12 +82,6 @@
 .type-738 .lms_footer_center .lms_social ul li {
   display: inline-block;
 }
-.type-738 .lms_footer_center .lms_social ul li .colortooltip + .tooltip > .tooltip-inner {
-  background-color: #ff9933;
-}
-.type-738 .lms_footer_center .lms_social ul li .colortooltip + .tooltip > .tooltip-arrow {
-  border-top-color: #ff9933;
-}
 .type-738 .lms_footer_center .lms_social ul li a {
   width: 34px;
   height: 34px;
