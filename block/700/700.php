@@ -294,9 +294,9 @@
                 </div>
             </div>
         </div>    
-        <script src="scripts/jquery-1.11.0.min.js" type="text/javascript"></script>
-        <script src="scripts/bootstrap.min.js" type="text/javascript"></script>
-        <script src="scripts/script.js" type="text/javascript"></script>
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
     </body>
 
 </html>
