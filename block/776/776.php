@@ -15,7 +15,7 @@
             include './libs/lessc.inc.php';
         }
         $less = new lessc;
-        $less->compileFile('./less/776.less', './css/type-2-upfootercontainer.css')
+        $less->compileFile('./less/776.less', './css/776.css')
         ?>
 
         <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
