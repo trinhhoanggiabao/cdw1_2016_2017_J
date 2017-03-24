@@ -1,0 +1,206 @@
+.type-772 .asset-bg.alt-nine {
+  background-image: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/nhood_impact_bkg.png);
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: auto;
+}
+.type-772 .asset-bg.alt-nine {
+  background-color: #FFFFFF;
+}
+.type-772 .fw-row > .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.type-772 .asset-bg .spb_impact_text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.type-772 .spb_impact_text {
+  background: transparent;
+  clear: both;
+  height: auto;
+  overflow: hidden;
+}
+.type-772 .bb0 {
+  border-bottom: 0 !important;
+}
+.type-772 .bt0 {
+  border-top: 0 !important;
+}
+.type-772 .mb0 {
+  margin-bottom: 0 !important;
+}
+.type-772 .mt0 {
+  margin-top: 0 !important;
+}
+.type-772 [class*="span"] {
+  max-width: 100%;
+}
+.type-772 .cta_align_right .spb_call_text {
+  width: 83%;
+}
+.type-772 .cta_align_left .spb_call_text,
+.type-772 .cta_align_right .spb_call_text {
+  float: left;
+  clear: none;
+}
+.type-772 .spb_impact_text .spb_call_text,
+.type-772 .impact-text {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.type-772 h2 {
+  font-size: 19px;
+  line-height: 30px;
+}
+.type-772 .impact-text-wrap .impact-text-arrow {
+  font-size: 42px;
+}
+.type-772 .impact-text-wrap .impact-text-arrow i {
+  line-height: 28px;
+}
+.type-772 i[class^="fa-"] {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+.type-772 .cta_align_right .impact-text-arrow {
+  position: absolute;
+  right: 180px;
+  margin-top: 20px;
+  max-width: 12%;
+}
+.type-772 .row.fw-row {
+  margin-left: 0;
+}
+.type-772 .fw-row > .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.type-772 h4.spb_heading {
+  font-weight: normal;
+  margin-top: 0;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.type-772 h4.spb_heading::before {
+  content: "";
+  display: block;
+  border-top: 2px solid #444;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+.type-772 h4.spb_heading span {
+  background: #ffffff;
+}
+.type-772 h4.spb_heading span {
+  padding: 0 10px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.type-772 ul.mini-list {
+  list-style: none;
+}
+.type-772 ul {
+  margin: 0 0 20px;
+  padding-left: 0px;
+}
+.type-772 .mini-list li:first-child {
+  margin-top: 0;
+}
+.type-772 .mini-list li figure {
+  float: left;
+  width: 70px;
+  margin-bottom: 2px;
+  box-shadow: 0 5px 6px -4px #999;
+}
+.type-772 figure {
+  margin: 0;
+}
+.type-772 figure a {
+  display: block;
+}
+.type-772 figure img {
+  width: 100%;
+}
+.type-772 .mini-list li {
+  margin-top: 20px;
+}
+.type-772 .mini-list li .product-details {
+  margin-left: 85px;
+}
+.type-772 .mini-list li h5 {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.type-772 h5 a {
+  color: #252525;
+}
+.type-772 .mini-list li .product-cats {
+  display: block;
+  margin-bottom: 3px;
+}
+.type-772 a {
+  color: #666666;
+}
+.type-772 a:hover {
+  color: #1bbeb4;
+  text-decoration: none;
+}
+.type-772 .carousel-wrap {
+  position: relative;
+}
+.type-772 .owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.type-772 .owl-carousel .owl-wrapper {
+  position: relative;
+}
+.type-772 .owl-carousel .owl-item {
+  float: left;
+}
+.type-772 .carousel-wrap .carousel-item {
+  width: 100% !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  box-sizing: border-box;
+}
+.type-772 .recent-post figure {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: transparent;
+  overflow: hidden;
+  box-shadow: 0 8px 6px -7px #999;
+}
+.type-772 figure .overlay {
+  width: 100%;
+  position: absolute;
+  display: block;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  margin-left: -0.6px;
+  padding-right: 0.6px;
+}
+.type-772 .recent-post figure img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 3;
+  display: block !important;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.type-772 .recent-post figure:hover img {
+  transform: scale(1.2);
+}
