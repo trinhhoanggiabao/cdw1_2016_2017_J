@@ -1,0 +1,337 @@
+.type-778{
+    /*hinh duoi*/
+    h4.spb_heading, h4.lined-heading {
+        font-weight: normal;
+        margin-top: 0;
+        border-bottom: 2px solid transparent;
+        position: relative;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    h4.spb_heading:before, h4.lined-heading:before {
+        content: "";
+        display: block;
+        border-top: 2px solid #444;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+    }
+    h4.lined-heading span {
+        background: #ffffff;
+    }
+    h4.lined-heading span {
+        padding: 0 10px;
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+    }
+    .carousel-wrap {
+        position: relative;
+    }
+    .owl-carousel .owl-wrapper-outer {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+    ul.products li.product figure {
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    ul.products li.product figure > .product-img-wrap {
+        display: block;
+        float: left;
+        width: 100%;
+        /*height: 100%;*/
+        z-index: 1;
+    }
+    img{
+        height: auto;
+        max-width: 100%;
+    }
+    /*moblie*/
+    @media only screen and (max-width: 979px){
+        div.product form.cart div.quantity {
+            float: none;
+            margin-bottom: 20px;
+            display: block;
+            height: auto;
+            overflow: hidden;
+            max-width: 70px;
+        }
+        .page-heading .heading-text {
+            float: none;
+        }
+        #breadcrumbs {
+            float: none;
+            margin-top: 15px;
+        }
+    }
+    @media only screen and (max-width: 767px){
+        #breadcrumbs {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 479px){
+        div.product div.images {
+            width: 100%;
+            float: none;
+            margin-bottom: 30px;
+        }
+        div.product div.summary {
+            width: 100%;
+            float: none;
+        }
+    }
+    /*hinh chi tiet*/
+    ul.products li.product figure figcaption{
+        background: #252525;
+        bottom: -80px;
+        position: absolute;
+        width: 100%;
+        font-size: 12px;
+        transition: all 0.3s ease-in-out;
+        .yith-wcwl-add-to-wishlist{
+            float: right;
+            display: block;
+            padding: 0;
+            position: relative;
+            border-left-color: rgba(255,255,255,0.2);
+            a{
+                padding: 10px 14px;
+            }
+        }
+    }
+    figure a{
+        display: block;
+    }
+    li.product figcaption .shop-actions>a{
+        padding: 10px 14px;
+        text-transform: uppercase;
+        position: absolute;
+        color: #e4e4e4;
+    }
+    .page-content .related.products {
+        margin-top: 30px;
+        padding-top: 0;
+    }
+    .owl-carousel .owl-item {
+        float: left;
+    }
+    ul.products li.product figure, ul.products li.product figure.product-transition{
+        padding-bottom: 0!important;
+    }
+    .carousel-wrap ul.products li.product {
+        width: 100%!important;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+        list-style: none;
+    }
+    ul.products li.product figure.product-transition:hover > .product-img-wrap {
+        transform: translate3d(0,-100%,0);
+        transition: transform 1s cubic-bezier(0.190,1.000,0.220,1.000) 0s;
+    }
+    ul.products li.product figure.product-transition .product-image.second-image {
+        position: absolute;
+    }
+    ul.products li.product figure:hover{
+        bottom: 0;
+    }
+    ul.products li.product figure:hover figcaption {
+        bottom: 0;
+    }
+    ul.products li.product .product-details {
+        float: left;
+    }
+    ul.products li.product h3 {
+        margin: 0 0 4px;
+        padding: 0;
+        line-height: 18px;
+        font-size: 1em;
+    }
+    /*chu khac*/
+    #product-accordion .accordion-inner {
+        border-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .accordion-inner > h2 {
+        display: none;
+    }
+    table.shop_attributes {
+        border: 0;
+        border-top: 1px dotted rgba(0,0,0,.1);
+        margin-bottom: 1.618em;
+        width: 100%;
+    }
+    table.shop_attributes {
+        border-top: 0;
+        margin-bottom: 10px;
+    }
+    table.shop_attributes tr:first-child th{
+        border-top: 0;
+    }
+    table.shop_attributes th {
+        padding: 11px 0;
+    }
+    table.shop_attributes td {
+        text-align: right;
+        font-style: normal;
+        border-bottom: 0;
+        border-top: 1px dotted rgba(0,0,0,0.1);
+    }
+    table.shop_attributes th {
+        text-align: left;
+        font-weight: normal;
+        border-bottom: 0;
+        border-top: 1px dotted rgba(0,0,0,0.1);
+    }
+    table.shop_attributes tr:first-child td {
+        border-top: 0;
+    }
+    /*chu khac 2*/
+    .accordion-inner {
+        border-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .accordion-inner {
+        padding: 9px 15px;
+        border-top: 1px solid #e5e5e5;
+    }
+    #reviews #comments h2 {
+        clear: none;
+    }
+    #comments > h2 {
+        display: none;
+    }
+    #review_form #respond {
+        position: static;
+        margin: 0;
+        width: auto;
+        padding: 0;
+        background: 0 0;
+        border: 0;
+    }
+    #reviews h3 {
+        margin: 0;
+    }
+    #respond h3 {
+        margin-top: 0;
+    }
+    #reply-title small {
+        margin-top: 5px;
+        font-size: 14px;
+        display: block;
+    }
+    #commentform {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    #review_form #respond p {
+        margin: 0 0 10px;
+    }
+    #commentform label {
+        font-size: 12px;
+        font-weight: normal;
+        margin-bottom: 4px;
+    }
+    p.stars a {
+        position: relative;
+        height: 1em;
+        width: 1em;
+        text-indent: -999em;
+        display: inline-block;
+        text-decoration: none;
+    }
+    p.stars a:before, p.stars a:hover~a:before {
+        content: "\e021";
+    }
+    p.stars a:before {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1em;
+        height: 1em;
+        line-height: 1;
+        font-family: WooCommerce;
+        text-indent: 0;
+    }
+    #reviews #comment {
+        height: 75px;
+    }
+    #review_form #respond textarea {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    input[type="text"], input[type="password"], input[type="email"], textarea, select {
+        border-color: #e4e4e4;
+        background: #f7f7f7;
+    }
+    #commentform p span.required {
+        float: right;
+    }
+    .required {
+        color: #ee3c59;
+    }
+    input, input[type="text"]{
+        outline: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .comment-form-author{
+        width: 235px;
+        margin-bottom: 0;
+    }
+    #commentform input {
+        margin-bottom: 12px;
+    }
+    input[type="text"]{
+        border: 1px solid #ccc;
+    }
+    .comment-form-email{
+        width: 235px;
+        margin-bottom: 0;
+    }
+    p.form-submit {
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+    #review_form #respond .form-submit input{
+        background: #f7f7f7;
+        color: #252525;
+    }
+    #review_form #respond .form-submit input {
+        -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+        box-shadow: 0 1px 0 rgba(0,0,0,.1);
+        padding: 12px 15px;
+        border: 0;
+        border-radius: 0;
+        text-shadow: none;
+        margin-bottom: 2px;
+    }
+    #review_form #respond .form-submit input {
+        left: auto;
+    }
+    #review_form #respond .form-submit input:hover{
+        background: #1bbeb4;
+        color: #ffffff;
+    }
+    .h3, h3 a {
+        color: #252525;
+        text-decoration: none;
+    }
+    .h3, h3 a:hover {
+        color: #1bbeb4;
+    }
+    .h3 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: normal;
+        margin-bottom: 15px;
+    }
+}
