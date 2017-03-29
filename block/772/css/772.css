@@ -1,10 +1,8 @@
 .type-772 .asset-bg.alt-nine {
-  background-image: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/nhood_impact_bkg.png);
+  background-image: url(../images/nhood_impact_bkg.png);
   background-repeat: repeat;
   background-position: center top;
   background-size: auto;
-}
-.type-772 .asset-bg.alt-nine {
   background-color: #FFFFFF;
 }
 .type-772 .fw-row > .container {
@@ -36,11 +34,11 @@
 .type-772 [class*="span"] {
   max-width: 100%;
 }
-.type-772 .cta_align_right .spb_call_text {
+.type-772 .title-header .spb_call_text {
   width: 83%;
 }
 .type-772 .cta_align_left .spb_call_text,
-.type-772 .cta_align_right .spb_call_text {
+.type-772 .title-header .spb_call_text {
   float: left;
   clear: none;
 }
@@ -52,6 +50,8 @@
 .type-772 h2 {
   font-size: 19px;
   line-height: 30px;
+  text-transform: uppercase;
+  margin-left: 72px;
 }
 .type-772 .impact-text-wrap .impact-text-arrow {
   font-size: 42px;
@@ -67,16 +67,15 @@
 }
 .type-772 .cta_align_right .impact-text-arrow {
   position: absolute;
-  right: 180px;
-  margin-top: 20px;
-  max-width: 12%;
+  right: 0;
+  padding-right: 27px;
+  margin-top: -80px;
 }
 .type-772 .row.fw-row {
   margin-left: 0;
 }
-.type-772 .fw-row > .container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+.type-772 .row.fw-row .row .span12 {
+  height: 50px;
 }
 .type-772 h4.spb_heading {
   font-weight: normal;
@@ -97,13 +96,12 @@
   z-index: 1;
 }
 .type-772 h4.spb_heading span {
-  background: #ffffff;
-}
-.type-772 h4.spb_heading span {
   padding: 0 10px;
   position: relative;
   display: inline-block;
   z-index: 1;
+  font-size: 15px;
+  background: #ffffff;
 }
 .type-772 ul.mini-list {
   list-style: none;
@@ -149,6 +147,7 @@
 }
 .type-772 a {
   color: #666666;
+  font-size: 13px;
 }
 .type-772 a:hover {
   color: #1bbeb4;

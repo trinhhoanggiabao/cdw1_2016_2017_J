@@ -1,11 +1,20 @@
 .type-772{
+    @height_auto: auto;
+    @overflow_hidden: hidden;
+    @float: left;
+    @display_ib: inline-block;
+    @font-weight_normal: normal;
+    @position_ab: absolute;
+    @margin-top_0: 0;
+    @margin-bottom_3px: 3px;
+    @position_rela: relative;
+    @display_block: block;
+    @width_100:100%;
     .asset-bg.alt-nine {
-        background-image: url(http://neighborhood.swiftideas.net/wp-content/uploads/2013/06/nhood_impact_bkg.png);
+        background-image: url(../images/nhood_impact_bkg.png);
         background-repeat: repeat;
         background-position: center top;
         background-size: auto;
-    }
-    .asset-bg.alt-nine {
         background-color: #FFFFFF;
     }
     .fw-row > .container {
@@ -19,8 +28,8 @@
     .spb_impact_text {
         background: transparent;
         clear: both;
-        height: auto;
-        overflow: hidden;
+        height: @height_auto;
+        overflow: @overflow_hidden;
     }
     .bb0 {
         border-bottom: 0 !important;
@@ -37,11 +46,11 @@
     [class*="span"] {
         max-width: 100%;
     }
-    .cta_align_right .spb_call_text {
+    .title-header .spb_call_text {
         width: 83%;
     }
-    .cta_align_left .spb_call_text, .cta_align_right .spb_call_text {
-        float: left;
+    .cta_align_left .spb_call_text, .title-header .spb_call_text {
+        float: @float;
         clear: none;
     }
     .spb_impact_text .spb_call_text, .impact-text {
@@ -51,6 +60,8 @@
     h2 {
         font-size: 19px;
         line-height: 30px;
+        text-transform: uppercase;
+        margin-left: 72px;
     }
     .impact-text-wrap .impact-text-arrow {
         font-size: 42px;
@@ -59,52 +70,50 @@
         line-height: 28px;
     }
     i[class^="fa-"] {
-        display: inline-block;
+        display: @display_ib;
         font-family: FontAwesome;
         font-style: normal;
-        font-weight: normal;
+        font-weight: @font-weight_normal;
     }
     .cta_align_right .impact-text-arrow {
-        position: absolute;
-        right: 180px;
-        margin-top: 20px;
-        max-width: 12%;
+        position: @position_ab;
+        right: 0;
+        padding-right: 27px;
+        margin-top: -80px;
+
     }
     .row.fw-row {
-        margin-left: 0;
+        margin-left: 0;       
     }
-    .fw-row > .container {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+    .row.fw-row .row .span12 {
+        height:50px;
     }
-
     //////////////////////////////////
     h4.spb_heading {
-        font-weight: normal;
-        margin-top: 0;
+        font-weight: @font-weight_normal;
+        margin-top: @margin-top_0;
         border-bottom: 2px solid transparent;
-        position: relative;
+        position: @position_rela;
         margin-bottom: 20px;
         text-align: center;
     }
     h4.spb_heading::before {
         content: "";
-        display: block;
+        display: @display_block;
         border-top: 2px solid #444;
-        width: 100%;
+        width: @width_100;
         height: 2px;
-        position: absolute;
+        position: @position_ab;
         top: 50%;
         z-index: 1;
     }
     h4.spb_heading span {
-        background: #ffffff;
-    }
-    h4.spb_heading span {
         padding: 0 10px;
-        position: relative;
-        display: inline-block;
+        position: @position_rela;
+        display: @display_ib;
         z-index: 1;
+        font-size: 15px;
+        background: #ffffff;
     }
     ul.mini-list {
         list-style: none;
@@ -114,10 +123,10 @@
         padding-left: 0px;
     }
     .mini-list li:first-child {
-        margin-top: 0;
+        margin-top: @margin-top_0;
     }
     .mini-list li figure {
-        float: left;
+        float: @float;
         width: 70px;
         margin-bottom: 2px;
         box-shadow: 0 5px 6px -4px #999;
@@ -126,10 +135,10 @@
         margin: 0;
     }
     figure a {
-        display: block;
+        display: @display_block;
     }
     figure img {
-        width: 100%;
+        width: @width_100;
     }
     .mini-list li {
         margin-top: 20px;
@@ -138,36 +147,37 @@
         margin-left: 85px;
     }
     .mini-list li h5 {
-        margin-top: 0;
-        margin-bottom: 3px;
+        margin-top: @margin-top_0;
+        margin-bottom: @margin-bottom_3px;
     }
     h5 a {
         color: #252525;
     }
     .mini-list li .product-cats {
-        display: block;
-        margin-bottom: 3px;
+        display: @display_block;
+        margin-bottom: @margin-bottom_3px;
     }
     a {
         color: #666666;
+        font-size: 13px; 
     }
     a:hover {
         color: #1bbeb4;
         text-decoration: none;
     }
     .carousel-wrap {
-        position: relative;
+        position: @position_rela;
     }
     .owl-carousel .owl-wrapper-outer {
-        overflow: hidden;
-        position: relative;
-        width: 100%;
+        overflow: @overflow_hidden;
+        position: @position_rela;
+        width: @width_100;
     }
     .owl-carousel .owl-wrapper {
-        position: relative;
+        position: @position_rela;
     }
     .owl-carousel .owl-item {
-        float: left;
+        float: @float;
     }
     .carousel-wrap .carousel-item {
         width: 100% !important;
@@ -178,26 +188,26 @@
         box-sizing: border-box;
     }
     .recent-post figure {
-        width: 100%;
-        height: auto;
-        position: relative;
+        width: @width_100;
+        height: @height_auto;
+        position: @position_rela;
         background-color: transparent;
-        overflow: hidden;
+        overflow: @overflow_hidden;
         box-shadow: 0 8px 6px -7px #999;
     }
     figure .overlay {
-        width: 100%;
-        position: absolute;
-        display: block;
+        width: @width_100;
+        position: @position_ab;
+        display: @display_block;
         opacity: 0;
         transition: all 0.3s ease-in-out;
         margin-left: -0.6px;
         padding-right: 0.6px;
     }
     .recent-post figure img {
-        width: 100%;
-        height: auto;
-        position: relative;
+        width: @width_100;
+        height: @height_auto;
+        position: @position_rela;
         z-index: 3;
         display: block !important;
         -webkit-transition: all 0.3s ease-in-out;
@@ -205,4 +215,5 @@
     .recent-post figure:hover img {
         transform: scale(1.2);
     }
+    
 }
