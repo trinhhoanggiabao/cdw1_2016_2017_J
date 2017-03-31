@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>759</title>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="css/759.css" rel="stylesheet" type="text/css" />
@@ -21,10 +21,8 @@
         <div class="type-759">
             <div class="container">
                 <div class="row">
-
                     <div class="col-md-3">
                     </div>
-
                     <div class="col-md-9">
                         <div class="banner">
                             <ul class="breadcrumb">

@@ -1,10 +1,14 @@
 .type-761 {
+    @background: #f2f2f2;
+    @background1:#2f2f2f;
+    @text-decoration:none;
+    @color:#a4a4a4;
     /*----- Sub-Footer -----*/
     .sub-footer {
-        background: #f2f2f2;
+        background: @background;
     }
     .about h1, .event h1 {
-        color: #2f2f2f;
+        color: @background1;
         font-size: 15px;
     }
     .about p, .event p {
@@ -13,14 +17,14 @@
     }
     .event p a {
         color: #19caaf;
-        text-decoration: none;
+        text-decoration: @text-decoration;
     }
     .event p a:hover {
-        color: #2f2f2f;
+        color: @background1;
     }
     /*----- Footer -----*/
     .service ul {
-        list-style: none;
+        list-style: @text-decoration;
         padding: 0;
     }
     .service ul li {
@@ -33,7 +37,7 @@
     .service ul li a {
         color: #4bd3be;
         font-size: 14px;
-        text-decoration: none;
+        text-decoration: @text-decoration;
     }
     .service ul li a:hover {
         color: #414141;
@@ -58,19 +62,19 @@
         border-right: 1px #e5e5e5 solid;
     }
     .footer {
-        background: #f2f2f2;
+        background: @background;
         padding: 20px;
     }
     .footer-bottom a {
-        color: #a4a4a4;
-        text-decoration: none;
+        color: @color;
+        text-decoration: @text-decoration;
     }
     .footer-bottom a:hover {
-        color: #2f2f2f;
+        color: @background1;
     }
     .footer-bottom {
         font-size: 13px;
-        color: #a4a4a4;
+        color: @color;
         margin-top: 20px;
     }
     .a {
@@ -83,7 +87,7 @@
     }
     @media all and (max-width: 768px) {
         .service {
-            display: none;
+            display: @text-decoration; 
         }
     }
 }

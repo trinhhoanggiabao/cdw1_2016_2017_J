@@ -1,35 +1,35 @@
-.type-755 .type-34 .banner {
+.type-755 .banner {
   background: #f2f2f2;
   margin-top: 20px;
   float: right;
   padding-left: 40px;
 }
-.type-755 .type-34 .left img {
+.type-755 .left img {
   text-align: center;
 }
-.type-755 .type-34 .top-right h1 {
+.type-755 .top-right h1 {
   margin-top: 100px;
   float: left;
   font-size: 19px;
   color: #19caaf;
 }
-.type-755 .type-34 .center-right {
+.type-755 .center-right {
   float: left;
 }
-.type-755 .type-34 .center-right p {
+.type-755 .center-right p {
   color: #888888;
   margin-right: 125px;
   text-align: left;
 }
-.type-755 .type-34 .btn-shop {
+.type-755 .btn-shop {
   float: left;
   background: #2f2f2f;
   border-radius: 5px;
 }
-.type-755 .type-34 .btn-shop:hover {
+.type-755 .btn-shop:hover {
   background: #19caaf;
 }
-.type-755 .type-34 .btn-shop a {
+.type-755 .btn-shop a {
   position: relative;
   display: inline-block;
   line-height: 21px;
@@ -38,16 +38,16 @@
   padding: 7.5px 29px 7.5px 26px;
   text-decoration: none;
 }
-.type-755 .type-34 .btn-slide {
+.type-755 .btn-slide {
   float: right;
   padding-top: 50px;
   padding-right: 20px;
 }
-.type-755 .type-34 .btn-slide ul li {
+.type-755 .btn-slide ul li {
   display: inline-block;
   list-style: none;
 }
-.type-755 .type-34 .btn-slide ul li a {
+.type-755 .btn-slide ul li a {
   margin-top: 100px;
   magin-right: 30px;
   color: #888;
@@ -55,7 +55,7 @@
   padding: 3px;
   border-radius: 50%;
 }
-.type-755 .type-34 .btn-slide ul li a:hover {
+.type-755 .btn-slide ul li a:hover {
   text-decoration: none;
   background: #19caaf;
 }

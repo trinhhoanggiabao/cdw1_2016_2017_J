@@ -1,4 +1,10 @@
 .type-756{
+    @float:left;
+    @float1:right;
+    @color:#ffffff;
+    @text-decoration:none;
+    @background:#000000;
+    @border:1px solid #e5e5e5;
         .top-content {
             margin-top: 20px;
         }
@@ -13,21 +19,21 @@
             color: #000000;
         }
         .info a:hover {
-            text-decoration: none;
+            text-decoration: @text-decoration;
         }
         .left-top {
-            float: left;
-            border: 1px solid #e5e5e5;
+            float: @float;
+            border: @border;
             margin-right: 5px;
         }
         .left-top:hover {
             background: rgb(25, 202, 175);
         }
         .left-top:hover h2 {
-            color: #ffffff;
+            color: @color;
         }
         .left-top:hover p {
-            color: #ffffff;
+            color: @color;
         }
 
         .image .img-responsive {
@@ -36,18 +42,18 @@
             height: auto;
         }
         .right-top {
-            float: right;
-            border: 1px solid #e5e5e5;
+            float: @float1;
+            border: @border;
             margin-left: 5px;
         }
         .right-top:hover {
             background: rgb(25, 202, 175);
         }
         .right-top:hover h2{
-            color: #ffffff;
+            color: @color;
         }
         .right-top:hover p {
-            color:#ffffff;
+            color:@color;
         }
         //------------center content-------------//
         .center-content {
@@ -61,14 +67,14 @@
         }
         .nav h2 {
             color: #2f2f2f;
-            float: left;
+            float: @float;
             margin-left: 30px;
             padding-bottom: 10px;
             font-size: 15px;
             font-weight: 400;
         }
         .btn {
-            float: right;
+            float: @float1;
         }
         .btn ul li {
             margin-top: 10px;
@@ -94,7 +100,7 @@
         }
      
         .new a {
-            text-decoration: none;
+            text-decoration: @text-decoration;
             color:#fff;
         }
         .images img {
@@ -107,17 +113,17 @@
             transform:scale(1.1);
         }
         .price h2 {
-            float: left;
+            float: @float;
             color: rgb(25, 202, 175);
         }
         .price h3 {
-            float:right;
+            float:@float1;
             margin-top: 25px;
             margin-right: 85px;
             text-decoration: line-through;
         }
         .name a{
-            float: left;
+            float: @float;
             font-weight: bold;
             color: #888888;
         }
@@ -126,17 +132,17 @@
             color: rgb(25, 202, 175);
         }
         .description {
-            float: left;
+            float: @float;
             text-align: none;
             margin-left: 0;
             color: #888888;
         }
         .group-btn {
-            float: left;
+            float: @float;
         }
         .group-btn ul li{
             display: inline-block;
-            float: left;
+            float: @float;
             margin: 10px;
         }
         .group-btn ul li a {
@@ -146,16 +152,16 @@
             border-radius: 50%;
         }
         .group-btn ul li a:hover{
-            text-decoration: none;
-            background: #000000;
-            color:#ffffff;
+            text-decoration: @text-decoration;
+            background: @background;
+            color:@color;
         }
         .group-btn #active a {
             background: rgb(25, 202, 175);
-            color: #ffffff;
+            color: @color;
         }
         .group-btn #active a:hover{
-            text-decoration: none;
-            background: #000000;
+            text-decoration: @text-decoration;
+            background: @background;
         }
     }
