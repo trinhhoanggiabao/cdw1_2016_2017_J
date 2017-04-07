@@ -20,7 +20,7 @@
     <body>
         <!--DETAILS-->
         <div class="type-772">
-            <div class="row fw-row asset-bg alt-nine">
+            <div class="row-header asset-bg alt-nine">
                 <div class="row">
                     <div class="spb_impact_text cta_align_right">
                         <div class="impact-text-wrap clearfix">
@@ -38,16 +38,13 @@
             </div>
 
             <div class="container">
-                <div class="row fw-row">
-                    <div class="row">
+                <div class="row">  
                         <div class="span12"></div>
-                    </div>
                 </div>
 
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-
                             <h4 class="spb_heading">
                                 <span>Best sellers</span>
                             </h4>
@@ -205,7 +202,7 @@
                                             <a href="#" rel="tag">Footwear</a>
                                             <a href="#" rel="tag">Sneakers</a>
                                         </span>
-                                        <span>itemprop="price">
+                                        <span itemprop="price">
                                             <del>
                                                 <span>£105.00</span>
                                             </del>
@@ -222,9 +219,9 @@
                                 <span>Featured</span>
                             </h4>
                             <div class="carousel-wrap">
-                                <div id="carousel-2" class="clearfix" data-columns="1" style="margin-left: -15px; width: 300px; opacity: 1; display: block;">
+                                <div id="carousel-2" class="clearfix" data-columns="1">
                                     <div class="owl-wrapper-outer">
-                                        <div class="owl-wrapper" style="width: 100%; left: 0px; display: block; transition: all 0ms ease 0s; transform: translate3d(0px, 0px, 0px);">
+                                        <div class="owl-wrapper">
                                             <div class="owl-item">
                                                 <div data-id="id-0" class="clearfix carousel-item recent-post">
                                                     <figure>
@@ -240,12 +237,7 @@
                                         </div> 
                                     </div>
                                 </div>
-                                <a href="#" style="display: none;">
-                                    <i class="fa-chevron-left"></i>
-                                </a>
-                                <a href="#" style="display: none;">
-                                    <i class="fa-chevron-right"></i>
-                                </a>
+                                
                             </div>
                         </div>
                     </div>

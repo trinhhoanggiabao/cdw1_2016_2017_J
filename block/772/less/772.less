@@ -10,6 +10,7 @@
     @position_rela: relative;
     @display_block: block;
     @width_100:100%;
+    @z-index_1: 1;
     .asset-bg.alt-nine {
         background-image: url(../images/nhood_impact_bkg.png);
         background-repeat: repeat;
@@ -17,7 +18,7 @@
         background-size: auto;
         background-color: #FFFFFF;
     }
-    .fw-row > .container {
+    .row-header > .container {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
@@ -82,10 +83,10 @@
         margin-top: -80px;
 
     }
-    .row.fw-row {
+    .row {
         margin-left: 0;       
     }
-    .row.fw-row .row .span12 {
+    .row .span12 {
         height:50px;
     }
     //////////////////////////////////
@@ -100,18 +101,18 @@
     h4.spb_heading::before {
         content: "";
         display: @display_block;
-        border-top: 2px solid #444;
+        border-top: 2px solid #252525;;
         width: @width_100;
         height: 2px;
         position: @position_ab;
         top: 50%;
-        z-index: 1;
+        z-index: @z-index_1;
     }
     h4.spb_heading span {
         padding: 0 10px;
         position: @position_rela;
         display: @display_ib;
-        z-index: 1;
+        z-index: @z-index_1;
         font-size: 15px;
         background: #ffffff;
     }
@@ -167,6 +168,10 @@
     }
     .carousel-wrap {
         position: @position_rela;
+        margin-left: -15px; 
+        width: 300px; 
+        opacity: 1; 
+        display: block;
     }
     .owl-carousel .owl-wrapper-outer {
         overflow: @overflow_hidden;
@@ -210,10 +215,9 @@
         position: @position_rela;
         z-index: 3;
         display: block !important;
-        -webkit-transition: all 0.3s ease-in-out;
     }
     .recent-post figure:hover img {
         transform: scale(1.2);
     }
-    
+
 }
