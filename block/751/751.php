@@ -22,14 +22,12 @@
     <body>
         <div class="type-751">
             <div class="container">
-               
                     <div class="breadcrumb_wrap">
                         <ul class="breadcrumb">
                             <li><a href="#" class="homepage-link" title="Back to the frontpage">Home</a></li>
                             <li><span>About us</span> </li>
                         </ul>
                     </div>
-
                     <h3 class="title">ABOUT US</h3>
                     <div class="content">
                         <h5 class="chu">CATERING TO YOUR REQUIREMENTS, HANDLING YOUR NEEDS WITH CARE</h5>
