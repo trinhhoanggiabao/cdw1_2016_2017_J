@@ -45,6 +45,9 @@
     @line-height: 44px;
     @float_none: none;
     @left: auto;
+    @position_ab: absolute;
+    @right_0: 0;
+    @top_100: 100%;
     //dat bien chung
     .bag-whishlist {
         padding: @padding_15;
@@ -160,12 +163,10 @@
 
     ul.social-icons:hover li, ul.social-icons.small:hover li {
         opacity: 0.5;
-        -moz-opacity: 0.5;
         filter:alpha(opacity= 50);
     }
     ul.social-icons li:hover, ul.social-icons.small li:hover {
         opacity: 1;
-        -moz-opacity: 1;
         filter:alpha(opacity= 100);
     }
     #header {
@@ -321,13 +322,13 @@
     }
     .header-right nav .menu ul.sub-menu {
         left: @left;
-        right: 0;
+        right: @right_0;
     }
     nav .menu ul.sub-menu {
-        position: absolute;
+        position: @position_ab;
         z-index: 9995;
         margin: @margin_0;
-        top: 100%;
+        top: @top_100;
         min-width: 100px;
         box-shadow: 0 0 5px -1px rgba(0,0,0,.2);
         background-color: #ffffff;
@@ -340,7 +341,7 @@
         font-style: @font-style_n;
         display: @display;
         font-size: @font-size-12px;
-        position: absolute;
+        position: @position_ab;
         top: 50%;
         margin-top: -10px;
         right: 9px;
@@ -428,8 +429,8 @@
         position: static;
     }
     li.menu-item.sf-mega-menu > ul.sub-menu {
-        position: absolute;
-        top: 100%;
+        position: @position_ab;
+        top: @top_100;
         left: 30px;
         width: 1170px;
         margin: @margin_0;

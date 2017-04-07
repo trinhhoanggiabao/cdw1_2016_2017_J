@@ -104,13 +104,11 @@
 .type-773 ul.social-icons:hover li,
 .type-773 ul.social-icons.small:hover li {
   opacity: 0.5;
-  -moz-opacity: 0.5;
   filter: alpha(opacity=50);
 }
 .type-773 ul.social-icons li:hover,
 .type-773 ul.social-icons.small li:hover {
   opacity: 1;
-  -moz-opacity: 1;
   filter: alpha(opacity=100);
 }
 .type-773 #header {
