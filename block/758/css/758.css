@@ -267,7 +267,7 @@
   height: 10000px;
   top: 0;
   left: 0;
-  position: relative;
+  position: absolute;
   padding: 0px;
 }
 .type-758 .type-L-home-categories .type-21 .carousels li {
@@ -342,7 +342,7 @@
   float: right;
 }
 .type-758 .type-L-home-categories .type-21 .fa {
-  display: block;
+  display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
@@ -597,7 +597,7 @@
 }
 .type-758 .type-L .type-34 .btn-shop a {
   position: relative;
-  display: block;
+  display: inline-block;
   line-height: 21px;
   color: #ffffff;
   font-size: 14px;
