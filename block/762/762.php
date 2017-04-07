@@ -80,10 +80,9 @@
                                             <div class="sale">Sale</div><br>
                                             <div class="aa "><div class="row">
                                                     <div class="col-md-3" >
-                                                        <div class="image">
-                                                            <img src="images/product-55-760x550.png"  />
-
-                                                        </div>
+                                                        <figure class="image">
+                                                            <img src="images/product-55-760x550.png"/>
+                                                        </figure>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="caption">
@@ -107,10 +106,9 @@
                                             <div class="sale">Sale</div><br>
                                             <div class="aa "><div class="row">
                                                     <div class="col-md-3" >
-                                                        <div class="image">
-                                                            <img src="images/product-55-760x550.png"  />
-
-                                                        </div>
+                                                        <figure class="image">
+                                                            <img src="images/product-55-760x550.png"/>
+                                                        </figure>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="caption">
@@ -133,10 +131,9 @@
                                             <div class="sale">Sale</div><br>
                                             <div class="aa "><div class="row">
                                                     <div class="col-md-3" >
-                                                        <div class="image">
+                                                        <figure class="image">
                                                             <img src="images/product-55-760x550.png"  />
-
-                                                        </div>
+                                                        </figure>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="caption">
@@ -160,10 +157,9 @@
                                             <div class="sale">Sale</div><br>
                                             <div class="aa"><div class="row">
                                                     <div class="col-md-3">
-                                                        <div class="image">
+                                                        <figure class="image">
                                                             <img src="images/product-55-760x550.png" />
-
-                                                        </div>
+                                                        </figure>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="caption">
@@ -185,35 +181,9 @@
                                             <div class="sale">Sale</div><br>
                                             <div class="aa"><div class="row">
                                                     <div class="col-md-3">
-                                                        <div class="image">
+                                                        <figure class="image">
                                                             <img src="images/product-55-760x550.png" />
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-md-8">
-                                                        <div class="caption">
-                                                            <div class="price">
-                                                                <span class="price-new">
-                                                                    $80.00 </span>
-                                                                <span class="price-old">
-                                                                    $1,300.00 </span>
-                                                            </div>
-                                                            <div class="name">
-                                                                <a href="">
-                                                                    EOS 70D Digital SLR Camera </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="item">
-                                            <div class="sale">Sale</div><br>
-                                            <div class="aa"><div class="row">
-                                                    <div class="col-md-3">
-                                                        <div class="image">
-                                                            <img src="images/product-55-760x550.png" />
-                                                        </div>
+                                                        </figure>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="caption">
@@ -236,9 +206,34 @@
                                             <div class="sale">Sale</div><br>
                                             <div class="aa"><div class="row">
                                                     <div class="col-md-3">
-                                                        <div class="image">
+                                                        <figure class="image">
                                                             <img src="images/product-55-760x550.png" />
+                                                        </figure>
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="caption">
+                                                            <div class="price">
+                                                                <span class="price-new">
+                                                                    $80.00 </span>
+                                                                <span class="price-old">
+                                                                    $1,300.00 </span>
+                                                            </div>
+                                                            <div class="name">
+                                                                <a href="">
+                                                                    EOS 70D Digital SLR Camera </a>
+                                                            </div>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="item">
+                                            <div class="sale">Sale</div><br>
+                                            <div class="aa"><div class="row">
+                                                    <div class="col-md-3">
+                                                        <figure class="image">
+                                                            <img src="images/product-55-760x550.png" />
+                                                        </figure>
                                                     </div>
                                                     <div class="col-md-8">
                                                         <div class="caption">
@@ -294,10 +289,9 @@
 
                                                 <div class="aa "><div class="row">
                                                         <div class="col-md-3" >
-                                                            <div class="image">
+                                                            <figure class="image">
                                                                 <img src="images/product-55-760x550.png"  />
-
-                                                            </div>
+                                                            </figure>
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="caption">
@@ -321,10 +315,9 @@
 
                                                 <div class="aa "><div class="row">
                                                         <div class="col-md-3" >
-                                                            <div class="image">
+                                                            <figure class="image">
                                                                 <img src="images/product-55-760x550.png"  />
-
-                                                            </div>
+                                                            </figure>
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="caption">
@@ -347,10 +340,9 @@
 
                                                 <div class="aa "><div class="row">
                                                         <div class="col-md-3" >
-                                                            <div class="image">
+                                                            <figure class="image">
                                                                 <img src="images/product-55-760x550.png"  />
-
-                                                            </div>
+                                                            </figure>
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="caption">
@@ -374,10 +366,9 @@
 
                                                 <div class="aa"><div class="row">
                                                         <div class="col-md-3">
-                                                            <div class="image">
+                                                            <figure class="image">
                                                                 <img src="images/product-55-760x550.png" />
-
-                                                            </div>
+                                                            </figure>
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="caption">
@@ -399,35 +390,9 @@
 
                                                 <div class="aa"><div class="row">
                                                         <div class="col-md-3">
-                                                            <div class="image">
+                                                            <figure class="image">
                                                                 <img src="images/product-55-760x550.png" />
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-8">
-                                                            <div class="caption">
-                                                                <div class="price">
-                                                                    <span class="price-new">
-                                                                        $80.00 </span>
-                                                                    <span class="price-old">
-                                                                        $1,300.00 </span>
-                                                                </div>
-                                                                <div class="name">
-                                                                    <a href="">
-                                                                        EOS 70D Digital SLR Camera </a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="item">
-
-                                                <div class="aa"><div class="row">
-                                                        <div class="col-md-3">
-                                                            <div class="image">
-                                                                <img src="images/product-55-760x550.png" />
-                                                            </div>
+                                                            </figure>
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="caption">
@@ -450,9 +415,34 @@
 
                                                 <div class="aa"><div class="row">
                                                         <div class="col-md-3">
-                                                            <div class="image">
+                                                            <figure class="image">
                                                                 <img src="images/product-55-760x550.png" />
+                                                            </figure>
+                                                        </div>
+                                                        <div class="col-md-8">
+                                                            <div class="caption">
+                                                                <div class="price">
+                                                                    <span class="price-new">
+                                                                        $80.00 </span>
+                                                                    <span class="price-old">
+                                                                        $1,300.00 </span>
+                                                                </div>
+                                                                <div class="name">
+                                                                    <a href="">
+                                                                        EOS 70D Digital SLR Camera </a>
+                                                                </div>
                                                             </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="item">
+
+                                                <div class="aa"><div class="row">
+                                                        <div class="col-md-3">
+                                                            <figure class="image">
+                                                                <img src="images/product-55-760x550.png" />
+                                                            </figure>
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="caption">

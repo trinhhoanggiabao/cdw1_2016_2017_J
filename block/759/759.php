@@ -37,9 +37,9 @@
                             <div class="row">
 
                                 <div class="col-md-2">
-                                    <div class="image">
+                                    <figure class="image">
                                         <img src="images/product-19-190x190.png " class="img-thumbnail">
-                                    </div>
+                                    </figure>
                                 </div>
 
                                 <div class="col-md-10"><p>Comfort is a very important thing nowadays because it is a condition of satisfaction and calmness. It is clear that our way of life must be as comfortable as possible. Home electronics satisfy our wishes and make our life more pleasant. We must admit that our way of life depends on quality of different goods of popular brands. Many of our clients were surprised by the incredible assortment of products in our store. You know, we have many devoted customers all over the world, and this fact proves that we sell only quality commodities. Recipe of our success is a fair price and premium quality. We understand that it is very complicated to amaze present clients, they are so whimsical, but our products are very flexible and reliable.</p>
@@ -53,37 +53,37 @@
                                 <ul class="box-subcat">
 
                                     <li class="col-md-3 ">
-                                        <div class="image">
+                                        <figure class="image">
                                             <img src="images/product-19-190x190.png" alt=""/>
-                                        </div>
+                                        </figure>
                                         <a href="#">Mp3 players (0)</a>
                                     </li>
 
                                     <li class="col-md-3  ">
-                                        <div class="image">
+                                        <figure class="image">
                                             <img src="images/product-18-190x190.png" alt=""/>
-                                        </div>
+                                        </figure>
                                         <a href="#">Mp3 players (0)</a>
                                     </li>
 
                                     <li class="col-md-3 ">
-                                        <div class="image">
+                                        <figure class="image">
                                             <img src="images/product-26-190x190.png" alt=""/>
-                                        </div>
+                                        </figure>
                                         <a href="#">Mp3 players (0)</a>
                                     </li>
 
                                     <li class="col-md-3  ">
-                                        <div class="image">
+                                        <figure class="image">
                                             <img src="images/product-40-190x190.png" alt=""/>
-                                        </div>
+                                        </figure>
                                         <a href="#">Mp3 players (0)</a>
                                     </li>
 
                                     <li class="col-md-3">
-                                        <div class="image">
+                                        <figure class="image">
                                             <img src="images/product-50-190x190.png" alt=""/>
-                                        </div>
+                                        </figure>
                                         <a href="#">Mp3 players (0)</a>
                                     </li>
                                 </ul>
@@ -142,9 +142,9 @@
 
                                 <div class="col-md-4">
                                     <div class="product-thumb" style="height: 429px;">
-                                        <div class="image">
+                                        <figure class="image">
                                             <a href="#"><img src="images/product-46-220x220.png"  class="img-responsive"></a>
-                                        </div>
+                                        </figure>
                                         <div class="caption">
                                             <div class="price ">
                                                 $2,000.00 </div>
@@ -165,9 +165,9 @@
 
                                 <div class="col-md-4">
                                     <div class="product-thumb" style="height: 429px;">
-                                        <div class="image">
+                                        <figuref class="image">
                                             <a href="#"><img src="images/product-43-220x220.png"  class="img-responsive"></a>
-                                        </div>
+                                        </figuref>
                                         <div class="caption">
                                             <div class="price ">
                                                 $2,000.00 </div>

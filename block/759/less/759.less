@@ -2,6 +2,8 @@
     @display:inline-block;
     @display1:block;
     @position:relative;
+    @text-decoration:none;
+    @float:left;
     .breadcrumb {
         margin: 15px 0;
         padding: 8px 0;
@@ -58,7 +60,7 @@
         color: #19caaf;
     }
     a:hover {
-        text-decoration: none;
+        text-decoration: @text-decoration;
         outline: none;
         list-style: none;
         color: #19caaf;
@@ -125,7 +127,7 @@
     @media (max-width: 767px){
         .box-subcat li .image {
             display: @display;
-            float: left;
+            float: @float;
             margin-right: 15px;
             width: 25%;
         }
@@ -170,7 +172,7 @@
         color: #19caaf;
     }
     .pull-left {
-        float: left!important;
+        float: @float!important;
     }
     .nav-cat .nam-page {
         margin: 5px 0 5px 0px;
@@ -235,12 +237,12 @@
         color: #19caaf;
     }
     .group-btn {
-        float: left;
+        float: @float;
         margin-left: -40px;
     }
     .group-btn ul li{
         display: @display;
-        float: left;
+        float: @float;
         margin:10px;
 
     }
@@ -251,7 +253,7 @@
         border-radius: 50%;
     }
     .group-btn ul li a:hover{
-        text-decoration: none;
+        text-decoration: @text-decoration;
         background: #000000;
         color:#ffffff;
     }
@@ -260,7 +262,7 @@
         color: #ffffff;
     }
     .group-btn #active a:hover{
-        text-decoration: none;
+        text-decoration: @text-decoration;
         background: #000000;
     }
 }

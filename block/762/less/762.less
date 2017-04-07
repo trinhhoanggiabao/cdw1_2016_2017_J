@@ -1,20 +1,27 @@
 .type-762 {
+   @display:inline-block;
+   @display1:block;
+   @float:left;
+   @float1:right;
+   @position:relative;
+   @position1:absolute;
+   @overflow:hidden;
  @media (max-width: 767px){
 .item .image {
-    display: inline-block;
-    float: left;
+    display: @display;
+    float: @float;
     margin-right: 15px;
     width: 25%;
 }
 .item li {
-    overflow: hidden;
+    overflow:  @overflow;
     clear: both;
     text-align: left;
 }
 }
 .carousel > .window {
-    overflow: hidden;
-    position: relative;
+    overflow:  @overflow;
+    position: @position;
     height: 200px;
     background-color: #FFF;
 }
@@ -23,7 +30,7 @@
     height: 10000px;
     top: 0;
     left: 0;
-    position: absolute;
+    position: @position1;
     padding: 0px;
 }
 .carousel li {
@@ -32,14 +39,14 @@
 .prev {
   
     width: 100%;
-    position: relative;
+    position: @position;
     left: 50%;
     margin-left: -15px;
 }
 .next {
   
     width: 100%;
-    position: relative;
+    position: @position;
     left: 50%;
     margin-left: 15px;
 }
@@ -82,7 +89,7 @@
         color: #19caaf;
     }
     .price-old {
-        display: inline-block;
+        display: @display;
         color: #777;
         font-size: 15px;
         line-height: 22px;
@@ -109,31 +116,31 @@
         outline: none;
     }
     h3 {
-        display: block;
+        display: @display1;
          padding: 15px;
     background: #f2f2f2;
     margin-bottom: 20px;
     }
     .glyphicon {
-    position: relative;
+    position: @position;
     top: -8px;
-    display: inline-block;
+    display: @display;
     font-family: 'Glyphicons Halflings';
     font-style: normal;
     font-weight: 400;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    float: left;
+    float: @float;
 }
 
     .box-category {
     }
     .cate i {
-        float: right;
+        float: @float1;
     }
     .box.category ul.cate li a {
-        display: block;
+        display: @display1;
     }
     .box-category .cate li  a {
         padding: 13px 30px 13px 17px;
@@ -147,7 +154,7 @@
     }
     .sale {
         font-size: 12px;
-        position: absolute;
+        position: @position1;
 
         left: 35px;
         background-color: #19caaf;
@@ -159,7 +166,7 @@
     }
     .sale:before {
     content: '';
-    position: absolute;
+    position: @position1;
     left: 50%;
     top: 100%;
     margin-left: -2px;
@@ -170,7 +177,7 @@
     border-color: #19caaf transparent transparent transparent;
 }
     .fa {
-        display: inline-block;
+        display: @display;
         font: normal normal normal 14px/1 FontAwesome;
         font-size: inherit;
         text-rendering: auto;
@@ -191,22 +198,22 @@
 .type-21{
   @media (max-width: 767px){
 .item .image {
-    display: inline-block;
-    float: left;
+    display: @display;
+    float: @float;
     margin-right: 15px;
     width: 25%;
   
 }
 .item li {
-    overflow: hidden;
+    overflow:  @overflow;
     clear: both;
     text-align: left;
    
 }
 }
 .carousels > .window {
-    overflow: hidden;
-    position: relative;
+    overflow:  @overflow;
+    position: @position;
     height: 300px;
 }
 .carousels ul {
@@ -214,7 +221,7 @@
     height: 10000px;
     top: 0;
     left: 0;
-    position: absolute;
+    position: @position1;
     padding: 0px;
 }
 .carousels li {
@@ -223,14 +230,14 @@
 .prev {
   
     width: 100%;
-    position: relative;
+    position: @position;
     left: 50%;
     margin-left: -15px;
 }
 .next {
   
     width: 100%;
-    position: relative;
+    position: @position;
     left: 50%;
     margin-left: 15px;
 }
@@ -273,7 +280,7 @@
         color: #19caaf;
     }
     .price-old {
-        display: inline-block;
+        display: @display;
         color: #777;
         font-size: 15px;
         line-height: 22px;
@@ -281,20 +288,20 @@
         margin-left: 5px;
     } 
     h3 {
-        display: block;
+        display: @display1;
   padding: 15px;
   background-color: #f2f2f2;
     }
    
     .cate i {
-        float: right;
+        float: @float1;
     }
  
    
  
   
     .fa {
-        display: inline-block;
+        display: @display;
         font: normal normal normal 14px/1 FontAwesome;
         font-size: inherit;
         text-rendering: auto;
@@ -309,7 +316,6 @@
    
     .name {
         margin-top: 4px;
-
 
     }
 }

@@ -52,9 +52,9 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3 col-sm-4 col-xs-6 mobile">
-                            <div id="logo">
+                            <figure id="logo">
                                 <a href="#"><img src="images/logo.png"></a>
-                            </div>
+                            </figure>
                         </div>
                         <div class="col-md-6 col-sm-5 col-xs-6 mobile">
                             <div id="search">

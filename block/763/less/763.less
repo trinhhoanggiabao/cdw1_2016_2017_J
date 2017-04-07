@@ -1,4 +1,7 @@
 .type-763 {
+    @float:left;
+    @background:none;
+    @background1:rgb(25, 202, 175);
     .navbar-default {
         background: none;
         border-top-left-radius: 5px;
@@ -27,11 +30,11 @@
         }
     }
     .navbar-default ul li a:hover {
-        background: none;
-        color: rgb(25, 202, 175);
+        background: @background;
+        color:@background1;
     }
     .navbar-default .navbar-nav>.open>a {
-        background: none;
+        background: @background;
         color: #fff;
     }
     .item {
@@ -51,20 +54,20 @@
         margin-bottom: 5px;
     }
     .subitem:hover {
-        background: rgb(25, 202, 175);
+        background: @background1;
     }
     .subitem a:hover {
-        background: rgb(25, 202, 175);
+        background: @background1;
         color: #ffffff !important;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         background: #fff;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
-        background: rgb(25, 202, 175);
+        background: @background1;
     }
     .cart {
-        background: rgb(25, 202, 175);
+        background: @background1;
         border-top-right-radius: 5px;
         color: #ffffff;
         padding: 5px 0;
