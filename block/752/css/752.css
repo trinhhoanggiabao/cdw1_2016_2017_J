@@ -128,3 +128,19 @@
   text-transform: uppercase;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
 }
+@media (max-width: 480px) {
+  .type-752 .article_pagination .btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 767px) {
+  .type-752 .breadcrumb_wrap {
+    margin: 25px 0;
+  }
+}
+@media (max-width: 991px) {
+  .type-752 .breadcrumb_wrap {
+    margin: 30px 0;
+  }
+}

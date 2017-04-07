@@ -37,9 +37,7 @@
                                     <th></th>
                                 </tr>
                             </thead>
-
                             <tbody>
-
                                 <tr class="cart_item" data-id="25848340359">
                                     <td class="cell_1">
                                         <div class="cart_item_img">

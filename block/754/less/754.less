@@ -254,6 +254,7 @@
             }
             .cart_summary_checkout{
                 .cart_summary_methods {
+                    padding: 0;
                     list-style: none;
                     float: left;
                     li {
@@ -270,11 +271,41 @@
             }
         }
     }
+    @media (max-width: 480px){
+        .cart_list{
+            .cart_item_img {
+                width: 120px;
+            }
+            .cart_item_info {
+                margin: 0 0 0 120px;
+            }
+            tbody td.cell_2 {
+                width: 120px;
+            }
+            .cart_buttons {
+                td {
+                    text-align: center;
+                }
+                .btn {
+                    width: 100%;
+                    display: block;
+                    float: none;
+                    margin: 20px 0 0 0;
+                }
+            }
+            .cart_summary .cart_summary_checkout button {
+                font-size: 12px;
+            }
+
+        }
+    }
     @media (max-width: 767px){
         .breadcrumb_wrap {
             margin: 25px 0;
         }
         .cart_list {
+            border: 1px solid #ececec;
+            border-width: 0 1px 1px 1px;
             th {
                 display: none;
             }
@@ -284,34 +315,60 @@
                 padding: 0;
                 border-width: 0;
                 text-align: left !important;
-                .cell_1 {
-                    border-width: 1px 0;
-                    .cart_item_img {
-                        width: 140px;
-                        padding: 10px;
-                    }
-                    .cart_item_info {
-                        margin: 0 0 0 140px;
-                        padding: 10px 10px 10px 0;
-                    }
-                }
-                .cell_2 {
+            }
+            .cell_1 {
+                border-width: 1px 0;
+                .cart_item_img {
                     width: 140px;
-                    float: left;
                     padding: 10px;
                 }
-                .cell_3 {
-                    width: 98px;
-                    float: left;
+                .cart_item_info {
+                    margin: 0 0 0 140px;
                     padding: 10px 10px 10px 0;
                 }
-                .cell_4 {
-                    float: left;
-                    padding: 10px;
+            }
+            .cell_2 {
+                width: 140px;
+                float: left;
+                padding: 10px;
+            }
+            .cell_3 {
+                width: 98px;
+                float: left;
+                padding: 10px 10px 10px 0;
+            }
+            .cell_4 {
+                float: left;
+                padding: 10px;
+            }
+            .cell_5 {
+                float: right;
+                padding: 10px 10px 10px 0;
+            }
+            .cart_buttons {
+                td {
+                    padding: 0 20px 20px 20px;
                 }
-                .cell_5 {
-                    float: right;
-                    padding: 10px 10px 10px 0;
+                .btn{
+                    width: 100%;
+                    font-size: 12px;
+                    margin-top: 20px;
+                }
+            }
+            .cart_summary .cart_summary_checkout {
+                text-align: center;
+                .cart_summary_methods {
+                    float: none;
+                    font-size: 0;
+                    li {
+                        display: inline-block;
+                        float: none;
+                        margin: 20px 10px 0 10px;
+                    }
+                }
+                button {
+                    float: none;
+                    margin: 20px 0 0 0;
                 }
             }
         }
@@ -320,6 +377,21 @@
         .breadcrumb_wrap {
             margin: 30px 0;
         }
+        .cart_list .cart_summary {
+            text-align: center;
+            .cart_summary_methods {
+                float: none;
+                li {
+                    display: inline-block;
+                    float: none;
+                    margin: 20px 10px 0;
+                }
+            }
+            .cart_summary_checkout button {
+                float: none;
+            }
+        }
+
     }
 }
 
