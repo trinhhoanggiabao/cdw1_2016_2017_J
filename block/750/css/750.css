@@ -1,0 +1,61 @@
+.M12-Url .breadcrumb {
+  background-color: transparent;
+}
+.M12-Url .breadcrumb_wrap ul li a:hover {
+  text-decoration: none;
+  color: #4BAE4F;
+}
+.M4-Product {
+  border: 1px solid #ececec;
+}
+.M4-Product .btn-default {
+  background: #4BAE4F;
+  border-radius: 0;
+  color: white;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
+}
+.M4-Product .btn-default:hover {
+  background: #374046;
+}
+.M4-Product .pricing {
+  text-align: center;
+  background: transparent;
+}
+.M4-Product .price-product {
+  font-weight: bold;
+  font-size: 16px;
+  color: #777;
+}
+.M4-Product .well  a span {
+  color: #4BAE4F;
+}
+.M4-Product .well  a span:hover {
+  color: #6c7b84;
+}
+.M4-Product .well {
+  border: 0;
+  box-shadow: 0;
+  background: transparent;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+.M4-Product .well a span {
+  text-align: center;
+}
+.M4-Product .col-md-3 {
+  padding: 0;
+}
+.M4-Product .well img:hover {
+  opacity: 0.8;
+}
+.M4-Product .well img {
+  width: 100%;
+  text-align: center;
+}
+.M4-Product a {
+  text-decoration: none;
+}
+.M4-Product .well span:hover {
+  color: #4BAE4F;
+}

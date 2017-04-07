@@ -1,0 +1,40 @@
+.M5-Footer footer {
+  margin: 50px 0 0 0;
+  padding-top: 28px;
+  background: #f5f4f4;
+}
+.M5-Footer footer .footer_block h2 {
+  margin-top: 22px;
+}
+.M5-Footer footer h2 {
+  margin-bottom: 13px;
+  line-height: 1.71;
+}
+.M5-Footer h2 {
+  font-size: 16px;
+}
+.M5-Footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 50px;
+}
+.M5-Footer footer .footer_links li {
+  margin-top: 10px;
+}
+.M5-Footer footer .footer_links li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #6c7b84;
+}
+.M5-Footer .footer_links li a:hover {
+  color: #4BAE4F;
+  text-decoration: none;
+}
+.M5-Footer .copyright {
+  padding: 10px;
+  background: #ECECEC;
+}
+.M5-Footer .container a:hover {
+  color: #4BAE4F;
+  text-decoration: none;
+}

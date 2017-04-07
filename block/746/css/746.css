@@ -1,0 +1,25 @@
+.Dan .about {
+  margin-top: 30px;
+  background-color: #f5f4f4;
+}
+.Dan .store {
+  width: 50%;
+  float: left;
+  border-right: 1px solid #ccc;
+}
+.Dan .blog {
+  padding-left: 20px;
+  width: 50%;
+  float: left;
+}
+.Dan .boxx {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.Dan li {
+  list-style: none;
+  padding: 7px 0;
+}
+.Dan h5 {
+  padding: 10px 0;
+}
