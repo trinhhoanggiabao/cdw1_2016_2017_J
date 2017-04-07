@@ -1,3 +1,34 @@
+.type-775 .left-right {
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width: 40px;
+  margin-top: 30px;
+}
+.type-775 .slide-show {
+  width: 100%;
+  height: auto;
+  background-repeat: repeat;
+  background-image: url(../images/ff_rp_bkg2.png);
+  background-position: center-top;
+  background-size: auto;
+}
+.type-775 .slide-show .background {
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+.type-775 .slide-show .background .media-carousel .carousel-inner .active .text-center .tweets {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0 15%;
+  text-align: center;
+  background: transparent;
+}
+.type-775 .slide-show .background .media-carousel .carousel-inner .active .text-center .twitter_intents {
+  margin-top: 20px;
+}
 .type-775 .media-carousel {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
