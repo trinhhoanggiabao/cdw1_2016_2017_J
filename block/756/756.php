@@ -42,9 +42,9 @@
 
                                             <div class="col-md-6">
                                                 <div class="row">
-                                                    <div class="image">
+                                                    <figure class="image">
                                                         <img src="images/left-top-content.png" alt=""class="img-responsive"/>
-                                                    </div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
@@ -64,9 +64,9 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="row">
-                                                    <div class="image">
+                                                    <figure class="image">
                                                         <img src="images/right-top-content.png" alt=""/>
-                                                    </div>
+                                                    </figure>
                                                 </div>
                                             </div>
                                         </div>
@@ -101,9 +101,9 @@
                                                         <div class="new">
                                                             <a href="#"> New </a>
                                                         </div>
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/master-iron.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $40.00 </h2>
                                                         </div>
@@ -131,9 +131,9 @@
                                                         <div class="new">
                                                             <a href="#"> New </a>
                                                         </div>
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/48-inch.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $550.00 </h2>
                                                         </div>
@@ -161,9 +161,9 @@
                                                         <div class="new">
                                                             <a href="#"> New </a>
                                                         </div>
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/65-inch.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $3,000.00 </h2>
                                                         </div>
@@ -193,9 +193,9 @@
                                                         <div class="new">
                                                             <a href="#"> New </a>
                                                         </div>
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/28-inch.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $2,000.00 </h2> 
                                                         </div>
@@ -223,9 +223,9 @@
                                                         <div class="new">
                                                             <a href="#"> New </a>
                                                         </div>
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/Soundbar.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $230.00 </h2>
                                                         </div>
@@ -253,9 +253,9 @@
                                                         <div class="new">
                                                             <a href="#"> New </a>
                                                         </div>
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/blu-ray.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $350.00 </h2>
                                                         </div>
@@ -303,9 +303,9 @@
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-right : 15px;">
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/video-capture.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $90.00 </h2> <h3> $600.00 </h3>
                                                         </div>
@@ -330,9 +330,9 @@
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style=" margin-left: 15px;">
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/65-inch.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $3,000.00 </h2>
                                                         </div>
@@ -357,9 +357,9 @@
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-left: 15px;">
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/hard-floor.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $120.00 </h2>
                                                         </div>
@@ -386,9 +386,9 @@
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-right : 15px;">
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/ninja-blender.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $210.00 </h2>
                                                         </div>
@@ -413,9 +413,9 @@
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-left: 15px;">
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/48-inch.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $550.00 </h2>
                                                         </div>
@@ -440,9 +440,9 @@
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-left: 15px;">
-                                                        <div class="images">
+                                                        <figure class="images">
                                                             <img src="images/65-inch.png" alt=""/>
-                                                        </div>
+                                                        </figure>
                                                         <div class="price">
                                                             <h2> $3,000.00 </h2>
                                                         </div>

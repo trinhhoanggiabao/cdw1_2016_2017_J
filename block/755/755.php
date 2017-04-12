@@ -32,9 +32,9 @@
                                 <div class="carousel-inner">
                                     <div class="item active">
                                         <div class="col-md-6">
-                                            <div class="row">
+                                            <figure class="row">
                                                 <img src="images/iphone-6.png" alt=""/>
-                                            </div>
+                                            </figure>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right" class="carousel fadeIn">
@@ -54,9 +54,9 @@
 
                                     <div class="item">
                                         <div class="col-md-6">
-                                            <div class="row">
+                                            <figure class="row">
                                                 <img src="images/tv-smart.png" alt=""/>
-                                            </div>
+                                            </figure>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right">
@@ -75,9 +75,9 @@
 
                                     <div class="item">
                                         <div class="col-md-6">
-                                            <div class="row">
+                                            <figure class="row">
                                                 <img src="images/ipad.png" alt=""/>
-                                            </div>
+                                            </figure>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="right">
