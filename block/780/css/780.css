@@ -320,7 +320,7 @@
   background-repeat: repeat;
   background-position: center top;
   background-size: auto;
-  background-color: #FFFFFF;
+  background-color: ;
 }
 .mod-custom-body2 .row.fw-row {
   margin-left: 0;
@@ -352,7 +352,7 @@
   font-size: 42px;
 }
 .mod-custom-body2 a {
-  color: #666666;
+  color: ;
 }
 .mod-custom-body2 h4.spb_heading {
   font-weight: normal;
@@ -416,11 +416,11 @@
 .mod-custom-body2 .product-details h5 a:hover,
 .mod-custom-body2 .product-cats a:hover {
   text-decoration: none;
-  color: #1bbeb4;
+  color: ;
 }
 .mod-custom-body2 h5,
 .mod-custom-body2 h5 a {
-  color: #252525;
+  color: ;
 }
 .mod-custom-body2 .mini-list li h5 {
   margin-top: 0;
@@ -435,7 +435,6 @@
   height: auto;
   position: relative;
   z-index: 3;
-  -webkit-transition: all 0.3s ease-in-out;
 }
 .mod-custom-body2 img {
   max-width: 100%;
@@ -523,14 +522,14 @@
 }
 .mod-custom-body2 .carousel-wrap a.carousel-prev,
 .mod-custom-body2 .carousel-wrap a.carousel-next {
-  background: #252525;
+  background: ;
   color: #f7f7f7 !important;
 }
 .mod-custom-body2 .carousel-wrap > a.carousel-next > i {
   padding: 1px 1px 0 3px;
 }
 .mod-custom-body2 .carousel-wrap > a > i {
-  font-size: 14px;
+  font-size: ;
   display: block;
   width: 10px;
   height: 13px;
@@ -575,8 +574,8 @@
   margin: 10px 0;
 }
 .mod-custom-footer #footer {
-  color: #ffffff;
-  background: #252525;
+  color: ;
+  background: ;
   padding: 40px 0 0;
   border-top: 0 solid transparent;
 }
@@ -584,10 +583,10 @@
   position: relative;
   margin-bottom: 20px;
   text-align: center;
-  color: #ffffff;
+  color: ;
 }
 .mod-custom-footer #footer h4 span {
-  background: #252525;
+  background: ;
   padding: 0 10px;
   position: relative;
   display: inline-block;
@@ -608,11 +607,11 @@
   z-index: 1;
 }
 .mod-custom-footer #footer a {
-  color: #ffffff;
+  color: ;
   text-decoration: none;
 }
 .mod-custom-footer #footer a:hover {
-  color: #1bbeb4;
+  color: ;
 }
 .mod-custom-footer ul {
   padding: 0;
@@ -637,7 +636,7 @@
   display: block;
   float: right;
   text-decoration: inherit;
-  font-size: 14px;
+  font-size: ;
 }
 .mod-custom-footer #footer .widget ul li {
   border-color: #333333;
@@ -705,11 +704,11 @@
   box-sizing: border-box;
   height: auto;
   overflow: hidden;
-  font-size: 12px;
+  font-size: ;
   border-top: 0 solid transparent;
 }
 .mod-custom-footer #copyright p {
-  color: #666666;
+  color: ;
   font-size: 11px;
   float: left;
   margin-bottom: 0;
@@ -731,7 +730,7 @@
   display: block;
   border: 0;
   background: #f7f7f7;
-  color: #999;
+  color: ;
 }
 .mod-custom-footer .widget #mc_embed_signup > form::after {
   content: "\f0e0";
@@ -740,20 +739,20 @@
   font-style: normal;
   display: inline-block;
   text-decoration: inherit;
-  font-size: 14px;
+  font-size: ;
   padding-right: 10px;
   position: absolute;
   float: right;
   top: 5px;
   right: 0;
-  color: #999;
+  color: ;
 }
 .mod-custom-footer #copyright a {
-  color: #ffffff;
+  color: ;
   text-decoration: none;
 }
 .mod-custom-footer #copyright a:hover {
-  color: #1bbeb4;
+  color: ;
 }
 .mod-custom-footer #copyright .beam-me-up {
   float: right;
