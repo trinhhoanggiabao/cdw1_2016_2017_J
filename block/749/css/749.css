@@ -1,100 +1,226 @@
-.M9-Product-3 .cuadro_intro_hover {
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
+.type-749 .breadcrumb_wrap .breadcrumb {
+  background-color: transparent;
 }
-.M9-Product-3 .cuadro_intro_hover:hover .caption {
-  opacity: 1;
-  transform: translateY(-150px);
-  -webkit-transform: translateY(-150px);
-  -moz-transform: translateY(-150px);
-  -ms-transform: translateY(-150px);
-  -o-transform: translateY(-150px);
+.type-749 .breadcrumb_wrap .breadcrumb li a {
+  color: #6c7b84;
 }
-.M9-Product-3 .cuadro_intro_hover img {
-  z-index: 4;
-  width: 100%;
-  padding: 30px;
-}
-.M9-Product-3 .cuadro_intro_hover .caption {
-  position: absolute;
-  top: 230px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  width: 100%;
-}
-.M9-Product-3 .cuadro_intro_hover .blur {
-  background-color: white;
-  opacity: 0.6;
-  height: 180px;
-  z-index: 5;
-  position: absolute;
-  width: 100%;
-}
-.M9-Product-3 .cuadro_intro_hover .caption-text {
-  z-index: 10;
-  color: #fff;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-}
-.M9-Product-3 .cuadro_intro_hover {
-  height: 350px;
-}
-.M9-Product-3 .price-item {
-  display: flex;
-  color: red;
-  font-size: 16px;
-  font-weight: bold;
-}
-.M9-Product-3 .price-item span {
-  padding: 5px;
-  padding: 10px 0;
-}
-.M9-Product-3 .price-item-sale {
-  font-style: initial;
-  color: black;
-  font-weight: normal;
-  font-size: 16px;
-  text-decoration: line-through;
-}
-.M9-Product-3 .btn-default {
-  border-radius: 0;
-  background: #4BAE4F;
-  color: white;
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
-  padding: 10px;
-}
-.M9-Product-3 .btn-default:hover {
-  background: #374046;
-  color: white;
-}
-.M9-Product-3 .caption-text a:hover {
+.type-749 .breadcrumb_wrap .breadcrumb li a:hover {
   text-decoration: none;
   color: #4BAE4F;
 }
-.M9-Product-3 .icon-bar-botom span {
-  border: #E1E1E1 1px solid;
-  padding: 10px;
-  background: #f5f4f4;
+.type-749 .breadcrumb_wrap .breadcrumb li span {
+  color: #6c7b84;
 }
-.M9-Product-3 .col-md-4 {
-  padding: 0px;
+.type-749 .page_heading {
   margin: 0;
+  font-size: 16px;
+  background: #f5f4f4;
+  border: 1px solid #ececec;
+  min-height: 50px;
+  padding: 14px 30px;
 }
-.M9-Product-3 .icon-bar-botom span:hover {
+.type-749 .page_heading a {
+  font-weight: inherit;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.type-749 a {
   color: #4bae4f;
-  background: white;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
-.M9-Product-3 .cuadro_intro_hover  img:hover {
-  opacity: 0.7;
+.type-749 a:hover {
+  color: #374046;
 }
-.M9-Product-3 .price-item-sale-top {
-  background: #4BAE4F;
-  color: white;
-  padding: 0;
+.type-749 .btn,
+.type-749 .scheme_1 .btn a,
+.type-749 .scheme_1 .btn-info,
+.type-749 .scheme_1 .btn-primary {
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 18px;
+  font-weight: 400;
+  background: #4bae4f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  border: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
+  transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.type-749 .btn:hover {
+  background: #374046;
+  color: #fff;
+}
+.type-749 p {
+  padding: 0;
+}
+.type-749 h4 {
+  margin: 15px 0;
+  font: 500 16px Ubuntu;
+  color: #374046;
+  text-transform: uppercase;
+}
+.type-749 .alert-form-info {
+  display: none;
+  margin: 5px 0 0 0;
+  font-weight: bold;
+  color: #d10300;
+  font-size: 12px;
+}
+.type-749 .account_wrapper {
+  width: 100%;
+  height: 100%;
+  display: table;
+  margin: 30px 0 0 0;
+}
+.type-749 .account_wrapper .account_left {
+  width: 50%;
+  height: 100%;
+  display: table-cell;
+  padding: 0 15px 0 0;
+  position: relative;
+}
+.type-749 .account_wrapper .account_left:before {
+  content: '';
+  border: 1px solid #ececec;
+  border-top: 2px solid #374046;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.type-749 .account_wrapper .account_left .account_section {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: none;
+  padding: 30px;
+}
+.type-749 .account_wrapper .account_left .account_section h4 {
+  overflow: hidden;
+  margin: 0;
+  font-size: 16px;
+}
+.type-749 .account_wrapper .account_left .account_section p.note {
+  margin: 15px 0 0 0;
+}
+.type-749 .account_wrapper .account_left .account_section ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+  list-style: none;
+}
+.type-749 .account_wrapper .account_left .account_section ul li {
+  margin: 5px 0 0 0;
+  color: #374046;
+  text-transform: uppercase;
+}
+.type-749 .account_wrapper .account_left .account_section ul li:before {
+  content: '\f00c';
+  margin: 0 7px 0 0;
+  font: 14px 'FontAwesome';
+  color: #6c7b84;
+}
+.type-749 .account_wrapper .account_left .account_section .btn {
+  margin-top: 15px;
+}
+.type-749 .account_wrapper .account_right {
+  width: 50%;
+  height: 100%;
+  display: table-cell;
+  padding: 0 0 0 15px;
+  position: relative;
+}
+.type-749 .account_wrapper .account_right:before {
+  content: '';
+  border: 1px solid #ececec;
+  border-top: 2px solid #374046;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 15px;
+  z-index: -1;
+}
+.type-749 .account_wrapper .account_right .account_section {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: none;
+  padding: 30px;
+}
+.type-749 .account_wrapper .account_right .account_section h4 {
+  overflow: hidden;
+  margin: 0;
+  font-size: 16px;
+}
+.type-749 .account_wrapper .account_right .account_section .form-group {
+  vertical-align: top !important;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.type-749 .account_wrapper .account_right .account_section .form-group label {
+  line-height: 34px;
+  font-weight: bold;
+  font-size: 13px;
+}
+.type-749 .account_wrapper .account_right .account_section .form-group .form-control {
+  height: 34px;
+  line-height: 18px;
+  padding: 7px;
+}
+.type-749 .account_wrapper .account_right .account_section .btn {
+  margin-right: 15px;
+}
+.type-749 .account_wrapper .account_right .account_section #account_reset_link {
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  .type-749 .account_wrapper {
+    display: block;
+    margin: 0;
+  }
+  .type-749 .account_wrapper .account_left {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+  }
+  .type-749 .account_wrapper .account_left:before {
+    right: 0;
+  }
+  .type-749 .account_wrapper .account_left .account_section {
+    margin: 30px 0 0 0;
+  }
+  .type-749 .account_wrapper .account_right {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 0;
+  }
+  .type-749 .account_wrapper .account_right:before {
+    left: 0;
+  }
+  .type-749 .account_wrapper .account_right .account_section {
+    margin: 30px 0 0 0;
+  }
+}
+@media (max-width: 640px) {
+  .type-749 .account_wrapper .account_left .account_section {
+    margin: 15px 0 0 0;
+  }
+  .type-749 .account_wrapper .account_left .account_section ul li {
+    font-size: 12px;
+  }
+  .type-749 .account_wrapper .account_right .account_section {
+    margin: 15px 0 0 0;
+  }
+  .type-749 .account_wrapper .account_right .account_section h4 {
+    font-size: 14px;
+  }
 }

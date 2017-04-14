@@ -5,11 +5,6 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/sliderShow.js" type="text/javascript"></script>
-        <script src="js/newjavascript.js" type="text/javascript"></script>
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');

@@ -5,11 +5,6 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/sliderShow.js" type="text/javascript"></script>
-        <script src="js/newjavascript.js" type="text/javascript"></script>
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -20,11 +15,11 @@
         <link href="css/748.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div class="M7-Youtube">
-
+        
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
+                        <div class="type-748">
                         <div class="product_description">
                             <h3 class="product_description__title">Description</h3>
 

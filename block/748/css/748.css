@@ -1,8 +1,10 @@
-.M7-Youtube .container {
-  background: #e3e3e3;
+.container {
   margin-bottom: 20px;
   padding-bottom: 50px;
-}
-.M7-Youtube .container {
   background: white;
+}
+@media (max-width: 640px) {
+  .container .type-748 h2 {
+    font-size: 20px;
+  }
 }
