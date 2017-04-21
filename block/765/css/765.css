@@ -1,0 +1,23 @@
+.type-765 h2.bg-success {
+  padding: 15px;
+}
+.type-765 .required-lbl {
+  color: red;
+}
+.type-765 label[for="billinginformation"] {
+  display: inline;
+  float: left;
+  margin: 0px 45px 0px 0px;
+}
+.type-765 .card-expiry {
+  padding-left: 0px;
+}
+.type-765 .confirm-btn {
+  float: right;
+}
+.type-765 .bg-primary {
+  padding: 10px;
+}
+.type-765 label {
+  margin-bottom: 0px;
+}

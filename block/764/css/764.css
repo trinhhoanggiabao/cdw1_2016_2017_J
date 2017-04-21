@@ -1,0 +1,48 @@
+.type-764 .container {
+  padding-top: 40px;
+}
+.type-764 #details {
+  font-family: "Quicksand", sans-serif;
+  font-size: 60px;
+}
+.type-764 #home-box > h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  line-height: 1.1;
+  color: #75b1ae;
+}
+.type-764 .price {
+  font-size: 25px;
+  float: left;
+}
+.type-764 .pricing_header {
+  background: none repeat scroll 0% 0% #2c3e50;
+  border-radius: 5px 5px 0px 0px;
+  transition: background 0.4s ease-out 0s;
+}
+.type-764 #home-box .pricing_header h2 {
+  text-align: center;
+  line-height: 25px;
+  padding: 15px 0px;
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  color: #75b1ae;
+}
+.type-764 .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.type-764 .btn {
+  float: right;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+.type-764 .off {
+  text-decoration: line-through;
+  color: #565656;
+}
+.type-764 .space {
+  height: 2px;
+  background-color: #75b1ae;
+}

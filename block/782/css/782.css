@@ -1,0 +1,306 @@
+.type-782 {
+  @import url('https://fonts.googleapis.com/css?family=Arima+Madurai:100,200,300,400,500,700,800,900');
+}
+.type-782 body {
+  margin-top: 60px;
+  font-size: 14px;
+  font-family: 'Arima Madurai', cursive;
+  background-color: #E5E9ED;
+}
+.type-782 .btn:hover,
+.type-782 .btn:focus,
+.type-782 .btn:active {
+  outline: 0 !important;
+}
+.type-782 .card-container {
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px;
+  margin-bottom: 30px;
+}
+.type-782 .card-container:not(.manual-flip):hover .card,
+.type-782 .card-container.hover.manual-flip .card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.type-782 .card-container.static:hover .card,
+.type-782 .card-container.static.hover .card {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+.type-782 .card {
+  -webkit-transition: -webkit-transform .5s;
+  -moz-transition: -moz-transform .5s;
+  -o-transition: -o-transform .5s;
+  transition: transform .5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.type-782 .front,
+.type-782 .back {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.14);
+}
+.type-782 .front {
+  z-index: 2;
+}
+.type-782 .back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  z-index: 3;
+}
+.type-782 .back .btn-simple {
+  position: absolute;
+  left: 0;
+  bottom: 4px;
+}
+.type-782 .card {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-radius: 4px;
+  color: #444444;
+}
+.type-782 .card-container,
+.type-782 .front,
+.type-782 .back {
+  width: 100%;
+  height: 420px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
+}
+.type-782 .card .cover {
+  height: 105px;
+  overflow: hidden;
+  border-radius: 4px 4px 0 0;
+}
+.type-782 .card .cover img {
+  width: 100%;
+}
+.type-782 .card .user {
+  border-radius: 50%;
+  display: block;
+  height: 120px;
+  margin: -55px auto 0;
+  overflow: hidden;
+  width: 120px;
+}
+.type-782 .card .user img {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 4px solid #FFFFFF;
+  width: 100%;
+}
+.type-782 .card .content {
+  background-color: rgba(0,0,0,0);
+  box-shadow: none;
+  padding: 10px 20px 20px;
+}
+.type-782 .card .content .main {
+  min-height: 160px;
+}
+.type-782 .card .back .content .main {
+  height: 215px;
+}
+.type-782 .card .name {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 10px 0 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+.type-782 .card h5 {
+  margin: 5px 0;
+  font-weight: 400;
+  line-height: 20px;
+}
+.type-782 .card .profession {
+  color: #999999;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.type-782 .card .footer {
+  border-top: 1px solid #EEEEEE;
+  color: #999999;
+  margin: 30px 0 0;
+  padding: 10px 0 0;
+  text-align: center;
+}
+.type-782 .card .footer .social-links {
+  font-size: 18px;
+}
+.type-782 .card .footer .social-links a {
+  margin: 0 7px;
+}
+.type-782 .card .footer .btn-simple {
+  margin-top: -6px;
+}
+.type-782 .card .header {
+  padding: 15px 20px;
+  height: 90px;
+}
+.type-782 .card .motto {
+  font-family: 'Arima Madurai', cursive;
+  border-bottom: 1px solid #EEEEEE;
+  color: #999999;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.type-782 .card .stats-container {
+  width: 100%;
+  margin-top: 50px;
+}
+.type-782 .card .stats {
+  display: block;
+  float: left;
+  width: 33.333333%;
+  text-align: center;
+}
+.type-782 .card .stats:first-child {
+  border-right: 1px solid #EEEEEE;
+}
+.type-782 .card .stats:last-child {
+  border-left: 1px solid #EEEEEE;
+}
+.type-782 .card .stats h4 {
+  font-family: 'Arima Madurai', cursive;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.type-782 .card .stats p {
+  color: #777777;
+}
+.type-782 .title {
+  color: #506A85;
+  text-align: center;
+  font-weight: 300;
+  font-size: 44px;
+  margin-bottom: 90px;
+  line-height: 90%;
+}
+.type-782 .title small {
+  font-size: 17px;
+  color: #999;
+  text-transform: uppercase;
+  margin: 0;
+}
+.type-782 .space-30 {
+  height: 30px;
+  display: block;
+}
+.type-782 .space-50 {
+  height: 50px;
+  display: block;
+}
+.type-782 .space-200 {
+  height: 200px;
+  display: block;
+}
+.type-782 .white-board {
+  background-color: #FFFFFF;
+  min-height: 200px;
+  padding: 60px 60px 20px;
+}
+.type-782 .ct-heart {
+  color: #F74933;
+}
+.type-782 pre.prettyprint {
+  background-color: #ffffff;
+  border: 1px solid #999;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: left;
+}
+.type-782 .atv,
+.type-782 .str {
+  color: #05AE0E;
+}
+.type-782 .tag,
+.type-782 .pln,
+.type-782 .kwd {
+  color: #3472F7;
+}
+.type-782 .atn {
+  color: #2C93FF;
+}
+.type-782 .pln {
+  color: #333;
+}
+.type-782 .com {
+  color: #999;
+}
+.type-782 .btn-simple {
+  opacity: .8;
+  color: #666666;
+  background-color: transparent;
+}
+.type-782 .btn-simple:hover,
+.type-782 .btn-simple:focus {
+  background-color: transparent;
+  box-shadow: none;
+  opacity: 1;
+}
+.type-782 .btn-simple i {
+  font-size: 16px;
+}
+.type-782 .navbar-brand-logo {
+  padding: 0;
+}
+.type-782 .navbar-brand-logo .logo {
+  border: 1px solid #333333;
+  border-radius: 50%;
+  float: left;
+  overflow: hidden;
+  width: 60px;
+}
+.type-782 .navbar .navbar-brand-logo .brand {
+  color: #FFFFFF;
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 60px;
+}
+.type-782 .navbar-default .navbar-brand-logo .brand {
+  color: #555;
+}
+@media screen and (-ms-high-contrast: active),(-ms-high-contrast: none) {
+  .type-782 .front,
+  .type-782 .back {
+    -ms-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  .type-782 .back {
+    visibility: hidden;
+    -ms-transition: all 0.2s cubic-bezier(.92,.01,.83,.67);
+  }
+  .type-782 .front {
+    z-index: 4;
+  }
+  .type-782 .card-container:not(.manual-flip):hover .back,
+  .type-782 .card-container.manual-flip.hover .back {
+    z-index: 5;
+    visibility: visible;
+  }
+}
