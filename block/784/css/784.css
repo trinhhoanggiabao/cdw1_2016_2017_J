@@ -1,0 +1,48 @@
+.type-784 body {
+  margin-top: 20px;
+}
+.type-784 .btn-block {
+  display: block;
+  width: 100%;
+}
+.type-784 .btn-group-lg .btn,
+.type-784 .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.type-784 address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.42857143;
+}
+.type-784 .text-center {
+  text-align: center;
+}
+.type-784 .table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.type-784 table {
+  background-color: transparent;
+}
+.type-784 .table thead tr th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+.type-784 .table tbody tr td,
+.type-784 .table tbody tr th,
+.type-784 .table tfoot tr td,
+.type-784 .table tfoot tr th,
+.type-784 .table thead tr td,
+.type-784 .table thead tr th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+.type-784 .text-right {
+  text-align: right;
+}
