@@ -11,11 +11,11 @@
         }
         $less = new lessc;
         $less->compileFile('less/767.less', 'css/767.css');
-        ?> 
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/767.css" rel="stylesheet" type="text/css"/>
-    </head> 
+        ?>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/767.css" rel="stylesheet" type="text/css" />
+    </head>
 
     <body>
 
@@ -67,7 +67,7 @@
                                             <input type="text" class="form-control" placeholder="CCV" />
                                         </div>
                                         <div class="col-md-3 col-sm-3 col-xs-3">
-                                            <img src="images/the.png"/>
+                                            <img src="images/the.png" />
                                         </div>
                                     </div>
                                     <div class="row ">
