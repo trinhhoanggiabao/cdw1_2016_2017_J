@@ -20,6 +20,7 @@
         <script src="js/jquery-2.2.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
     </head>
+
     <body>
         <div class="type-756">
             <div class="container">
@@ -31,7 +32,7 @@
                                     <div class="row">
                                         <div class="left-top">
                                             <div class="col-md-6">
-                                                <div class="row"> 
+                                                <div class="row">
                                                     <div class="info">
                                                         <h2> TV & Video</h2>
                                                         <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
@@ -43,7 +44,7 @@
                                             <div class="col-md-6">
                                                 <div class="row">
                                                     <figure class="image">
-                                                        <img src="images/left-top-content.png" alt=""class="img-responsive"/>
+                                                        <img src="images/left-top-content.png" alt="" class="img-responsive" />
                                                     </figure>
                                                 </div>
                                             </div>
@@ -54,7 +55,7 @@
                                     <div class="row">
                                         <div class="right-top">
                                             <div class="col-md-6">
-                                                <div class="row"> 
+                                                <div class="row">
                                                     <div class="info">
                                                         <h2> Home appliances </h2>
                                                         <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
@@ -65,7 +66,7 @@
                                             <div class="col-md-6">
                                                 <div class="row">
                                                     <figure class="image">
-                                                        <img src="images/right-top-content.png" alt=""/>
+                                                        <img src="images/right-top-content.png" alt="" />
                                                     </figure>
                                                 </div>
                                             </div>
@@ -102,27 +103,35 @@
                                                             <a href="#"> New </a>
                                                         </div>
                                                         <figure class="images">
-                                                            <img src="images/master-iron.png" alt=""/>
+                                                            <img src="images/master-iron.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $40.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#"> Master Iron width Anti-Drip-System</a> 
-                                                        </div> 
+                                                            <a href="#"> Master Iron width Anti-Drip-System</a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
 
                                             <div class="col-md-4">
@@ -132,27 +141,35 @@
                                                             <a href="#"> New </a>
                                                         </div>
                                                         <figure class="images">
-                                                            <img src="images/48-inch.png" alt=""/>
+                                                            <img src="images/48-inch.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $550.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#"> 48-Inch 1080p 60Hz Smart LED TV </a> 
-                                                        </div> 
+                                                            <a href="#"> 48-Inch 1080p 60Hz Smart LED TV </a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
 
                                             <div class="col-md-4">
@@ -162,29 +179,38 @@
                                                             <a href="#"> New </a>
                                                         </div>
                                                         <figure class="images">
-                                                            <img src="images/65-inch.png" alt=""/>
+                                                            <img src="images/65-inch.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $3,000.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#"> 65-Inch 4K Ultra HD Smart LED TV </a> 
-                                                        </div> 
+                                                            <a href="#"> 65-Inch 4K Ultra HD Smart LED TV </a>
+                                                        </div>
                                                         <div class="description">
-                                                            Comfort is a very important thing nowadays because it is a condition of satisfaction. 
+                                                            Comfort is a very important thing nowadays because it is a condition of satisfaction.
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
-                                        </div><!--/item-->
+                                        </div>
+                                        <!--/item-->
 
                                         <div class="item">
                                             <div class="col-md-4">
@@ -194,27 +220,35 @@
                                                             <a href="#"> New </a>
                                                         </div>
                                                         <figure class="images">
-                                                            <img src="images/28-inch.png" alt=""/>
+                                                            <img src="images/28-inch.png" alt="" />
                                                         </figure>
                                                         <div class="price">
-                                                            <h2> $2,000.00 </h2> 
+                                                            <h2> $2,000.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#">28-Inch 720p 60Hz LED TV</a> 
-                                                        </div> 
+                                                            <a href="#">28-Inch 720p 60Hz LED TV</a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
 
                                             <div class="col-md-4">
@@ -224,27 +258,35 @@
                                                             <a href="#"> New </a>
                                                         </div>
                                                         <figure class="images">
-                                                            <img src="images/Soundbar.png" alt=""/>
+                                                            <img src="images/Soundbar.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $230.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#">Wireless Audio Soundbar</a> 
-                                                        </div> 
+                                                            <a href="#">Wireless Audio Soundbar</a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
 
                                             <div class="col-md-4">
@@ -254,29 +296,38 @@
                                                             <a href="#"> New </a>
                                                         </div>
                                                         <figure class="images">
-                                                            <img src="images/blu-ray.png" alt=""/>
+                                                            <img src="images/blu-ray.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $350.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#">Blu-Ray Home Theater System</a> 
-                                                        </div> 
+                                                            <a href="#">Blu-Ray Home Theater System</a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
-                                        </div><!--/item-->
+                                        </div>
+                                        <!--/item-->
                                     </div>
                                 </div>
                             </div>
@@ -290,8 +341,12 @@
                                         <h2> Featured </h2>
                                         <div class="btn">
                                             <ul>
-                                                <li><a href="#myFeatured" data-slide="prev"> <span class="glyphicon glyphicon-chevron-up"> </span></a></li>
-                                                <li><a href="#myFeatured" data-slide="next"> <span class="glyphicon glyphicon-chevron-down"> </span></a></li>
+                                                <li>
+                                                    <a href="#myFeatured" data-slide="prev"> <span class="glyphicon glyphicon-chevron-up"> </span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#myFeatured" data-slide="next"> <span class="glyphicon glyphicon-chevron-down"> </span></a>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -304,171 +359,221 @@
                                                 <div class="row">
                                                     <div class="column" style="margin-right : 15px;">
                                                         <figure class="images">
-                                                            <img src="images/video-capture.png" alt=""/>
+                                                            <img src="images/video-capture.png" alt="" />
                                                         </figure>
                                                         <div class="price">
-                                                            <h2> $90.00 </h2> <h3> $600.00 </h3>
+                                                            <h2> $90.00 </h2>
+                                                            <h3> $600.00 </h3>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#"> Wireless Smartphone Video Capture </a> 
-                                                        </div> 
+                                                            <a href="#"> Wireless Smartphone Video Capture </a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
 
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style=" margin-left: 15px;">
                                                         <figure class="images">
-                                                            <img src="images/65-inch.png" alt=""/>
+                                                            <img src="images/65-inch.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $3,000.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#"> 65-Inch 4K Ultra HD Smart LED TV </a> 
-                                                        </div> 
+                                                            <a href="#"> 65-Inch 4K Ultra HD Smart LED TV </a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
 
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-left: 15px;">
                                                         <figure class="images">
-                                                            <img src="images/hard-floor.png" alt=""/>
+                                                            <img src="images/hard-floor.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $120.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#"> Hard Floor Expert Deluxe Canister </a> 
-                                                        </div> 
+                                                            <a href="#"> Hard Floor Expert Deluxe Canister </a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
-                                        </div><!--/item-->
+                                        </div>
+                                        <!--/item-->
 
                                         <div class="item">
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-right : 15px;">
                                                         <figure class="images">
-                                                            <img src="images/ninja-blender.png" alt=""/>
+                                                            <img src="images/ninja-blender.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $210.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#">Ninja Blender Duo with Auto-iQ</a> 
-                                                        </div> 
+                                                            <a href="#">Ninja Blender Duo with Auto-iQ</a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
 
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-left: 15px;">
                                                         <figure class="images">
-                                                            <img src="images/48-inch.png" alt=""/>
+                                                            <img src="images/48-inch.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $550.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#"> 48-Inch 1080p 60Hz Smart LED TV </a> 
-                                                        </div> 
+                                                            <a href="#"> 48-Inch 1080p 60Hz Smart LED TV </a>
+                                                        </div>
                                                         <div class="description">
-                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p> 
+                                                            <p> Comfort is a very important thing nowadays because it is a condition of satisfaction. </p>
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
 
                                             <div class="col-md-4">
                                                 <div class="row">
                                                     <div class="column" style="margin-left: 15px;">
                                                         <figure class="images">
-                                                            <img src="images/65-inch.png" alt=""/>
+                                                            <img src="images/65-inch.png" alt="" />
                                                         </figure>
                                                         <div class="price">
                                                             <h2> $3,000.00 </h2>
                                                         </div>
                                                         <div class="name">
-                                                            <a href="#"> 65-Inch 4K Ultra HD Smart LED TV </a> 
-                                                        </div> 
+                                                            <a href="#"> 65-Inch 4K Ultra HD Smart LED TV </a>
+                                                        </div>
                                                         <div class="description">
-                                                            Comfort is a very important thing nowadays because it is a condition of satisfaction. 
+                                                            Comfort is a very important thing nowadays because it is a condition of satisfaction.
                                                         </div>
                                                         <div class="group-btn">
                                                             <ul>
-                                                                <li id="active"><a href="#" class="glyphicon glyphicon-shopping-cart"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-heart"></a></li>
-                                                                <li><a href="#" class="	glyphicon glyphicon-paperclip"></a></li>
-                                                                <li><a href="#" class="glyphicon glyphicon-check"></a></li>
+                                                                <li id="active">
+                                                                    <a href="#" class="glyphicon glyphicon-shopping-cart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-heart"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="	glyphicon glyphicon-paperclip"></a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="glyphicon glyphicon-check"></a>
+                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                </div>  
+                                                </div>
                                             </div>
-                                        </div><!--/item-->
-
+                                        </div>
+                                        <!--/item-->
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>

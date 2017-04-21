@@ -90,7 +90,7 @@
 .type-757 .detail .btn-add p a {
   color: #ffffff;
 }
-.type-757 .detail .btn-add :hover {
+.type-757 .detail .btn-add:hover {
   background: #333;
 }
 .type-757 .detail .btn-add p a:hover {

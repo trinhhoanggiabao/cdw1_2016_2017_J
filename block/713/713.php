@@ -1,11 +1,12 @@
 <html>
+
     <head>
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="user-scalable=0, initial-scale=1.0">
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="css/713.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/713.css" rel="stylesheet" type="text/css" />
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -14,11 +15,12 @@
         $less->compileFile('less/713.less', 'css/713.css');
         ?>
 
-        <link href="css/713.css" rel="stylesheet" type="text/css" /> 
+        <link href="css/713.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
     </head>
+
     <body>
 
         <div class="type-713">
@@ -61,7 +63,7 @@
                         <div class="row">
                             <div class="col-md-3">
                                 <div class="logo">
-                                    <img src="images/logo.png" alt=""/>
+                                    <img src="images/logo.png" alt="" />
                                 </div>
                             </div>
                             <div class="col-md-7">
@@ -114,7 +116,7 @@
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span>
                                     </button>
                                     <div class="logo" data-toggle="collapse" data-target="#myNavbar">
                                         <a class="navbar-brand" href="#">MENU</a>
@@ -124,16 +126,16 @@
                                     <ul class="nav navbar-nav">
                                         <li class="active"><a href="#">CATEGORIES</a></li>
                                         <li><a href="#">Clothing</a></li>
-                                        <li><a href="#">Accessories</a></li> 
-                                        <li><a href="#">Tops & T-Shirts</a></li> 
-                                        <li><a href="#">Cardigans</a></li> 
-                                        <li><a href="#">Jumpers</a></li> 
-                                        <li><a href="#">Designer Wear</a></li> 
-                                        <li><a href="#">jersey tops</a></li> 
-                                        <li><a href="#">Blouses</a></li> 
-                                        <li><a href="#">Swim Wear</a></li> 
-                                        <li><a href="#">Skirts</a></li> 
-                                        <li><a href="#">Coats & Jackets</a></li> 
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Tops & T-Shirts</a></li>
+                                        <li><a href="#">Cardigans</a></li>
+                                        <li><a href="#">Jumpers</a></li>
+                                        <li><a href="#">Designer Wear</a></li>
+                                        <li><a href="#">jersey tops</a></li>
+                                        <li><a href="#">Blouses</a></li>
+                                        <li><a href="#">Swim Wear</a></li>
+                                        <li><a href="#">Skirts</a></li>
+                                        <li><a href="#">Coats & Jackets</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -142,7 +144,7 @@
                             <!---===========phan Shop cllection==============-->
                             <div class="shopcollection">
                                 <ul>
-                                    <li ><a href="#" class="active">SHOP COLLECTION</a></li>
+                                    <li><a href="#" class="active">SHOP COLLECTION</a></li>
                                     <li><a href="#">Holiday shop</a></li>
                                     <li><a href="#">Fashion Essentials</a></li>
                                     <li><a href="#">Work</a></li>
@@ -155,7 +157,7 @@
                             <!---===========phan wintershop==============-->
                             <div class="wintershop">
                                 <ul>
-                                    <li ><a href="#" class="active">WINTER SHOP</a></li>
+                                    <li><a href="#" class="active">WINTER SHOP</a></li>
                                     <li><a href="#">View all</a></li>
                                     <li><a href="#">Faux Fur Coats</a></li>
                                     <li><a href="#">Parkas</a></li>
@@ -179,11 +181,11 @@
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner" role="listbox">
                                                 <div class="item active">
-                                                    <img src="images/main-banner.jpg" alt=""/>
+                                                    <img src="images/main-banner.jpg" alt="" />
                                                 </div>
 
                                                 <div class="item">
-                                                    <img src="images/main-banner2.jpg" alt=""/>
+                                                    <img src="images/main-banner2.jpg" alt="" />
                                                 </div>
                                             </div>
                                             <!-- Left and right controls -->
@@ -200,7 +202,7 @@
                                     <!--=========phan sigle banner============-->
                                     <div class="col-md-4 col-sm-6 col-xs-12">
                                         <div class="singlebanner">
-                                            <img src="images/sub1.jpg" alt=""/>
+                                            <img src="images/sub1.jpg" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -211,7 +213,7 @@
                             <div class="row">
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="sub-banner">
-                                        <img src="images/Sub_banner1.jpg" alt=""/>
+                                        <img src="images/Sub_banner1.jpg" alt="" />
                                         <div class="text">
                                             <p>BAGS</p>
                                         </div>
@@ -222,7 +224,7 @@
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="sub-banner">
-                                        <img src="images/Sub_banner2.jpg" alt=""/>
+                                        <img src="images/Sub_banner2.jpg" alt="" />
                                         <div class="text">
                                             JACKETS
                                         </div>
@@ -233,7 +235,7 @@
                                 </div>
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <div class="sub-banner">
-                                        <img src="images/Sub_banner3.jpg" alt=""/>
+                                        <img src="images/Sub_banner3.jpg" alt="" />
                                         <div class="text">
                                             GOGGLES
                                         </div>
@@ -256,38 +258,34 @@
 
                             <div class="htabs">
                                 <ul class="tabbernav_product nav-pills" id="nav">
-                                    <li class="active"><a class="tab-text selected"  data-toggle="tab" title="tab_product" href="#newproducts"  data-text="Latest"><span>Latest</span></a></li>
-                                    <li ><a class="tab-text "  data-toggle="tab"  title="tab_product" href="#newproducts"  data-text="Best Seller"><span>Best Seller</span></a></li>
-                                    <li ><a class="tab-text " data-toggle="tab"  title="tab_product" href="#newproducts"  data-text="Special"><span>Special</span></a></li>
-                                    <li><a class="tab-text" data-toggle="tab"  title="tab_product" href="#newproducts"  data-text="featured"><span>featured</span></a></li>
+                                    <li class="active"><a class="tab-text selected" data-toggle="tab" title="tab_product" href="#newproducts" data-text="Latest"><span>Latest</span></a></li>
+                                    <li><a class="tab-text " data-toggle="tab" title="tab_product" href="#newproducts" data-text="Best Seller"><span>Best Seller</span></a></li>
+                                    <li><a class="tab-text " data-toggle="tab" title="tab_product" href="#newproducts" data-text="Special"><span>Special</span></a></li>
+                                    <li><a class="tab-text" data-toggle="tab" title="tab_product" href="#newproducts" data-text="featured"><span>featured</span></a></li>
                                 </ul>
                             </div>
-                            <div class="tabs">    
+                            <div class="tabs">
                                 <div class="tab-content">
                                     <div id="newproducts" class="tab-pane fade in active ">
 
                                         <ul class="products-grid" style="width: 100%;">
 
-                                            <li class="item" >
+                                            <li class="item">
                                                 <div class="product-block" style="height: 394px;">
                                                     <div class="product-block-inner">
                                                         <div class="product-image-block-inner">
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="Donec semper sem nec available" class="product-image">
-                                                                    <img src="images/23_2.jpg" alt=""/>
+                                                                    <img src="images/23_2.jpg" alt="" />
                                                                     <img class="hover-image" src="images/19_3_2.jpg" width="285" height="300" alt="Donec semper sem nec available">
                                                                 </a>
-
-
 
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#donec-semper-sem-nec-available.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -296,36 +294,32 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Donec semper sem nec available">Donec semper sem nec available</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$360.00</span> </span>
 
                                                             </div>
 
-
                                                             <div class="ratings">
                                                                 <div class="rating-box">
-                                                                    <div class="rating" style="width:80%">                                                        </div>
+                                                                    <div class="rating" style="width:80%"> </div>
                                                                 </div>
                                                                 <span class="amount">1 Review(s)</span>
                                                             </div>
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -334,19 +328,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="Justo neque Ipsum" class="product-image">
                                                                     <img src="images/9_4_5.jpg" alt="">
                                                                     <img class="hover-image" src="images/10_4_5.jpg" width="285" height="300" alt="Justo neque Ipsum">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#justo-neque-ipsum.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -355,22 +345,17 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Justo neque Ipsum">Justo neque Ipsum</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$625.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -380,10 +365,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -399,13 +385,10 @@
                                                                     <img class="hover-image" src="images/9_4_5.jpg" width="285" height="300" alt="Ifashion ipsum dolor amet">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#consectetur-adipiscing-ipsum-available-56.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -413,8 +396,6 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-
-
 
                                                             </div>
 
@@ -422,23 +403,15 @@
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Ifashion ipsum dolor amet">Ifashion ipsum dolor amet</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $970.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $860.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -448,10 +421,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -460,19 +434,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="feminine designs delivering stylish" class="product-image">
                                                                     <img src="images/4_1_8.jpg" alt="">
                                                                     <img class="hover-image" src="images/5_10.jpg" width="285" height="300" alt="feminine designs delivering stylish">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#feminine-designs-delivering-stylish.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -480,8 +450,6 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-
-
 
                                                             </div>
 
@@ -489,14 +457,11 @@
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="feminine designs delivering stylish">feminine designs delivering stylish</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$580.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -506,10 +471,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -518,19 +484,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="expound the actual teachings ofgreat" class="product-image">
                                                                     <img src="images/7_3_4.jpg" alt="">
                                                                     <img class="hover-image" src="images/8_1_10.jpg" width="285" height="300" alt="expound the actual teachings ofgreat">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#expound-the-actual-teachings-ofgreat.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -539,22 +501,17 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="expound the actual teachings ofgreat">expound the actual teachings ofgreat</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$300.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -564,10 +521,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -583,13 +541,10 @@
                                                                     <img class="hover-image" src="images/6_1_2.jpg" width="285" height="300" alt="established fact variations of passages">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#established-fact-variations-of-passages-44.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -598,31 +553,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="established fact variations of passages">established fact variations of passages</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $400.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $325.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -632,10 +577,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -651,13 +597,10 @@
                                                                     <img class="hover-image" src="images/4_1_8.jpg" width="285" height="300" alt="Lorem ipsum dolor simply sed">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -666,31 +609,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Lorem ipsum dolor simply sed">Lorem ipsum dolor simply sed</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $780.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $680.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -700,10 +633,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -719,13 +653,10 @@
                                                                     <img class="hover-image" src="images/2_10.jpg" width="285" height="300" alt="Arcu vitae imperdiet simply">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#arcu-vitae-imperdiet-simply.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -734,31 +665,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Arcu vitae imperdiet simply">Arcu vitae imperdiet simply</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $860.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $800.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -768,11 +689,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
-
 
                                         </ul>
                                     </div>
@@ -786,19 +707,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="Donec semper sem nec available" class="product-image">
-                                                                    <img src="images/23_2.jpg" alt=""/>
+                                                                    <img src="images/23_2.jpg" alt="" />
                                                                     <img class="hover-image" src="images/19_3_2.jpg" width="285" height="300" alt="Donec semper sem nec available">
                                                                 </a>
-
-
 
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#donec-semper-sem-nec-available.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -807,36 +724,32 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Donec semper sem nec available">Donec semper sem nec available</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$360.00</span> </span>
 
                                                             </div>
 
-
                                                             <div class="ratings">
                                                                 <div class="rating-box">
-                                                                    <div class="rating" style="width:80%">                                                        </div>
+                                                                    <div class="rating" style="width:80%"> </div>
                                                                 </div>
                                                                 <span class="amount">1 Review(s)</span>
                                                             </div>
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -845,19 +758,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="Justo neque Ipsum" class="product-image">
                                                                     <img src="images/9_4_5.jpg" alt="">
                                                                     <img class="hover-image" src="images/10_4_5.jpg" width="285" height="300" alt="Justo neque Ipsum">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#justo-neque-ipsum.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -866,22 +775,17 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Justo neque Ipsum">Justo neque Ipsum</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$625.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -891,10 +795,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -910,13 +815,10 @@
                                                                     <img class="hover-image" src="images/9_4_5.jpg" width="285" height="300" alt="Ifashion ipsum dolor amet">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#consectetur-adipiscing-ipsum-available-56.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -924,8 +826,6 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-
-
 
                                                             </div>
 
@@ -933,23 +833,15 @@
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Ifashion ipsum dolor amet">Ifashion ipsum dolor amet</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $970.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $860.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -959,10 +851,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -971,19 +864,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="feminine designs delivering stylish" class="product-image">
                                                                     <img src="images/4_1_8.jpg" alt="">
                                                                     <img class="hover-image" src="images/5_10.jpg" width="285" height="300" alt="feminine designs delivering stylish">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#feminine-designs-delivering-stylish.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -991,8 +880,6 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-
-
 
                                                             </div>
 
@@ -1000,14 +887,11 @@
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="feminine designs delivering stylish">feminine designs delivering stylish</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$580.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1017,10 +901,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1029,19 +914,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="expound the actual teachings ofgreat" class="product-image">
                                                                     <img src="images/7_3_4.jpg" alt="">
                                                                     <img class="hover-image" src="images/8_1_10.jpg" width="285" height="300" alt="expound the actual teachings ofgreat">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#expound-the-actual-teachings-ofgreat.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1050,22 +931,17 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="expound the actual teachings ofgreat">expound the actual teachings ofgreat</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$300.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1075,10 +951,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1094,13 +971,10 @@
                                                                     <img class="hover-image" src="images/6_1_2.jpg" width="285" height="300" alt="established fact variations of passages">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#established-fact-variations-of-passages-44.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1109,31 +983,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="established fact variations of passages">established fact variations of passages</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $400.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $325.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1143,10 +1007,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1162,13 +1027,10 @@
                                                                     <img class="hover-image" src="images/4_1_8.jpg" width="285" height="300" alt="Lorem ipsum dolor simply sed">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1177,31 +1039,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Lorem ipsum dolor simply sed">Lorem ipsum dolor simply sed</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $780.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $680.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1211,10 +1063,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1230,13 +1083,10 @@
                                                                     <img class="hover-image" src="images/2_10.jpg" width="285" height="300" alt="Arcu vitae imperdiet simply">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#arcu-vitae-imperdiet-simply.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1245,31 +1095,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Arcu vitae imperdiet simply">Arcu vitae imperdiet simply</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $860.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $800.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1279,11 +1119,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
-
 
                                         </ul>
 
@@ -1298,19 +1138,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="Donec semper sem nec available" class="product-image">
-                                                                    <img src="images/23_2.jpg" alt=""/>
+                                                                    <img src="images/23_2.jpg" alt="" />
                                                                     <img class="hover-image" src="images/19_3_2.jpg" width="285" height="300" alt="Donec semper sem nec available">
                                                                 </a>
-
-
 
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#donec-semper-sem-nec-available.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1319,36 +1155,32 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Donec semper sem nec available">Donec semper sem nec available</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$360.00</span> </span>
 
                                                             </div>
 
-
                                                             <div class="ratings">
                                                                 <div class="rating-box">
-                                                                    <div class="rating" style="width:80%">                                                        </div>
+                                                                    <div class="rating" style="width:80%"> </div>
                                                                 </div>
                                                                 <span class="amount">1 Review(s)</span>
                                                             </div>
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1357,19 +1189,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="Justo neque Ipsum" class="product-image">
                                                                     <img src="images/9_4_5.jpg" alt="">
                                                                     <img class="hover-image" src="images/10_4_5.jpg" width="285" height="300" alt="Justo neque Ipsum">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#justo-neque-ipsum.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1378,22 +1206,17 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Justo neque Ipsum">Justo neque Ipsum</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$625.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1403,10 +1226,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1422,13 +1246,10 @@
                                                                     <img class="hover-image" src="images/9_4_5.jpg" width="285" height="300" alt="Ifashion ipsum dolor amet">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#consectetur-adipiscing-ipsum-available-56.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1436,8 +1257,6 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-
-
 
                                                             </div>
 
@@ -1445,23 +1264,15 @@
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Ifashion ipsum dolor amet">Ifashion ipsum dolor amet</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $970.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $860.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1471,10 +1282,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1483,19 +1295,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="feminine designs delivering stylish" class="product-image">
                                                                     <img src="images/4_1_8.jpg" alt="">
                                                                     <img class="hover-image" src="images/5_10.jpg" width="285" height="300" alt="feminine designs delivering stylish">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#feminine-designs-delivering-stylish.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1503,8 +1311,6 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-
-
 
                                                             </div>
 
@@ -1512,14 +1318,11 @@
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="feminine designs delivering stylish">feminine designs delivering stylish</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$580.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1529,10 +1332,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1541,19 +1345,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="expound the actual teachings ofgreat" class="product-image">
                                                                     <img src="images/7_3_4.jpg" alt="">
                                                                     <img class="hover-image" src="images/8_1_10.jpg" width="285" height="300" alt="expound the actual teachings ofgreat">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#expound-the-actual-teachings-ofgreat.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1562,22 +1362,17 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="expound the actual teachings ofgreat">expound the actual teachings ofgreat</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$300.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1587,10 +1382,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1606,13 +1402,10 @@
                                                                     <img class="hover-image" src="images/6_1_2.jpg" width="285" height="300" alt="established fact variations of passages">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#established-fact-variations-of-passages-44.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1621,31 +1414,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="established fact variations of passages">established fact variations of passages</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $400.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $325.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1655,10 +1438,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1674,13 +1458,10 @@
                                                                     <img class="hover-image" src="images/4_1_8.jpg" width="285" height="300" alt="Lorem ipsum dolor simply sed">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1689,31 +1470,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Lorem ipsum dolor simply sed">Lorem ipsum dolor simply sed</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $780.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $680.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1723,10 +1494,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1742,13 +1514,10 @@
                                                                     <img class="hover-image" src="images/2_10.jpg" width="285" height="300" alt="Arcu vitae imperdiet simply">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#arcu-vitae-imperdiet-simply.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1757,31 +1526,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Arcu vitae imperdiet simply">Arcu vitae imperdiet simply</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $860.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $800.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1791,11 +1550,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
-
 
                                         </ul>
 
@@ -1810,19 +1569,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="Donec semper sem nec available" class="product-image">
-                                                                    <img src="images/23_2.jpg" alt=""/>
+                                                                    <img src="images/23_2.jpg" alt="" />
                                                                     <img class="hover-image" src="images/19_3_2.jpg" width="285" height="300" alt="Donec semper sem nec available">
                                                                 </a>
-
-
 
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#donec-semper-sem-nec-available.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1831,36 +1586,32 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Donec semper sem nec available">Donec semper sem nec available</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$360.00</span> </span>
 
                                                             </div>
 
-
                                                             <div class="ratings">
                                                                 <div class="rating-box">
-                                                                    <div class="rating" style="width:80%">                                                        </div>
+                                                                    <div class="rating" style="width:80%"> </div>
                                                                 </div>
                                                                 <span class="amount">1 Review(s)</span>
                                                             </div>
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1869,19 +1620,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="Justo neque Ipsum" class="product-image">
                                                                     <img src="images/9_4_5.jpg" alt="">
                                                                     <img class="hover-image" src="images/10_4_5.jpg" width="285" height="300" alt="Justo neque Ipsum">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#justo-neque-ipsum.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1890,22 +1637,17 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Justo neque Ipsum">Justo neque Ipsum</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$625.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1915,10 +1657,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1934,13 +1677,10 @@
                                                                     <img class="hover-image" src="images/9_4_5.jpg" width="285" height="300" alt="Ifashion ipsum dolor amet">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#consectetur-adipiscing-ipsum-available-56.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -1948,8 +1688,6 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-
-
 
                                                             </div>
 
@@ -1957,23 +1695,15 @@
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Ifashion ipsum dolor amet">Ifashion ipsum dolor amet</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $970.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $860.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -1983,10 +1713,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -1995,19 +1726,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="feminine designs delivering stylish" class="product-image">
                                                                     <img src="images/4_1_8.jpg" alt="">
                                                                     <img class="hover-image" src="images/5_10.jpg" width="285" height="300" alt="feminine designs delivering stylish">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#feminine-designs-delivering-stylish.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -2015,8 +1742,6 @@
                                                                         </ul>
                                                                     </div>
                                                                 </div>
-
-
 
                                                             </div>
 
@@ -2024,14 +1749,11 @@
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="feminine designs delivering stylish">feminine designs delivering stylish</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$580.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -2041,10 +1763,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -2053,19 +1776,15 @@
                                                             <div class="product-image-block">
                                                                 <div class="new-label">New</div>
 
-
                                                                 <a href="#" title="expound the actual teachings ofgreat" class="product-image">
                                                                     <img src="images/7_3_4.jpg" alt="">
                                                                     <img class="hover-image" src="images/8_1_10.jpg" width="285" height="300" alt="expound the actual teachings ofgreat">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#expound-the-actual-teachings-ofgreat.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -2074,22 +1793,17 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="expound the actual teachings ofgreat">expound the actual teachings ofgreat</a></h2>
 
-
-
                                                             <div class="price-box">
-                                                                <span class="regular-price" >
+                                                                <span class="regular-price">
                                                                     <span class="price">$300.00</span> </span>
 
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -2099,10 +1813,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -2118,13 +1833,10 @@
                                                                     <img class="hover-image" src="images/6_1_2.jpg" width="285" height="300" alt="established fact variations of passages">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#established-fact-variations-of-passages-44.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -2133,31 +1845,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="established fact variations of passages">established fact variations of passages</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $400.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $325.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -2167,10 +1869,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -2186,13 +1889,10 @@
                                                                     <img class="hover-image" src="images/4_1_8.jpg" width="285" height="300" alt="Lorem ipsum dolor simply sed">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -2201,31 +1901,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Lorem ipsum dolor simply sed">Lorem ipsum dolor simply sed</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $780.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $680.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -2235,10 +1925,11 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
 
                                             <li class="item" style="width: 280px;">
                                                 <div class="product-block" style="height: 394px;">
@@ -2254,13 +1945,10 @@
                                                                     <img class="hover-image" src="images/2_10.jpg" width="285" height="300" alt="Arcu vitae imperdiet simply">
                                                                 </a>
 
-
-
                                                                 <div class="product_hover-block">
                                                                     <div class="actions">
 
                                                                         <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('#arcu-vitae-imperdiet-simply.html?options=cart')"><span>Add to Cart</span></button>
-
 
                                                                         <ul class="add-to-links">
                                                                             <li><a href="#" class="link-wishlist" title="Add to Wishlist">Add to Wishlist</a></li>
@@ -2269,31 +1957,21 @@
                                                                     </div>
                                                                 </div>
 
-
-
                                                             </div>
 
                                                         </div>
                                                         <div class="product_desc">
                                                             <h2 class="product-name"><a href="#" title="Arcu vitae imperdiet simply">Arcu vitae imperdiet simply</a></h2>
 
-
-
                                                             <div class="price-box">
 
-
-                                                                <span class="price old-price" >
+                                                                <span class="price old-price">
                                                                     $860.00 </span>
 
-
-
-                                                                <span class="price" >
+                                                                <span class="price">
                                                                     $800.00 </span>
 
-
-
                                                             </div>
-
 
                                                             <div class="ratings">
                                                                 <div class="rating-box">
@@ -2303,25 +1981,23 @@
 
                                                         </div>
 
-                                                    </div><!-- End div class product-block-->
-                                                </div><!-- End div class product-block-inner -->
+                                                    </div>
+                                                    <!-- End div class product-block-->
+                                                </div>
+                                                <!-- End div class product-block-inner -->
                                             </li>
-
-
 
                                         </ul>
                                     </div>
                                     <div class="view_actions"><a href="#newproducts">View All Products</a></div>
                                 </div>
 
-
-                                <span style="display: none; visibility: hidden;" ></span>
+                                <span style="display: none; visibility: hidden;"></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
 
             <div class="type_b_7">
                 <div class="container">
@@ -2368,7 +2044,7 @@
                                         <div class="testimonial_outer">
                                             <div class="testimonial_inner">
                                                 <div class="testimonial_sub_inner">
-                                                    <ul   style="opacity: 1; display: block;">
+                                                    <ul style="opacity: 1; display: block;">
                                                         <div id="Carousel" class="carousel slide">
                                                             <div class="carousel-inner">
                                                                 <div class="item active">
@@ -2408,9 +2084,6 @@
                                                                 </div>
                                                             </div>
 
-
-
-
                                                             <ol class="carousel-indicators">
                                                                 <li data-target="#Carousel" data-slide-to="0" class="active"></li>
                                                                 <li data-target="#Carousel" data-slide-to="1"></li>
@@ -2426,14 +2099,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>   
+                        </div>
                     </div>
                     <!---end-->
                 </div>
             </div>
-
-
-
 
             <div class="type_b_8">
 
@@ -2442,7 +2112,7 @@
                         <div class="col-md-12   col-xs-12">
                             <div class="bottom-single-banner">
                                 <div class="item">
-                                    <a href="#"><img src="images/shiping-banner.jpg" alt=""/>
+                                    <a href="#"><img src="images/shiping-banner.jpg" alt="" />
                                     </a>
                                 </div>
                             </div>
@@ -2463,7 +2133,9 @@
                                     <div class="row">
                                         <div class="col-md-5 ">
                                             <div class="blog-left">
-                                                <div class="image-block"><a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a></div>
+                                                <div class="image-block">
+                                                    <a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-7 ">
@@ -2483,7 +2155,9 @@
                                     <div class="row">
                                         <div class="col-md-5 ">
                                             <div class="blog-left">
-                                                <div class="image-block"><a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a></div>
+                                                <div class="image-block">
+                                                    <a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-7 ">
@@ -2503,7 +2177,9 @@
                                     <div class="row">
                                         <div class="col-md-5 ">
                                             <div class="blog-left">
-                                                <div class="image-block"><a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a></div>
+                                                <div class="image-block">
+                                                    <a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-7 ">
@@ -2523,7 +2199,9 @@
                                     <div class="row">
                                         <div class="col-md-5 ">
                                             <div class="blog-left">
-                                                <div class="image-block"><a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a></div>
+                                                <div class="image-block">
+                                                    <a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-7 ">
@@ -2543,7 +2221,9 @@
                                     <div class="row">
                                         <div class="col-md-5 ">
                                             <div class="blog-left">
-                                                <div class="image-block"><a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a></div>
+                                                <div class="image-block">
+                                                    <a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-7 ">
@@ -2564,7 +2244,9 @@
                                     <div class="row">
                                         <div class="col-md-5 ">
                                             <div class="blog-left">
-                                                <div class="image-block"><a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a></div>
+                                                <div class="image-block">
+                                                    <a title="" href="#"><img class="img-thumbnail" alt="" src="images/blog1.jpg"></a>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="col-md-7 ">
@@ -2579,7 +2261,6 @@
                                     </div>
                                     </li>
                                 </div>
-
 
                             </div>
                             </ul>
@@ -2596,60 +2277,59 @@
                                 <div class="carousel-inner">
                                     <div class="item  active">
                                         <div class="row">
-                                            <div class="col-md-3 col-sm-4" >
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>          
-                                            <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                            <div class="col-md-3 col-sm-4">
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
                                             </div>
                                             <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>       
-                                            <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>        
-
-
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="row">
-                                            <div class="col-md-3 col-sm-4" >
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>          
-                                            <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
                                             </div>
                                             <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>       
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
                                             <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>        
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
 
                                         </div>
                                     </div>
                                     <div class="item">
                                         <div class="row">
-                                            <div class="col-md-3 col-sm-4" >
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>          
-                                            <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
+                                            <div class="col-md-3 col-sm-4">
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
                                             </div>
                                             <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>       
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
                                             <div class="col-md-3">
-                                                <a class="thumbnail" href="#"><img src="images/01.png" alt=""/></a>
-                                            </div>        
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-4">
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a class="thumbnail" href="#"><img src="images/01.png" alt="" /></a>
+                                            </div>
 
                                         </div>
                                     </div>
                                 </div>
                                 <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
                                 <a data-slide="next" href="#media" class="right carousel-control">›</a>
-                            </div>                          
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2669,7 +2349,7 @@
                                                 <div class="text-content">sign up here for early updates</div>
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-7">
@@ -2687,9 +2367,7 @@
                         </div>
                     </div>
 
-
-
-                    <div class="footer">	 
+                    <div class="footer">
 
                         <div class="footer_inner" id="footer">
                             <div class="row">
@@ -2698,7 +2376,9 @@
                                     <div id="block_1" class="footer-area-2">
                                         <ul>
 
-                                            <div class="footer_logo"><a href="#"><img alt="" src="images/footer-logo.png"></a></div>
+                                            <div class="footer_logo">
+                                                <a href="#"><img alt="" src="images/footer-logo.png"></a>
+                                            </div>
                                             </li>
                                             <li>
                                                 <a> 507-Union Trade Center,Udhana Darvaja Surat</a>
@@ -2718,7 +2398,7 @@
                                             <li class="rss social_block"><a href="#"><i class="fa fa-rss-square">&nbsp;</i></a></li>
                                             <li class="share social_block"><a href="#"><i class="fa fa-share-alt-square">&nbsp;</i></a></li>
                                             <li class="  social_block"><a href="#"><i class="fa fa-youtube-square">&nbsp;</i></a></li>
-                                        </ul>  
+                                        </ul>
                                     </div>
                                     <br>
                                 </div>
@@ -2737,7 +2417,7 @@
                                             <li><a href="#">Shipping Policy</a></li>
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
-                                        </ul>                                  
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-sm-12 footer-border-left">
@@ -2755,7 +2435,7 @@
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
-                                        </ul>        
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-12 footer-border-left">
@@ -2773,25 +2453,25 @@
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
-                                        </ul>                                    </div>
+                                        </ul>
+                                    </div>
                                 </div>
 
                             </div>
 
-
-                        </div> 
+                        </div>
                     </div>
-                    <div class="footer_bottom"> 
+                    <div class="footer_bottom">
 
                         <div class="footer_bottom_images ">
                             <div class="footer_bottom_images_1">
 
-                                <img src="images/footer-divider.png" alt=""/>
+                                <img src="images/footer-divider.png" alt="" />
                             </div>
                         </div>
 
                         <ul class="payment_icon">
-                            <li>                                <address>© 2016 Magento Demo Store. All Rights Reserved.</address> 
+                            <li> <address>© 2016 Magento Demo Store. All Rights Reserved.</address>
                             </li>
                             <br>
                             <li class="discover"><a href="#"><span>discover</span></a></li>
@@ -2800,13 +2480,13 @@
                             <li class="paypal"><a href="#"><span>paypal</span></a></li>
                             <li class="amex"><a href="#"><span>amex</span></a></li>
                             <li class="g-wall"><a href="#"><span>g-wall</span></a></li>
-                        </ul>  
+                        </ul>
 
                     </div>
                 </footer>
             </div>
         </div>
 
-
     </body>
+
 </html>

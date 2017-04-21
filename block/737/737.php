@@ -18,7 +18,7 @@
         ?>
         <link href="css/737.css" rel="stylesheet" type="text/css" />
         <script src="js/swiper.min.js" type="text/javascript"></script>
-        <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
 
@@ -31,7 +31,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <article class="hentry">
                             <div class="entry-content">
-                                
+
                                 <!------------Our Partners---------------->
                                 <div class="vc_row">
                                     <div class="vc_column_container">
@@ -54,23 +54,12 @@
 
                                             <div class="owl-carousel">
                                                 <div class="swiper-container">
+                                                    <!--- Slide box --->
                                                     <div class="swiper-wrapper">
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <figure><img src="images/partner1-220x50.png" alt=""/></figure>
-                                                                    <hr>
-                                                                    <p class="quote">"</p>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                                                        Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
-                                                                    <p class="quote">"</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="swiper-slide box4">
-                                                            <div class="lms_our_partner_slider_item">
-                                                                <div class="lms_our_partner_item">
-                                                                    <figure><img src="images/partner2-220x50.png" alt=""/></figure>
+                                                                    <figure><img src="images/partner1-220x50.png" alt="" /></figure>
                                                                     <hr>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
@@ -81,7 +70,7 @@
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <figure><img src="images/partner3-220x50.png" alt=""/></figure>
+                                                                    <figure><img src="images/partner2-220x50.png" alt="" /></figure>
                                                                     <hr>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
@@ -92,7 +81,18 @@
                                                         <div class="swiper-slide box4">
                                                             <div class="lms_our_partner_slider_item">
                                                                 <div class="lms_our_partner_item">
-                                                                    <figure><img src="images/partner1-220x50.png" alt=""/></figure>
+                                                                    <figure><img src="images/partner3-220x50.png" alt="" /></figure>
+                                                                    <hr>
+                                                                    <p class="quote">"</p>
+                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
+                                                                    <p class="quote">"</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="swiper-slide box4">
+                                                            <div class="lms_our_partner_slider_item">
+                                                                <div class="lms_our_partner_item">
+                                                                    <figure><img src="images/partner1-220x50.png" alt="" /></figure>
                                                                     <hr>
                                                                     <p class="quote">"</p>
                                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et commodo metus. Praesent quis risus blandit, aliquam diam non, facilisis magna.</p>
@@ -123,5 +123,4 @@
             <script src="js/script-j-5.js" type="text/javascript"></script>
         </div>
     </body>
-
 </html>

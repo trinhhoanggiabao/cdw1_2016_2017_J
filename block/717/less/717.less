@@ -1,27 +1,27 @@
-.type-717{
-    @border:1px solid #4d4d4d;
-    @border1:none;
-    @background:none;
-    @background1:#3b3b3b;
-    @background2:#6b6b6b;
-    @position:absolute;
-    .headerinner{
+.type-717 {
+    @border: 1px solid #4d4d4d;
+    @border1: none;
+    @background: none;
+    @background1: #3b3b3b;
+    @background2: #6b6b6b;
+    @position: absolute;
+    .headerinner {
         background: #262626;
         padding: 20px;
     }
-    .search{
-        margin-top: 15px; 
+    .search {
+        margin-top: 15px;
     }
-    .form-select{
+    .form-select {
         background: @background1;
         float: left;
         margin: 0 0px 0 0;
-        padding:0;
+        padding: 0;
         width: 25%;
-        border:  @border;
+        border: @border;
         border-right: @border1;
     }
-    .form-select select{
+    .form-select select {
         width: 100%;
         margin: 10px 0;
         background: @background;
@@ -30,14 +30,14 @@
         border: 1px solid #3b3b3b;
         border-right: 1px solid;
     }
-    .form-select select option{
+    .form-select select option {
         color: #b6b6b6;
         padding: 4px 0 4px 3px;
     }
-    .form-input{
+    .form-input {
         width: 65%;
         background: @background1;
-        border:  @border;
+        border: @border;
         border-left: @border1;
         border-right: @border1;
         box-shadow: none;
@@ -49,31 +49,31 @@
         padding: 10px;
         box-sizing: border-box;
     }
-    .form-input input{
+    .form-input input {
         width: 65%;
         background: @background;
         border: @border1;
     }
-    .btn-button{
+    .btn-button {
         width: 10%;
         float: left;
     }
-    .btn-button button{
+    .btn-button button {
         padding: 0;
-        border:@border1;
+        border: @border1;
         background: @background;
     }
-    .btn-button .fa-search{
+    .btn-button .fa-search {
         color: #fff;
         background: @background2;
         height: 42px;
         background: @background2;
         padding: 11px 13px;
     }
-    .item{
+    .item {
         position: @position;
     }
-    .thumbitem{
+    .thumbitem {
         background: #eb1f1f;
         box-sizing: border-box;
         cursor: pointer;
@@ -83,7 +83,7 @@
         text-align: left;
         color: #fff;
     }
-    .item-cart{
+    .item-cart {
         background: url(../images/cart.png) no-repeat scroll 0 0 transparent;
         content: "";
         height: 69px;
@@ -92,48 +92,45 @@
         top: 0;
         width: 52px;
     }
-    @media only screen and (max-width:475px){
-        .item{
+    @media only screen and (max-width:475px) {
+        .item {
             position: @position;
             right: 94px;
             top: -70px;
             margin-right: 75px;
         }
-        .logo{
+        .logo {
             width: 100%;
             text-align: center;
         }
-        .form-select select{
+        .form-select select {
             width: 100%;
         }
-        .form-input input{
+        .form-input input {
             width: 100%;
         }
-        .btn-button button{
+        .btn-button button {
             width: 100%;
         }
-        .search{
+        .search {
             margin-left: 20px;
             margin-top: 70px;
         }
-        .form-input{
+        .form-input {
             width: 40%;
         }
-        .form-select{
+        .form-select {
             width: 40%;
         }
-        .btn-button{
+        .btn-button {
             width: 10%;
         }
-
     }
-    @media only screen and (max-width:982px){
-        .item{
+    @media only screen and (max-width:982px) {
+        .item {
             position: @position !important;
             right: 30px;
             bottom: 25px;
         }
     }
-
-
 }

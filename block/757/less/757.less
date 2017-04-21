@@ -1,25 +1,21 @@
-.type-757{ 
-    @position:relative;
-    @text-align:center;
-    @text-decoration:none;
-    @float:left;
-    @float1:right;
+.type-757 {
+    @position: relative;
+    @text-align: center;
+    @text-decoration: none;
+    @float: left;
+    @float1: right;
     .detail {
         width: 1180px;
         margin-left: -20px;
-       
-       .thin {
-            max-width:100px; 
+        .thin {
+            max-width: 100px;
             margin-top: 20px;
         }
-
         .carousel > .window {
             overflow: hidden;
             position: @position;
             height: 300px;
         }
-
-
         .carousel ul {
             list-style: none;
             top: 0;
@@ -30,7 +26,8 @@
         .carousel li {
             margin: 3px 0 0;
         }
-        .prev, .next {
+        .prev,
+        .next {
             font-size: 30px;
             width: 100%;
             position: @position;
@@ -44,7 +41,7 @@
         .item img {
             width: 100%;
         }
-        .big-img{
+        .big-img {
             margin-top: 30px;
         }
         .big-img img {
@@ -55,18 +52,18 @@
         }
         .name h1 {
             color: #333;
-            line-height: normal;  
+            line-height: normal;
         }
         .rating {
             display: block;
         }
-        .rating #active{
+        .rating #active {
             margin-left: 20px;
         }
-        .rating a{
+        .rating a {
             color: #888;
         }
-        .rating a:hover{
+        .rating a:hover {
             color: #19caaf;
             list-style: none;
             text-decoration: @text-decoration;
@@ -89,16 +86,16 @@
         }
         .btn-add {
             margin-top: 20px;
-            background: #19caaf;      
+            background: #19caaf;
         }
         .btn-add p {
             text-align: @text-align;
             padding: 10px 0;
         }
         .btn-add p a {
-            color :#ffffff;
+            color: #ffffff;
         }
-        .btn-add :hover {
+        .btn-add:hover {
             background: #333;
         }
         .btn-add p a:hover {
@@ -108,8 +105,8 @@
             margin-top: 30px;
         }
         .btn-love {
-            float:@float;
-            width:95%;
+            float: @float;
+            width: 95%;
             background: #19caaf;
         }
         .btn-love h4 {
@@ -119,9 +116,9 @@
             color: #ffffff;
             text-align: @text-align;
         }
-        .btn-compare{
-            float:@float1;
-            width:95%;
+        .btn-compare {
+            float: @float1;
+            width: 95%;
             background: #19caaf;
         }
         .btn-compare h4 {
@@ -131,7 +128,6 @@
             color: #ffffff;
             text-align: @text-align;
         }
-
         //--Description--//
         .description {
             margin-top: 50px;
@@ -140,13 +136,12 @@
             text-align: @text-align;
         }
         .video {
-            width:99%;
+            width: 99%;
         }
-        .text p{
-            color:#888;
+        .text p {
+            color: #888;
             font-size: 11px;
         }
-
         //--Specification-->
         .specification h3 {
             margin-top: 50px;
@@ -158,7 +153,6 @@
         .table .td {
             background: #F9F9F9;
         }
-
         //--Reviews--//
         .reviews {
             margin-top: 50px;
@@ -177,19 +171,18 @@
             color: #333;
         }
         .title h3 a:hover {
-            color: #19caaf; 
+            color: #19caaf;
             text-decoration: @text-decoration;
         }
-
         .nav {
             margin-top: 20px;
             margin-bottom: 30px;
         }
-        .nav i{
-            float:@float1;
+        .nav i {
+            float: @float1;
         }
         .nav p {
-            float:@float1;
+            float: @float1;
             margin-right: 10px;
         }
         .note {
@@ -202,7 +195,7 @@
         .btn-continue {
             margin-top: 30px;
         }
-        .btn-continue a{
+        .btn-continue a {
             background: #19caaf;
             float: @float1;
             padding: 20px 20px;
@@ -210,20 +203,16 @@
         }
         .btn-continue a:hover {
             background: #333;
-            text-decoration:  @text-decoration;
+            text-decoration: @text-decoration;
         }
-
         /* Dành cho điện thoại */
         @media all and (min-width: 767px) {}
         /* Dành cho máy tính bảng chiều dọc */
         @media all and (min-width: 600px) {}
-
         /* Dành cho máy tính bảng chiều ngang */
         @media all and (min-width: 1024px) {}
-
         /* Dành cho màn hình desktop */
         @media all and (min-width: 1280px) {}
     }
 }
 /* END MODULE TEST */
-

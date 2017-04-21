@@ -1,14 +1,14 @@
 .type-710 {
     @overflow: hidden;
-    @text-transform:uppercase;
-    @white-space:nowrap;
-    @font-family:LMRoman10Regular;
-    @position:relative;
-    @opacity:0;
-    @text-align:center;
+    @text-transform: uppercase;
+    @white-space: nowrap;
+    @font-family: LMRoman10Regular;
+    @position: relative;
+    @opacity: 0;
+    @text-align: center;
     @display: block;
-    .productsCarousel {      
-        overflow: @overflow;     
+    .productsCarousel {
+        overflow: @overflow;
         margin-top: 20px;
         .title-table {
             margin-bottom: 30px;
@@ -23,17 +23,16 @@
                     border-bottom: 1px solid #e6e5e5;
                     width: 100%;
                 }
-            }              
+            }
             .carousel-title {
-                position:  @position;
+                position: @position;
                 .title {
                     line-height: 46px;
                     text-transform: @text-transform;
                     padding: 0 73px;
-                    white-space: @white-space; 
+                    white-space: @white-space;
                     font-family: @font-family;
                 }
-
                 .flexisel-nav {
                     border: 1px solid #e6e5e5;
                     box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
@@ -53,8 +52,8 @@
                     .fa {
                         color: #fff;
                     }
-                    border: 1px solid rgba(255,255,255,0.2);
-                    transition: 0.3s;   
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    transition: 0.3s;
                 }
                 .fa {
                     font-size: 20px;
@@ -65,7 +64,7 @@
                     right: 0;
                 }
             }
-        }     
+        }
     }
     .btm-nbs-flexisel-container {
         .nbs-flexisel-inner {
@@ -77,14 +76,14 @@
             padding: 0;
             li.block-product {
                 float: left;
-                position:  @position;
+                position: @position;
                 margin: 10px;
                 .carouselContainer {
-                    padding: 0;                  
+                    padding: 0;
                     .slide-animate {
                         background: #ffffff;
                         display: @display;
-                        position:  @position;        
+                        position: @position;
                         text-align: @text-align;
                         height: auto;
                         img {
@@ -94,21 +93,19 @@
                             border: 1px solid #e0e0e0;
                             box-sizing: border-box;
                         }
-
                         .product-image {
-                            opacity:  1;
+                            opacity: 1;
                             //margin-bottom: 15px;
                             transition: 0.3s;
                         }
-
                         .additional-image {
-                            position: absolute;       
+                            position: absolute;
                             width: 100%;
                             height: 100%;
                             left: 0;
                             top: 0;
                             transition: 0.3s;
-                            opacity:  @opacity;
+                            opacity: @opacity;
                         }
                         .pk-reduction {
                             background-color: #c72929;
@@ -121,7 +118,6 @@
                             top: 15px;
                             left: 10px;
                         }
-
                         .quick-view {
                             width: 35px;
                             height: 35px;
@@ -130,31 +126,28 @@
                             top: 5px;
                             right: 5px;
                             color: #b0adad;
-
-
                             .fa-search {
                                 margin-top: 8px;
                                 font-size: 18px;
                             }
                         }
                         .quick-view:hover {
-                            background-color: #ebe1dc;        
+                            background-color: #ebe1dc;
                         }
                     }
-                    .slide-animate:hover {        
+                    .slide-animate:hover {
                         .product-image {
-                            opacity:  @opacity;
+                            opacity: @opacity;
                         }
                         .additional-image {
-                            opacity:  1;
-                        }                    
+                            opacity: 1;
+                        }
                     }
                 }
                 .bottom-block {
-                    position:  @position;
+                    position: @position;
                     text-align: @text-align;
                     margin-top: 15px;
-
                     .rate-block {
                         height: 18px;
                         //width: 100%;
@@ -169,12 +162,11 @@
                             color: #ccc;
                         }
                     }
-
                     .f_title {
                         white-space: @white-space;
                         overflow: @overflow;
                         text-overflow: ellipsis;
-                        font-family: @font-family; 
+                        font-family: @font-family;
                         color: #777 !important;
                         display: @display;
                         margin: 0 0 7px;
@@ -183,7 +175,6 @@
                         width: 100%;
                         float: left;
                     }
-
                     .content_price {
                         font-size: 24px;
                         line-height: 24px;
@@ -197,29 +188,30 @@
                             font-weight: 100px;
                         }
                         .new-price {
-                            opacity:  @opacity;
+                            opacity: @opacity;
                         }
                     }
                     .content_price .new-price {
-                        opacity:  1;
+                        opacity: 1;
                         font-family: @font-family;
                         color: #c5988b;
                     }
                 }
             }
             li.block-product:hover {
-                .content_price, .new-price {
-                    opacity:  @opacity;
+                .content_price,
+                .new-price {
+                    opacity: @opacity;
                     transition: all .3s ease-in-out;
                 }
                 .quick-view {
                     background: #ffffff;
-                    opacity:  1;    
+                    opacity: 1;
                     transition: all .3s ease-in-out;
-                }    
+                }
             }
             .quick-view {
-                opacity:  @opacity;
+                opacity: @opacity;
             }
         }
     }

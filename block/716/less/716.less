@@ -1,10 +1,11 @@
-.type-716{
-    @background:none;
-    @border:none;
-    @color:#000;
-    @display:none;
-    @text-align:center;
-    .dropdown, .dropup{
+.type-716 {
+    @background: none;
+    @border: none;
+    @color: #000;
+    @display: none;
+    @text-align: center;
+    .dropdown,
+    .dropup {
         float: left;
     }
     .btn-primary {
@@ -12,47 +13,50 @@
         border: @border;
         color: @color;
     }
-    .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary{
+    .btn-primary.active,
+    .btn-primary:active,
+        .open>.dropdown-toggle.btn-primary {
         background: @background;
         border-radius: 0;
         color: @color;
         border: @border;
     }
-    .defaut{
+    .defaut {
         position: absolute;
         top: 6px;
         left: 150px;
     }
-    .icon{
+    .icon {
         float: right;
         padding: 2px 0;
     }
-    .icon i{
+    .icon i {
         padding: 7px 0 0 10px;
     }
-    .icon .fa{
+    .icon .fa {
         opacity: 0.5;
     }
-    .icon .fa:hover{
+    .icon .fa:hover {
         opacity: 1;
     }
-    @media only screen and(max-width:425px){
-        .dropdown, .dropup{
-          text-align: @text-align;
-          position: relative;
-          left: calc(50% - 15px);
+    @media only screen and(max-width:425px) {
+        .dropdown,
+        .dropup {
+            text-align: @text-align;
+            position: relative;
+            left: calc(50% - 15px);
         }
-        .defaut{
+        .defaut {
             display: @display;
         }
-        .icon span{
+        .icon span {
             display: @display;
-        }        
-        .icon{
+        }
+        .icon {
             float: none;
             text-align: @text-align;
         }
-        .icon i{
+        .icon i {
             padding: 5px 10px;
         }
     }

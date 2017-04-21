@@ -19,8 +19,6 @@
         ?>
         <link href="css/716.css" rel="stylesheet" type="text/css" />
 
-
-
     </head>
 
     <body>
@@ -59,7 +57,5 @@
                 </div>
             </div>
         </div>
-
     </body>
-
 </html>

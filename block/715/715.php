@@ -9,7 +9,7 @@
 
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <?php
@@ -20,8 +20,6 @@
         $less->compileFile('less/715.less', 'css/715.css');
         ?>
         <link href="css/715.css" rel="stylesheet" type="text/css" />
-
-
 
     </head>
 
@@ -67,7 +65,7 @@
                         <div class="row">
                             <div class="col-md-3">
                                 <figure class="logo">
-                                    <img src="images/logo.png" alt=""/>
+                                    <img src="images/logo.png" alt="" />
                                 </figure>
                             </div>
                             <div class="col-md-7">
@@ -142,7 +140,7 @@
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                                         <span class="icon-bar"></span>
                                         <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span> 
+                                        <span class="icon-bar"></span>
                                     </button>
                                     <div class="logo" data-toggle="collapse" data-target="#myNavbar">
                                         <a class="navbar-brand" href="#">MENU</a>
@@ -153,16 +151,16 @@
                                     <ul class="nav navbar-nav">
                                         <li class="active"><a href="#">CATEGORIES</a></li>
                                         <li><a href="#">Clothing</a></li>
-                                        <li><a href="#">Accessories</a></li> 
-                                        <li><a href="#">Tops & T-Shirts</a></li> 
-                                        <li><a href="#">Cardigans</a></li> 
-                                        <li><a href="#">Jumpers</a></li> 
-                                        <li><a href="#">Designer Wear</a></li> 
-                                        <li><a href="#">jersey tops</a></li> 
-                                        <li><a href="#">Blouses</a></li> 
-                                        <li><a href="#">Swim Wear</a></li> 
-                                        <li><a href="#">Skirts</a></li> 
-                                        <li><a href="#">Coats & Jackets</a></li> 
+                                        <li><a href="#">Accessories</a></li>
+                                        <li><a href="#">Tops & T-Shirts</a></li>
+                                        <li><a href="#">Cardigans</a></li>
+                                        <li><a href="#">Jumpers</a></li>
+                                        <li><a href="#">Designer Wear</a></li>
+                                        <li><a href="#">jersey tops</a></li>
+                                        <li><a href="#">Blouses</a></li>
+                                        <li><a href="#">Swim Wear</a></li>
+                                        <li><a href="#">Skirts</a></li>
+                                        <li><a href="#">Coats & Jackets</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -175,8 +173,8 @@
                                     <ul class="menushohby">
                                         <li><a href="#" class="active">Category</a></li>
                                         <li><a href="#">bottomwear <span class="number">(17)</span></a></li>
-                                        <li><a href="#">Topwear <span class="number">(17)</span></a></li> 
-                                        <li><a href="#">Clothing Style <span class="number">(17)</span></a></li> 
+                                        <li><a href="#">Topwear <span class="number">(17)</span></a></li>
+                                        <li><a href="#">Clothing Style <span class="number">(17)</span></a></li>
                                     </ul>
                                 </div>
                                 <div class="clearfix"></div>
@@ -185,29 +183,29 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="bg">
-                                                <img src="images/black.png" alt=""/>
+                                                <img src="images/black.png" alt="" />
                                                 <span>(7)</span>
                                             </div>
                                             <div class="bg">
-                                                <img src="images/brown.png" alt=""/>
+                                                <img src="images/brown.png" alt="" />
                                                 <span>(3)</span>
                                             </div>
                                             <div class="bg">
-                                                <img src="images/green.png" alt=""/>
+                                                <img src="images/green.png" alt="" />
                                                 <span>(2)</span>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="bg">
-                                                <img src="images/blue.png" alt=""/>
+                                                <img src="images/blue.png" alt="" />
                                                 <span>(3)</span>
                                             </div>
                                             <div class="bg">
-                                                <img src="images/gray.png" alt=""/>
+                                                <img src="images/gray.png" alt="" />
                                                 <span>(4)</span>
                                             </div>
                                             <div class="bg">
-                                                <img src="images/orange.png" alt=""/>
+                                                <img src="images/orange.png" alt="" />
                                                 <span>(2)</span>
                                             </div>
                                         </div>
@@ -233,7 +231,9 @@
                                 <div class="price">
                                     <ul>
                                         <li><a href="#" class="active"> Price</a></li>
-                                        <li><a href="#"> <span class="money">$300.00 - $399.99 (5)</span></a></li>
+                                        <li>
+                                            <a href="#"> <span class="money">$300.00 - $399.99 (5)</span></a>
+                                        </li>
                                         <li><a href="#"><span class="money">$400.00 - $499.99 (1)</span></a></li>
                                         <li><a href="#"><span class="money">$500.00 - $599.99 (3)</span></a></li>
                                         <li><a href="#"><span class="money">$600.00 - $699.99 (2)</span></a></li>
@@ -280,7 +280,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="text">
-                                            Arcu vitae i..				 
+                                            Arcu vitae i..
                                         </div>
                                         <div class="price-product">
                                             <span class="money1">$860.00</span> <span class="money2">$800</span>
@@ -298,7 +298,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="text">
-                                            ifashion ips..				 
+                                            ifashion ips..
                                         </div>
                                         <div class="price-product">
                                             <span class="money1">$770.00</span> <span class="money2">$860</span>
@@ -317,7 +317,7 @@
                                     </div>
                                     <div class="col-md-7">
                                         <div class="text">
-                                            Established ..			 
+                                            Established ..
                                         </div>
                                         <div class="price-product">
                                             <span class="money1">$400.00</span> <span class="money2">$325</span>
@@ -336,7 +336,7 @@
                             <div class="clearfix">
                                 <!--======phan image bottom banner----->
                                 <figure class="image-bottom">
-                                    <img src="images/left-banner.jpg" alt=""/>
+                                    <img src="images/left-banner.jpg" alt="" />
                                 </figure>
                             </div>
                         </div>
@@ -386,10 +386,10 @@
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
                                             <figure class="main-image">
-                                                <img src="images/20_11.jpg" alt=""/>
+                                                <img src="images/20_11.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/21_5.jpg" alt=""/>
+                                                <img src="images/21_5.jpg" alt="" />
                                             </figure>
                                             <!--- add to cart --->
                                             <div class="addtocart">
@@ -398,7 +398,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Tenetur Aeta Sapiente Delectus</p></div>
+                                            <div class="arcu">
+                                                <p>Tenetur Aeta Sapiente Delectus</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money">$455.00</span>
                                             </div>
@@ -414,10 +416,10 @@
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
                                             <figure class="main-image">
-                                                <img src="images/20_11.jpg" alt=""/>
+                                                <img src="images/20_11.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/21_5.jpg" alt=""/>
+                                                <img src="images/21_5.jpg" alt="" />
                                             </figure>
                                             <div class="addtocart">
                                                 ADD TO CART
@@ -425,7 +427,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Tenetur Aeta Sapiente Delectus</p></div>
+                                            <div class="arcu">
+                                                <p>Tenetur Aeta Sapiente Delectus</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money">$455.00</span>
                                             </div>
@@ -441,10 +445,10 @@
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
                                             <figure class="main-image">
-                                                <img src="images/19_7.jpg" alt=""/>
+                                                <img src="images/19_7.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/20_11.jpg" alt=""/>
+                                                <img src="images/20_11.jpg" alt="" />
                                             </figure>
                                             <div class="addtocart">
                                                 ADD TO CART
@@ -452,7 +456,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Suspendisse Massa Ipsum Random</p></div>
+                                            <div class="arcu">
+                                                <p>Suspendisse Massa Ipsum Random</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money-860"> $358.00 </span><span class="money">$800.00</span>
                                             </div>
@@ -466,7 +472,6 @@
                                         </div>
                                     </div>
 
-
                                 </div>
                                 <div class="row">
                                     <div class="col-md-4 col-sm-4 col-xs-6">
@@ -475,10 +480,10 @@
                                                 sale
                                             </div>
                                             <figure class="main-image">
-                                                <img src="images/15_4_5_1_1.jpg" alt=""/>
+                                                <img src="images/15_4_5_1_1.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/16_8_1_1.jpg" alt=""/>
+                                                <img src="images/16_8_1_1.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -487,7 +492,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Standard Passage Lorem Ipsum</p></div>
+                                            <div class="arcu">
+                                                <p>Standard Passage Lorem Ipsum</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money-860"> $774.00 </span><span class="money">$626.00</span>
                                             </div>
@@ -504,10 +511,10 @@
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
                                             <figure class="main-image">
-                                                <img src="images/14_4_6_1.jpg" alt=""/>
+                                                <img src="images/14_4_6_1.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/17_1_5_1.jpg" alt=""/>
+                                                <img src="images/17_1_5_1.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -516,7 +523,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Perspiciatis Voluptatem</p></div>
+                                            <div class="arcu">
+                                                <p>Perspiciatis Voluptatem</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money">$784.00</span>
                                             </div>
@@ -538,10 +547,10 @@
                                                 sale
                                             </div>
                                             <figure class="main-image">
-                                                <img src="images/13_4_8.jpg" alt=""/>
+                                                <img src="images/13_4_8.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/15_4_5_1_1.jpg" alt=""/>
+                                                <img src="images/15_4_5_1_1.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -550,7 +559,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Purus Ut Lorem In Fringilla</p></div>
+                                            <div class="arcu">
+                                                <p>Purus Ut Lorem In Fringilla</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money-860"> $465.00 </span><span class="money">$325.00</span>
                                             </div>
@@ -567,7 +578,6 @@
                                         </div>
                                     </div>
 
-
                                 </div>
                                 <div class="row">
                                     <div class="col-md-4 col-sm-4 col-xs-6">
@@ -576,10 +586,10 @@
                                                 sale
                                             </div>
                                             <figure class="main-image">
-                                                <img src="images/12_5_7.jpg" alt=""/>
+                                                <img src="images/12_5_7.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/16_8_1_1.jpg" alt=""/>
+                                                <img src="images/16_8_1_1.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -588,7 +598,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Occaecati Cupiditate Non Provident</p></div>
+                                            <div class="arcu">
+                                                <p>Occaecati Cupiditate Non Provident</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money-860"> $684.00 </span><span class="money">$562.00</span>
                                             </div>
@@ -605,10 +617,10 @@
                                     <div class="col-md-4 col-sm-4 col-xs-6">
                                         <div class="images">
                                             <figure class="main-image">
-                                                <img src="images/11_5_7.jpg" alt=""/>
+                                                <img src="images/11_5_7.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/16_8_1_1.jpg" alt=""/>
+                                                <img src="images/16_8_1_1.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -617,7 +629,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Tenetur Aeta Sapiente Delectus</p></div>
+                                            <div class="arcu">
+                                                <p>Tenetur Aeta Sapiente Delectus</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money">$875.00</span>
                                             </div>
@@ -636,10 +650,10 @@
                                             <div class="sale">sale</div>
                                             <div class="new">new</div>
                                             <figure class="main-image">
-                                                <img src="images/10_4_6.jpg" alt=""/>
+                                                <img src="images/10_4_6.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/16_8_1_1.jpg" alt=""/>
+                                                <img src="images/16_8_1_1.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -648,7 +662,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Suspendisse Massa Ipsum Random</p></div>
+                                            <div class="arcu">
+                                                <p>Suspendisse Massa Ipsum Random</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money-860"> $1,080.00 </span><span class="money">$900.00</span>
                                             </div>
@@ -665,7 +681,6 @@
                                         </div>
                                     </div>
 
-
                                 </div>
                                 <div class="row">
                                     <div class="col-md-4 col-sm-4 col-xs-6">
@@ -677,10 +692,10 @@
                                                 new
                                             </div>
                                             <figure class="main-image">
-                                                <img src="images/2_10.jpg" alt=""/>
+                                                <img src="images/2_10.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/4_1_3.jpg" alt=""/>
+                                                <img src="images/4_1_3.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -689,7 +704,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Lorem Ipsum Dolor Simply Sed</p></div>
+                                            <div class="arcu">
+                                                <p>Lorem Ipsum Dolor Simply Sed</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money-860"> $780.00 </span><span class="money">$680.00</span>
                                             </div>
@@ -702,7 +719,6 @@
                                             </div>
                                             <div class="clearfix"></div>
 
-
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-xs-6">
@@ -714,10 +730,10 @@
                                                 new
                                             </div>
                                             <figure class="main-image">
-                                                <img src="images/5_6.jpg" alt=""/>
+                                                <img src="images/5_6.jpg" alt="" />
                                             </figure>>
                                             <figure class="sub-image">
-                                                <img src="images/21_5.jpg" alt=""/>
+                                                <img src="images/21_5.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -726,7 +742,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Tenetur Aeta Sapiente Delectus</p></div>
+                                            <div class="arcu">
+                                                <p>Tenetur Aeta Sapiente Delectus</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money-860"> $400.00 </span><span class="money">$325.00</span>
                                             </div>
@@ -745,10 +763,10 @@
                                                 new
                                             </div>
                                             <figure class="main-image">
-                                                <img src="images/7_3_4.jpg" alt=""/>
+                                                <img src="images/7_3_4.jpg" alt="" />
                                             </figure>
                                             <figure class="sub-image">
-                                                <img src="images/17_1_5_1.jpg" alt=""/>
+                                                <img src="images/17_1_5_1.jpg" alt="" />
                                             </figure>
                                             <!--- ADD TO CART --->
                                             <div class="addtocart">
@@ -757,7 +775,9 @@
                                         </div>
                                         <div class="clearfix"></div>
                                         <div class="thumb">
-                                            <div class="arcu"><p>Suspendisse Massa Ipsum Random</p></div>
+                                            <div class="arcu">
+                                                <p>Suspendisse Massa Ipsum Random</p>
+                                            </div>
                                             <div class="price">
                                                 <span class="money">$300.00</span>
                                             </div>
@@ -771,7 +791,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -791,7 +811,7 @@
                                                     <div class="text-content">sign up here for early updates</div>
                                                 </div>
                                             </div>
-                                        </div> 
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-md-7">
@@ -808,7 +828,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="footer">	 
+                    <div class="footer">
 
                         <div class="footer_inner" id="footer">
                             <div class="row">
@@ -817,7 +837,9 @@
                                     <div id="block_1" class="footer-area-2">
                                         <ul>
 
-                                            <figure class="footer_logo"><a href="#"><img alt="" src="images/footer-logo.png"></a></figure>
+                                            <figure class="footer_logo">
+                                                <a href="#"><img alt="" src="images/footer-logo.png"></a>
+                                            </figure>
                                             <li>
                                                 <a> 507-Union Trade Center,Udhana Darvaja Surat</a>
                                             </li>
@@ -836,7 +858,7 @@
                                             <li class="rss social_block"><a href="#"><i class="fa fa-rss-square">&nbsp;</i></a></li>
                                             <li class="share social_block"><a href="#"><i class="fa fa-share-alt-square">&nbsp;</i></a></li>
                                             <li class="  social_block"><a href="#"><i class="fa fa-youtube-square">&nbsp;</i></a></li>
-                                        </ul>  
+                                        </ul>
                                     </div>
                                     <br>
                                 </div>
@@ -855,7 +877,7 @@
                                             <li><a href="#">Shipping Policy</a></li>
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
-                                        </ul>                                  
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-sm-12 footer-border-left">
@@ -873,7 +895,7 @@
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
-                                        </ul>        
+                                        </ul>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-12 footer-border-left">
@@ -891,25 +913,24 @@
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
-                                        </ul>                                    </div>
+                                        </ul>
+                                    </div>
                                 </div>
 
                             </div>
 
-
-                        </div> 
+                        </div>
                     </div>
-                    <div class="footer_bottom"> 
+                    <div class="footer_bottom">
 
                         <div class="footer_bottom_images ">
                             <figure class="footer_bottom_images_1">
 
-                                <img src="images/footer-divider.png" alt=""/>
+                                <img src="images/footer-divider.png" alt="" />
                             </figure>
                         </div>
-
                         <ul class="payment_icon">
-                            <li>                                <address>© 2016 Magento Demo Store. All Rights Reserved.</address> 
+                            <li> <address>© 2016 Magento Demo Store. All Rights Reserved.</address>
                             </li>
                             <br>
                             <li class="discover"><a href="#"><span>discover</span></a></li>
@@ -918,12 +939,10 @@
                             <li class="paypal"><a href="#"><span>paypal</span></a></li>
                             <li class="amex"><a href="#"><span>amex</span></a></li>
                             <li class="g-wall"><a href="#"><span>g-wall</span></a></li>
-                        </ul>  
-
+                        </ul>
                     </div>
                 </footer>
             </div>
         </div>
     </body>
-
 </html>

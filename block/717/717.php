@@ -18,8 +18,6 @@
         ?>
         <link href="css/717.css" rel="stylesheet" type="text/css" />
 
-
-
     </head>
 
     <body>
@@ -29,7 +27,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <figure> class="logo">
-                                <img src="images/logo.png" alt=""/>
+                                <img src="images/logo.png" alt="" />
                             </figure>
                         </div>
                         <div class="col-md-7">
@@ -72,11 +70,5 @@
                 </div>
             </div>
         </div>
-
     </body>
-</div>
-
-</div>
-</body>
-
 </html>

@@ -1,29 +1,34 @@
 .type-737 {
-    @text-align:center;
-    @display:inline-block;
-    @border:1px solid #9ea6b0;
+    @text-align: center;
+    @display: inline-block;
+    @border: 1px solid #9ea6b0;
+    @color: #5b5b5b;
+    @color1: #ff9933;
+    @color2: #000;
+    @cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #5b5b5b;
-    a{
-        color: #000;
+    color: @color;
+    a {
+        color: @color2;
         text-decoration: none;
     }
-    img{
+    img {
         width: 100%;
     }
     .hentry {
         margin: 0 0 1.5em;
     }
-    .vc_row{
+    .vc_row {
         margin-left: -15px;
         margin-right: -15px;
     }
     .entry-content {
         margin: 0px;
     }
-    .entry-content:before, .entry-content:after{
+    .entry-content:before,
+    .entry-content:after {
         content: "";
         display: table;
     }
@@ -34,12 +39,19 @@
         -webkit-margin-start: 0px;
         -webkit-margin-end: 0px;
     }
-    h2,h3,h4{
+    h2,
+    h3,
+    h4 {
         font-family: 'Vollkorn', serif;
         line-height: 1.1;
         color: #3a3a3a;
     }
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         opacity: 1;
         visibility: visible;
         -webkit-transition: opacity 0.24s ease-in-out;
@@ -47,7 +59,7 @@
         transition: opacity 0.24s ease-in-out;
     }
     .btn-default {
-        color: #ff9933;
+        color: @color1;
         background-color: transparent;
         border-color: #9ea6b0 !important;
         -webkit-transition: all 0.5s;
@@ -69,7 +81,7 @@
         text-align: @text-align;
         white-space: nowrap;
         vertical-align: middle;
-        cursor: pointer;
+        cursor: @cursor;
         -webkit-user-select: none;
         -moz-user-select: none;
         -ms-user-select: none;
@@ -108,7 +120,7 @@
                 position: relative;
                 font-weight: 500;
             }
-            .lms_heading_title:after{
+            .lms_heading_title:after {
                 content: "";
                 position: absolute;
                 top: 100%;
@@ -135,8 +147,8 @@
         height: auto;
     }
     .swiper-slide {
-        color:#000;
-        text-align:@text-align;
+        color: @color2;
+        text-align: @text-align;
     }
     .customNavigation {
         text-align: @text-align;
@@ -149,55 +161,54 @@
         width: 28px;
         height: 28px;
         line-height: 24px;
-        display:@display;
-        text-align:@text-align;
+        display: @display;
+        text-align: @text-align;
         font-size: 24px;
         margin: 5px;
-        color: #ff9933;
-        cursor: pointer;
-        border:@border;
+        color: @color1;
+        cursor: @cursor;
+        border: @border;
     }
     .lms_prev_next:hover {
-        border-color: #ff9933;
+        border-color: @color1;
     }
-   .lms_our_partner_slider_item{
-        border:@border;
+    .lms_our_partner_slider_item {
+        border: @border;
         margin: 10px;
         .lms_our_partner_item {
-            text-align:@text-align;
+            text-align: @text-align;
             padding: 20px;
             img {
                 width: 220px;
                 height: 50px;
             }
-            hr{
+            hr {
                 border-bottom: 50px;
-                border-top:@border;
+                border-top: @border;
             }
             .quote {
                 font-size: 40px;
-                color: #5b5b5b;
+                color: @color;
                 font-weight: 100;
                 line-height: 14px;
                 margin-bottom: 20px;
-                display:@display;
+                display: @display;
                 margin-bottom: 0;
             }
-            p{
+            p {
                 font-style: italic;
             }
         }
     }
-    .box4{
+    .box4 {
         width: 380px;
         float: left;
     }
     .lms_our_partner_slider_item:hover {
-        border-color: #ff9933;
+        border-color: @color1;
     }
-    
-    @media (max-width: 1016px){
-        .lms_our_partner_slider_item{
+    @media (max-width: 1016px) {
+        .lms_our_partner_slider_item {
             margin: 5px;
         }
     }
