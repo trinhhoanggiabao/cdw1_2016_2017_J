@@ -1,4 +1,8 @@
 .type-783 {
+    @border_3px: 3px solid #36d7ac;
+    @color_36d7ac: #36d7ac;
+    @font_size_14: 14px;
+    @color_white: #FFFFFF;
     .content {
         padding: 30px 0;
     }
@@ -7,39 +11,32 @@
         margin-bottom: 15px;
         border: 3px solid #eee;
     }
-
     .pricing-active {
-        border: 3px solid #36d7ac;
+        border: @border_3px;
         margin-top: -10px;
         box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
     }
-
     .pricing:hover {
-        border: 3px solid #36d7ac;
+        border: @border_3px;
     }
-
     .pricing:hover h4 {
-        color: #36d7ac;
+        color: @color_36d7ac;
     }
-
     .pricing-head {
         text-align: center;
     }
-
     .pricing-head h3,
     .pricing-head h4 {
         margin: 0;
         line-height: normal;
     }
-
     .pricing-head h3 span,
     .pricing-head h4 span {
         display: block;
         margin-top: 5px;
-        font-size: 14px;
+        font-size: @font_size_14;
         font-style: italic;
     }
-
     .pricing-head h3 {
         font-weight: 300;
         color: #fafafa;
@@ -48,7 +45,6 @@
         background: #36d7ac;
         border-bottom: solid 1px #41b91c;
     }
-
     .pricing-head h4 {
         color: #bac39f;
         padding: 5px 0;
@@ -57,25 +53,21 @@
         background: #fbfef2;
         border-bottom: solid 1px #f5f9e7;
     }
-
     .pricing-head-active h4 {
-        color: #36d7ac;
+        color: @color_36d7ac;
     }
-
     .pricing-head h4 i {
         top: -8px;
         font-size: 28px;
         font-style: normal;
         position: relative;
     }
-
     .pricing-head h4 span {
         top: -10px;
-        font-size: 14px;
+        font-size: @font_size_14;
         font-style: normal;
         position: relative;
     }
-
     /*Pricing Content*/
     .pricing-content li {
         color: #888;
@@ -95,28 +87,27 @@
         z-index: 9;
     }
     .price-active h4 {
-        color: #36d7ac;
+        color: @color_36d7ac;
     }
     .no-space-pricing .pricing:hover {
         transition: box-shadow 0.2s ease-in-out;
     }
-
     .no-space-pricing .price-active .pricing-head h4,
     .no-space-pricing .pricing:hover .pricing-head h4 {
-        color: #36d7ac;
+        color: @color_36d7ac;
         padding: 15px 0;
         font-size: 80px;
         transition: color 0.5s ease-in-out;
     }
     .yellow-crusta.btn {
-        color: #FFFFFF;
+        color: @color_white;
         background-color: #f3c200;
     }
     .yellow-crusta.btn:hover,
         .yellow-crusta.btn:focus,
         .yellow-crusta.btn:active,
         .yellow-crusta.btn.active {
-        color: #FFFFFF;
+        color: @color_white;
         background-color: #cfa500;
     }
 }

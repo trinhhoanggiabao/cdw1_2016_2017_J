@@ -34,21 +34,12 @@
   transform: none;
 }
 .type-782 .card {
-  -webkit-transition: -webkit-transform .5s;
-  -moz-transition: -moz-transform .5s;
-  -o-transition: -o-transform .5s;
   transition: transform .5s;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
 }
 .type-782 .front,
 .type-782 .back {
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -60,9 +51,6 @@
   z-index: 2;
 }
 .type-782 .back {
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
   z-index: 3;
 }
@@ -82,8 +70,6 @@
   width: 100%;
   height: 420px;
   border-radius: 4px;
-  -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
-  -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
   box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.16);
 }
 .type-782 .card .cover {

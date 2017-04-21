@@ -28,7 +28,7 @@
                     <div class="col-md-3">
                         <div class="pricing hover-effect">
                             <div class="pricing-head">
-                                <h3>Begginer <span>
+                                <h3>Begginer<span>
                                         Officia deserunt mollitia </span>
                                 </h3>
                                 <h4><i>$</i>5<i>.49</i>
