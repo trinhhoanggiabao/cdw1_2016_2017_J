@@ -43,6 +43,9 @@
   color: #4bae4f;
   text-decoration: none;
 }
+.type-750 a:hover {
+  color: #374046;
+}
 .type-750 h4 {
   font-size: 14px;
 }
