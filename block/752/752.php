@@ -30,11 +30,11 @@
                     <h1 class="article_title">The secret of success lies between the right choice of the business strategy and reliable suppliers.</h1>
                     <div class="article_info">
                         <time class="article_date" datetime="2016-08-01">01 Aug 2016</time>
-                        <span class="article_author">David Braun</span>
-                        <span class="article_comments">0 Comments</span>
+                        <span>David Braun</span>
+                        <span>0 Comments</span>
                     </div>
                     <div class="article_content">
-                        <div class="article_img small_width">
+                        <div class="small_width">
                             <img src="images/blog1_1024x1024.jpg" alt=""/>
                         </div>
                         <div class="rte">
@@ -56,41 +56,38 @@
                             <a href="#">Professional Cutlery</a>
                         </p>
                         <div class="icon">
-                            <i class="fa fa-facebook-official" aria-hidden="true" ></i>
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
                             <i class="fa fa-twitter-square" aria-hidden="true"></i>
                             <i class="fa fa-google-plus-square" aria-hidden="true"></i>
-                            <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                            <i class="fa fa-pinterest-square" aria-hidden="true"></i>
                         </div>
                         <div class="article_pagination">
-                            <a href="#" class="btn article_prev">Previous post</a>
+                            <a href="#" class="btn">Previous post</a>
                             <div class="clearfix"></div>
                         </div>
                         
                     </div>
                     <div id="article_comments">
                         <div class="article_comments_form">
-                            <form method="post" action="" id="comment_form" class="comment-form" accept-charset="UTF-8">
+                            <form method="post" action=""  accept-charset="UTF-8">
                                 <input type="hidden" value="new_comment" name="form_type">
-                                <p class="alert-form-info"></p>
                                 <input type="hidden" name="utf8" value="✓">
-                                <p class="alert-form-info"></p>
                                 <h3>Leave a comment</h3>
-                                <div class="form-group form_row_1">
+                                <div class="form-group">
                                     <div class="row">
                                         <div class="col-lg-6">
                                             <label for="comment-author">Name</label>
-                                            <input class="form-control hint" type="text" name="comment[author]" placeholder="" id="comment-author" value=""><p class="alert-form-info"></p>
+                                            <input class="form-control" type="text" name="comment[author]" placeholder="" value="">
                                         </div>
                                         <div class="col-lg-6">
                                             <label for="comment-email">Email</label>
-                                            <input class="form-control hint" type="email" name="comment[email]" placeholder="" id="comment-email" value=""><p class="alert-form-info"></p>
+                                            <input class="form-control" type="email" name="comment[email]" placeholder="" value="">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="form-group form_row_2">
+                                <div class="form-group">
                                     <label for="comment-body">Message</label>
-                                    <textarea class="form-control" name="comment[body]" id="comment-body"></textarea>
-                                    <p class="alert-form-info"></p>
+                                    <textarea class="form-control" name="comment[body]"></textarea>
                                 </div>
                                 <button type="submit" class="btn">Post comment</button>
                             </form>

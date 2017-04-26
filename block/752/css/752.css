@@ -1,5 +1,6 @@
 .type-752 .breadcrumb_wrap .breadcrumb {
   background-color: transparent;
+  padding: 8px 2px;
 }
 .type-752 .breadcrumb_wrap .breadcrumb li a {
   color: #6c7b84;
@@ -20,7 +21,7 @@
   padding: 14px 30px;
 }
 .type-752 .page_heading a {
-  font-weight: inherit;
+  font-weight: bold;
   color: #4bae4f;
   text-decoration: none;
   transition: background 0.3s;
@@ -99,17 +100,33 @@
   color: #3b5998;
   font-size: 33px;
 }
+.type-752 .blog_article .article_footer .icon .fa-facebook-official:hover {
+  transform: translateY(-4px);
+  outline-offset: -1px;
+}
 .type-752 .blog_article .article_footer .icon .fa-twitter-square {
   color: #1da1f2;
   font-size: 33px;
+}
+.type-752 .blog_article .article_footer .icon .fa-twitter-square:hover {
+  transform: translateY(-4px);
+  outline-offset: -1px;
 }
 .type-752 .blog_article .article_footer .icon .fa-google-plus-square {
   color: #dc4e41;
   font-size: 33px;
 }
-.type-752 .blog_article .article_footer .icon .fa-pinterest-p {
+.type-752 .blog_article .article_footer .icon .fa-google-plus-square:hover {
+  transform: translateY(-4px);
+  outline-offset: -1px;
+}
+.type-752 .blog_article .article_footer .icon .fa-pinterest-square {
   color: #cb2027;
   font-size: 33px;
+}
+.type-752 .blog_article .article_footer .icon .fa-pinterest-square:hover {
+  transform: translateY(-4px);
+  outline-offset: -1px;
 }
 .type-752 .blog_article #article_comments .article_comments_form {
   margin: 30px 0 0 0;
@@ -127,6 +144,9 @@
   border: 0;
   text-transform: uppercase;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
+}
+.type-752 .blog_article .btn:hover {
+  background: #374046;
 }
 @media (max-width: 480px) {
   .type-752 .article_pagination .btn {
