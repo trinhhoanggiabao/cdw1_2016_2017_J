@@ -2,9 +2,7 @@
   text-decoration: none;
 }
 .type-754 .btn,
-.type-754 .scheme_1 .btn a,
-.type-754 .scheme_1 .btn-info,
-.type-754 .scheme_1 .btn-primary {
+.type-754 .btn a {
   height: 40px;
   line-height: 40px;
   padding: 0px 18px;
@@ -18,7 +16,6 @@
   text-decoration: none;
   border-radius: 0;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
-  transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 .type-754 .btn:hover {
   background: #374046;
@@ -80,7 +77,6 @@
 }
 .type-754 .cart_list td .cart_item_info .cart_item_name a {
   color: #6c7b84;
-  transition: all 0.3s ease-in-out;
 }
 .type-754 .cart_list td .cart_item_info .cart_item_name a:hover {
   color: #4bae4f;
@@ -90,6 +86,7 @@
 }
 .type-754 .cart_list td .cart_item_info .cart_item_details p {
   margin: 5px 0 0 0;
+  color: #6c7b84;
 }
 .type-754 .cart_list td .cart_item_info .cart_item_details p span {
   color: #374046;
@@ -127,6 +124,7 @@
   border: 2px solid #ececec !important;
   font-size: 15px;
   text-align: center;
+  color: #6c7b84;
 }
 .type-754 .cart_list .cart_item .cell_3 .quantity_box .quantity_modifier {
   width: 26px;
@@ -243,6 +241,7 @@
 }
 .type-754 .cart_list .cart_summary .cart_summary_instructions .form-control {
   min-width: 100%;
+  border-radius: 0;
 }
 .type-754 .cart_list .cart_summary .cart_summary_checkout .cart_summary_methods {
   padding: 0;

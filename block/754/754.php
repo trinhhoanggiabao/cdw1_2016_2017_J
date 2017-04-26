@@ -19,8 +19,8 @@
                 <div class="row">
                     <div class="breadcrumb_wrap">
                         <ul class="breadcrumb">
-                            <li><a href="#" class="homepage-link" title="Back to the frontpage">Home</a></li>
-                            <li><span class="page-title">Your Shopping Cart</span></li>
+                            <li><a href="#" title="Home">Home</a></li>
+                            <li><span>Your Shopping Cart</span></li>
                         </ul>
                     </div>
                     <h2 class="page_heading">
@@ -38,7 +38,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr class="cart_item" data-id="25848340359">
+                                <tr class="cart_item">
                                     <td class="cell_1">
                                         <div class="cart_item_img">
                                             <a href="/products/carter-cocktail-shaker">  
@@ -46,24 +46,24 @@
                                             </a>
                                         </div>
                                         <div class="cart_item_info">
-                                            <h3 class="cart_item_name product_name">
+                                            <h3 class="cart_item_name">
                                                 <a href="/products/carter-cocktail-shaker">
                                                     Carter Cocktail Shaker
                                                 </a>
                                             </h3>
                                             <div class="cart_item_details">
-                                                <p class="item_type"><span>Product type:</span> Bakeware</p>
-                                                <p class="item_vendor"><span>Vendor:</span> Rabbit</p>
-                                                <p class="item_weight"><span>Weight:</span> 0.0 kg</p>
+                                                <p><span>Product type:</span> Bakeware</p>
+                                                <p><span>Vendor:</span> Rabbit</p>
+                                                <p><span>Weight:</span> 0.0 kg</p>
                                             </div>
                                         </div>
                                     </td>
                                     <td class="cell_2 cart_price">
-                                        <span class="money" data-currency-usd="$23.00">$23.00</span>
+                                        <span class="money" data-currency-usd="$21.17">$21.17</span>
                                     </td>
                                     <td class="cell_3">
                                         <div class="quantity_box">
-                                            <input class="quantity_input" id="updates_25848340359" name="updates[]" value="1" type="text">
+                                            <input name="updates[]" value="1" type="text">
                                             <span class="quantity_modifier quantity_down"><i class="fa fa-minus"></i></span>
                                             <span class="quantity_modifier quantity_up"><i class="fa fa-plus"></i></span>
                                         </div>
@@ -72,7 +72,7 @@
                                         </div>
                                     </td>
                                     <td class="cell_4 cart_price">
-                                        <span class="money" data-currency-usd="$23.00">$23.00</span>
+                                        <span class="money" data-currency-usd="$21.17">$21.17</span>
                                     </td>
                                     <td class="cell_5">
                                         <a class="cart_item_remove" title="1" href="#"><i class="fa fa-trash"></i></a>
@@ -82,16 +82,16 @@
                             <tfoot>
                                 <tr class="cart_buttons">
                                     <td colspan="5">
-                                        <a class="btn btn-alt cart_continue" href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i>Continue shopping</a>
+                                        <a class="btn btn-alt" href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i>Continue shopping</a>
                                         <button class="btn cart_update"><i class="fa fa-refresh" aria-hidden="true"></i>Update cart</button>
-                                        <a class="btn cart_clear" id="cart_clear" href="#"><i class="fa fa-trash-o" aria-hidden="true"></i>Clear cart</a>
+                                        <a class="btn cart_clear" href="#"><i class="fa fa-trash-o" aria-hidden="true"></i>Clear cart</a>
                                     </td>
                                 </tr>
                                 <tr class="cart_summary">
                                     <td colspan="5">
                                         <p class="cart_summary_row">Total weight <span>0.0 lb</span></p>
-                                        <p class="cart_summary_row">Total price <span class="money" data-currency-usd="$23.00">$23.00</span></p>
-                                        <p class="alert alert-warning cart_summary__notification">
+                                        <p class="cart_summary_row">Total price <span class="money" data-currency-usd="$21.17">$21.17</span></p>
+                                        <p class="alert alert-warning">
                                             Computers process all orders in USD. While the content of your cart is currently displayed in USD, you will checkout using USD at the most current exchange rate.
                                         </p>
                                         <p class="cart_summary_instructions">
