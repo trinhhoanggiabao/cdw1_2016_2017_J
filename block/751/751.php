@@ -19,7 +19,7 @@
             <div class="container">
                     <div class="breadcrumb_wrap">
                         <ul class="breadcrumb">
-                            <li><a href="#" class="homepage-link" title="Back to the frontpage">Home</a></li>
+                            <li><a href="#" title="Home">Home</a></li>
                             <li><span>About us</span> </li>
                         </ul>
                     </div>
