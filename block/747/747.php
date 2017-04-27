@@ -28,10 +28,10 @@
                             <div class="row">
                                 <div class="col-sm-5 col-md-4 product_images">
                                     <div class="elevatezoom_big_wrapper">
-                                        <img src="images/boston_shaker_1_grande.png" alt=""/>
+                                        <img id="elevatezoom_big" src="images/boston_shaker_1_grande.png" alt=""/>
                                         <div class="elevatezoom_big_clicker"></div>
                                     </div>
-                                    <div class="swiper-container">
+                                    <div id="elevatezoom_gallery" class="swiper-container">
                                         <div class="swiper-wrapper">
                                             <a class="swiper-slide" href="#" >
                                                 <img src="images/boston_shaker_1_compact.png" alt=""/>
