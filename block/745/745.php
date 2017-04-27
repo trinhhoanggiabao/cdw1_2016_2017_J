@@ -20,43 +20,42 @@
         <link href="css/745.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div class="Dan">
+        <div class="type-745">
             <div class="container">
-                <div class="row">
-                    <div class="col-md12">
-                        <div class="hinh col-md-2">
-                            <a href="#">
-                                <img src="images/home.png">
-                            </a>
-                        </div>
-                        <div class="hinh col-md-2">
-                            <a href="">
-                                <img src="images/hom2.png">
-                            </a>
-                        </div>
-                        <div class="hinh col-md-2">
-                            <a href="">
-                                <img src="images/home3.png">
-                            </a>
-                        </div>
-                        <div class="hinh col-md-2">
-                            <a href="">
-                                <img src="images/hom34.png">
-                            </a>
-                        </div>
-                        <div class="hinh col-md-2">
-                            <a href="">
-                                <img src="images/home5.png">
-                            </a>
-                        </div>
-                        <div class="hinh col-md-2">
-                            <a href="">
-                                <img src="images/home6.png">
-                            </a>
-                        </div>
+                <div class="flexbox">
+                    <div class="item">
+                        <a href="#">
+                            <img src="images/home.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="images/hom2.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="images/home3.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="images/hom34.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="images/home5.png" alt=""/>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="#">
+                            <img src="images/home6.png" alt=""/>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
