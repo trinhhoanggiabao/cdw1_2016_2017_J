@@ -1,0 +1,103 @@
+.type-751{
+    .breadcrumb_wrap .breadcrumb{
+        background-color:  transparent;
+        li{
+            a{
+                color: #6c7b84;
+                &:hover {
+                    text-decoration: none;
+                    color: #4BAE4F;
+                }
+            }
+            span{
+                color: #6c7b84;
+            }
+        }
+    }
+    .title{
+        margin: 0;
+        font-size: 16px;
+        background: #f5f4f4;
+        border: 1px solid #ececec;
+        min-height: 50px;
+        padding: 14px 30px;
+    }
+    .content{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: inherit;
+        .chu{
+            text-align: center;
+            font-weight: bold;
+            margin: 30px 0 15px 0;
+            padding: 0 0 15px 0;
+            border-bottom: 2px solid rgba(0,0,0,0.2);
+        }
+        p{
+            margin: 15px 0;
+            padding: 0;
+        }
+        table{
+            width: 100%;
+            tr{
+                vertical-align: top;
+            }
+            td{
+                text-align: center;
+                padding-left: 0px;
+                padding-right: 10px;
+                p{
+                    margin: 15px 0;
+                    padding: 0;
+                    img{
+                        width: auto;
+                        max-width: 100% !important;
+                    }
+                }
+                h4{
+                    text-align: center;
+                    font-size: 18px;
+                }
+                .font-p{
+                    text-align: center;
+                }
+            }
+        }
+        blockquote{
+            padding: 5px 35px;
+            font-weight: normal;
+            border-left: none;
+            .blog{
+                margin: 10px 0 !important;
+                font-size: 15px;
+            }
+            &:before{
+                content: '\f10d';
+                font: 16px 'FontAwesome';
+            }
+            &:after{
+                content: '\f10e';
+                float: right;
+                font: 12px 'FontAwesome';
+            }
+        }
+        .font-p2{
+            text-align: right;
+            strong{
+                vertical-align: baseline;
+                font-weight: bold;
+            }
+        }
+    }
+    @media (max-width: 767px){
+        .breadcrumb_wrap {
+            margin: 25px 0;
+        }
+    }
+
+    @media (max-width: 991px){
+        .breadcrumb_wrap {
+            margin: 30px 0;
+        }
+    }
+}
