@@ -19,8 +19,8 @@
                 <div class="row">
                     <div class="breadcrumb_wrap">
                         <ul class="breadcrumb">
-                            <li><a href="#" class="homepage-link" title="Back to the frontpage">Home</a></li>
-                            <li><span class="page-title">Bakeware</span></li>
+                            <li><a href="#" title="Home">Home</a></li>
+                            <li><span>Bakeware</span></li>
                         </ul>
                     </div>
                     <h1 class="page_heading">Bakeware</h1>
