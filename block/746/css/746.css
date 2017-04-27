@@ -39,7 +39,7 @@
   margin-left: -15px;
   width: 1px;
   top: 59px;
-  bottom: 33px;
+  bottom: 296px;
   background: #e2e2e2;
 }
 .type-746 .blog_content+.blog_title {
@@ -47,4 +47,9 @@
 }
 .type-746 .row:after {
   clear: both;
+}
+@media (max-width: 768px) {
+  .type-746 .col1+.col2:before {
+    position: static;
+  }
 }

@@ -37,7 +37,7 @@
             margin-left: -15px;
             width: 1px;
             top: 59px;
-            bottom: 33px;
+            bottom: 296px;
             background: #e2e2e2;
         }
     }
@@ -46,5 +46,11 @@
     }
     .row:after {
         clear: both;
+    }
+    @media (max-width: 768px){
+        .col1+.col2:before {
+            position: static;
+            
+        }
     }
 }
