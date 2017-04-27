@@ -1,0 +1,55 @@
+.type-746 {
+  margin-top: 30px;
+  background-color: #f5f4f4;
+}
+.type-746 a {
+  color: #4bae4f;
+  text-decoration: none;
+}
+.type-746 a:hover {
+  color: #374046;
+}
+.type-746 .col1 {
+  padding-right: 50px;
+}
+.type-746 h2 {
+  margin-bottom: 13px;
+  line-height: 1.71;
+}
+.type-746 h4 {
+  margin: 13px 0 10px;
+  font-weight: 300;
+  line-height: 1.71;
+  font-size: 14px;
+  font: 500 16px Ubuntu;
+  color: #374046;
+  text-transform: uppercase;
+}
+.type-746 p {
+  margin: 10px 0;
+  padding: 0;
+}
+.type-746 .col1+.col2 {
+  position: static;
+}
+.type-746 .col1+.col2:before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  margin-left: -15px;
+  width: 1px;
+  top: 59px;
+  bottom: 296px;
+  background: #e2e2e2;
+}
+.type-746 .blog_content+.blog_title {
+  margin-top: 17px;
+}
+.type-746 .row:after {
+  clear: both;
+}
+@media (max-width: 768px) {
+  .type-746 .col1+.col2:before {
+    position: static;
+  }
+}
