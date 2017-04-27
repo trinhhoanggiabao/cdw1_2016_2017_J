@@ -1,0 +1,103 @@
+.type-742 h1 {
+  margin: 15px 0;
+  font: 500 16px Ubuntu;
+  color: #374046;
+  text-transform: uppercase;
+}
+.type-742 .btn,
+.type-742 .btn a {
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 18px;
+  font-weight: 400;
+  background: #4bae4f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  border: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 0;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
+  transition: background 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.type-742 .btn:hover {
+  background: #374046;
+  color: #fff;
+}
+.type-742 .breadcrumb_wrap .breadcrumb {
+  background-color: transparent;
+  padding: 8px 2px;
+}
+.type-742 .breadcrumb_wrap .breadcrumb li a {
+  color: #6c7b84;
+}
+.type-742 .breadcrumb_wrap .breadcrumb li a:hover {
+  text-decoration: none;
+  color: #4BAE4F;
+}
+.type-742 .breadcrumb_wrap .breadcrumb li span {
+  color: #6c7b84;
+}
+.type-742 .page_heading {
+  margin: 0;
+  font-size: 16px;
+  background: #f5f4f4;
+  border: 1px solid #ececec;
+  min-height: 50px;
+  padding: 14px 30px;
+}
+.type-742 .page_heading a {
+  font-weight: inherit;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.type-742 #contact_page #google_map {
+  width: 1140;
+  height: 400px;
+  margin: 15px 0;
+}
+.type-742 .rte {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: inherit;
+}
+.type-742 .form-group {
+  vertical-align: top !important;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.type-742 label {
+  font-weight: bold;
+  font-size: 13px;
+}
+.type-742 input[type="text"] {
+  height: 34px;
+  line-height: 18px;
+  padding: 7px;
+}
+.type-742 textarea,
+.type-742 textarea.form-control {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100px;
+}
+.type-742 textarea.form-control {
+  padding: 6px;
+  border: 1px solid #ececec;
+  font: normal 13px 'Arial';
+  color: #6c7b84;
+  box-sizing: border-box;
+  border-radius: 0;
+  box-shadow: none;
+}
+@media (max-width: 767px) {
+  .type-742 .breadcrumb_wrap {
+    margin: 25px 0;
+  }
+}
+@media (max-width: 991px) {
+  .type-742 .breadcrumb_wrap {
+    margin: 30px 0;
+  }
+}
