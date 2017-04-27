@@ -1,0 +1,39 @@
+.type-745{
+    .flexbox {
+        justify-content: space-between;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+    }
+    .item {
+        display: block;
+        text-align: center;
+        flex: 0 0 16.66%;
+        max-width: 16.66%;
+        a {
+            display: block;
+            padding: 0 10px;
+            opacity: 1;
+            transition: all 0.4s ease-in-out;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    .item:first-child, .item:last-child{
+        flex: 0 0 auto;
+    }
+    .item:last-child {
+        padding-right: 0;
+    }
+    @media (max-width: 767px){
+        .flexbox {
+            flex-wrap: wrap;
+        }
+        .item,.item:first-child,.item:last-child {
+            padding: 10px;
+            flex: 0 0 33.333%;
+            max-width: 33.333%;
+        }
+    }
+}

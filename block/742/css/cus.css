@@ -1,0 +1,108 @@
+.web2-category-home-05 .ie-slider-icon-wrap i {
+  padding: 5px 3px;
+  color: #484e50;
+  margin: 5px 8px 0 0;
+  border: 2px solid #484e50;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 22px;
+}
+.web2-category-home-05 .ie-slider-icon-wrap h3 {
+  padding-top: 8px;
+  font-size: 32px;
+  color: #4D4D4D;
+}
+.web2-category-home-05 .tab-fix {
+  border: 0px;
+  border-radius: 0;
+}
+.web2-category-home-05 .tab-fix .ie-category {
+  margin-top: 10px;
+  color: #999;
+}
+.web2-category-home-05 .tab-fix li>a {
+  position: relative;
+  display: block;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+.web2-category-home-05 .tab-fix .navfix a {
+  border: 0px;
+  color: #000;
+}
+.web2-category-home-05 .tab-fix .navfix p {
+  margin: 10px;
+  color: #999;
+}
+.web2-category-home-05 .tab-fix>li>a:focus,
+.web2-category-home-05 .tab-fix>li>a:hover {
+  text-decoration: none;
+  background-color: #1ba1e2;
+  border: 0px;
+  color: #fff;
+}
+.web2-category-home-05 .tab-fix>li>a:focus p,
+.web2-category-home-05 .tab-fix>li>a:hover p {
+  color: #fff;
+}
+.web2-category-home-05 .ie-content .ie-pic-1 {
+  height: auto;
+  background-size: cover;
+}
+.web2-category-home-05 .ie-content .ie-pic-1 img {
+  display: block;
+  width: 100%;
+}
+.web2-category-home-05 .ie-content .ie-content-metro {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 35px 10px 20px;
+  line-height: 1.5;
+  background: #6cbe42;
+  opacity: 0;
+  bottom: 0;
+  position: absolute;
+  margin: 0 auto;
+}
+.web2-category-home-05 .ie-content .ie-content-metro .ie-title a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: inherit;
+  margin: 3px 0;
+  font-size: 17px;
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.web2-category-home-05 .ie-content .ie-content-metro:hover {
+  opacity: 1;
+  transition: all 0.4s ease-in-out;
+}
+.web2-category-home-05 .ie-content .ie-padding {
+  margin: 0;
+  padding: 0;
+}
+.web2-category-home-05 .ie-content .ie-pic-1 {
+  margin-right: 3px;
+}
+.web2-category-home-05 .ie-content .ie-pic-2 {
+  background: rgba(108,190,66,0.87);
+}
+.web2-category-home-05 .ie-content .ie-padding:hower {
+  bottom: 0;
+}
+.web2-category-home-05 .ie-content .ie-pic-1:hower {
+  bottom: 0;
+}
+.web2-category-home-05 .large-element img {
+  display: block;
+  width: 100%;
+}
