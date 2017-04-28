@@ -1,113 +1,156 @@
-.type-711 .instagram-feed {
-  text-align: center;
-  margin-top: 50px;
-  position: relative;
-  margin-bottom: 20px;
+.type-711 .navbar-default {
+  background: none;
+  border: none;
+  border-radius: 0;
 }
-.type-711 .instagram-feed .instafeed-container {
-  position: relative;
-  overflow: hidden;
+.type-711 .nav navbar-nav {
+  float: none;
 }
-.type-711 .instagram-feed .instafeed-container .title-table {
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+.type-711 .navbar-default .navbar-brand {
+  color: #000;
+  font-weight: bold;
+  display: none;
+  font-size: 1em;
 }
-.type-711 .instagram-feed .instafeed-container .title-table .w50p {
-  width: 50%;
+.type-711 .navbar-default .navbar-nav>.active>a,
+.type-711 .navbar-default .navbar-nav>.active>a:focus,
+.type-711 .navbar-default .navbar-nav>.active>a:hover {
+  background: none;
+  color: #000;
+  font-weight: bold;
 }
-.type-711 .instagram-feed .instafeed-container .title-table .w50p .title-wing {
-  display: inline-block;
-  height: 3px;
-  border-top: 1px solid #e6e5e5;
-  border-bottom: 1px solid #e6e5e5;
-  width: 100%;
+.type-711 .navbar-default .navbar-nav>li>a {
+  padding: 10px 0 0 0;
 }
-.type-711 .instagram-feed .instafeed-container .title-table .carousel-title {
-  position: relative;
+.type-711 .navbar-nav>li {
+  float: none;
 }
-.type-711 .instagram-feed .instafeed-container .title-table .carousel-title .title {
-  line-height: 46px;
-  text-transform: uppercase;
-  padding: 0 73px;
-  white-space: nowrap;
-  font-family: LMRoman10Regular;
-}
-.type-711 .instagram-feed .instafeed-container .title-table .carousel-title .flexisel-nav {
-  border: 1px solid #e6e5e5;
-  box-shadow: 0 0 0 1px #fff, 0 0 0 2px #e6e5e5;
-  width: 39px;
-  height: 39px;
-  text-align: center;
-  cursor: pointer;
-  transition: all .2s ease-in-out;
-  position: absolute;
-  top: 2px;
-  color: #a7a6a0;
-  margin-top: 19px;
-  font-size: 20px;
-}
-.type-711 .instagram-feed .instafeed-container .title-table .carousel-title .flexisel-nav:hover {
-  background: #e17365;
-  box-shadow: 0 0 0 1px #e17365, 0 0 0 2px #e17365;
-  border: 1px solid rgba(255,255,255,0.2);
-  transition: 0.3s;
-}
-.type-711 .instagram-feed .instafeed-container .title-table .carousel-title .flexisel-nav:hover .fa {
-  color: #fff;
-}
-.type-711 .instagram-feed .instafeed-container .title-table .carousel-title .fa {
-  margin-top: 9px;
-}
-.type-711 .instagram-feed .instafeed-container .title-table .carousel-title .btm-flexisel-right {
-  left: auto;
-  right: 0;
-}
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container {
-  margin-bottom: 70px;
-}
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle {
+.type-711 .navbar-default .navbar-collapse,
+.type-711 .navbar-default .navbar-form {
   padding: 0;
-  margin-left: 15px;
-  text-align: left;
-  cursor: pointer;
 }
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle .ig-indent {
-  margin-right: 30px;
+.type-711 .navbar-nav {
+  margin: 0;
 }
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle .ig-indent .ig-wrapper img {
+.type-711 .shopby {
+  padding: 5px 0;
+}
+.type-711 .shopby h4 {
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+  font-size: 15px;
+}
+.type-711 .catogeri ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.type-711 .catogeri ul li a {
+  color: #777;
+  text-decoration: none;
+}
+.type-711 .catogeri ul li {
+  padding: 5px 0;
+}
+.type-711 .catogeri ul li a:hover {
+  color: #000;
+}
+.type-711 .catogeri ul li .active {
+  color: #000;
+  font-weight: bold;
+}
+.type-711 .color {
+  padding: 5px 0;
+}
+.type-711 .distance {
+  padding: 0;
+}
+.type-711 .menushohby ul li a {
+  padding: 5px;
+}
+.type-711 .manufacturer ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.type-711 .manufacturer {
+  padding: 15px 0;
+}
+.type-711 .menufacturer .active {
+  color: #000;
+  font-weight: bold;
+}
+.type-711 .manufacturer ul li {
+  padding: 5px 0;
+}
+.type-711 .manufacturer ul li a {
+  color: #777;
+}
+.type-711 .manufacturer ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.type-711 .price .active {
+  color: #000;
+  font-weight: bold;
+}
+.type-711 .price ul {
+  padding: 0;
+  list-style: none;
+}
+.type-711 .price ul li {
+  padding: 5px 0;
+}
+.type-711 .price ul li a {
+  color: #777;
+}
+.type-711 .price ul li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+.type-711 .shopbybrand ul {
+  padding: 0;
+  list-style: none;
+}
+.type-711 .shopbybrand ul li .active {
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+}
+.type-711 .shopbybrand ul li {
+  padding: 5px 0;
+}
+.type-711 .shopbybrand ul li a {
+  color: #777;
+}
+.type-711 .shopbybrand ul li a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.type-711 .thumb-image img {
   width: 100%;
-  height: auto;
-  display: block;
-  margin-bottom: 16px;
 }
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle .ig-indent .ig-wrapper .ig-caption {
-  display: block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: #666;
-  margin-bottom: 5px;
+.type-711 .price-product .money1 {
+  text-decoration: line-through;
+  color: #777;
+  font-size: 14px;
+  font-weight: bold;
 }
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle .ig-indent .ig-wrapper .ig-likes {
-  margin-right: 20px;
+.type-711 .price-product .money2 {
+  color: #000;
+  font-weight: bolder;
+  font-size: 16px;
 }
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle .ig-indent .ig-wrapper .ig-icon {
-  line-height: 15px;
-  font-size: 13px;
+.type-711 .text {
+  padding: 5px 0;
 }
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle .ig-indent .ig-wrapper .ig-icon .fa-comment {
-  margin-top: 3px;
+.type-711 .addtocart {
+  padding: 5px 0;
 }
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle .ig-indent .ig-wrapper .ig-icon .fa-eye,
-.type-711 .instagram-feed .instafeed-container .instamiddle-nbs-container .instafeed-middle .ig-indent .ig-wrapper .ig-icon .fa-comment {
-  width: 13px;
-  height: 13px;
-  margin-right: 5px;
-  color: #e17365;
+.type-711 .seeall {
+  float: right;
 }
-@media (max-width: 480px) {
-  .title {
-    font-size: 14px;
-  }
+.type-711 hr {
+  color: #e5e5e5;
 }
