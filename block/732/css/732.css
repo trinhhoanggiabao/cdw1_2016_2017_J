@@ -1,15 +1,18 @@
+.type-b-danhmuc3 .container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.type-b-danhmuc3 .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
 .type-b-danhmuc3 .cms-left .fa-th-list:hover {
   opaciti: 1;
 }
 .type-b-danhmuc3 .thumb-item {
   padding: 25px;
-}
-.type-b-danhmuc3 .icon-grid {
-  font-size: 2em;
-  padding: 0 5px;
-}
-.type-b-danhmuc3 .icon-list {
-  float: left;
 }
 .type-b-danhmuc3 .cms-left .fa-th-large {
   font-size: 1.2em;
