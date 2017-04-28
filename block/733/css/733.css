@@ -1,3 +1,16 @@
+.type-b-danhmuc4 .container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.type-b-danhmuc4 .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.type-b-danhmuc4 .clearfix {
+  clear: both;
+}
 .type-b-danhmuc4 .sale {
   float: left;
   color: red;
