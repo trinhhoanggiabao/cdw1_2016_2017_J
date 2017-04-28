@@ -1,0 +1,94 @@
+.type-16 .header {
+  background-color: #2a241f;
+}
+.type-16 .logo {
+  padding: 33px 0 28px;
+  padding-left: 102px;
+}
+.type-16 .navbar-collapse ul li a {
+  color: #fafafa;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.type-16 .navbar-collapse ul li {
+  list-style: none;
+}
+.type-16 .navbar-collapse ul .active {
+  background: #231e1a;
+}
+.type-16 .navbar-nav {
+  padding: 55px 0px;
+}
+.type-16 .navbar-collapse {
+  padding-left: 0;
+}
+.type-16 .carousel-indicators .active {
+  background-color: #FFF;
+}
+.type-16 .carousel-indicators li:hover {
+  background-color: #FFF;
+}
+.type-16 .carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  border-radius: 0px;
+  background: rgba(255,255,255,0.3);
+}
+.type-16 .carousel-inner img {
+  width: 100%;
+  max-height: 460px;
+}
+.type-16 .carousel-control {
+  width: 0;
+}
+.type-16 .carousel-control.left-moble,
+.type-16 .carousel-control.right-mobile {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  background-image: none;
+  background-repeat: no-repeat;
+  text-shadow: none;
+}
+.type-16 .carousel-control.left-moble span {
+  padding: 10px 15px;
+}
+.type-16 .carousel-control.right-mobile span {
+  padding: 10px 15px;
+}
+.type-16 .carousel-control .iconleft,
+.type-16 .carousel-control .iconright,
+.type-16 .carousel-control .icon-prev,
+.type-16 .carousel-control .icon-next {
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+  display: inline-block;
+}
+.type-16 .carousel-control .iconleft,
+.type-16 .carousel-control .icon-prev {
+  left: 30px;
+}
+.type-16 .carousel-control .iconright,
+.type-16 .carousel-control .icon-next {
+  right: 30px;
+}
+.type-16 .carousel-control.left-moble span,
+.type-16 .carousel-control.right-mobile span {
+  background: rgba(0,0,0,0.5);
+}
+.type-16 .carousel-control.left-moble span:hover,
+.type-16 .carousel-control.right-mobile span:hover {
+  opacity: .7;
+  filter: alpha(opacity=70);
+  background: #fd4326;
+}
