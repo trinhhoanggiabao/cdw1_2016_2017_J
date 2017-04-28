@@ -1,9 +1,130 @@
 .type-740{
+    .column_item{
+        width: 25%;
+        float: left;
+        padding: 0 20px 0 30px;
 
+    }
+    .column_item:first-child+.column_item:before, .column_item:first-child:before,.column_item:first-child:after{
+        position: absolute;
+        content: "";
+        left: 25%;
+        top: 0;
+        bottom: 0;
+        border-left: 1px solid #fff;
+    }
+    .column_item:first-child:after {
+        left: 50%;
+    }
+    .column_item:first-child+.column_item:before {
+        left: 75%;
+    }
+    .level_2_products .column_item {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .product_img{
+        padding-bottom: 30px;
+    }
+    .product_img a {
+        display: block;
+        padding: 0 20px 0px;
+        opacity: 1;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    img{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: none !important;
+        vertical-align: top;
+        background: transparent;
+    }
+    .money {
+        font-size: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        color: #374046;
+    }
+    a, span {
+        vertical-align: baseline;
+    }
+    .product_name {
+        padding-top: 6px;
+        width: 100%;
+        display: block;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .product_name a {
+        color: #6c7b84;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        &:hover{
+            color: #4bae4f;
+        }
+    }
+
+    .product_desc {
+        padding: 7px 0 24px;
+        font-size: 13px;
+        color: #6c7b84;
+    }
+    .product_links .btn {
+        font-size: 12px; 
+    }
+    .fa{
+        font-size: 22px;
+        margin-right: 5px;
+    }
+    .btn{
+        height: 40px;
+        line-height: 40px;
+        padding: 0px 18px;
+        font-weight: 400;
+        background: #4bae4f;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 300;
+        border: 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
+        -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
+        -webkit-transition: background 0.3s ease-in-out,border-color 0.3s ease-in-out,color 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out,border-color 0.3s ease-in-out,color 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out,border-color 0.3s ease-in-out,color 0.3s ease-in-out;
+        &:hover{
+            background: #374046;
+            color: #fff;
+        }
+    }
+    h2 {
+        display: none;
+    }
+    .compare-at-price {
+        font-weight: 300;
+        text-decoration: line-through;
+    }
+    .chu{
+        color: #374046;
+    }
     .navbar-brand{
         padding: 15px 50px;
     }
-    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+    .navbar .container .navbar-brand{
         margin: 0;
     }
     margin-top: 30px;
@@ -11,10 +132,7 @@
         padding-left: 0;
         padding-right: 0;
     }
-    .nopadding {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+
 
     /* MEGAMENU STYLE
     -------------------------------------------------- */
@@ -23,7 +141,6 @@
     }
     .megamenu .nav,
     .megamenu .collapse,
-    .megamenu .dropup,
     .megamenu .dropdown {
         position: static;
     }
@@ -32,12 +149,11 @@
     }
     .megamenu .dropdown-menu {
         left: auto;
-        
+
     }
 
     .megamenu .megamenu-content {
         padding: 15px;
-        padding-bottom: 125px;
     }
     .megamenu .megamenu-content h3{
         margin-top: 0;
@@ -45,8 +161,8 @@
         font-size: 18px;
     }
     .megamenu .dropdown.megamenu-fw .dropdown-menu {
-        left: 0;
-        right: 0;
+        left: 25%;
+        right: 14px;
     }
 
     .navbar-default .navbar-nav > li >a:hover {
@@ -95,16 +211,7 @@
     .dropdown-menu{
 
         background: #F5F4F4;
-        .ke{
-            &:before{
-            position: absolute;
-            content: "";
-            left: 25%;
-            top: 0;
-            bottom: 0;
-            border-left: 1px solid #fff;
-        }
-        }
+
     }
     .dropdown-menu li{
         padding: 5px;
@@ -141,52 +248,44 @@
 
     }
     .dropdown-menu-mega ul li a:hover{
-        color: #6c7b84;
+        color: #374046;
     }
 
-
-    .thumbnail{
-        background: #F5F4F4;
-        border: 0;
-        
-
-    }
-    .thumbnail .caption {
-        display: table-caption;
-        text-align: center;
-        position: absolute;
-
-    }
-    .thumbnail .caption h3{
-        font-weight: bold;
-    }
-    .btn-success {
-        border-radius:  0;
-        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.17);
-
-    }
-
-    .btn-success:hover {
-        background: #374046;
-    }
-    .thumbnail .caption a:hover{
-
-        text-decoration: none;
-
-    }
-
-    .thumbnail .caption input a{
-        color: white;
-    }
-    .thumbnail img:hover{
-
-        opacity: 0.8;   
-    }
     .navbar{
         .collapse{
             .a1{
                 color: rgba(255,255,255,0.6);
             }
+        }
+    }
+    @media (max-width: 991px){
+        .navbar-brand{
+            display: none;
+        }
+        .a1{
+            display: none;
+        }
+        h2{
+            display: block;
+            color: #fff;
+            position: absolute;
+            top: -12px;
+
+        }
+        .fa-chevron-down{
+            margin-left: 12px;
+        }
+    }
+    @media (max-width: 640px){
+        .navbar-brand{
+            display: none;
+        }
+        h2{
+            display: block;
+            color: #fff;
+        }
+        .fa-chevron-down {
+            margin-left: 292px;
         }
     }
 }
