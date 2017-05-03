@@ -26,7 +26,7 @@
         <div class="type-713">
             <div class="container">
                 <div class="card hovercard">
-                    <img src="http://placehold.it/300x200/000000/&text=Header" alt=""/>
+                    <img src="http://placehold.it/300x200/000000/&text=Header" alt="" />
                     <div class="avatar">
                         <img src="http://placehold.it/80X80/333333/&text=Head" alt="" />
                     </div>

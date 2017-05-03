@@ -408,24 +408,3 @@
   height: 26px;
   width: 44px;
 }
-.type-709 .footer_bottom .payment_icon li.discover a {
-  background: url(../images/payment1.png) no-repeat scroll -120px 0 transparent;
-}
-.type-709 .footer_bottom .payment_icon li.visa a {
-  background: url(../images/payment1.png) no-repeat scroll 0 0 transparent;
-}
-.type-709 .footer_bottom .payment_icon li.mastro a {
-  background: url(../images/payment1.png) no-repeat scroll -180px 0 transparent;
-}
-.type-709 .footer_bottom .payment_icon li.paypal a {
-  background: url(../images/payment1.png) no-repeat scroll -240px 0 transparent;
-}
-.type-709 .footer_bottom .payment_icon li.amex a {
-  background: url(../images/payment1.png) no-repeat scroll -300px 0 transparent;
-}
-.type-709 .footer_bottom .payment_icon li.g-wall a {
-  background: url(../images/payment1.png) no-repeat scroll -60px 0 transparent;
-}
-.type-709 .footer_bottom .payment_icon li a span {
-  font-size: 0px;
-}

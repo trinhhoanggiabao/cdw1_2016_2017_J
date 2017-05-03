@@ -25,7 +25,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <div class="type_b_chitiet_menu">                        
+                    <div class="type_b_chitiet_menu">
                         <div class="product">
                             <h4>SPECIAL PRODUCTS</h4>
                             <div class="row">
@@ -83,7 +83,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                     </div>
                 </div>

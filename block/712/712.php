@@ -33,7 +33,7 @@
                                 <h4>Product-ID-SKU</h4>
                             </div>
                             <div class="col-md-4 float-left">
-                                <img src="https://s0.2mdn.net/5164901/1-SciFiOrange_300x250.jpg" />
+                                <img src="images/aa.jpg" alt="aa"/>
                             </div>
                             <div class="col-md-8">
                                 There's a lot more to go here. This is the beginning product description. Going to keep going and make sure multiple lines are filled. This product is great though! Just to be clear!
