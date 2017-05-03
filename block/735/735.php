@@ -21,7 +21,6 @@
         <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
     </head>
 
     <body>
@@ -151,7 +150,7 @@
                                                     LEARNING OUTCOMES
                                                     After completing this course you will understand the history of project management and learn from examples of interviews with project managers. You will gain a good knowledge of project</p>
                                             </article>
-                                            <a href="" class="btn btn-default lms_pc_btn">Read More</a>
+                                            <a href="#" class="btn btn-default lms_pc_btn">Read More</a>
                                         </div>
                                     </div>
                                 </div>

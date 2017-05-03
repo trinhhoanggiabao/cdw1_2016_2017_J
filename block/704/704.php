@@ -41,7 +41,6 @@
                                     </div>
 
                                     <div id="search_box_top" class="slidelip">
-
                                         <input type="text" id="search_query_top" name="search_query" value="" placeholder="Search..."
                                                autocomplete="off" style="background-color: rgb(249, 249, 249);">
                                         <button type="submit" name="submit_search" class="search-button slidelip main-bg-hover">
@@ -62,10 +61,7 @@
                                                 <li class="main-bg-hover">Pound</li>
                                             </ul>
                                         </div>
-
                                     </div>
-
-
                                     <div id="languages_block_top" class="dib">
                                         <div id="countries" class=""> 
                                             <span class="selected_language smooth02">
@@ -161,7 +157,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <!--MEGA MENU-->
                         <div class="menu-container">
                             <div class="container margin-auto">
@@ -442,13 +437,13 @@
                                 <table class="title-table">
                                     <tbody>
                                         <tr>
-                                            <td class="col-md-6 col-sm-6">
+                                            <td class="col-md-6 col-sm-3">
                                                 <span class="title-wing"></span>
                                             </td>
 
                                             <td class="carousel-title">
                                                 <h3> Featured Products </h3>
-                                                <div class=" smooth02 zaro-controls carousel-control" data-slide="prev">
+                                                <div class=" smooth02 zaro-controls carousel-control" href="#myCarousel" data-slide="prev">
                                                     <i class="fa fa-angle-left"></i>
                                                 </div>
                                                 <div class="zaro-next smooth02 zaro-controls carousel-control" href="#myCarousel" data-slide="next">
@@ -743,8 +738,6 @@
                 </div> 
             </div>
         </div>
-
-
         <script src="scripts/jquery-1.11.0.min.js" type="text/javascript"></script>
         <script src="scripts/bootstrap.min.js" type="text/javascript"></script>
         <script src="scripts/script.js" type="text/javascript"></script>

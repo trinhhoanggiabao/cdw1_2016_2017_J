@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html style="background-color: #f3f3f4;">
+<html>
 
     <head>
         <title></title>
@@ -17,11 +17,6 @@
         $less->compileFile('less/736.less', 'css/736.css');
         ?>
         <link href="css/736.css" rel="stylesheet" type="text/css" />
-        <script src="js/swiper.min.js" type="text/javascript"></script>
-        <link href="css/swiper.min.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
     </head>
 
     <body>

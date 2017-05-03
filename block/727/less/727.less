@@ -165,12 +165,42 @@
                 } 
 
                 body{padding-top:20px;}
-                     
+
                 .product-carousel .product-block-inner{
                     overflow: @overflow;
                     padding:@padding0px;
                     position: @position;
                     text-align: @text-align;
+                }
+                .product-carousel {
+                    .slider-wrapper-outer {
+                        .slider-wrapper {
+                            .carousel-inner {
+                                .item active {
+                                    li {
+                                        width:100%;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+                .product-carousel {
+                    .slider-wrapper-outer {
+                        .slider-wrapper {
+                            .carousel-inner {
+                                .item active {
+                                    li {
+                                        .product-block {
+                                            height: auto;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
                 }
 
                 .product-block .product-image-block .hover-image {
@@ -251,31 +281,40 @@
                     clear: @clear;
                     overflow: @overflow;
                 }
-                .product-carousel .product-block-inner{
+                .product-carousel .product-block-inner {
                     overflow: @overflow;
                     padding:@padding0px;
                     position: @positionrelative;
                     text-align: @text-align;
-
                 }
-
-                .product-carousel{
+                .product-carousel {
                     display: @display;
                     opacity:@opacity!important;
                     position: @positionrelative;
                     width: @width;
+                    opacity: 0;
+                    display: block;
+                    margin-left: -25px;
                 }
+                .product-carousel {
+                    .slider-wrapper{
+                        display: @display;
+                        position: @positionrelative;     
+                    }
+                }
+                .product-carousel {
+                    .slider-wrapper-outer{
+                        position: @positionrelative;
+                        width: @width;
 
-                .product-carousel .slider-wrapper{
-                    display: @display;
-                    position: @positionrelative;     
+                    }
                 }
-
-                .product-carousel .slider-wrapper-outer{
-                    position: @positionrelative;
-                    width: @width;
+                .slider-wrapper-outer {
+                    .slider-wrapper {
+                        width: 100%;
+                        display: block;
+                    }
                 }
- 
                 /* The controlsy */
                 .carousel-control {
                     height: @height;
@@ -445,7 +484,7 @@
                     input.qty-increase {
                         background-position: inherit;
                         margin-top: 1px;
-                        background: url(../images/btn-qty.png) no-repeat scroll 0 97% transparent;
+                        background: url(../images/btn-qty.png);
                         border: medium none;
                         cursor: @cursor;
                         display: @display-block;
@@ -453,6 +492,7 @@
                         width: 16px;
                     }
                     input.qty-decrease {
+                        background-position: inherit;
                         background: url(../images/btn-qty.png) no-repeat scroll 0 97% transparent;
                         border: medium none;
                         cursor: @cursor;

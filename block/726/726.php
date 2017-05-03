@@ -15,9 +15,6 @@
         ?>
 
         <link href="css/726.css" rel="stylesheet" type="text/css" />
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
     </head>
     <body>
         <div class="type-726">
@@ -52,31 +49,31 @@
 
                         <div class="footer_inner" id="footer">
                             <div class="row">
-                                <div class="col-md-4 col-sm-12 footer-border-left-1">
-
-                                    <div id="block_1" >
-                                        <ul>
-
-                                            <div class="footer_logo">
-                                                <figure>
-                                                    <a href="#"><img alt="" src="images/footer-logo.png"></a>
-                                                </figure>
-                                            </div>
-                                            </li>
-                                            <li>507-Union Trade Center,Udhana Darvaja Surat</li>
-                                            <li>Call us: 0123-456-789</li>
-                                            <li>
-                                                <a href="#" target="_blank">support@templatemela.com</a>
-                                            </li>
-                                            <li class="social_block"><a href="#"><i class="fa fa-facebook-square">&nbsp;</i></a></li>
-                                            <li class="social_block"><a href="#"><i class="fa fa-twitter-square">&nbsp;</i></a></li>
-                                            <li class="social_block"><a href="#"><i class="fa fa-google-plus-square">&nbsp;</i></a></li>
-                                            <li class="social_block"><a href="#"><i class="fa fa-pinterest-square">&nbsp;</i></a></li>
-                                            <li class="social_block"><a href="#"><i class="fa fa-linkedin-square">&nbsp;</i></a></li>
-                                            <li class="social_block"><a href="#"><i class="fa fa-rss-square">&nbsp;</i></a></li>
-                                            <li class="social_block"><a href="#"><i class="fa fa-share-alt-square">&nbsp;</i></a></li>
-                                            <li class="social_block"><a href="#"><i class="fa fa-youtube-square">&nbsp;</i></a></li>
-                                        </ul>
+                                <div class="col-md-4 footer-border-left-1">
+                                    <div class="col-sm-12 col-md-6">
+                                        <div id="block_1" >
+                                            <ul>
+                                                <div class="footer_logo">
+                                                    <figure>
+                                                        <a href="#"><img alt="" src="images/footer-logo.png"></a>
+                                                    </figure>
+                                                </div>
+                                                </li>
+                                                <li>507-Union Trade Center,Udhana Darvaja Surat</li>
+                                                <li>Call us: 0123-456-789</li>
+                                                <li>
+                                                    <a href="#" target="_blank">support@templatemela.com</a>
+                                                </li>
+                                                <li class="social_block"><a href="#"><i class="fa fa-facebook-square">&nbsp;</i></a></li>
+                                                <li class="social_block"><a href="#"><i class="fa fa-twitter-square">&nbsp;</i></a></li>
+                                                <li class="social_block"><a href="#"><i class="fa fa-google-plus-square">&nbsp;</i></a></li>
+                                                <li class="social_block"><a href="#"><i class="fa fa-pinterest-square">&nbsp;</i></a></li>
+                                                <li class="social_block"><a href="#"><i class="fa fa-linkedin-square">&nbsp;</i></a></li>
+                                                <li class="social_block"><a href="#"><i class="fa fa-rss-square">&nbsp;</i></a></li>
+                                                <li class="social_block"><a href="#"><i class="fa fa-share-alt-square">&nbsp;</i></a></li>
+                                                <li class="social_block"><a href="#"><i class="fa fa-youtube-square">&nbsp;</i></a></li>
+                                            </ul>
+                                        </div>
                                     </div>
                                     <br>
                                 </div>
@@ -99,9 +96,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-2 col-sm-12 footer-border-left">
-
                                     <div id="block_1" class="footer-area-1">
-
                                         <ul>
                                             <li class="footer-title">SHOP</li>
                                             <li><a href="#">Accessories </a></li>
@@ -117,9 +112,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-sm-12 footer-border-left">
-
                                     <div id="block_1" class="footer-area-1">
-
                                         <ul>
                                             <li class="footer-title">Customer Service</li>
                                             <li><a href="#">Site Map</a></li>
@@ -131,15 +124,12 @@
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
                                             <li><a href="#">&nbsp;</a></li>
-                                        </ul> </div>
+                                        </ul> 
+                                    </div>
                                 </div>
-
                             </div>
-
-
                         </div>
                     </div>
-
                     <div class="footer_bottom">
 
                         <div class="footer_bottom_images">
@@ -147,7 +137,6 @@
                                 <img src="images/footer-divider.png" alt=""/>
                             </figure>
                         </div>
-
                         <ul class="payment_icon">
                             <li><address>© 2016 Magento Demo Store. All Rights Reserved.</address>
                             </li>
@@ -159,12 +148,9 @@
                             <li class="amex"><a href="#"><span>amex</span></a></li>
                             <li class="g-wall"><a href="#"><span>g-wall</span></a></li>
                         </ul>
-
                     </div>
                 </div>
             </footer>
-
         </div>
-
     </body>
 </html>

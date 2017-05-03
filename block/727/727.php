@@ -16,15 +16,9 @@
     <link href="css/727.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/type-727.js" type="text/javascript"></script>
-
-
-
 </head>
 
-<body >
-
-
+<body>
     <div class="type-727">
         <!--Detail_product-->
         <div class="container">
@@ -36,28 +30,23 @@
                                 <div class="image">
                                     <img src="images/2_12.jpg">
                                 </div>
-                                <div class="carousel slide" id="myCarousel" > 
-                                    <ul class="product-carousel" style="opacity: 0;display: block;margin-left: -25px; ">
+                                <div class="carousel slide" id="myCarousel"> 
+                                    <ul class="product-carousel">
                                         <div class="slider-wrapper-outer">
-                                            <div class="slider-wrapper" style="width: 100%;display: block">
+                                            <div class="slider-wrapper">
                                                 <div class="carousel-inner">
                                                     <div class="item active">
-                                                        <div class="col-md-3 col-sm-4 col-xs-4 ">
-                                                            <li class="item" style="width:100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner">
-
                                                                         <div class="product-image-block">
-
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                 <figure>
                                                                                     <img src="images/2_12.jpg" width="100" height="105" alt="" class="click">
                                                                                 </figure>
                                                                             </div>
-
                                                                         </div>
-
-
                                                                     </div>
                                                                     <!-- End div class product-block-->
                                                                 </div>
@@ -68,13 +57,28 @@
                                                             <li class="item">
                                                                 <div class="product-block">
                                                                     <div class="product-block-inner">
-
                                                                         <div class="product-image-block">
-
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                 <figure>
                                                                                     <img src="images/21_1_2.jpg" alt="" class="click">
                                                                                 </figure>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- End div class product-block-->
+                                                                </div>
+                                                                <!-- End div class product-block-inner -->
+                                                            </li>
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-4 col-xs-4">
+                                                            <li class="item">
+                                                                <div class="product-block">
+                                                                    <div class="product-block-inner">
+
+                                                                        <div class="product-image-block">
+
+                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
+                                                                                <figure><img src="images/6_1_14.jpg" class="click"></figure>
 
                                                                             </div>
 
@@ -95,28 +99,7 @@
                                                                         <div class="product-image-block">
 
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
-
-                                                                            </div>
-
-                                                                        </div>
-
-
-                                                                    </div>
-                                                                    <!-- End div class product-block-->
-                                                                </div>
-                                                                <!-- End div class product-block-inner -->
-                                                            </li>
-                                                        </div>
-                                                        <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item">
-                                                                <div class="product-block">
-                                                                    <div class="product-block-inner">
-
-                                                                        <div class="product-image-block">
-
-                                                                            <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                <figure><img   src="images/7_3_7.jpg" alt=""  class="click"></figure>
+                                                                                <figure><img src="images/7_3_7.jpg" class="click"></figure>
 
                                                                             </div>
 
@@ -217,20 +200,14 @@
                                                     </div>
                                                     <div class="item ">
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner"> 
-
                                                                         <div class="product-image-block">
-
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                 <figure><img src="images/7_3_7.jpg" alt="" class="click"></figure>
-
                                                                             </div>
-
                                                                         </div>
-
-
                                                                     </div>
                                                                     <!-- End div class product-block-->
                                                                 </div>
@@ -238,20 +215,15 @@
                                                             </li>
                                                         </div>
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner">
-
                                                                         <div class="product-image-block">
-
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                 <figure><img src="images/21_1_2.jpg" alt="" class="click"></figure>
 
                                                                             </div>
-
                                                                         </div>
-
-
                                                                     </div>
                                                                     <!-- End div class product-block-->
                                                                 </div>
@@ -259,8 +231,8 @@
                                                             </li>
                                                         </div>
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner">
 
                                                                         <div class="product-image-block">
@@ -280,20 +252,16 @@
                                                             </li>
                                                         </div>
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner">
 
                                                                         <div class="product-image-block">
 
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                 <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
-
                                                                             </div>
-
                                                                         </div>
-
-
                                                                     </div>
                                                                     <!-- End div class product-block-->
                                                                 </div>
@@ -301,10 +269,10 @@
                                                             </li>
                                                         </div>
                                                     </div>
-                                                    <div class="item ">
+                                                    <div class="item">
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner"> 
 
                                                                         <div class="product-image-block">
@@ -324,8 +292,8 @@
                                                             </li>
                                                         </div>
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner">
 
                                                                         <div class="product-image-block">
@@ -345,17 +313,13 @@
                                                             </li>
                                                         </div>
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner">
-
                                                                         <div class="product-image-block">
-
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
-                                                                                <figure><img   src="images/2_12.jpg" alt=""  class="click"></figure>
-
+                                                                                <figure><img src="images/2_12.jpg" class="click"></figure>
                                                                             </div>
-
                                                                         </div>
 
 
@@ -366,20 +330,14 @@
                                                             </li>
                                                         </div>
                                                         <div class="col-md-3 col-sm-4 col-xs-4">
-                                                            <li class="item   " style="width:  100%;">
-                                                                <div class="product-block" style="height: auto;">
+                                                            <li class="item">
+                                                                <div class="product-block">
                                                                     <div class="product-block-inner">
-
                                                                         <div class="product-image-block">
-
                                                                             <div title="Arcu vitae imperdiet simply  Nemo" class="product-image">
                                                                                 <figure><img src="images/6_1_14.jpg" alt="" class="click"></figure>
-
                                                                             </div>
-
                                                                         </div>
-
-
                                                                     </div>
                                                                     <!-- End div class product-block-->
                                                                 </div>
@@ -387,7 +345,6 @@
                                                             </li>
                                                         </div>
                                                     </div>
-
                                                 </div>
                                             </div>
                                         </div>
@@ -397,22 +354,15 @@
                                 </div>       
                             </div>
                         </div>
-
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="row">
                             <div class="detail_right">
                                 <div class="product-name">
                                     <h1> ARCU VITAE IMPERDIET SIMPLY NEMO </h1>
-                                    <div id="prev-next-links">
-                                        <a href="#" class="prev-next"><</a>
-                                        <a href="#" class="prev-next">></a>
-                                    </div>
                                 </div>   
                                 <p class="no-rating">
                                     <a  href="#newproducts5">Be the first to review this product</a>
-
-
                                 </p>
                                 <div class="sku">
                                     <span>SKU: </span>
@@ -429,35 +379,24 @@
                                     <span>In stock</span>
                                 </div>
                                 <div class="price-box">
-
                                     <span id="Totalcost" class="price"> $488.00 </span>
                                 </div>
                                 <div class="product-options"> 
                                     <p class="required"><em>*</em> Required Fields</p>
-
-
                                     <dt><label class="required"><em>*</em>color</label></dt>
-
                                     <div class="color-price">
                                         <input type="radio" name="channelcost" value="10.00" onClick="test(this);" /> <label>black  <span> <em>+</em>$10.00</span></label> <br />
                                         <input type="radio" name="channelcost" value="30.00" onClick="test(this);" /> <label>brown  <span> <em>+</em>$30.00</span></label> <br />
                                         <input type="radio" name="channelcost" value="50.00" onClick="test(this);" /> <label>gray  <span> <em>+</em>$50.00</span></label> <br />    
                                     </div>
-
-
-
                                     <dt><label class="required"><em>*</em>size</label></dt>
-
                                     <input type="checkbox" name="channelcost" value="10.00" onClick="test(this);" /> <label>black  <span> <em>+</em>$10.00</span></label> <br />
                                     <input type="checkbox" name="channelcost" value="30.00" onClick="test(this);" /> <label>brown  <span> <em>+</em>$30.00</span></label> <br />
                                     <input type="checkbox" name="channelcost" value="50.00" onClick="test(this);" /> <label>gray  <span> <em>+</em>$50.00</span></label> <br />    
-
-
                                 </div>                        
                                 <div class="product-options-bottom"> 
                                     <div class="add-to-cart">
                                         <label for="qty">Qty:</label>
-
                                     </div>
                                     <div class="input-content">
                                         <div class="box-qty">
@@ -467,13 +406,16 @@
                                                         var qty = qty_el.value;
                                                         if (!isNaN(qty))
                                                             qty_el.value++;
-                                                        return false;" style="background-position: inherit">
-                                                <input type="button" class="qty-decrease" >
+                                                        return false;">
+                                                <input type="button" class="qty-decrease" onclick="var qty_el = document.getElementById('qty');
+                                                        var qty = qty_el.value;
+                                                        if (!isNaN(qty))
+                                                            qty_el.value--;
+                                                        return false;">
                                             </div>
                                         </div>
                                     </div>
                                     <button type="button" title="Add to Cart" id="product-addtocart-button" class="button btn-cart" onclick="productAddToCartForm.submit(this)"><span>Add to Cart</span></button>
-
                                 </div>
                                 <div class="email-addto-box"> 
                                     <p class="email-friend"><a href="#">Email to a Friend</a></p>
@@ -520,9 +462,7 @@
                                                         </tr>
                                                     </tbody>
                                                 </table>
-
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
@@ -555,7 +495,7 @@
                                 <div class="review">
 
                                     <h2>Write Your Own Review</h2>
-                                    <form action="http://magento.templatemela.com/MAG241/MAG100215_3/index.php/review/product/post/id/88/" method="post" id="review-form">
+                                    <form action="#" method="post" id="review-form">
                                         <input name="form_key" type="hidden" value="uOYN1YASBd0l6TPz">
                                         <fieldset class="">
                                             <h3>You're reviewing: <span>Arcu vitae imperdiet simply</span></h3>
@@ -569,7 +509,6 @@
                                                     <col width="1">
                                                     <col width="1">
                                                 </colgroup><thead>
-
                                                 <th>&nbsp;</th>
                                                 <th><span1 star</span></th>
                                                     <th><span>2 stars</span></th>
@@ -578,7 +517,6 @@
                                                     <th><span>5 stars</span></th>
                                                     </thead>
                                                     <tbody>
-
                                                     <th>Price</th>
                                                     <td><div><input type="radio" name="ratings[3]" id="Price_1" value="11" class="radio"></div></td>
                                                     <td><div><input type="radio" name="ratings[3]" id="Price_2" value="12" class="radio"></div></td>
@@ -593,7 +531,6 @@
                                                         <td><div><input type="radio" name="ratings[2]" id="Value_4" value="9" class="radio"></div></td>
                                                         <td><div><input type="radio" name="ratings[2]" id="Value_5" value="10" class="radio"></div></td>
                                                     </tr>
-
                                                     <th>Quality</th>
                                                     <td><div><input type="radio" name="ratings[1]" id="Quality_1" value="1" class="radio"></div></td>
                                                     <td><div><input type="radio" name="ratings[1]" id="Quality_2" value="2" class="radio"></div></td>
@@ -629,7 +566,6 @@
                                             <button type="submit" title="Submit Review" class="button"><span>Submit Review</span></button>
                                         </div>
                                     </form>
-
                                 </div>                                                                  
                             </div>
                             <div id="newproducts6" class="tab-pane fade  ">
@@ -676,7 +612,7 @@
                             <div id="review" class="collapse">
                                 <div class="c_review">                
                                     <h2>Write Your Own Review</h2>
-                                    <form action="http://magento.templatemela.com/MAG241/MAG100215_3/index.php/review/product/post/id/88/" method="post" id="review-form">
+                                    <form action="#" method="post" id="review-form">
                                         <input name="form_key" type="hidden" value="uOYN1YASBd0l6TPz">
                                         <fieldset class="">
                                             <h3>You're reviewing: <span>Arcu vitae imperdiet simply</span></h3>
@@ -690,14 +626,12 @@
                                                     <col width="1">
                                                     <col width="1">
                                                 </colgroup><thead>
-
                                                 <th>&nbsp;</th>
                                                 <th><span>1 star</span></th>
                                                 <th><span>2 stars</span></th>
                                                 <th><span>3 stars</span></th>
                                                 <th><span>4 stars</span></th>
                                                 <th><span>5 stars</span></th>
-
                                                 </thead>
                                                 <tbody>
                                                 <th>Price</th>
@@ -749,7 +683,6 @@
                                             <button type="submit" title="Submit Review" class="button"><span>Submit Review</span></button>
                                         </div>
                                     </form>
-
                                 </div> 
                             </div>
                         </div>                   
@@ -780,42 +713,16 @@
                                     <h5 class="mobile_togglemenu">&nbsp;</h5>
                                 </button>
                             </div>
-                            <div id="tab" class="collapse">
-                                <div class="c_tab">
-                                    <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. every item is a vital part of a woman's wardrobe.</div>
-                                </div>
+                            <div class="c_tab">
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante. Mauris eleifend, quam a vulputate dictum, massa quam dapibus leo, eget vulputate orci purus ut lorem. In fringilla mi in ligula. Pellentesque aliquam quam vel dolor. every item is a vital part of a woman's wardrobe.</div>
                             </div>
                         </div>                   
                     </div>
-
-                    <div class="clear"></div>
                 </div>
             </div>
 
         </div>
     </div>
-
-
-
-
-
-    <!-----------<---------------->
-
-
-
-
-
-    <!--------------------------->
-
-
-
-
-    <!--------------------------->
-
-
-
-
-
 </body>
 
 

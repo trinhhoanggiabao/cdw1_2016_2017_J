@@ -527,6 +527,8 @@
   white-space: nowrap;
   padding: 0 73px;
   margin: 0;
+  font-family: "LMRoman10Regular";
+  color: #666;
 }
 .type-704 .zaro #zaro-carousel .carousel-title .zaro-controls {
   position: absolute;

@@ -108,6 +108,12 @@
   position: absolute;
   text-align: center;
 }
+.type-727 .product-view .detail_left .carousel .product-carousel .slider-wrapper-outer .slider-wrapper .carousel-inner .item active li {
+  width: 100%;
+}
+.type-727 .product-view .detail_left .carousel .product-carousel .slider-wrapper-outer .slider-wrapper .carousel-inner .item active li .product-block {
+  height: auto;
+}
 .type-727 .product-view .detail_left .carousel .product-block .product-image-block .hover-image {
   left: 0;
   position: absolute;
@@ -212,6 +218,9 @@
   opacity: 1 !important;
   position: relative;
   width: 100%;
+  opacity: 0;
+  display: block;
+  margin-left: -25px;
 }
 .type-727 .product-view .detail_left .carousel .product-carousel .slider-wrapper {
   display: none;
@@ -220,6 +229,10 @@
 .type-727 .product-view .detail_left .carousel .product-carousel .slider-wrapper-outer {
   position: relative;
   width: 100%;
+}
+.type-727 .product-view .detail_left .carousel .slider-wrapper-outer .slider-wrapper {
+  width: 100%;
+  display: block;
 }
 .type-727 .product-view .detail_left .carousel .carousel-control {
   height: 40px;
@@ -383,7 +396,7 @@
 .type-727 .detail_right .product-options-bottom .input-content .box-qty input.qty-increase {
   background-position: inherit;
   margin-top: 1px;
-  background: url(../images/btn-qty.png) no-repeat scroll 0 97% transparent;
+  background: url(../images/btn-qty.png);
   border: medium none;
   cursor: pointer;
   display: block;
@@ -391,6 +404,7 @@
   width: 16px;
 }
 .type-727 .detail_right .product-options-bottom .input-content .box-qty input.qty-decrease {
+  background-position: inherit;
   background: url(../images/btn-qty.png) no-repeat scroll 0 97% transparent;
   border: medium none;
   cursor: pointer;

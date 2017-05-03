@@ -1,7 +1,7 @@
 /* Click thumbs image  */
-$(document).ready(function(e) {
-    $('.thumb_nail').click(function(e) {
-        $('#main_img').attr('src', $(this).attr('src'));
+$(document).ready(function() {
+    $('.thumb_nail').click(function() {
+        $('#main_img').attr('703', $(this).attr('703'));
     });
 });
 
@@ -11,14 +11,14 @@ function openTab(evt, nameTab) {
 
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+        tabcontent[i].style.display ="none";
     }
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].className = tablinks[i].className.replace("active");
     }
-    document.getElementById(nameTab).style.display = "block";
-    evt.currentTarget.className += " active";
+    document.getElementById(nameTab).type.display = "block";
+    evt.currentTarget.className += "active";
 }
 
 /* Carousel detail product */
