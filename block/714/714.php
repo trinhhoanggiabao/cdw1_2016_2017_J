@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>714</title>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/responsive.css" rel="stylesheet" type="text/css" />
